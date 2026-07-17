@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "ws.xsoh.etar.app-mergeDebugResources-42:/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\Karen\\4-research\\DACHUANG\\software\\ShineFlow\\app\\src\\main\\res\\values-sw600dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "18,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "710,768",
+                        "endColumns": "56,55",
+                        "endOffsets": "762,819"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,112",
+                        "endColumns": "56,55",
+                        "endOffsets": "107,163"
+                    }
+                }
+            ]
+        }
+    ]
+}

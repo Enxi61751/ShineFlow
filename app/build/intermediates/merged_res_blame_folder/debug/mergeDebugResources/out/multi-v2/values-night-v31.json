@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "ws.xsoh.etar.app-mergeDebugResources-42:/values-night-v31/values-night-v31.xml",
+            "map": [
+                {
+                    "source": "D:\\Karen\\4-research\\DACHUANG\\software\\ShineFlow\\app\\src\\main\\res\\values-night-v31\\colors.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "83",
+                        "endOffsets": "136"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "83",
+                        "endOffsets": "134"
+                    }
+                }
+            ]
+        }
+    ]
+}

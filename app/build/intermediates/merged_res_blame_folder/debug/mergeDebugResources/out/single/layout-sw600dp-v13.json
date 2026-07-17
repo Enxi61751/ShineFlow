@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout-sw600dp-v13/full_month_by_week.xml",
+        "source": "ws.xsoh.etar.app-main-46:/layout-sw600dp/full_month_by_week.xml"
+    },
+    {
+        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout-sw600dp-v13/all_in_one.xml",
+        "source": "ws.xsoh.etar.app-main-46:/layout-sw600dp/all_in_one.xml"
+    },
+    {
+        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout-sw600dp-v13/agenda_day.xml",
+        "source": "ws.xsoh.etar.app-main-46:/layout-sw600dp/agenda_day.xml"
+    },
+    {
+        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout-sw600dp-v13/agenda_fragment.xml",
+        "source": "ws.xsoh.etar.app-main-46:/layout-sw600dp/agenda_fragment.xml"
+    },
+    {
+        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout-sw600dp-v13/full_month_header.xml",
+        "source": "ws.xsoh.etar.app-main-46:/layout-sw600dp/full_month_header.xml"
+    },
+    {
+        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout-sw600dp-v13/agenda_item.xml",
+        "source": "ws.xsoh.etar.app-main-46:/layout-sw600dp/agenda_item.xml"
+    },
+    {
+        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout-sw600dp-v13/contact_item.xml",
+        "source": "ws.xsoh.etar.app-main-46:/layout-sw600dp/contact_item.xml"
+    }
+]

@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "ws.xsoh.etar.app-mergeDebugResources-42:/values-v29/values-v29.xml",
+            "map": [
+                {
+                    "source": "D:\\Karen\\4-research\\DACHUANG\\software\\ShineFlow\\app\\src\\main\\res\\values-v29\\strings.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "704",
+                        "endColumns": "74",
+                        "endOffsets": "774"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "554",
+                        "endColumns": "74",
+                        "endOffsets": "624"
+                    }
+                },
+                {
+                    "source": "D:\\Karen\\4-research\\DACHUANG\\software\\ShineFlow\\app\\src\\main\\res\\values-v29\\arrays.xml",
+                    "from": {
+                        "startLines": "3,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "106,371",
+                        "endLines": "7,13",
+                        "endColumns": "19,19",
+                        "endOffsets": "363,570"
+                    },
+                    "to": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,356",
+                        "endLines": "6,11",
+                        "endColumns": "19,19",
+                        "endOffsets": "351,549"
+                    }
+                }
+            ]
+        }
+    ]
+}

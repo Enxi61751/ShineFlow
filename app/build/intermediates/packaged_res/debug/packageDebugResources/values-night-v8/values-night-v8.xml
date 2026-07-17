@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorSecondaryContainer">#388d7f</color>
+    <style name="Theme.Etar" parent="BaseTheme">
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="availability">
+    <item msgid="454869065893453189">"Sibuk"</item>
+    <item msgid="6228387173725732140">"Ada"</item>
+    <item msgid="2064426942462573474">"Tentatif"</item>
+  </string-array>
+    <string-array name="backup_country_names">
+    <item msgid="9141777876082196578">"Sint Maarten"</item>
+    <item msgid="5330962017221568054">"Caribbean Belanda"</item>
+    <item msgid="1465164631761814300">"Curaçao"</item>
+    <item msgid="8972081011408691260">"Sudan Selatan"</item>
+  </string-array>
+    <string-array name="buttons_list">
+    <item msgid="5917946202321434335">"Hari"</item>
+    <item msgid="6248480754959562740">"Minggu"</item>
+    <item msgid="4298472806133153766">"Bulan"</item>
+    <item msgid="5033084974413793845">"Agenda"</item>
+  </string-array>
+    <string-array name="change_response_labels">
+    <item msgid="3466644709343519437">"Acara ini sahaja"</item>
+    <item msgid="140670561403965380">"Semua acara dalam siri"</item>
+  </string-array>
+    <string-array name="delete_repeating_labels">
+    <item msgid="4208432367651646938">"Acara ini sahaja"</item>
+    <item msgid="1536401639805370405">"Acara ini dan acara masa depan"</item>
+    <item msgid="7833229563617435430">"Semua acara"</item>
+  </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+    <item msgid="2285927842308686988">"Hanya jika ditolak"</item>
+    <item msgid="6367412240524984286">"Jika ditolak atau tidak dijawab"</item>
+  </string-array>
+    <string-array name="preferences_week_start_day_labels">
+    <item msgid="986150274035512339">"Lalai tempat peristiwa"</item>
+    <item msgid="134027225275475280">"Sabtu"</item>
+    <item msgid="95029346069903091">"Ahad"</item>
+    <item msgid="5840983116375063739">"Isnin"</item>
+  </string-array>
+    <string-array name="quick_response_defaults">
+        <item msgid="1524421198348168403">"Terlewat beberapa minit sahaja."</item>
+        <item msgid="6215158751728689832">"Ada di sana dalam kira-kira 10 minit."</item>
+        <item msgid="4485794001743679338">"Teruskan dan mulakan tanpa saya."</item>
+        <item msgid="8036557974294987511">"Maaf, saya tidak dapat datang. Kita perlu menjadualkannya semula."</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+    <item msgid="3388478383574917007">"ULANG SETIAP HARI"</item>
+    <item msgid="6300824484048337842">"ULANG SETIAP MINGGU"</item>
+    <item msgid="189361731610816256">"ULANG SETIAP BULAN"</item>
+    <item msgid="8714177874112569158">"ULANG SETIAP TAHUN"</item>
+  </string-array>
+    <string-array name="reminder_methods_labels">
+    <item msgid="5172236776878811487">"Pemberitahuan"</item>
+    <item msgid="1751151680520784746">"E-mel"</item>
+    <item msgid="2658001219380695677">"SMS"</item>
+    <item msgid="7926918288165444873">"Penggera"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_fri">
+    <item msgid="6534500380525126157">"pada setiap Jumaat pertama"</item>
+    <item msgid="1935608297230506940">"pada setiap Jumaat kedua"</item>
+    <item msgid="4061877662049317599">"pada setiap Jumaat ketiga"</item>
+    <item msgid="6856646749131820614">"pada setiap Jumaat keempat"</item>
+    <item msgid="6533513913914859794">"pada setiap Jumaat terakhir"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_mon">
+    <item msgid="7539974918997689048">"pada setiap Isnin pertama"</item>
+    <item msgid="4484275849072423978">"pada setiap Isnin kedua"</item>
+    <item msgid="8956169860824371383">"pada setiap Isnin ketiga"</item>
+    <item msgid="6924403357659569326">"pada setiap Isnin keempat"</item>
+    <item msgid="1379608815263472161">"pada setiap Isnin terakhir"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sat">
+    <item msgid="3556369572649948699">"pada setiap Sabtu pertama"</item>
+    <item msgid="9130198690512925355">"pada setiap Sabtu kedua"</item>
+    <item msgid="4525736070844032405">"pada setiap Sabtu ketiga"</item>
+    <item msgid="422053689531707709">"pada setiap Sabtu keempat"</item>
+    <item msgid="5499975799312474425">"pada setiap Sabtu terakhir"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sun">
+    <item msgid="143841313172233420">"pada setiap Ahad pertama"</item>
+    <item msgid="2557379346106451363">"pada setiap Ahad kedua"</item>
+    <item msgid="7622144489915654132">"pada setiap Ahad ketiga"</item>
+    <item msgid="527152448137686021">"pada setiap Ahad keempat"</item>
+    <item msgid="5057483608824759350">"pada setiap Ahad terakhir"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_thurs">
+    <item msgid="920673677566009313">"pada setiap Khamis pertama"</item>
+    <item msgid="4857419136007543270">"pada setiap Khamis kedua"</item>
+    <item msgid="222044587450564839">"pada setiap Khamis ketiga"</item>
+    <item msgid="6197927556533030945">"pada setiap Khamis keempat"</item>
+    <item msgid="1023326923033436905">"pada setiap Khamis terakhir"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_tues">
+    <item msgid="8690802834039790777">"pada setiap Selasa pertama"</item>
+    <item msgid="9063613547307760928">"pada setiap Selasa kedua"</item>
+    <item msgid="6688603328729208168">"pada setiap Selasa ketiga"</item>
+    <item msgid="6695206006961533357">"pada setiap Selasa keempat"</item>
+    <item msgid="8619069174889809914">"pada setiap Selasa terakhir"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_wed">
+    <item msgid="3233850232075584386">"pada setiap Rabu pertama"</item>
+    <item msgid="5059722045367799217">"pada setiap Rabu kedua"</item>
+    <item msgid="7986246648229272275">"pada setiap Rabu ketiga"</item>
+    <item msgid="9068566169348980801">"pada setiap Rabu keempat"</item>
+    <item msgid="7976866743069062134">"pada setiap Rabu terakhir"</item>
+  </string-array>
+    <string-array name="response_labels1">
+    <item msgid="5605392595848194997">"Tiada jawapan"</item>
+    <item msgid="3724434080904437698">"Ya"</item>
+    <item msgid="8854145743148992583">"Mungkin"</item>
+    <item msgid="6174292185978948873">"Tidak"</item>
+  </string-array>
+    <string-array name="timezone_rename_labels">
+    <item msgid="4609638052107641231">"Australia Tengah - NT"</item>
+    <item msgid="4345275500159159867">"Australia Tengah - SA"</item>
+    <item msgid="6771274300523132094">"Australia Timur - QLD"</item>
+    <item msgid="4685547681424666687">"Australia Timur - NSW"</item>
+    <item msgid="5259393186526893961">"Standard Pergunungan - Dawson Creek"</item>
+    <item msgid="5984634754870859705">"Standard Tengah - Saskatchewan"</item>
+    <item msgid="5340374311583423836">"Standard Timur - Atikokan"</item>
+    <item msgid="8922086438245451625">"Standard Atlantik - Quebec"</item>
+    <item msgid="8353677384517034413">"Aleutian Hawaii - Hawaii"</item>
+    <item msgid="6426791761018806420">"Aleutian Hawaii - Alaska"</item>
+    <item msgid="7076353182411415610">"Standard Pasifik - Metlakatla"</item>
+    <item msgid="373990592918179890">"Standard Pergunungan - Arizona"</item>
+    <item msgid="353899326999279114">"Pasifik - Baja California"</item>
+    <item msgid="6432134534714673873">"Pergunungan - Chihuahua"</item>
+    <item msgid="7629345735485663968">"Tengah - Tamaulipas"</item>
+    <item msgid="3874729044260979505">"Pergunungan - Sonora"</item>
+    <item msgid="1106209575683600471">"Waktu Afrika Timur"</item>
+    <item msgid="6538017087072480128">"Waktu Standard Atlantik"</item>
+    <item msgid="6758957851822881177">"Waktu Standard Atlantik"</item>
+    <item msgid="2477556470536619081">"Waktu Eropah Timur"</item>
+    <item msgid="7328461310893621937">"Waktu Kaliningrad"</item>
+    <item msgid="4212642599758736931">"Amazon - Rondônia"</item>
+    <item msgid="2370319280810537375">"Brasilia - Pará"</item>
+  </string-array>
+    <plurals name="N_remaining_events">
+        <item msgid="431585781647034528" quantity="one">"+1 acara"</item>
+        <item msgid="3609243840882275136" quantity="other">"+<ns1:g id="COUNT">%d</ns1:g> acara"</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item msgid="5988137255732166573" quantity="one">"1 hari"</item>
+        <item msgid="1709378992389618261" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> hari"</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item msgid="5230907142214104485" quantity="one">"1 acara"</item>
+        <item msgid="6093072093209431078" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> acara"</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item msgid="4793697728599296830" quantity="one">"1 jam"</item>
+        <item msgid="4477841052001760620" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> jam"</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item msgid="9191090668359663663" quantity="one">"1 min"</item>
+        <item msgid="9175648445939148974" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> min"</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item msgid="4871052965772159239" quantity="one">"1 minit"</item>
+        <item msgid="5644461630927544936" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> minit"</item>
+    </plurals>
+    <plurals name="daily">
+        <item msgid="5169052946627480942" quantity="one">"Harian"</item>
+        <item msgid="5455230727715859264" quantity="other">"Setiap <ns1:g id="NUMBER">%d</ns1:g> hari"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item msgid="3727754565990691816" quantity="one">"; utk satu kali"</item>
+        <item msgid="4855496837834652446" quantity="other">"; utk <ns1:g id="NUMBER">%d</ns1:g> kali"</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item msgid="8971334808414201327" quantity="one">"+1"</item>
+        <item msgid="1997405398178470838" quantity="other">"+<ns1:g id="NUMBER">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item msgid="1400782968090516215" quantity="one">"Untuk <ns1:g id="EVENT_COUNT">%d</ns1:g> acara"</item>
+        <item msgid="8779598489398048259" quantity="other">"Untuk <ns1:g id="EVENT_COUNT">%d</ns1:g> acara"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item msgid="1205422710088692631" quantity="one">"Setiap <ns1:g id="COUNT">%d</ns1:g> hari"</item>
+        <item msgid="707566499994398250" quantity="other">"Setiap <ns1:g id="COUNT">%d</ns1:g> hari"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item msgid="4768178401603139718" quantity="one">"Setiap <ns1:g id="COUNT">%d</ns1:g> bulan"</item>
+        <item msgid="5419723710346646523" quantity="other">"Setiap <ns1:g id="COUNT">%d</ns1:g> bulan"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item msgid="4948681635464488351" quantity="one">"Setiap <ns1:g id="COUNT">%d</ns1:g> minggu"</item>
+        <item msgid="7094801039989237061" quantity="other">"Setiap <ns1:g id="COUNT">%d</ns1:g> minggu"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item msgid="5819562634008179102" quantity="one">"Setiap <ns1:g id="COUNT">%d</ns1:g> tahun"</item>
+        <item msgid="5678653649746562060" quantity="other">"Setiap <ns1:g id="COUNT">%d</ns1:g> tahun"</item>
+    </plurals>
+    <plurals name="weekN">
+        <item msgid="8085184869561028365" quantity="other">"minggu <ns1:g id="COUNT">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item msgid="5463021019301453273" quantity="one">"Mingguan pada <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item msgid="2857390143157377867" quantity="other">"Setiap <ns1:g id="NUMBER">%1$d</ns1:g> minggu pada <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"Tiada cadangan tersedia."</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"Cadangan kenalan dibuka"</string>
+    <string msgid="5654014177472600916" name="accessibility_add_attendee">"Tambah hadirin"</string>
+    <string msgid="2267950744060950152" name="accessibility_add_reminder">"Tambah peringatan"</string>
+    <string msgid="4146955438811915282" name="accessibility_all_day">"Acara sepanjang hari"</string>
+    <string msgid="5624250196618643922" name="accessibility_pick_end_date">"Tarikh akhir"</string>
+    <string msgid="7120310166355224941" name="accessibility_pick_end_time">"Masa tamat"</string>
+    <string msgid="1834311617874828931" name="accessibility_pick_recurrence">"Ulang acara"</string>
+    <string msgid="3926641487042699037" name="accessibility_pick_start_date">"Tarikh mula"</string>
+    <string msgid="4913428100936555149" name="accessibility_pick_start_time">"Masa mula"</string>
+    <string msgid="7155465783500323811" name="accessibility_pick_time_zone">"Zon waktu"</string>
+    <string msgid="8669288484484022771" name="accessibility_reminder_privacy">"Privasi"</string>
+    <string msgid="6669129015980006570" name="accessibility_reminder_showmeas">"Tunjukkan saya sebagai"</string>
+    <string msgid="3594100545814579575" name="accessibility_reminder_time">"Waktu peringatan"</string>
+    <string msgid="5339120699701437227" name="accessibility_reminder_type">"Jenis peringatan"</string>
+    <string msgid="7082751172654698863" name="accessibility_remove_attendee">"Alih keluar hadirin"</string>
+    <string msgid="5261609343259665139" name="accessibility_remove_reminder">"Alih keluar peringatan"</string>
+    <string msgid="5899029840837836711" name="acessibility_recurrence_choose_end_date_description">"tukar tarikh akhir"</string>
+    <string msgid="3010149843148810768" name="acessibility_selected_marker_description">"Acara dipilih"</string>
+    <string msgid="7172664623795021857" name="action_label">"Kembali"</string>
+    <string name="after_start_of_event">after start of event</string>
+    <string msgid="5965841338467422191" name="agenda_today">"hari ini, <ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="3893625470780723605" name="agenda_tomorrow">"esok, <ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="5566084759423843245" name="agenda_view">"Agenda"</string>
+    <string msgid="4170964206728599693" name="agenda_yesterday">"semalam, <ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="7869592820853066853" name="alert_title">"Pemberitahuan kalendar"</string>
+    <string msgid="5452708708398908131" name="app_label">"Kalendar"</string>
+    <string msgid="3595509200561433667" name="calendar_color_picker_dialog_title">"Warna Kalendar"</string>
+    <string msgid="6172731193680500025" name="calendar_refresh">"Muat semula"</string>
+    <string msgid="7430468363525563483" name="calendar_square_color_picker_description">"Pemilih warna"</string>
+    <string msgid="2960328220008869083" name="call_label">"Panggil"</string>
+    <string msgid="7704714776070974984" name="change_response_title">"Tukar jawapan"</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"Batal"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"Salin"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"Benarkan cadangan kenalan"</string>
+    <string msgid="2192923501857428854" name="choose_event_color_label">"Pilih warna acara"</string>
+    <string msgid="437691290566699292" name="copy_db">"Hantar pangkalan data"</string>
+    <string msgid="1084563757174121331" name="copy_email">"Salin alamat e-mel"</string>
+    <string msgid="8860802152973030914" name="copy_number">"Salin nombor telefon"</string>
+    <string msgid="1080859798521717414" name="create_event_dialog_save">"Simpan"</string>
+    <string msgid="7516249252554059980" name="creating_event">"Acara sudah dibuat."</string>
+    <string msgid="5758688413124191931" name="creating_event_with_guest">"Jemputan akan dihantar."</string>
+    <string msgid="4137468716966004993" name="custom" product="default">"Peribadi (tidak boleh diperibadikan pada telefon)"</string>
+    <string msgid="1642972650061946484" name="date_time_fmt">
+        <ns1:g id="date">%1$s</ns1:g>, <ns1:g id="time_interval">%2$s</ns1:g>
+    </string>
+    <string msgid="4467754504843584437" name="day_view">"Hari"</string>
+    <string msgid="2131483437911536229" name="day_view_new_event_hint">"+ Acara baru"</string>
+    <string msgid="874742811918030739" name="delete_label">"Padam"</string>
+    <string msgid="5609046778422180206" name="delete_recurring_event_title">"Padam <ns1:g id="EVENTTITLE">%s</ns1:g>?"</string>
+    <string msgid="518402946676919384" name="delete_this_event_title">"Padamkan acara ini?"</string>
+    <string msgid="1232037509095606687" name="directory_searching_fmt">"Mencari <ns1:g id="DOMAIN">%s</ns1:g>..."</string>
+    <string msgid="2394623883289782541" name="discard_label">"Batal"</string>
+    <string msgid="1834400025868091301" name="dismiss_all_label">"Ketepikan semua"</string>
+    <string msgid="1877681921029738999" name="does_not_repeat">"Acara satu kali"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"Alih keluar <ns1:g id="CONTACT">%s</ns1:g> daripada penerima"</string>
+    <string msgid="6200181113992136073" name="edit_event_all_day_label">"Sepanjang hari"</string>
+    <string msgid="4556498359505856900" name="edit_event_calendar_label">"Kalendar"</string>
+    <string msgid="7413222956349977161" name="edit_event_label">"Butiran"</string>
+    <string msgid="8934331258435656534" name="edit_label">"Edit"</string>
+    <string msgid="8772030932155305903" name="email_guests_label">"Hantarkan e-mel kepada tetamu"</string>
+    <string msgid="7178059542798074813" name="email_organizer_label">"Hantarkan e-mel kepada penganjur"</string>
+    <string msgid="4808253965057791781" name="email_picker_label">"E-mel dengan"</string>
+    <string msgid="9018699257414338634" name="empty_event">"Acara kosong tidak dibuat."</string>
+    <string msgid="7654221304929538201" name="endByDate">"; sehingga <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string msgid="4631938661655159511" name="event_color_picker_dialog_title">"Warna Acara"</string>
+    <string msgid="3447218820785647967" name="event_color_set_to_default">"Tetapkan kepada warna kalendar lalai"</string>
+    <string msgid="6941040556709110617" name="event_create">"Acara baru"</string>
+    <string msgid="2386667193277770442" name="event_delete">"Padam acara"</string>
+    <string msgid="4006961928830064662" name="event_edit">"Edit acara"</string>
+    <string msgid="9138683335394832629" name="event_info_organizer">"Penganjur:"</string>
+    <string msgid="8913097552956388972" name="event_info_reminders_label">"Peringatan"</string>
+    <string msgid="56024222340421620" name="event_info_title">"Lihat acara"</string>
+    <string msgid="9160326363769403865" name="event_info_title_invite">"Jemputan pertemuan"</string>
+    <string msgid="8356864185947582727" name="event_not_found">"Acara tidak dijumpai."</string>
+    <string msgid="7621353079385122317" name="event_view">"Lihat acara"</string>
+    <string msgid="5896574838353902978" name="every_weekday">"Setiap hari kerja (Isn-Jum)"</string>
+    <string msgid="5209110911088302855" name="gadget_no_events">"Tiada acara kalendar yang akan datang"</string>
+    <string msgid="9162136434410891230" name="goto_today">"Hari ini"</string>
+    <string msgid="830320505938520882" name="hide_controls">"Sembunyikan kawalan"</string>
+    <string msgid="1650488163176888480" name="hint_attendees">"Tetamu"</string>
+    <string msgid="1910143586169033232" name="hint_description">"Huraian"</string>
+    <string msgid="804776560897143016" name="hint_time_zone_search">"Taip nama negara"</string>
+    <string msgid="709155115005044531" name="hint_what">"Nama acara"</string>
+    <string msgid="4972598001033801974" name="hint_where">"Lokasi"</string>
+    <string msgid="3772533493214331230" name="loading">"Memuatkan..."</string>
+    <string msgid="8795383535586556038" name="map_label">"Peta"</string>
+    <string msgid="9120238479503233925" name="menu_preferences">"Tetapan"</string>
+    <string msgid="4421657265864209041" name="modify_all">"Tukar semua acara dalam siri"</string>
+    <string msgid="3017428541066390380" name="modify_all_following">"Tukar acara ini dan semua acara masa depan"</string>
+    <string msgid="5982876409997142690" name="modify_event">"Tukar acara ini sahaja"</string>
+    <string msgid="7287101431749285412" name="month_view">"Bulan"</string>
+    <string msgid="4587116285383048586" name="monthly">"Bulanan"</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g>"</string>
+    <string msgid="7553105224561147916" name="new_event_dialog_label">"Acara baru"</string>
+    <string msgid="6154657379574669371" name="new_event_dialog_option">"Acara baru"</string>
+    <string name="no_reminder_label">Tiada</string>
+    <string msgid="5475293015394772651" name="no_results_found">"Tiada hasil ditemui"</string>
+    <string msgid="7019488867045436129" name="no_syncable_calendars">"Tiada kalendar"</string>
+    <string msgid="302177118061368042" name="no_title_label">"(Tiada tajuk)"</string>
+    <string msgid="3485026339977302148" name="palestine_display_name">"Palestin"</string>
+    <string msgid="6643468203670475296" name="preferences_alerts_popup_title">"Pemberitahuan pop timbul"</string>
+    <string msgid="1849706055052358346" name="preferences_alerts_ringtone_title">"Bunyi"</string>
+    <string msgid="6636088008103904020" name="preferences_alerts_title">"Pemberitahuan"</string>
+    <string msgid="8731372580674292759" name="preferences_alerts_vibrateWhen_title">"Getar"</string>
+    <string msgid="8242471883413502068" name="preferences_build_version">"Versi binaan"</string>
+    <string msgid="7864674093455778158" name="preferences_clear_search_history_summary">"Alih keluar semua carian yang telah anda lakukan"</string>
+    <string msgid="6619916370215282982" name="preferences_clear_search_history_title">"Padam bersih sejarah carian"</string>
+    <string msgid="2903884416749959435" name="preferences_default_reminder_default">"10"</string>
+    <string msgid="2490348857239323412" name="preferences_default_reminder_dialog">"Waktu peringatan lalai"</string>
+    <string msgid="5188861433342733905" name="preferences_default_reminder_title">"Waktu peringatan lalai"</string>
+    <string msgid="8111213192001230350" name="preferences_experimental_category">"Percubaan"</string>
+    <string msgid="2069075513760573117" name="preferences_general_title">"Tetapan paparan kalendar"</string>
+    <string msgid="1849295943669890034" name="preferences_hide_declined_title">"Sembunyikan acara yang ditolak"</string>
+    <string msgid="6680000444088818578" name="preferences_home_tz_title">"Zon waktu rumah"</string>
+    <string msgid="5199606534191180129" name="preferences_reminder_title">"Pemberitahuan &amp; peringatan"</string>
+    <string msgid="1873289128793828352" name="preferences_reminders_responded_dialog">"Langkau Peringatan"</string>
+    <string msgid="1196570678238475838" name="preferences_reminders_responded_label">"Langkau Peringatan"</string>
+    <string msgid="5280734329664503461" name="preferences_show_week_num_title">"Tunjukkan nombor minggu"</string>
+    <string msgid="8045855493262131773" name="preferences_title">"Tetapan"</string>
+    <string msgid="4835375381297413746" name="preferences_use_home_tz_descrip">"Pprkn msa klendar dan acara dlm zon waktu rmah bila bergerak"</string>
+    <string msgid="5597546849968598210" name="preferences_use_home_tz_title">"Guna zon waktu rmh"</string>
+    <string msgid="5181634128884089113" name="preferences_week_start_day_dialog">"Minggu bermula pada"</string>
+    <string msgid="4619489296444901622" name="preferences_week_start_day_title">"Minggu bermula pada"</string>
+    <string msgid="6169724148441175862" name="presence_label">"Tunjukkan saya sebagai"</string>
+    <string msgid="9215031965259597335" name="privacy_label">"Privasi"</string>
+    <string msgid="8792374208224108798" name="quick_response_custom_msg">"Tulis sendiri…"</string>
+    <string msgid="2681309456412199207" name="quick_response_dialog_title">"Pilih respons pantas"</string>
+    <string msgid="5544066405231853245" name="quick_response_email_failed">"Gagal mencari program e-mel"</string>
+    <string msgid="6776151690686068278" name="quick_response_settings">"Respons pantas"</string>
+    <string msgid="6260055523174081930" name="quick_response_settings_edit_title">"Respons pantas"</string>
+    <string msgid="7878304729027355604" name="quick_response_settings_summary">"Edit jawapan lalai semasa menghantar e-mel kepada tetamu"</string>
+    <string msgid="6898950241634912991" name="recurrence_end_continously">"Selamanya"</string>
+    <string msgid="1233883668293087977" name="recurrence_end_count_label">"Untuk sejumlah acara"</string>
+    <string msgid="3693751578164711701" name="recurrence_end_date">"Sehingga <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string msgid="4142791438636994952" name="recurrence_end_date_label">"Sehingga tarikh"</string>
+    <string msgid="4400107556121003459" name="recurrence_month_pattern_by_day">"hari sama setiap bln"</string>
+    <string msgid="7292389181815525676" name="reminders_label">"Tambah peringatan"</string>
+    <string msgid="7791500973627841695" name="response_maybe">"Mungkin"</string>
+    <string msgid="561911691884148136" name="response_no">"Tidak"</string>
+    <string msgid="2027484304899988350" name="response_yes">"Ya"</string>
+    <string msgid="2133599104834432589" name="save_label">"Selesai"</string>
+    <string msgid="7694181017411177226" name="saving_event">"Acara sudah disimpan."</string>
+    <string msgid="9184584438475689577" name="saving_event_with_guest">"Kemas kini akan dihantar."</string>
+    <string msgid="550656004486017426" name="search">"Carian"</string>
+    <string msgid="1536707558435227567" name="search_history_cleared">"Sejarah carian dipadam bersih."</string>
+    <string msgid="8898015280250716254" name="search_title">"Cari dalam kalendar saya"</string>
+    <string msgid="1603860069305867810" name="searchview_description_clear">"Kosongkan pertanyaan"</string>
+    <string msgid="8890542984949996251" name="select_synced_calendars_button">"Kalendar untuk disegerakkan"</string>
+    <string msgid="715520586028062621" name="show_controls">"Tunjukkan kawalan"</string>
+    <string msgid="5782512782605466016" name="show_day_view">"Tunjukkan hari"</string>
+    <string msgid="2604638815440163080" name="show_newer_events">"Sentuh untuk melihat acara selepas <ns1:g id="NEWEST_SEARCH_RANGE">%1$s</ns1:g>"</string>
+    <string msgid="5140647493681439926" name="show_older_events">"Sentuh untuk melihat acara sebelum <ns1:g id="OLDEST_SEARCH_RANGE">%1$s</ns1:g>"</string>
+    <string msgid="1515893621063224666" name="snooze_label">"Tidur sekejap"</string>
+    <string msgid="4067877800670753110" name="template_announce_item_index">"Acara <ns1:g id="ITEM_INDEX">%1$s</ns1:g> daripada <ns1:g id="ITEM_COUNT">%2$s</ns1:g>."</string>
+    <string msgid="8577375020252453006" name="today">"Hari ini"</string>
+    <string msgid="1981279213130049736" name="today_at_time_fmt">"Hari ini pada <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string msgid="614434811813859237" name="tomorrow">"Esok"</string>
+    <string msgid="1330779112841767432" name="tomorrow_at_time_fmt">"Esok pada <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string msgid="6126231656338241140" name="view_event_calendar_label">"Kalendar"</string>
+    <string msgid="2753151795647402277" name="view_event_organizer_label">"Penganjur:"</string>
+    <string msgid="8382281658458798329" name="view_event_response_label">"Hadir?"</string>
+    <string name="visibility_default">Lalai</string>
+    <string name="visibility_private">Peribadi</string>
+    <string name="visibility_public">Awam</string>
+    <string msgid="6775043022159508060" name="week_view">"Minggu"</string>
+    <string msgid="894636567327261599" name="when_label">"Bila"</string>
+    <string msgid="3652692085322162449" name="yearly_plain">"Tahunan"</string>
+</resources>

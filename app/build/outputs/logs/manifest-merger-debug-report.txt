@@ -1,0 +1,809 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:206:9-214:20
+	android:grantUriPermissions
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:210:13-47
+	android:authorities
+		INJECTED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:208:13-60
+	android:exported
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:209:13-37
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:207:13-62
+provider#com.android.calendar.CalendarRecentSuggestionsProvider
+INJECTED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:216:9-218:88
+	android:authorities
+		INJECTED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:218:13-85
+	android:exported
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:217:13-37
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:216:19-88
+manifest
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:20:1-319:12
+INJECTED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:20:1-319:12
+INJECTED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:20:1-319:12
+INJECTED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:20:1-319:12
+MERGED from [androidx.databinding:viewbinding:8.5.2] C:\Users\21370\.gradle\caches\transforms-4\fd7a8f9d3260f82355cafc70c7d721cd\transformed\jetified-viewbinding-8.5.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.preference:preference-ktx:1.2.1] C:\Users\21370\.gradle\caches\transforms-4\fc7d00e12e153e58bee830845a5fa2fd\transformed\jetified-preference-ktx-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\21370\.gradle\caches\transforms-4\038073adba12f0c30b65fd5055dc38de\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\21370\.gradle\caches\transforms-4\7e411725419a7f1313a200440f5351ba\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\21370\.gradle\caches\transforms-4\63d3e4ef01dfd306d02c83e8bf4bc9de\transformed\preference-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\21370\.gradle\caches\transforms-4\8b5b0ffa37cb2651284b18c5c9e49306\transformed\jetified-appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\21370\.gradle\caches\transforms-4\457793e2ff695b5a34dbd73104df8d15\transformed\appcompat-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\21370\.gradle\caches\transforms-4\659a73ca0774dae757b6f0a1116368ae\transformed\jetified-fragment-ktx-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\a69c2419c7f67cc095cb547c8a0f7462\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\21370\.gradle\caches\transforms-4\39b6e361e3c71877d16abb66fc87b17a\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\21370\.gradle\caches\transforms-4\a7b7ee97201c83a21a8925d16e97ea0b\transformed\jetified-activity-ktx-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\21370\.gradle\caches\transforms-4\668e5b08e0209c2cd0bc6c4a95463a20\transformed\jetified-activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\21370\.gradle\caches\transforms-4\edd4ee060b12b037e4a5bf8fd77595fa\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\21370\.gradle\caches\transforms-4\a8a16a2f2fcea4062222a7f22044496c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\21370\.gradle\caches\transforms-4\2bfc93df30d6e8b34d53e60e03c47996\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\21370\.gradle\caches\transforms-4\873c04d68e6fcd0b7c185c3c88faaad7\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\21370\.gradle\caches\transforms-4\e4706d1b5ab0dcb923d00d46f25453e2\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\21370\.gradle\caches\transforms-4\adf2627d6e5e798846177f637fcaeeaf\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\21370\.gradle\caches\transforms-4\fee0852985ab2193795efe69122a3511\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\21370\.gradle\caches\transforms-4\b94ae9410d4cc22dc91282d43f701fcb\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\21370\.gradle\caches\transforms-4\47b905cbe26f3afcbec6a984d33d2b56\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\21370\.gradle\caches\transforms-4\43143a7e73ac84e977159b9a8b11f298\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\91abd59865b0d9ee13f1e31c5b594fa2\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\11dd29a7265b5ae6583d8698dc7647cd\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\21370\.gradle\caches\transforms-4\6bb7f2b957394e68f06584063a6f7c5e\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\f2edcb8669511eb43accaec5ded6beb7\transformed\jetified-window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\30cf0bd4f0d2fb592315ffff5daa984a\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\21370\.gradle\caches\transforms-4\de323997dc50444de9f737296f640563\transformed\jetified-graphics-shapes-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\daec26caec89676af370f39a756628df\transformed\jetified-lifecycle-runtime-ktx\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\11a644c8a1d226ede3edb28a19f3ed18\transformed\jetified-savedstate-ktx-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-android:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\3465339bfc077f522f8bf894d8116646\transformed\jetified-savedstate\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\2678257742b0bb46b46906f437f62164\transformed\lifecycle-viewmodel-2.10.0\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\f320024db4ce0d1813b4be07b5873001\transformed\jetified-lifecycle-viewmodel\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\799b297cc32b6124151b39c53a1d69e5\transformed\jetified-lifecycle-runtime\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\c9dafcff0570bab877b881cc4ec68106\transformed\lifecycle-livedata-core-2.10.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\9a7d26793e58ac2ff58fff4f36ac0c91\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\1a47fa960b7063b3af54cdade013759e\transformed\jetified-lifecycle-viewmodel-ktx-2.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\a1a6003b24501c80f9793ce39ed9f166\transformed\jetified-lifecycle-livedata-core-ktx-2.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\6bc995239c3e125ad87ecfd5d6ed2cdf\transformed\lifecycle-livedata-2.10.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\214f55367c6cf2ace2d693327872baa0\transformed\jetified-lifecycle-livedata-ktx-2.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\69836a3e10f59f404933dc07b7b531f9\transformed\jetified-lifecycle-viewmodel-savedstate\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\6844bc86a4f929572df652985f33988b\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.test:runner:1.7.0] C:\Users\21370\.gradle\caches\transforms-4\336228aacab96557f9b50cd1fa1fcffe\transformed\runner-1.7.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.test.services:storage:1.6.0] C:\Users\21370\.gradle\caches\transforms-4\88744172a8480266e1cadf9df3401ff4\transformed\jetified-storage-1.6.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:monitor:1.8.0] C:\Users\21370\.gradle\caches\transforms-4\67e7c2687fc38f37d4916b9e1742ddcf\transformed\monitor-1.8.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\21370\.gradle\caches\transforms-4\144520123f144ef5137c606475bf61f6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\21370\.gradle\caches\transforms-4\974affd7d08e903866c8b5d399904253\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\3d5223aaff1b8a559b10502391673619\transformed\jetified-core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\e13e410c93b6d9df0a73bf30da69183b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\6be469705a7e2ce4754443f744c07c01\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\21370\.gradle\caches\transforms-4\82583af3b16c19af22d4339302f386f4\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\21370\.gradle\caches\transforms-4\a5ff009de64133e56d5344a35bcadd55\transformed\jetified-tracing-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\839ae18e72da87a650d8b79fb762bc8e\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\21370\.gradle\caches\transforms-4\570f8250b74c8fa206b8c1d55ba6aafe\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [org.tensorflow:tensorflow-lite-support:0.4.4] C:\Users\21370\.gradle\caches\transforms-4\71b08b60be5cfc5343cf7878be6c4de8\transformed\jetified-tensorflow-lite-support-0.4.4\AndroidManifest.xml:2:1-5:12
+MERGED from [org.tensorflow:tensorflow-lite:2.16.1] C:\Users\21370\.gradle\caches\transforms-4\3d57c96a8ae30e27c43a2dd9796c34be\transformed\jetified-tensorflow-lite-2.16.1\AndroidManifest.xml:2:1-11:12
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.4] C:\Users\21370\.gradle\caches\transforms-4\47d9953e7676b732da70dc7b9c92caba\transformed\jetified-tensorflow-lite-support-api-0.4.4\AndroidManifest.xml:2:1-5:12
+MERGED from [org.tensorflow:tensorflow-lite-api:2.16.1] C:\Users\21370\.gradle\caches\transforms-4\158dba719bf89bb0099300df4f0bdd08\transformed\jetified-tensorflow-lite-api-2.16.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\21370\.gradle\caches\transforms-4\be5c729402b29d9c701756347f69214b\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
+	package
+		INJECTED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:20:11-69
+	android:installLocation
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:21:5-35
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:23:22-78
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:24:22-68
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:25:5-65
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:25:22-63
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:26:5-71
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:26:22-69
+uses-permission#android.permission.READ_CALENDAR
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:27:5-72
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:27:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:28:5-73
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:28:22-70
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:29:5-68
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:29:22-65
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:30:5-77
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:30:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:31:5-77
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:31:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:32:5-93
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:32:22-90
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:33:5-79
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:33:22-76
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:34:5-94
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:34:22-92
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:35:5-76
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:35:22-74
+uses-permission#android.permission.INTERNET
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:36:5-67
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:36:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:37:5-71
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:37:22-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:38:5-80
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:38:22-77
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:39:5-76
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:39:22-73
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:40:5-75
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:40:22-72
+queries
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:42:5-58:15
+MERGED from [androidx.test:runner:1.7.0] C:\Users\21370\.gradle\caches\transforms-4\336228aacab96557f9b50cd1fa1fcffe\transformed\runner-1.7.0\AndroidManifest.xml:24:5-28:15
+MERGED from [androidx.test:runner:1.7.0] C:\Users\21370\.gradle\caches\transforms-4\336228aacab96557f9b50cd1fa1fcffe\transformed\runner-1.7.0\AndroidManifest.xml:24:5-28:15
+intent#action:name:android.content.SyncAdapter
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:43:9-45:18
+action#android.content.SyncAdapter
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:44:13-66
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:44:21-63
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:http
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:47:9-51:18
+action#android.intent.action.VIEW
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:48:13-65
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:48:21-62
+category#android.intent.category.BROWSABLE
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:49:13-74
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:49:23-71
+data
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:50:13-43
+	android:host
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:85:23-58
+	android:scheme
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:50:19-40
+	android:pathPattern
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:160:21-68
+	android:mimeType
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:84:23-52
+	android:pathPrefix
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:152:21-57
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:53:9-57:18
+application
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:60:5-318:19
+INJECTED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:60:5-318:19
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\21370\.gradle\caches\transforms-4\038073adba12f0c30b65fd5055dc38de\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\21370\.gradle\caches\transforms-4\038073adba12f0c30b65fd5055dc38de\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\21370\.gradle\caches\transforms-4\7e411725419a7f1313a200440f5351ba\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\21370\.gradle\caches\transforms-4\7e411725419a7f1313a200440f5351ba\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\21370\.gradle\caches\transforms-4\a8a16a2f2fcea4062222a7f22044496c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\21370\.gradle\caches\transforms-4\a8a16a2f2fcea4062222a7f22044496c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\f2edcb8669511eb43accaec5ded6beb7\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\f2edcb8669511eb43accaec5ded6beb7\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\30cf0bd4f0d2fb592315ffff5daa984a\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\30cf0bd4f0d2fb592315ffff5daa984a\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\9a7d26793e58ac2ff58fff4f36ac0c91\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\9a7d26793e58ac2ff58fff4f36ac0c91\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.test:runner:1.7.0] C:\Users\21370\.gradle\caches\transforms-4\336228aacab96557f9b50cd1fa1fcffe\transformed\runner-1.7.0\AndroidManifest.xml:30:5-20
+MERGED from [androidx.test:runner:1.7.0] C:\Users\21370\.gradle\caches\transforms-4\336228aacab96557f9b50cd1fa1fcffe\transformed\runner-1.7.0\AndroidManifest.xml:30:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\21370\.gradle\caches\transforms-4\144520123f144ef5137c606475bf61f6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\21370\.gradle\caches\transforms-4\144520123f144ef5137c606475bf61f6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\21370\.gradle\caches\transforms-4\82583af3b16c19af22d4339302f386f4\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\21370\.gradle\caches\transforms-4\82583af3b16c19af22d4339302f386f4\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [org.tensorflow:tensorflow-lite:2.16.1] C:\Users\21370\.gradle\caches\transforms-4\3d57c96a8ae30e27c43a2dd9796c34be\transformed\jetified-tensorflow-lite-2.16.1\AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.16.1] C:\Users\21370\.gradle\caches\transforms-4\3d57c96a8ae30e27c43a2dd9796c34be\transformed\jetified-tensorflow-lite-2.16.1\AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:2.16.1] C:\Users\21370\.gradle\caches\transforms-4\158dba719bf89bb0099300df4f0bdd08\transformed\jetified-tensorflow-lite-api-2.16.1\AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:2.16.1] C:\Users\21370\.gradle\caches\transforms-4\158dba719bf89bb0099300df4f0bdd08\transformed\jetified-tensorflow-lite-api-2.16.1\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\21370\.gradle\caches\transforms-4\be5c729402b29d9c701756347f69214b\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\21370\.gradle\caches\transforms-4\be5c729402b29d9c701756347f69214b\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+	android:requiredAccountType
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:66:9-40
+	android:extractNativeLibs
+		INJECTED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml
+	android:requestLegacyExternalStorage
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:61:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\30cf0bd4f0d2fb592315ffff5daa984a\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:64:9-53
+	android:hardwareAccelerated
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:62:9-43
+	android:icon
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:63:9-43
+	android:theme
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:68:9-42
+	android:taskAffinity
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:65:9-49
+	android:usesCleartextTraffic
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:67:9-44
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:60:18-73
+activity#com.android.calendar.AllInOneActivity
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:70:9-92:20
+	android:launchMode
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:73:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:74:13-52
+	android:exported
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:72:13-36
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:71:13-65
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.APP_CALENDAR+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:75:13-80:29
+action#android.intent.action.MAIN
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:76:17-69
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:76:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:77:17-76
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:77:27-73
+category#android.intent.category.LAUNCHER
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:78:17-77
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:78:27-74
+category#android.intent.category.APP_CALENDAR
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:79:17-81
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:79:27-78
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:host:com.android.calendar+data:mimeType:time/epoch+data:scheme:content
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:81:13-87:29
+meta-data#android.app.shortcuts
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:89:13-90:53
+	android:resource
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:90:17-50
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:89:24-60
+activity-alias#com.android.calendar.LaunchActivity
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:94:9-97:26
+	android:exported
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:95:13-36
+	android:targetActivity
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:96:13-75
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:94:25-75
+activity#com.android.calendar.AboutActivity
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:99:9-100:20
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:99:19-68
+activity#com.android.calendar.EventInfoActivity
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:102:9-114:20
+	android:parentActivityName
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:104:13-79
+	android:exported
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:103:13-36
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:102:19-72
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:105:13-108:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/event
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:109:13-113:29
+activity#com.android.calendar.event.EditEventActivity
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:116:9-118:20
+	android:configChanges
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:117:13-74
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:116:19-78
+activity-alias#com.android.calendar.EditEventActivity
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:120:9-135:26
+	android:exported
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:121:13-36
+	android:targetActivity
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:122:13-82
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:120:25-78
+intent-filter#action:name:android.intent.action.EDIT+action:name:android.intent.action.INSERT+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/event
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:123:13-128:29
+action#android.intent.action.EDIT
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:124:17-69
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:124:25-66
+action#android.intent.action.INSERT
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:125:17-71
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:125:25-68
+intent-filter#action:name:android.intent.action.EDIT+action:name:android.intent.action.INSERT+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.dir/event
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:129:13-134:29
+activity#com.android.calendar.GoogleCalendarUriIntentFilter
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:137:9-167:20
+	android:label
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:141:13-46
+	android:exported
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:139:13-36
+	android:configChanges
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:140:13-63
+	android:theme
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:142:13-59
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:138:13-78
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:www.google.com+data:host:www.google.com+data:host:www.google.com+data:host:www.google.com+data:pathPattern:/calendar/hosted/.*/event+data:pathPattern:/calendar/hosted/.*/event+data:pathPrefix:/calendar/event+data:pathPrefix:/calendar/event+data:scheme:http+data:scheme:http+data:scheme:https+data:scheme:https
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:144:13-166:29
+	android:priority
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:145:17-38
+activity#com.android.calendar.settings.SettingsActivity
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:169:9-172:82
+	android:parentActivityName
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:172:13-79
+	android:label
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:171:13-54
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:170:13-74
+meta-data#android.app.default_searchable
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:176:9-177:66
+	android:value
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:177:13-64
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:176:20-65
+activity#com.android.calendar.SearchActivity
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:179:9-189:20
+	android:label
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:182:13-49
+	android:launchMode
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:183:13-43
+	android:windowSoftInputMode
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:184:13-60
+	android:exported
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:181:13-36
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:180:13-63
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:185:13-187:29
+action#android.intent.action.SEARCH
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:186:17-70
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:186:25-68
+meta-data#android.app.searchable
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:188:13-98
+	android:resource
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:188:62-96
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:188:24-61
+activity#com.android.calendar.ImportActivity
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:191:9-204:20
+	android:launchMode
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:194:13-43
+	android:exported
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:192:13-36
+	android:theme
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:193:13-59
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:191:19-69
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:application/ics+data:mimeType:text/calendar+data:mimeType:text/x-vcalendar+data:scheme:content+data:scheme:file
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:195:13-203:29
+activity#com.android.calendar.alerts.AlertActivity
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:221:9-225:64
+	android:excludeFromRecents
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:223:13-46
+	android:launchMode
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:224:13-48
+	android:theme
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:225:13-61
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:222:13-69
+activity#com.android.calendar.alerts.QuickResponseActivity
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:227:9-232:64
+	android:label
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:230:13-64
+	android:excludeFromRecents
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:229:13-46
+	android:launchMode
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:231:13-48
+	android:theme
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:232:13-61
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:228:13-77
+activity#com.android.calendar.alerts.SnoozeDelayActivity
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:234:9-238:64
+	android:excludeFromRecents
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:236:13-46
+	android:launchMode
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:237:13-48
+	android:theme
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:238:13-61
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:235:13-75
+receiver#com.android.calendar.alerts.AlertReceiver
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:240:9-255:20
+	android:exported
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:241:13-36
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:240:19-75
+intent-filter#action:name:android.intent.action.EVENT_REMINDER+action:name:android.intent.action.TIME_SET+data:scheme:content
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:242:13-246:29
+action#android.intent.action.EVENT_REMINDER
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:243:17-79
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:243:25-76
+action#android.intent.action.TIME_SET
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:244:17-73
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:244:25-70
+intent-filter#action:name:android.intent.action.LOCALE_CHANGED
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:247:13-249:29
+action#android.intent.action.LOCALE_CHANGED
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:248:17-79
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:248:25-76
+intent-filter#action:name:android.intent.action.PROVIDER_CHANGED+data:host:com.android.calendar+data:scheme:content
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:250:13-254:29
+action#android.intent.action.PROVIDER_CHANGED
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:251:17-80
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:251:25-78
+receiver#com.android.calendar.UpgradeReceiver
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:257:9-266:20
+	android:exported
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:258:13-36
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:257:19-70
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.DEFAULT
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:259:13-262:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:260:17-79
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:260:25-76
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:263:13-265:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:264:17-84
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:264:25-81
+service#com.android.calendar.alerts.AlertService
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:268:9-270:62
+	android:exported
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:269:13-37
+	android:foregroundServiceType
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:270:13-59
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:268:18-73
+service#com.android.calendar.alerts.DismissAlarmsService
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:272:9-84
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:272:18-81
+service#com.android.calendar.alerts.SnoozeAlarmsService
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:274:9-83
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:274:18-80
+receiver#com.android.calendar.widget.CalendarAppWidgetProvider
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:277:9-284:20
+	android:exported
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:278:13-36
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:277:19-87
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:com.android.calendar.APPWIDGET_UPDATE
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:279:13-282:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:280:17-84
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:280:25-81
+action#com.android.calendar.APPWIDGET_UPDATE
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:281:17-80
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:281:25-77
+meta-data#android.appwidget.provider
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:283:13-107
+	android:resource
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:283:66-104
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:283:24-65
+receiver#com.android.calendar.widget.CalendarAppWidgetService$CalendarFactory
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:286:9-305:20
+	android:exported
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:287:13-36
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:286:19-102
+intent-filter#action:name:android.intent.action.DATE_CHANGED+action:name:android.intent.action.LOCALE_CHANGED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:288:13-293:29
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:289:17-80
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:289:25-78
+action#android.intent.action.DATE_CHANGED
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:290:17-76
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:290:25-74
+intent-filter#action:name:com.android.calendar.APPWIDGET_SCHEDULED_UPDATE+data:host:com.android.calendar+data:mimeType:vnd.android.data/update+data:scheme:content
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:299:13-304:29
+action#com.android.calendar.APPWIDGET_SCHEDULED_UPDATE
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:300:17-89
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:300:25-87
+service#com.android.calendar.widget.CalendarAppWidgetService
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:307:9-310:19
+	android:exported
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:308:13-37
+	android:permission
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:309:13-69
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:307:18-85
+service#com.android.calendar.AsyncQueryServiceHelper
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:312:9-80
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:312:18-77
+activity#com.android.calendar.ui.MlDebugActivity
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:313:9-315:40
+	android:exported
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:315:13-37
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:314:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:211:13-213:57
+	android:resource
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:213:17-55
+	android:name
+		ADDED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml:212:17-67
+uses-sdk
+INJECTED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml
+INJECTED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.5.2] C:\Users\21370\.gradle\caches\transforms-4\fd7a8f9d3260f82355cafc70c7d721cd\transformed\jetified-viewbinding-8.5.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.5.2] C:\Users\21370\.gradle\caches\transforms-4\fd7a8f9d3260f82355cafc70c7d721cd\transformed\jetified-viewbinding-8.5.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.preference:preference-ktx:1.2.1] C:\Users\21370\.gradle\caches\transforms-4\fc7d00e12e153e58bee830845a5fa2fd\transformed\jetified-preference-ktx-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.2.1] C:\Users\21370\.gradle\caches\transforms-4\fc7d00e12e153e58bee830845a5fa2fd\transformed\jetified-preference-ktx-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\21370\.gradle\caches\transforms-4\038073adba12f0c30b65fd5055dc38de\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\21370\.gradle\caches\transforms-4\038073adba12f0c30b65fd5055dc38de\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\21370\.gradle\caches\transforms-4\7e411725419a7f1313a200440f5351ba\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\21370\.gradle\caches\transforms-4\7e411725419a7f1313a200440f5351ba\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\21370\.gradle\caches\transforms-4\63d3e4ef01dfd306d02c83e8bf4bc9de\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\21370\.gradle\caches\transforms-4\63d3e4ef01dfd306d02c83e8bf4bc9de\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\21370\.gradle\caches\transforms-4\8b5b0ffa37cb2651284b18c5c9e49306\transformed\jetified-appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\21370\.gradle\caches\transforms-4\8b5b0ffa37cb2651284b18c5c9e49306\transformed\jetified-appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\21370\.gradle\caches\transforms-4\457793e2ff695b5a34dbd73104df8d15\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\21370\.gradle\caches\transforms-4\457793e2ff695b5a34dbd73104df8d15\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\21370\.gradle\caches\transforms-4\659a73ca0774dae757b6f0a1116368ae\transformed\jetified-fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\21370\.gradle\caches\transforms-4\659a73ca0774dae757b6f0a1116368ae\transformed\jetified-fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\a69c2419c7f67cc095cb547c8a0f7462\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\a69c2419c7f67cc095cb547c8a0f7462\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\21370\.gradle\caches\transforms-4\39b6e361e3c71877d16abb66fc87b17a\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\21370\.gradle\caches\transforms-4\39b6e361e3c71877d16abb66fc87b17a\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\21370\.gradle\caches\transforms-4\a7b7ee97201c83a21a8925d16e97ea0b\transformed\jetified-activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\21370\.gradle\caches\transforms-4\a7b7ee97201c83a21a8925d16e97ea0b\transformed\jetified-activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\21370\.gradle\caches\transforms-4\668e5b08e0209c2cd0bc6c4a95463a20\transformed\jetified-activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\21370\.gradle\caches\transforms-4\668e5b08e0209c2cd0bc6c4a95463a20\transformed\jetified-activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\21370\.gradle\caches\transforms-4\edd4ee060b12b037e4a5bf8fd77595fa\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\21370\.gradle\caches\transforms-4\edd4ee060b12b037e4a5bf8fd77595fa\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\21370\.gradle\caches\transforms-4\a8a16a2f2fcea4062222a7f22044496c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\21370\.gradle\caches\transforms-4\a8a16a2f2fcea4062222a7f22044496c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\21370\.gradle\caches\transforms-4\2bfc93df30d6e8b34d53e60e03c47996\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\21370\.gradle\caches\transforms-4\2bfc93df30d6e8b34d53e60e03c47996\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\21370\.gradle\caches\transforms-4\873c04d68e6fcd0b7c185c3c88faaad7\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\21370\.gradle\caches\transforms-4\873c04d68e6fcd0b7c185c3c88faaad7\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\21370\.gradle\caches\transforms-4\e4706d1b5ab0dcb923d00d46f25453e2\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\21370\.gradle\caches\transforms-4\e4706d1b5ab0dcb923d00d46f25453e2\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\21370\.gradle\caches\transforms-4\adf2627d6e5e798846177f637fcaeeaf\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\21370\.gradle\caches\transforms-4\adf2627d6e5e798846177f637fcaeeaf\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\21370\.gradle\caches\transforms-4\fee0852985ab2193795efe69122a3511\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\21370\.gradle\caches\transforms-4\fee0852985ab2193795efe69122a3511\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\21370\.gradle\caches\transforms-4\b94ae9410d4cc22dc91282d43f701fcb\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\21370\.gradle\caches\transforms-4\b94ae9410d4cc22dc91282d43f701fcb\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\21370\.gradle\caches\transforms-4\47b905cbe26f3afcbec6a984d33d2b56\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\21370\.gradle\caches\transforms-4\47b905cbe26f3afcbec6a984d33d2b56\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\21370\.gradle\caches\transforms-4\43143a7e73ac84e977159b9a8b11f298\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\21370\.gradle\caches\transforms-4\43143a7e73ac84e977159b9a8b11f298\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\91abd59865b0d9ee13f1e31c5b594fa2\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\91abd59865b0d9ee13f1e31c5b594fa2\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\11dd29a7265b5ae6583d8698dc7647cd\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\11dd29a7265b5ae6583d8698dc7647cd\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\21370\.gradle\caches\transforms-4\6bb7f2b957394e68f06584063a6f7c5e\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\21370\.gradle\caches\transforms-4\6bb7f2b957394e68f06584063a6f7c5e\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\f2edcb8669511eb43accaec5ded6beb7\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\f2edcb8669511eb43accaec5ded6beb7\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\30cf0bd4f0d2fb592315ffff5daa984a\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\30cf0bd4f0d2fb592315ffff5daa984a\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\21370\.gradle\caches\transforms-4\de323997dc50444de9f737296f640563\transformed\jetified-graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\21370\.gradle\caches\transforms-4\de323997dc50444de9f737296f640563\transformed\jetified-graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\daec26caec89676af370f39a756628df\transformed\jetified-lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\daec26caec89676af370f39a756628df\transformed\jetified-lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\11a644c8a1d226ede3edb28a19f3ed18\transformed\jetified-savedstate-ktx-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\11a644c8a1d226ede3edb28a19f3ed18\transformed\jetified-savedstate-ktx-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\3465339bfc077f522f8bf894d8116646\transformed\jetified-savedstate\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\3465339bfc077f522f8bf894d8116646\transformed\jetified-savedstate\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\2678257742b0bb46b46906f437f62164\transformed\lifecycle-viewmodel-2.10.0\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\2678257742b0bb46b46906f437f62164\transformed\lifecycle-viewmodel-2.10.0\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\f320024db4ce0d1813b4be07b5873001\transformed\jetified-lifecycle-viewmodel\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\f320024db4ce0d1813b4be07b5873001\transformed\jetified-lifecycle-viewmodel\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\799b297cc32b6124151b39c53a1d69e5\transformed\jetified-lifecycle-runtime\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\799b297cc32b6124151b39c53a1d69e5\transformed\jetified-lifecycle-runtime\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\c9dafcff0570bab877b881cc4ec68106\transformed\lifecycle-livedata-core-2.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\c9dafcff0570bab877b881cc4ec68106\transformed\lifecycle-livedata-core-2.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\9a7d26793e58ac2ff58fff4f36ac0c91\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\9a7d26793e58ac2ff58fff4f36ac0c91\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\1a47fa960b7063b3af54cdade013759e\transformed\jetified-lifecycle-viewmodel-ktx-2.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\1a47fa960b7063b3af54cdade013759e\transformed\jetified-lifecycle-viewmodel-ktx-2.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\a1a6003b24501c80f9793ce39ed9f166\transformed\jetified-lifecycle-livedata-core-ktx-2.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\a1a6003b24501c80f9793ce39ed9f166\transformed\jetified-lifecycle-livedata-core-ktx-2.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\6bc995239c3e125ad87ecfd5d6ed2cdf\transformed\lifecycle-livedata-2.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\6bc995239c3e125ad87ecfd5d6ed2cdf\transformed\lifecycle-livedata-2.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\214f55367c6cf2ace2d693327872baa0\transformed\jetified-lifecycle-livedata-ktx-2.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\214f55367c6cf2ace2d693327872baa0\transformed\jetified-lifecycle-livedata-ktx-2.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\69836a3e10f59f404933dc07b7b531f9\transformed\jetified-lifecycle-viewmodel-savedstate\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\69836a3e10f59f404933dc07b7b531f9\transformed\jetified-lifecycle-viewmodel-savedstate\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\6844bc86a4f929572df652985f33988b\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\6844bc86a4f929572df652985f33988b\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.test:runner:1.7.0] C:\Users\21370\.gradle\caches\transforms-4\336228aacab96557f9b50cd1fa1fcffe\transformed\runner-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.7.0] C:\Users\21370\.gradle\caches\transforms-4\336228aacab96557f9b50cd1fa1fcffe\transformed\runner-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.services:storage:1.6.0] C:\Users\21370\.gradle\caches\transforms-4\88744172a8480266e1cadf9df3401ff4\transformed\jetified-storage-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.services:storage:1.6.0] C:\Users\21370\.gradle\caches\transforms-4\88744172a8480266e1cadf9df3401ff4\transformed\jetified-storage-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.8.0] C:\Users\21370\.gradle\caches\transforms-4\67e7c2687fc38f37d4916b9e1742ddcf\transformed\monitor-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.8.0] C:\Users\21370\.gradle\caches\transforms-4\67e7c2687fc38f37d4916b9e1742ddcf\transformed\monitor-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\21370\.gradle\caches\transforms-4\144520123f144ef5137c606475bf61f6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\21370\.gradle\caches\transforms-4\144520123f144ef5137c606475bf61f6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\21370\.gradle\caches\transforms-4\974affd7d08e903866c8b5d399904253\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\21370\.gradle\caches\transforms-4\974affd7d08e903866c8b5d399904253\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\3d5223aaff1b8a559b10502391673619\transformed\jetified-core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\3d5223aaff1b8a559b10502391673619\transformed\jetified-core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\e13e410c93b6d9df0a73bf30da69183b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\e13e410c93b6d9df0a73bf30da69183b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\6be469705a7e2ce4754443f744c07c01\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\6be469705a7e2ce4754443f744c07c01\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\21370\.gradle\caches\transforms-4\82583af3b16c19af22d4339302f386f4\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\21370\.gradle\caches\transforms-4\82583af3b16c19af22d4339302f386f4\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\21370\.gradle\caches\transforms-4\a5ff009de64133e56d5344a35bcadd55\transformed\jetified-tracing-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\21370\.gradle\caches\transforms-4\a5ff009de64133e56d5344a35bcadd55\transformed\jetified-tracing-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\839ae18e72da87a650d8b79fb762bc8e\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\839ae18e72da87a650d8b79fb762bc8e\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\21370\.gradle\caches\transforms-4\570f8250b74c8fa206b8c1d55ba6aafe\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\21370\.gradle\caches\transforms-4\570f8250b74c8fa206b8c1d55ba6aafe\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [org.tensorflow:tensorflow-lite-support:0.4.4] C:\Users\21370\.gradle\caches\transforms-4\71b08b60be5cfc5343cf7878be6c4de8\transformed\jetified-tensorflow-lite-support-0.4.4\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-support:0.4.4] C:\Users\21370\.gradle\caches\transforms-4\71b08b60be5cfc5343cf7878be6c4de8\transformed\jetified-tensorflow-lite-support-0.4.4\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite:2.16.1] C:\Users\21370\.gradle\caches\transforms-4\3d57c96a8ae30e27c43a2dd9796c34be\transformed\jetified-tensorflow-lite-2.16.1\AndroidManifest.xml:6:5-7:38
+MERGED from [org.tensorflow:tensorflow-lite:2.16.1] C:\Users\21370\.gradle\caches\transforms-4\3d57c96a8ae30e27c43a2dd9796c34be\transformed\jetified-tensorflow-lite-2.16.1\AndroidManifest.xml:6:5-7:38
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.4] C:\Users\21370\.gradle\caches\transforms-4\47d9953e7676b732da70dc7b9c92caba\transformed\jetified-tensorflow-lite-support-api-0.4.4\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.4] C:\Users\21370\.gradle\caches\transforms-4\47d9953e7676b732da70dc7b9c92caba\transformed\jetified-tensorflow-lite-support-api-0.4.4\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-api:2.16.1] C:\Users\21370\.gradle\caches\transforms-4\158dba719bf89bb0099300df4f0bdd08\transformed\jetified-tensorflow-lite-api-2.16.1\AndroidManifest.xml:6:5-7:38
+MERGED from [org.tensorflow:tensorflow-lite-api:2.16.1] C:\Users\21370\.gradle\caches\transforms-4\158dba719bf89bb0099300df4f0bdd08\transformed\jetified-tensorflow-lite-api-2.16.1\AndroidManifest.xml:6:5-7:38
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\21370\.gradle\caches\transforms-4\be5c729402b29d9c701756347f69214b\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\21370\.gradle\caches\transforms-4\be5c729402b29d9c701756347f69214b\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Karen\4-research\DACHUANG\software\ShineFlow\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\21370\.gradle\caches\transforms-4\a8a16a2f2fcea4062222a7f22044496c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\9a7d26793e58ac2ff58fff4f36ac0c91\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\9a7d26793e58ac2ff58fff4f36ac0c91\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\21370\.gradle\caches\transforms-4\82583af3b16c19af22d4339302f386f4\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\21370\.gradle\caches\transforms-4\82583af3b16c19af22d4339302f386f4\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\21370\.gradle\caches\transforms-4\a8a16a2f2fcea4062222a7f22044496c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\21370\.gradle\caches\transforms-4\a8a16a2f2fcea4062222a7f22044496c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\21370\.gradle\caches\transforms-4\a8a16a2f2fcea4062222a7f22044496c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\21370\.gradle\caches\transforms-4\a8a16a2f2fcea4062222a7f22044496c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\21370\.gradle\caches\transforms-4\a8a16a2f2fcea4062222a7f22044496c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\21370\.gradle\caches\transforms-4\a8a16a2f2fcea4062222a7f22044496c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\21370\.gradle\caches\transforms-4\a8a16a2f2fcea4062222a7f22044496c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\f2edcb8669511eb43accaec5ded6beb7\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\f2edcb8669511eb43accaec5ded6beb7\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\f2edcb8669511eb43accaec5ded6beb7\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\f2edcb8669511eb43accaec5ded6beb7\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\f2edcb8669511eb43accaec5ded6beb7\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\21370\.gradle\caches\transforms-4\f2edcb8669511eb43accaec5ded6beb7\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\30cf0bd4f0d2fb592315ffff5daa984a\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\30cf0bd4f0d2fb592315ffff5daa984a\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\30cf0bd4f0d2fb592315ffff5daa984a\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.shineflow.app.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\30cf0bd4f0d2fb592315ffff5daa984a\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\30cf0bd4f0d2fb592315ffff5daa984a\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\30cf0bd4f0d2fb592315ffff5daa984a\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\30cf0bd4f0d2fb592315ffff5daa984a\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\30cf0bd4f0d2fb592315ffff5daa984a\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.shineflow.app.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\30cf0bd4f0d2fb592315ffff5daa984a\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\21370\.gradle\caches\transforms-4\30cf0bd4f0d2fb592315ffff5daa984a\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\9a7d26793e58ac2ff58fff4f36ac0c91\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\9a7d26793e58ac2ff58fff4f36ac0c91\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\21370\.gradle\caches\transforms-4\9a7d26793e58ac2ff58fff4f36ac0c91\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:30:17-78
+package#androidx.test.orchestrator
+ADDED from [androidx.test:runner:1.7.0] C:\Users\21370\.gradle\caches\transforms-4\336228aacab96557f9b50cd1fa1fcffe\transformed\runner-1.7.0\AndroidManifest.xml:25:9-62
+	android:name
+		ADDED from [androidx.test:runner:1.7.0] C:\Users\21370\.gradle\caches\transforms-4\336228aacab96557f9b50cd1fa1fcffe\transformed\runner-1.7.0\AndroidManifest.xml:25:18-59
+package#androidx.test.services
+ADDED from [androidx.test:runner:1.7.0] C:\Users\21370\.gradle\caches\transforms-4\336228aacab96557f9b50cd1fa1fcffe\transformed\runner-1.7.0\AndroidManifest.xml:26:9-58
+	android:name
+		ADDED from [androidx.test:runner:1.7.0] C:\Users\21370\.gradle\caches\transforms-4\336228aacab96557f9b50cd1fa1fcffe\transformed\runner-1.7.0\AndroidManifest.xml:26:18-55
+package#com.google.android.apps.common.testing.services
+ADDED from [androidx.test:runner:1.7.0] C:\Users\21370\.gradle\caches\transforms-4\336228aacab96557f9b50cd1fa1fcffe\transformed\runner-1.7.0\AndroidManifest.xml:27:9-83
+	android:name
+		ADDED from [androidx.test:runner:1.7.0] C:\Users\21370\.gradle\caches\transforms-4\336228aacab96557f9b50cd1fa1fcffe\transformed\runner-1.7.0\AndroidManifest.xml:27:18-80
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\21370\.gradle\caches\transforms-4\1bebc7f17536321be9f39a871148cb40\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92

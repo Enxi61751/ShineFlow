@@ -1,0 +1,1672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools" xmlns:ns2="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="availability">
+        <item>Busy</item>
+        <item>Available</item>
+        <item>Tentative</item>
+    </string-array>
+    <integer-array name="availability_values" translatable="false">
+        <item>0</item>  
+        <item>1</item>  
+        <item>2</item>  
+    </integer-array>
+    <string-array name="backup_country_codes" translatable="false">
+        <item>"SX"</item>
+        <item>"BQ"</item>
+        <item>"CW"</item>
+        <item>"SS"</item>
+    </string-array>
+    <string-array name="backup_country_names">
+        <item>"Sint Maarten"</item>
+        <item>"Caribbean Netherlands"</item>
+        <item>"Curaçao"</item>
+        <item>"South Sudan"</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Agenda</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        
+        <item>Only this event</item>
+        
+        <item>All events in the series</item>
+    </string-array>
+    <array name="defaultCalendarColors">
+        <item>#FFD1270C</item>
+        <item>#FF11AB64</item>
+        <item>#FF1454B9</item>
+        <item>#FF4EA719</item>
+        <item>#FF62B492</item>
+        <item>#FF6365CC</item>
+        <item>#FF6E96B9</item>
+        <item>#FF6EB3B9</item>
+        <item>#FF7449B5</item>
+        <item>#FF8363CC</item>
+        <item>#FF85B03C</item>
+        <item>#FF8A4D38</item>
+        <item>#FF9B9B9B</item>
+        <item>#FF9E41B8</item>
+        <item>#FFA29496</item>
+        <item>#FFA37C82</item>
+        <item>#FFA63D36</item>
+        <item>#FFC55C7E</item>
+        <item>#FFC61600</item>
+        <item>#FFC81E02</item>
+        <item>#FFC89D2D</item>
+        <item>#FFC9B64C</item>
+        <item>#FFCC3F00</item>
+        <item>#FFCC770C</item>
+    </array>
+    <string-array name="default_start_entries" translatable="false">
+        <item>@string/default_start_last</item>
+        <item>@string/day_view</item>
+        <item>@string/week_view</item>
+        <item>@string/month_view</item>
+        <item>@string/agenda_view</item>
+    </string-array>
+    <string-array name="default_start_values" translatable="false">
+        <item>-2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Only this event</item>
+        <item>This and future events</item>
+        <item>All events</item>
+    </string-array>
+    <integer-array name="delete_repeating_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="number_of_lines" translatable="false">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string-array name="pref_color_theme_entries" ns1:ignore="InconsistentArrays">
+        <item>@string/color_theme_coral</item>
+        <item>@string/color_theme_mango</item>
+        <item>@string/color_theme_grape</item>
+        <item>@string/color_theme_mint</item>
+        <item>@string/color_theme_sky</item>
+        <item>@string/color_theme_bubblegum</item>
+    </string-array>
+    <string-array name="pref_color_theme_values" ns1:ignore="InconsistentArrays" translatable="false">
+        <item>coral</item>
+        <item>mango</item>
+        <item>grape</item>
+        <item>mint</item>
+        <item>sky</item>
+        <item>bubblegum</item>
+    </string-array>
+    <string-array name="pref_theme_entries" ns1:ignore="InconsistentArrays" translatable="false">
+        <item>@string/preferences_light_theme</item>
+        <item>@string/preferences_dark_theme</item>
+        <item>@string/preferences_black_theme</item>
+    </string-array>
+    <string-array name="pref_theme_values" ns1:ignore="InconsistentArrays" translatable="false">
+        <item>light</item>
+        <item>dark</item>
+        <item>black</item>
+    </string-array>
+    <string-array name="preferences_days_per_week_labels" translatable="false">
+        <item>@string/two_days</item>
+        <item>@string/three_days</item>
+        <item>@string/four_days</item>
+        <item>@string/five_days</item>
+        <item>@string/six_days</item>
+        <item>@string/seven_days</item>
+    </string-array>
+    <string-array name="preferences_days_per_week_values" translatable="false">
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string-array name="preferences_default_duration_labels" translatable="false">
+        <item>@string/zero_minutes</item>
+        <item>@string/fifteen_minutes</item>
+        <item>@string/thirty_minutes</item>
+        <item>@string/one_hour</item>
+        <item>@string/one_and_a_half_hours</item>
+        <item>@string/two_hours</item>
+    </string-array>
+    <string-array name="preferences_default_duration_values" translatable="false">
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_values" translatable="false">
+        <item>"-2147483648"</item>
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"5"</item>
+        <item>"10"</item>
+        <item>"15"</item>
+        <item>"20"</item>
+        <item>"25"</item>
+        <item>"30"</item>
+        <item>"45"</item>
+        <item>"60"</item>
+        <item>"120"</item>
+        <item>"180"</item>
+        <item>"360"</item>
+        <item>"540"</item>
+        <item>"720"</item>
+        <item>"1440"</item>
+        <item>"2880"</item>
+        <item>"10080"</item>
+        <item>"20160"</item>
+        <item>"40320"</item>
+    </string-array>
+    <string-array name="preferences_default_snooze_delay_values" translatable="false">
+        <item>"-1"</item>
+        <item>"5"</item>
+        <item>"10"</item>
+        <item>"15"</item>
+        <item>"20"</item>
+        <item>"25"</item>
+        <item>"30"</item>
+        <item>"45"</item>
+        <item>"60"</item>
+        <item>"120"</item>
+        <item>"180"</item>
+        <item>"720"</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        
+        <item>Only if declined</item>
+        
+        <item>If declined or not responded</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_values" translatable="false">
+        <item>declined</item>
+        <item>not_responded</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Locale default</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_values" translatable="false">
+        <item>"-1"</item>
+        <item>"7"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Running just a couple of minutes late.</item>
+        <item>Be there in about 10 minutes.</item>
+        <item>Go ahead and start without me.</item>
+        <item>Sorry, I can\'t make it. We\'ll have to reschedule.</item>
+        </string-array>
+    <string-array name="recurrence_freq">
+        <item>REPEAT DAILY</item>
+        <item>REPEAT WEEKLY</item>
+        <item>REPEAT MONTHLY</item>
+        <item>REPEAT YEARLY</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Notification</item>
+        <item>Email</item>
+        <item>SMS</item>
+        <item>Alarm</item>
+    </string-array>
+    <integer-array name="reminder_methods_values" translatable="false">
+        <item>1</item>  
+        <item>2</item>  
+        <item>3</item>  
+        <item>4</item>  
+    </integer-array>
+    <integer-array name="reminder_minutes_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>360</item>
+        <item>540</item>
+        <item>720</item> 
+        <item>1440</item> 
+        <item>2880</item> 
+        <item>10080</item> 
+        <item>20160</item> 
+        <item>40320</item> 
+    </integer-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>on every first Friday</item>
+        <item>on every second Friday</item>
+        <item>on every third Friday</item>
+        <item>on every fourth Friday</item>
+        <item>on every last Friday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>on every first Monday</item>
+        <item>on every second Monday</item>
+        <item>on every third Monday</item>
+        <item>on every fourth Monday</item>
+        <item>on every last Monday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>on every first Saturday</item>
+        <item>on every second Saturday</item>
+        <item>on every third Saturday</item>
+        <item>on every fourth Saturday</item>
+        <item>on every last Saturday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>on every first Sunday</item>
+        <item>on every second Sunday</item>
+        <item>on every third Sunday</item>
+        <item>on every fourth Sunday</item>
+        <item>on every last Sunday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>on every first Thursday</item>
+        <item>on every second Thursday</item>
+        <item>on every third Thursday</item>
+        <item>on every fourth Thursday</item>
+        <item>on every last Thursday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>on every first Tuesday</item>
+        <item>on every second Tuesday</item>
+        <item>on every third Tuesday</item>
+        <item>on every fourth Tuesday</item>
+        <item>on every last Tuesday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>on every first Wednesday</item>
+        <item>on every second Wednesday</item>
+        <item>on every third Wednesday</item>
+        <item>on every fourth Wednesday</item>
+        <item>on every last Wednesday</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>No response</item>
+        <item>Yes</item>
+        <item>Maybe</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="show_time" translatable="false">
+        <item>@string/show_time_no</item>
+        <item>@string/show_time_start</item>
+        <item>@string/show_time_start_end</item>
+        
+        <item>@string/show_time_start_end_below</item>
+    </string-array>
+    <string-array name="show_time_values" translatable="false">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        
+        <item>"4"</item>
+    </string-array>
+    <string-array name="timezone_rename_ids" translatable="false">
+
+        
+        <item>"Australia/Darwin"</item>
+        <item>"Australia/Adelaide"</item>
+        <item>"Australia/Brisbane"</item>
+        <item>"Australia/Sydney"</item>
+
+        
+        
+        <item>"America/Dawson_Creek"</item>
+        
+        <item>"America/Regina"</item>
+        
+        <item>"America/Atikokan"</item>
+        
+        <item>"America/Blanc-Sablon"</item>
+
+        
+        
+        <item>"Pacific/Honolulu"</item>
+        
+        <item>"America/Adak"</item>
+        
+        <item>"America/Metlakatla"</item>
+        
+        <item>"America/Phoenix"</item>
+
+        
+        
+        <item>"America/Tijuana"</item>
+        
+        <item>"America/Ojinaga"</item>
+        
+        <item>"America/Matamoros"</item>
+        
+        <item>"America/Hermosillo"</item>
+
+        
+        
+        <item>"Africa/Juba"</item>
+        
+        <item>"America/Kralendijk"</item>
+        
+        <item>"America/Lower_Princes"</item>
+        
+        <item>"Europe/Minsk"</item>
+        
+        <item>"Europe/Kaliningrad"</item>
+
+        
+        
+        <item>"America/Porto_Velho"</item>
+        
+        <item>"America/Belem"</item>
+    </string-array>
+    <string-array name="timezone_rename_labels">
+
+        
+        <item>"Australian Central - NT"</item>
+        <item>"Australian Central - SA"</item>
+        <item>"Australian Eastern - QLD"</item>
+        <item>"Australian Eastern - NSW"</item>
+
+        
+        <item>"Mountain Standard - Dawson Creek"</item>
+        <item>"Central Standard - Saskatchewan"</item>
+        <item>"Eastern Standard - Atikokan"</item>
+        <item>"Atlantic Standard - Quebec"</item>
+
+        
+        <item>"Hawaii-Aleutian - Hawaii"</item>
+        <item>"Hawaii-Aleutian - Alaska"</item>
+        <item>"Pacific Standard - Metlakatla"</item>
+        <item>"Mountain Standard - Arizona"</item>
+
+        
+        <item>"Pacific - Baja California"</item>
+        <item>"Mountain - Chihuahua"</item>
+        <item>"Central - Tamaulipas"</item>
+        <item>"Mountain - Sonora"</item>
+
+        
+        <item>"East Africa Time"</item>
+        <item>"Atlantic Standard Time"</item>
+        <item>"Atlantic Standard Time"</item>
+        <item>"Eastern European Time"</item>
+        <item>"Kaliningrad Time"</item>
+
+        
+        
+        <item>"Amazon - Rondônia"</item>
+        
+        <item>"Brasilia - Pará"</item>
+    </string-array>
+    <string-array name="visibility" translatable="false">
+        <item>@string/visibility_default</item>
+        <item>@string/visibility_confidential</item>
+        <item>@string/visibility_private</item>
+        <item>@string/visibility_public</item>
+    </string-array>
+    <bool name="agenda_show_event_info_full_screen">true</bool>
+    <bool name="multiple_pane_config">false</bool>
+    <bool name="show_agenda_with_month">false</bool>
+    <bool name="show_calendar_controls">false</bool>
+    <bool name="show_details_in_month">true</bool>
+    <bool name="show_event_details_with_agenda">false</bool>
+    <bool name="show_event_info_full_screen">true</bool>
+    <bool name="show_time_in_month">false</bool>
+    <bool name="tablet_config">false</bool>
+    <color name="agenda_day_bar_background_color">#FFFFFFFF</color>
+    <color name="agenda_day_item_text_color">#FF666666</color>
+    <color name="agenda_day_item_text_color_black">#e0e0e0</color>
+    <color name="agenda_day_item_text_color_dark">#e0e0e0</color>
+    <color name="agenda_general_background_color">#FFEEEEEE</color>
+    <color name="agenda_general_background_color_black">@color/bg_black</color>
+    <color name="agenda_general_background_color_dark">@color/bg_dark</color>
+    <color name="agenda_item_declined_color">#66333333</color>
+    <color name="agenda_item_declined_color_black">#616161</color>
+    <color name="agenda_item_declined_color_dark">#616161</color>
+    <color name="agenda_item_not_selected">#00000000</color>
+    <color name="agenda_item_standard_color">#FF333333</color>
+    <color name="agenda_item_standard_color_black">#ffffff</color>
+    <color name="agenda_item_standard_color_dark">#ffffff</color>
+    <color name="agenda_item_where_declined_text_color">#66666666</color>
+    <color name="agenda_item_where_declined_text_color_black">#424242</color>
+    <color name="agenda_item_where_declined_text_color_dark">#7fffffff</color>
+    <color name="agenda_item_where_text_color">#FF666666</color>
+    <color name="agenda_item_where_text_color_black">#f5f5f5</color>
+    <color name="agenda_item_where_text_color_dark">#f5f5f5</color>
+    <color name="agenda_list_separator_color">#FFBBBBBB</color>
+    <color name="agenda_past_days_bar_background_color">#FFDDDDDD</color>
+    <color name="agenda_past_present_separator_color">#b2ff0000</color>
+    <color name="agenda_selected_background_color">@android:color/holo_blue_dark</color>
+    <color name="agenda_selected_text_color">#FFFFFFFF</color>
+    <color name="alert_event_other">#FF999999</color>
+    <color name="alert_event_title">#FFFFFFFF</color>
+    <color name="alert_past_event">#8F999999</color>
+    <color name="app_bar">@color/colorPrimary</color>
+    <color name="app_bar_black">#ff111111</color>
+    <color name="app_bar_dark">@color/bg_dark</color>
+    <color name="appwidget_date">#ff676767</color>
+    <color name="appwidget_item_allday_color">#ffffffff</color>
+    <color name="appwidget_item_declined_color">#66333333</color>
+    <color name="appwidget_item_standard_color">#FFFFFF</color>
+    <color name="appwidget_month">#ffEEEEEE</color>
+    <color name="appwidget_no_events">#ffffffff</color>
+    <color name="appwidget_row_in_progress">#6633b5e5</color>
+    <color name="appwidget_scrollbar">#99A5A5A5</color>
+    <color name="appwidget_title">#ffffffff</color>
+    <color name="appwidget_week">@android:color/white</color>
+    <color name="appwidget_when">#ffffffff</color>
+    <color name="appwidget_where">#ffffffff</color>
+    <color name="autocomplete_bottom_shadow_start">#40000000</color>
+    <color name="autocomplete_divider_color">#cccccc</color>
+    <color name="background_color">#fafafa</color>
+    <color name="bg_black">#000000</color>
+    <color name="bg_dark">#141414</color>
+    <color name="calendar_date_banner_background">#eeeeee</color>
+    <color name="calendar_date_banner_background_black">#212121</color>
+    <color name="calendar_date_banner_background_dark">#212121</color>
+    <color name="calendar_date_banner_text_color">#ff666666</color>
+    <color name="calendar_date_banner_text_color_black">#ffffff</color>
+    <color name="calendar_date_banner_text_color_dark">#b2ffffff</color>
+    <color name="calendar_date_range_color">#80000000</color>
+    <color name="calendar_event_text_color">#ffFFFFFF</color>
+    <color name="calendar_event_text_color_black">#ffFFFFFF</color>
+    <color name="calendar_event_text_color_dark">#ffFFFFFF</color>
+    <color name="calendar_future_bg_color">#ffffffff</color>
+    <color name="calendar_future_bg_color_black">@color/bg_black</color>
+    <color name="calendar_future_bg_color_dark">@color/bg_dark</color>
+    <color name="calendar_grid_area_selected">#e633b5e5</color>
+    <color name="calendar_grid_area_selected_black">#e633b5e5</color>
+    <color name="calendar_grid_area_selected_dark">#e633b5e5</color>
+    <color name="calendar_grid_line_highlight_color">#ff707070</color>
+    <color name="calendar_grid_line_highlight_color_black">#ff707070</color>
+    <color name="calendar_grid_line_highlight_color_dark">#ff707070</color>
+    <color name="calendar_grid_line_inner_horizontal_color">#FFCCCCCC</color>
+    <color name="calendar_grid_line_inner_horizontal_color_black">@color/grid_line_black</color>
+    <color name="calendar_grid_line_inner_horizontal_color_dark">@color/grid_line_dark</color>
+    <color name="calendar_grid_line_inner_vertical_color">#FFCCCCCC</color>
+    <color name="calendar_grid_line_inner_vertical_color_black">@color/grid_line_black</color>
+    <color name="calendar_grid_line_inner_vertical_color_dark">@color/grid_line_dark</color>
+    <color name="calendar_hidden">#ff808080</color>
+    <color name="calendar_hidden_black">#757575</color>
+    <color name="calendar_hidden_dark">#757575</color>
+    <color name="calendar_hour_background">#ffEEEEEE</color>
+    <color name="calendar_hour_background_black">@color/bg_black</color>
+    <color name="calendar_hour_background_dark">@color/bg_dark</color>
+    <color name="calendar_hour_label">#ff666666</color>
+    <color name="calendar_hour_label_black">#ffffff</color>
+    <color name="calendar_hour_label_dark">#b2ffffff</color>
+    <color name="calendar_item_disabled">#61000000</color>
+    <color name="calendar_item_disabled_black">#61ffffff</color>
+    <color name="calendar_item_disabled_dark">#61ffffff</color>
+    <color name="calendar_owner_text_color">#777777</color>
+    <color name="calendar_owner_text_color_black">#bdbdbd</color>
+    <color name="calendar_owner_text_color_dark">#bdbdbd</color>
+    <color name="calendar_secondary_hidden">#ff808080</color>
+    <color name="calendar_secondary_hidden_black">#757575</color>
+    <color name="calendar_secondary_hidden_dark">#757575</color>
+    <color name="calendar_secondary_visible">#ff323232</color>
+    <color name="calendar_secondary_visible_black">#ffffff</color>
+    <color name="calendar_secondary_visible_dark">#ffffff</color>
+    <color name="calendar_view_switch_menu_text_color">#FF666666</color>
+    <color name="calendar_view_switch_menu_text_color_light">#FF888888</color>
+    <color name="calendar_visible">#ff000000</color>
+    <color name="calendar_visible_black">#ffffff</color>
+    <color name="calendar_visible_dark">#ffffff</color>
+    <color name="chip_background">@color/colorAccent</color>
+    <color name="chip_background_invalid">#db4437</color>
+    <color name="chips_dropdown_background_activated">#4285f4</color>
+    <color name="chips_dropdown_background_pressed">#ededed</color>
+    <color name="chips_dropdown_permission_text">#4285f4</color>
+    <color name="chips_dropdown_text_activated">@android:color/white</color>
+    <color name="chips_dropdown_text_default">#ffffff</color>
+    <color name="colorAccent">#1dc1ab</color>
+    <color name="colorPrimary">#41c3b1</color>
+    <color name="colorPrimaryDark">#388d7f</color>
+    <color name="colorSecondaryContainer">#90eee2</color>
+    <color name="create_event_date_color">#FF000000</color>
+    <color name="create_event_date_color_black">#ffffff</color>
+    <color name="create_event_date_color_dark">#ffffff</color>
+    <color name="create_event_divider_color">#FFDDDDDD</color>
+    <color name="create_event_more_details_color">#FF888888</color>
+    <color name="day_clicked_background_color">#FF33B5E5</color>
+    <color name="day_clicked_background_color_black">#FF33B5E5</color>
+    <color name="day_clicked_background_color_dark">#FF33B5E5</color>
+    <color name="day_event_clicked_background_color">#8033B5E5</color>
+    <color name="day_event_clicked_background_color_black">#8033B5E5</color>
+    <color name="day_event_clicked_background_color_dark">#8033B5E5</color>
+    <color name="day_past_background_color">#22DDDDDD</color>
+    <color name="design_default_color_error">#B00020</color>
+    <color name="divider_select_calendars">#DEDEDE</color>
+    <color name="divider_select_calendars_black">#5C5C5C</color>
+    <color name="divider_select_calendars_dark">#5C5C5C</color>
+    <color name="done_text_color_disabled">#cccccc</color>
+    <color name="edit_event_color">#fafafa</color>
+    <color name="edit_event_color_black">@color/bg_black</color>
+    <color name="edit_event_color_dark">@color/bg_dark</color>
+    <color name="edit_event_separator">#FF555555</color>
+    <color name="edit_event_small">#000000</color>
+    <color name="edit_event_small_black">#f5f5f5</color>
+    <color name="edit_event_small_dark">#f5f5f5</color>
+    <color name="event_background">#ffc3d9ff</color>
+    <color name="event_center">#ff6bd697</color>
+    <color name="event_info_body_color">#FF666666</color>
+    <color name="event_info_body_color_black">#bdbdbd</color>
+    <color name="event_info_body_color_dark">#bdbdbd</color>
+    <color name="event_info_description_color">#FF666666</color>
+    <color name="event_info_description_color_black">#bdbdbd</color>
+    <color name="event_info_description_color_dark">#bdbdbd</color>
+    <color name="event_info_headline_color">#FFFFFFFF</color>
+    <color name="event_info_headline_color_black">#FFFFFFFF</color>
+    <color name="event_info_headline_color_dark">#FFFFFFFF</color>
+    <color name="event_info_headline_link_color">#FFFFFFFF</color>
+    <color name="event_info_headline_link_color_black">#FFFFFFFF</color>
+    <color name="event_info_headline_link_color_dark">#FFFFFFFF</color>
+    <color name="event_info_headline_transparent_color">#B3FFFFFF</color>
+    <color name="event_info_headline_transparent_color_black">#B3FFFFFF</color>
+    <color name="event_info_headline_transparent_color_dark">#B3FFFFFF</color>
+    <color name="event_info_label_background_color">#FFDDDDDD</color>
+    <color name="event_info_label_background_color_black">#FFDDDDDD</color>
+    <color name="event_info_label_background_color_dark">#FFDDDDDD</color>
+    <color name="event_info_label_color">#FF999999</color>
+    <color name="event_info_label_color_black">#ffffff</color>
+    <color name="event_info_label_color_dark">#ffffff</color>
+    <color name="event_info_organizer_color">#99000000</color>
+    <color name="event_info_organizer_color_black">#DEFFFFFF</color>
+    <color name="event_info_organizer_color_dark">#DEFFFFFF</color>
+    <color name="fg_black_primary">#deffffff</color>
+    <color name="fg_black_secondary">#99ffffff</color>
+    <color name="fg_dark_primary">#deffffff</color>
+    <color name="fg_dark_secondary">#99ffffff</color>
+    <color name="grid_line_black">#303030</color>
+    <color name="grid_line_dark">#FF6A6A6A</color>
+    <color name="mini_month_bg_color">#FFFFFFFF</color>
+    <color name="mini_month_today_outline_color">#FF000000</color>
+    <color name="mini_month_today_outline_color_black">@color/bg_black</color>
+    <color name="mini_month_today_outline_color_dark">@color/bg_dark</color>
+    <color name="month_bgcolor">#FFF2F2F2</color>
+    <color name="month_bgcolor_black">@color/bg_black</color>
+    <color name="month_bgcolor_dark">@color/bg_dark</color>
+    <color name="month_day_names_color">#757575</color>
+    <color name="month_day_names_color_black">#ffffff</color>
+    <color name="month_day_names_color_dark">#ffffff</color>
+    <color name="month_day_number">#FF555555</color>
+    <color name="month_day_number_black">#ffffff</color>
+    <color name="month_day_number_dark">#ffffff</color>
+    <color name="month_day_number_other">#FF999999</color>
+    <color name="month_day_number_other_black">#616161</color>
+    <color name="month_day_number_other_dark">#616161</color>
+    <color name="month_dna_conflict_time_color">#FF333333</color>
+    <color name="month_event_color">#FF333333</color>
+    <color name="month_event_color_black">#ffffff</color>
+    <color name="month_event_color_dark">#ffffff</color>
+    <color name="month_event_extra_color">#FF666666</color>
+    <color name="month_event_extra_color_black">#ffffff</color>
+    <color name="month_event_extra_color_dark">#ffffff</color>
+    <color name="month_event_extra_other_color">#4C999999</color>
+    <color name="month_event_extra_other_color_black">#000000</color>
+    <color name="month_event_extra_other_color_dark">#000000</color>
+    <color name="month_event_other_color">#FF666666</color>
+    <color name="month_event_other_color_black">#FF666666</color>
+    <color name="month_event_other_color_dark">#FF666666</color>
+    <color name="month_focus_month_bgcolor">#FFFFFFFF</color>
+    <color name="month_focus_month_bgcolor_black">#212121</color>
+    <color name="month_focus_month_bgcolor_dark">#212121</color>
+    <color name="month_grid_lines">#ffdedede</color>
+    <color name="month_grid_lines_black">@color/grid_line_black</color>
+    <color name="month_grid_lines_dark">@color/grid_line_dark</color>
+    <color name="month_mini_day_number">#FF000000</color>
+    <color name="month_mini_day_number_black">#FF000000</color>
+    <color name="month_mini_day_number_dark">#FF000000</color>
+    <color name="month_other_bgcolor">#FFEEEEEE</color>
+    <color name="month_other_bgcolor_black">#ff111111</color>
+    <color name="month_other_bgcolor_dark">#000000</color>
+    <color name="month_other_month_day_number">#ff939497</color>
+    <color name="month_other_month_day_number_black">#ff939497</color>
+    <color name="month_other_month_day_number_dark">#ff939497</color>
+    <color name="month_saturday">#80333333</color>
+    <color name="month_saturday_black">#f5f5f5</color>
+    <color name="month_saturday_dark">#f5f5f5</color>
+    <color name="month_selected_week_bgcolor">#FFDDDDDD</color>
+    <color name="month_selected_week_bgcolor_black">#FFDDDDDD</color>
+    <color name="month_selected_week_bgcolor_dark">#FFDDDDDD</color>
+    <color name="month_sunday">#80333333</color>
+    <color name="month_sunday_black">#f5f5f5</color>
+    <color name="month_sunday_dark">#f5f5f5</color>
+    <color name="month_today_bgcolor">#25a2ff00</color>
+    <color name="month_today_bgcolor_black">#6efffffa</color>
+    <color name="month_today_bgcolor_dark">#6efffffa</color>
+    <color name="month_today_number">#FF555555</color>
+    <color name="month_today_number_black">#ffffff</color>
+    <color name="month_today_number_dark">#ffffff</color>
+    <color name="month_week_num_color">#41c3b1</color>
+    <color name="month_week_num_color_black">@color/colorPrimary</color>
+    <color name="month_week_num_color_dark">@color/colorPrimary</color>
+    <color name="new_event_hint_text_color">#FFFFFFFF</color>
+    <color name="panel_text_foreground">#ffffffff</color>
+    <color name="pressed">#330066ff</color>
+    <color name="pressed_black">#330066ff</color>
+    <color name="pressed_dark">#330066ff</color>
+    <color name="recurrence_bubble_text_normal">#ff737373</color>
+    <color name="recurrence_bubble_text_normal_black">#ff737373</color>
+    <color name="recurrence_bubble_text_normal_dark">#ff737373</color>
+    <color name="recurrence_done_black">#ffffff</color>
+    <color name="recurrence_done_dark">#ffffff</color>
+    <color name="recurrence_picker_background">#fff2f2f2</color>
+    <color name="recurrence_picker_background_black">#303030</color>
+    <color name="recurrence_picker_background_dark">#303030</color>
+    <color name="recurrence_picker_background_up_black">#212121</color>
+    <color name="recurrence_picker_background_up_dark">#212121</color>
+    <color name="selection">@android:color/holo_blue_light</color>
+    <color name="sf_bubblegum">#FF4F9A</color>
+    <color name="sf_bubblegum_container">#FFD7E7</color>
+    <color name="sf_bubblegum_on_container">#5C0033</color>
+    <color name="sf_coral">#FF5A5F</color>
+    <color name="sf_coral_container">#FFDADB</color>
+    <color name="sf_coral_on_container">#6E0009</color>
+    <color name="sf_grape">#8E5BF0</color>
+    <color name="sf_grape_container">#E7DBFF</color>
+    <color name="sf_grape_on_container">#28074F</color>
+    <color name="sf_mango">#F5820A</color>
+    <color name="sf_mango_container">#FFDDB8</color>
+    <color name="sf_mango_on_container">#4A2400</color>
+    <color name="sf_mint">#0FBFA5</color>
+    <color name="sf_mint_container">#B9F5EC</color>
+    <color name="sf_mint_on_container">#00382F</color>
+    <color name="sf_sky">#3D8BFF</color>
+    <color name="sf_sky_container">#D4E4FF</color>
+    <color name="sf_sky_on_container">#00214D</color>
+    <color name="sf_white">#FFFFFF</color>
+    <color name="spinner_button_color_black">#f5f5f5</color>
+    <color name="spinner_button_color_dark">#f5f5f5</color>
+    <color name="spinner_privacy_popupBackground">#ffffff</color>
+    <color name="spinner_privacy_popupBackground_black">#303030</color>
+    <color name="spinner_privacy_popupBackground_dark">#303030</color>
+    <color name="text_shadow_color">#4D000000</color>
+    <color name="titleTextColor">@android:color/white</color>
+    <color name="today_highlight_color">#0033b5e5</color>
+    <color name="today_highlight_color_black">#0033b5e5</color>
+    <color name="today_highlight_color_dark">#0033b5e5</color>
+    <color name="week_saturday">#80333333</color>
+    <color name="week_saturday_black">#fafafa</color>
+    <color name="week_saturday_dark">#fafafa</color>
+    <color name="week_sunday">#80333333</color>
+    <color name="week_sunday_black">#fafafa</color>
+    <color name="week_sunday_dark">#fafafa</color>
+    <color name="week_today">#802979ff</color>
+    <color name="week_today_black">#90caf9</color>
+    <color name="week_today_dark">#90caf9</color>
+    <dimen name="action_bar_date_text_size">22sp</dimen>
+    <dimen name="agenda_item_right_margin">4dip</dimen>
+    <dimen name="all_day_bottom_margin">8dip</dimen>
+    <dimen name="allday_text_size">12sp</dimen>
+    <dimen name="calendar_controls_height">300dip</dimen>
+    <dimen name="calendar_controls_width">280dip</dimen>
+    <dimen name="chip_custom_divider_height">0.5dp</dimen>
+    <dimen name="chip_dropdown_height">72dp</dimen>
+    <dimen name="chip_height">32dp</dimen>
+    <dimen name="chip_icon_margin_end">12dp</dimen>
+    <dimen name="chip_icon_padding">8dp</dimen>
+    <dimen name="chip_padding">8dp</dimen>
+    <dimen name="chip_padding_end">12dp</dimen>
+    <dimen name="chip_padding_start">-1dp</dimen>
+    <dimen name="chip_text_size">14sp</dimen>
+    <dimen name="chip_wrapper_bottom_padding">16dp</dimen>
+    <dimen name="chip_wrapper_end_padding">16dp</dimen>
+    <dimen name="chip_wrapper_start_padding">16dp</dimen>
+    <dimen name="chip_wrapper_top_padding">16dp</dimen>
+    <dimen name="color_swatch_large">64dip</dimen>
+    <dimen name="color_swatch_margins_large">8dip</dimen>
+    <dimen name="color_swatch_margins_small">4dip</dimen>
+    <dimen name="color_swatch_small">48dip</dimen>
+    <dimen name="color_view_touch_area_increase">16dp</dimen>
+    <dimen name="date_header_text_size">16sp</dimen>
+    <dimen name="day_header_bottom_margin">4dip</dimen>
+    <dimen name="day_header_height">48dp</dimen>
+    <dimen name="day_label_text_size">11sp</dimen>
+    <dimen name="day_view_event_text_size">12sp</dimen>
+    <dimen name="edit_event_view_padding_left">80dip</dimen>
+    <dimen name="edit_event_view_padding_right">80dip</dimen>
+    <dimen name="edit_event_view_width">800dip</dimen>
+    <dimen name="edit_reminder_min_size">36dip</dimen>
+    <dimen name="event_info_desc_margin_left">0dip</dimen>
+    <dimen name="event_info_desc_margin_right">0dip</dimen>
+    <dimen name="event_info_dialog_height">600dip</dimen>
+    <dimen name="event_info_dialog_width">500dip</dimen>
+    <dimen name="event_info_padding">0dip</dimen>
+    <dimen name="event_info_text_size">14sp</dimen>
+    <dimen name="event_text_horizontal_margin">4dp</dimen>
+    <dimen name="event_text_vertical_margin">2dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="hours_left_margin">4dip</dimen>
+    <dimen name="hours_right_margin">4dip</dimen>
+    <dimen name="hours_text_size">12sp</dimen>
+    <dimen name="line_spacing_extra">3dp</dimen>
+    <dimen name="max_portrait_calendar_controls_width">350dip</dimen>
+    <dimen name="min_hours_width">24dip</dimen>
+    <dimen name="min_portrait_calendar_controls_width">300dip</dimen>
+    <dimen name="new_event_hint_text_size">12sp</dimen>
+    <dimen name="one_day_header_height">0dip</dimen>
+    <dimen name="recurrence_picker_height">340dp</dimen>
+    <dimen name="recurrence_picker_width">300dp</dimen>
+    <dimen name="today_icon_text_size">12sp</dimen>
+    <dimen name="week_view_event_text_size">10sp</dimen>
+    <dimen name="widget_day_num_size">36sp</dimen>
+    <dimen name="widget_day_num_top_padding">-4dip</dimen>
+    <integer name="calendar_controls_animation_time">400</integer>
+    <integer name="chips_max_lines">-1</integer>
+    <integer name="color_chip_all_day_height">48</integer>
+    <integer name="color_chip_height">24</integer>
+    <integer name="default_attendee_photo_alpha_level">255</integer>
+    <integer name="event_info_desc_line_num">8</integer>
+    <integer name="month_day_number_margin">4</integer>
+    <integer name="noresponse_attendee_photo_alpha_level">64</integer>
+    <integer name="text_size_event_title">10</integer>
+    <integer name="text_size_month_number">20</integer>
+    <integer name="work_end_minutes">1200</integer>
+    <integer name="work_start_minutes">360</integer>
+    <plurals name="N_remaining_events">
+        
+        <item quantity="one">+1 event</item>
+        
+        <item quantity="other">+<ns2:g id="count">%d</ns2:g> events</item>
+    </plurals>
+    <plurals name="Ndays">
+        
+        <item quantity="one">1 day</item>
+        
+        <item quantity="other"><ns2:g id="count">%d</ns2:g> days</item>
+    </plurals>
+    <plurals name="Nevents">
+        
+        <item quantity="one">1 event</item>
+        
+        <item quantity="other"><ns2:g id="count">%d</ns2:g> events</item>
+    </plurals>
+    <plurals name="Nhours">
+        
+        <item quantity="one">1 hour</item>
+        
+        <item quantity="other"><ns2:g id="count">%d</ns2:g> hours</item>
+    </plurals>
+    <plurals name="Nmins">
+        
+        <item quantity="one">1 min</item>
+        
+        <item quantity="other"><ns2:g id="count">%d</ns2:g> mins</item>
+    </plurals>
+    <plurals name="Nminutes">
+        
+        <item quantity="one">1 minute</item>
+        
+        <item quantity="other"><ns2:g id="count">%d</ns2:g> minutes</item>
+    </plurals>
+    <plurals name="Nweeks">
+        
+        <item quantity="one">1 week</item>
+        
+        <item quantity="other"><ns2:g id="count">%d</ns2:g> weeks</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">Daily</item>
+        <item quantity="other">Every <ns2:g id="number">%d</ns2:g> days</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; for one time</item>
+        <item quantity="other">; for <ns2:g id="number">%d</ns2:g> times</item>
+    </plurals>
+    <plurals name="month_more_events">
+        
+        <item quantity="one">"+1"</item>
+        
+        <item quantity="other">+<ns2:g id="number">%d</ns2:g></item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">For <ns2:g id="event_count">%d</ns2:g> event</item>
+        <item quantity="other">For <ns2:g id="event_count">%d</ns2:g> events</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        
+        <item quantity="one">Every <ns2:g id="count">%d</ns2:g> day</item>
+        
+        <item quantity="other">Every <ns2:g id="count">%d</ns2:g> days</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        
+        <item quantity="one">Every <ns2:g id="count">%d</ns2:g> month</item>
+        
+        <item quantity="other">Every <ns2:g id="count">%d</ns2:g> months</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        
+        <item quantity="one">Every <ns2:g id="count">%d</ns2:g> week</item>
+        
+        <item quantity="other">Every <ns2:g id="count">%d</ns2:g> weeks</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        
+        <item quantity="one">Every <ns2:g id="count">%d</ns2:g> year</item>
+        
+        <item quantity="other">Every <ns2:g id="count">%d</ns2:g> years</item>
+    </plurals>
+    <plurals name="weekN">
+        
+        <item quantity="other">Week <ns2:g id="count">%d</ns2:g></item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Weekly on <ns2:g id="days_of_week">%2$s</ns2:g></item>
+        <item quantity="other">Every <ns2:g id="number">%1$d</ns2:g> weeks on <ns2:g id="days_of_week">%2$s</ns2:g></item>
+    </plurals>
+    <string name="accessbility_suggestion_dropdown_closed">No suggestions available</string>
+    <string name="accessbility_suggestion_dropdown_opened">Contact suggestions opened</string>
+    <string name="accessibility_add_attendee">Add attendee</string>
+    <string name="accessibility_add_reminder">Add reminder</string>
+    <string name="accessibility_all_day">All day event</string>
+    <string name="accessibility_pick_end_date">End date</string>
+    <string name="accessibility_pick_end_time">End time</string>
+    <string name="accessibility_pick_recurrence">Repeat event</string>
+    <string name="accessibility_pick_start_date">Start date</string>
+    <string name="accessibility_pick_start_time">Start time</string>
+    <string name="accessibility_pick_time_zone">Time zone</string>
+    <string name="accessibility_reminder_privacy">Privacy</string>
+    <string name="accessibility_reminder_showmeas">Show me as</string>
+    <string name="accessibility_reminder_time">Reminder time</string>
+    <string name="accessibility_reminder_type">Reminder type</string>
+    <string name="accessibility_remove_attendee">Remove attendee</string>
+    <string name="accessibility_remove_reminder">Remove reminder</string>
+    <string name="acessibility_recurrence_choose_end_date_description">change end date</string>
+    <string name="acessibility_selected_marker_description">Selected event</string>
+    <string name="action_label">Return</string>
+    <string name="add_calendar">Add calendar</string>
+    <string name="after_start_of_event">after start of event</string>
+    <string name="agenda_today">Today, <ns2:g id="date">%1$s</ns2:g></string>
+    <string name="agenda_tomorrow">Tomorrow, <ns2:g id="date">%1$s</ns2:g></string>
+    <string name="agenda_view">"Agenda"</string>
+    <string name="agenda_yesterday">Yesterday, <ns2:g id="date">%1$s</ns2:g></string>
+    <string name="alert_title">Calendar notifications</string>
+    <string name="app_authors" translatable="false">The Etar Project</string>
+    <string name="app_authors_url" translatable="false">https://github.com/Etar-Group/Etar-Calendar/graphs/contributors</string>
+    <string name="app_changelog" translatable="false">https://github.com/Etar-Group/Etar-Calendar/releases</string>
+    <string name="app_copyright">\u00a9 2015-<ns2:g>%1$s</ns2:g> The Etar Project. Portions \u00a9 2005-<ns2:g>%1$s</ns2:g> The Android Open Source Project.</string>
+    <string name="app_issues_url" translatable="false">https://github.com/Etar-Group/Etar-Calendar/issues</string>
+    <string name="app_label">Calendar</string>
+    <string name="app_license" translatable="false">GPLv3</string>
+    <string name="app_license_url" translatable="false">https://www.gnu.org/licenses/gpl-3.0.html</string>
+    <string name="app_source_url" translatable="false">https://github.com/Etar-Group/Etar-Calendar</string>
+    <string name="authors">Authors</string>
+    <string name="cal_export_event_sdcard_title">Export to SD card</string>
+    <string name="cal_export_succ_msg">Event exported successfully: %1$s</string>
+    <string name="cal_import_error_date_msg">Unable to understand given date: %s</string>
+    <string name="cal_import_error_msg">Importing to calendar failed</string>
+    <string name="cal_import_error_time_zone_msg">Unable to understand given time zone: %s</string>
+    <string name="cal_import_menu_title">Import event</string>
+    <string name="cal_nothing_to_import">Nothing to import</string>
+    <string name="cal_pick_ics">Pick file to import</string>
+    <string name="cal_share_intent_title">Send event to:</string>
+    <string name="calendar_color_picker_dialog_title">Calendar Color</string>
+    <string name="calendar_permission_not_granted">Required permissions were denied, enable them from Settings app to edit events</string>
+    <string name="calendar_refresh">"Refresh"</string>
+    <string name="calendar_square_color_picker_description">Color picker</string>
+    <string name="calendars">Calendars</string>
+    <string name="call_label">Call</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_response_title">Change response</string>
+    <string name="changelog">Changelog</string>
+    <string name="chips_action_cancel">Cancel</string>
+    <string name="chips_action_copy">Copy</string>
+    <string name="chips_permission_text">Allow contacts suggestions</string>
+    <string name="choose_event_color_label">Choose event color</string>
+    <string name="color_picker_default_title" translatable="false">Select a Color</string>
+    <string name="color_swatch_description" translatable="false">Color <ns2:g example="14" id="color_index">%1$d</ns2:g></string>
+    <string name="color_swatch_description_selected" translatable="false">Color <ns2:g example="14" id="color_index">%1$d</ns2:g> selected</string>
+    <string name="color_theme_bubblegum">Bubblegum</string>
+    <string name="color_theme_coral">Coral</string>
+    <string name="color_theme_grape">Grape</string>
+    <string name="color_theme_mango">Mango</string>
+    <string name="color_theme_mint">Mint</string>
+    <string name="color_theme_sky">Sky</string>
+    <string name="copy_db">Send database</string>
+    <string name="copy_email">Copy email address</string>
+    <string name="copy_number">Copy phone number</string>
+    <string name="countdown_days_passed">%1$d days ago</string>
+    <string name="countdown_days_remaining">%1$d days left</string>
+    <string name="countdown_today">Today</string>
+    <string name="create_event_dialog_save">Save</string>
+    <string name="creating_event">"Event created."</string>
+    <string name="creating_event_with_guest">"Invitations will be sent."</string>
+    <string name="custom" product="default">"Custom (can\'t customize on phone)"</string>
+    <string name="date_time_fmt">"<ns2:g id="date">%1$s</ns2:g>, <ns2:g id="time_interval">%2$s</ns2:g>"</string>
+    <string name="day_view">"Day"</string>
+    <string name="day_view_new_event_hint">+ New event</string>
+    <string name="default_start_last">Previously used view</string>
+    <string name="default_start_title">Default view</string>
+    <string name="delete_label">"Delete"</string>
+    <string name="delete_recurring_event_title">Delete <ns2:g id="eventtitle">%s</ns2:g>?</string>
+    <string name="delete_this_event_title">Delete this event?</string>
+    <string name="directory_searching_fmt">Searching <ns2:g id="domain">%s</ns2:g>\u2026</string>
+    <string name="discard">Discard</string>
+    <string name="discard_event_changes">Do you want to discard changes?</string>
+    <string name="discard_label">Cancel</string>
+    <string name="dismiss_all_label">"Dismiss all"</string>
+    <string name="display_location">Display location</string>
+    <string name="display_options">Display options</string>
+    <string name="display_time">Display time</string>
+    <string name="does_not_repeat">One-time event</string>
+    <string name="dropdown_delete_button_desc">Remove <ns2:g id="contact">%s</ns2:g> from recipients</string>
+    <string name="duplicate_label">Duplicate</string>
+    <string name="edit_event_all_day_label">All day</string>
+    <string name="edit_event_calendar_label">Calendar</string>
+    <string name="edit_event_label">"Details"</string>
+    <string name="edit_label">"Edit"</string>
+    <string name="email_guests_label">Email guests</string>
+    <string name="email_organizer_label">Email organizer</string>
+    <string name="email_picker_label">Email with</string>
+    <string name="email_subject_prefix" translatable="false">Re:\u0020</string>
+    <string name="empty_event">"Empty event not created."</string>
+    <string name="endByDate">; until <ns2:g id="date">%s</ns2:g></string>
+    <string name="error_generating_ics">Problems encountered while sharing event</string>
+    <string name="event_color_picker_dialog_title">Event Color</string>
+    <string name="event_color_set_to_default">Set to default calendar color</string>
+    <string name="event_create">"New event"</string>
+    <string name="event_delete">"Delete event"</string>
+    <string name="event_edit">"Edit event"</string>
+    <string name="event_info_organizer">Organizer:</string>
+    <string name="event_info_reminders_label">Reminders</string>
+    <string name="event_info_title">View event</string>
+    <string name="event_info_title_invite">Meeting invitation</string>
+    <string name="event_not_found">"Event not found."</string>
+    <string name="event_view">"View event"</string>
+    <string name="every_weekday">"Every weekday (Mon\u2013Fri)"</string>
+    <string name="fifteen_minutes">15 minutes</string>
+    <string name="five_days">5 days</string>
+    <string name="foreground_notification_channel_description">Notifications required for internal sync. You can safely hide this channel.</string>
+    <string name="foreground_notification_channel_name">Background tasks</string>
+    <string name="foreground_notification_title">Scheduling new reminders…</string>
+    <string name="four_days">4 days</string>
+    <string name="gadget_no_events">No upcoming calendar events</string>
+    <string name="goto_date">Go to\u2026</string>
+    <string name="goto_today">"Today"</string>
+    <string name="hide_controls">"Hide controls"</string>
+    <string name="hint_attendees">"Guests"</string>
+    <string name="hint_description">"Description"</string>
+    <string name="hint_time_zone_search">Type country name</string>
+    <string name="hint_url">"URL"</string>
+    <string name="hint_what">"Event name"</string>
+    <string name="hint_where">"Location"</string>
+    <string name="license">License</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="map_label">Map</string>
+    <string name="maximum_number_of_lines">Max number of lines in event</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_preferences">"Settings"</string>
+    <string name="modify_all">Change all events in the series</string>
+    <string name="modify_all_following">Change this and all future events</string>
+    <string name="modify_event">Change only this event</string>
+    <string name="month_view">"Month"</string>
+    <string name="monthly">Monthly</string>
+    <string name="more_string">\u002B<ns2:g id="count">%1$d</ns2:g></string>
+    <string name="new_event_dialog_label">"New event"</string>
+    <string name="new_event_dialog_option">"New event"</string>
+    <string name="no_calendars_found">Before you can add an event, you must add at least one calendar to your device</string>
+    <string name="no_map">There is no maps app installed</string>
+    <string name="no_reminder_label">None</string>
+    <string name="no_results_found">No results found</string>
+    <string name="no_snooze_label">None</string>
+    <string name="no_syncable_calendars">No calendars</string>
+    <string name="no_title_label">(No title)</string>
+    <string name="offline_account_name">Offline Calendar</string>
+    <string name="one_and_a_half_hours">1.5 hours</string>
+    <string name="one_hour">1 hour</string>
+    <string name="palestine_display_name">Palestine</string>
+    <string name="pref_theme_default" translatable="false">light</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Always use default snooze delay</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Ask for snooze delay whenever snoozing reminders</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Ask for reminder snooze delay</string>
+    <string name="preferences_alerts_popup_title">Pop-up notification</string>
+    <string name="preferences_alerts_ringtone_title">Sound</string>
+    <string name="preferences_alerts_title">Notifications</string>
+    <string name="preferences_alerts_vibrateWhen_title">Vibrate</string>
+    <string name="preferences_black_theme">Black</string>
+    <string name="preferences_build_version">Build version</string>
+    <string name="preferences_calendar_account">%1$s account</string>
+    <string name="preferences_calendar_account_local">Offline calendar</string>
+    <string name="preferences_calendar_color">Color</string>
+    <string name="preferences_calendar_color_warning_button">I understand</string>
+    <string name="preferences_calendar_color_warning_message">Changing the color may be reverted when the calendar is synchronized again.\n\nIn DAVx⁵ \'Manage calendar colors\' can be disabled to prevent this.</string>
+    <string name="preferences_calendar_color_warning_title">Warning</string>
+    <string name="preferences_calendar_configure_account">Configure calendar in %1$s</string>
+    <string name="preferences_calendar_delete">Delete calendar</string>
+    <string name="preferences_calendar_delete_cancel">Cancel</string>
+    <string name="preferences_calendar_delete_delete">Delete calendar</string>
+    <string name="preferences_calendar_delete_message">Do you really want to delete this calendar?</string>
+    <string name="preferences_calendar_display_name">Change name</string>
+    <string name="preferences_calendar_info_category">Calendar information</string>
+    <string name="preferences_calendar_no_display_name">Unnamed calendar</string>
+    <string name="preferences_calendar_number_of_events">%1$d events</string>
+    <string name="preferences_calendar_synchronize">Synchronize this calendar</string>
+    <string name="preferences_calendar_visible">Display events</string>
+    <string name="preferences_clear_search_history_summary">Remove all the searches you\'ve performed</string>
+    <string name="preferences_clear_search_history_title">Clear search history</string>
+    <string name="preferences_color">Primary color</string>
+    <string name="preferences_color_blue" translatable="false">Blue</string>
+    <string name="preferences_color_green" translatable="false">Green</string>
+    <string name="preferences_color_orange" translatable="false">Orange</string>
+    <string name="preferences_color_pick">Primary color</string>
+    <string name="preferences_color_purple" translatable="false">Purple</string>
+    <string name="preferences_color_red" translatable="false">Red</string>
+    <string name="preferences_color_teal" translatable="false">Teal</string>
+    <string name="preferences_color_theme">Color theme</string>
+    <string name="preferences_dark_theme">Dark</string>
+    <string name="preferences_days_per_week_default" translatable="false">7</string>
+    <string name="preferences_days_per_week_dialog">Days per week</string>
+    <string name="preferences_days_per_week_title">Days per week</string>
+    <string name="preferences_default_event_duration_title">Default event duration</string>
+    <string name="preferences_default_reminder_default">10</string>
+    <string name="preferences_default_reminder_dialog">Default reminder time</string>
+    <string name="preferences_default_reminder_title">Default reminder time</string>
+    <string name="preferences_default_snooze_delay_default" translatable="false">5</string>
+    <string name="preferences_default_snooze_delay_dialog">Default snooze delay</string>
+    <string name="preferences_default_snooze_delay_title">Default snooze delay time</string>
+    <string name="preferences_do_not_check_battery_optimization">Don\'t check battery optimization</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Use at your own risk! Notifications will no longer work, widget will no longer update and background services will crash. But you won\'t get asked again if you want to enable the background service.</string>
+    <string name="preferences_experimental_category">Experimental</string>
+    <string name="preferences_general_title">Calendar view setting</string>
+    <string name="preferences_hide_declined_title">Hide declined events</string>
+    <string name="preferences_home_tz_default" translatable="false">America/Los_Angeles</string>
+    <string name="preferences_home_tz_title">Home time zone</string>
+    <string name="preferences_issues">Report issues</string>
+    <string name="preferences_light_theme">Light</string>
+    <string name="preferences_list_add_offline">Add offline calendar</string>
+    <string name="preferences_list_add_offline_button">Add calendar</string>
+    <string name="preferences_list_add_offline_cancel">Cancel</string>
+    <string name="preferences_list_add_offline_error_empty">Enter a calendar name!</string>
+    <string name="preferences_list_add_offline_message">Offline calendars are NOT synchronized to a cloud service and only available on your phone.</string>
+    <string name="preferences_list_add_offline_name">Name</string>
+    <string name="preferences_list_add_offline_title">Add offline calendar</string>
+    <string name="preferences_list_add_remote">Add CalDAV calendar</string>
+    <string name="preferences_list_add_remote_etesync">Add EteSync calendar</string>
+    <string name="preferences_list_calendar_summary_invisible">Events are not displayed</string>
+    <string name="preferences_list_calendar_summary_sync_off">Not synchronized</string>
+    <string name="preferences_list_general">General settings</string>
+    <string name="preferences_manage_notifications">Manage notifications</string>
+    <string name="preferences_menu_about">About Etar</string>
+    <string name="preferences_month_view_landscape">Month view layout (Landscape)</string>
+    <string name="preferences_month_view_portrait">Month view layout (Portrait)</string>
+    <string name="preferences_pure_black_night_mode">Pure black night mode</string>
+    <string name="preferences_real_event_colors">Use real event colors</string>
+    <string name="preferences_reminder_title">Notifications \u0026 reminders</string>
+    <string name="preferences_reminders_responded_dialog">Skip Reminders</string>
+    <string name="preferences_reminders_responded_label">Skip Reminders</string>
+    <string name="preferences_show_lunar_summary">Display the Chinese lunar calendar alongside the Gregorian calendar</string>
+    <string name="preferences_show_lunar_title">Show lunar calendar</string>
+    <string name="preferences_show_week_num_title">Show week number</string>
+    <string name="preferences_system_theme">System default</string>
+    <string name="preferences_theme">Theme</string>
+    <string name="preferences_title">"Settings"</string>
+    <string name="preferences_use_home_tz_descrip">Displays calendars and event times in your home time zone when traveling</string>
+    <string name="preferences_use_home_tz_title">Use home time zone</string>
+    <string name="preferences_week_start_day_default" translatable="false">-1</string>
+    <string name="preferences_week_start_day_dialog">Week starts on</string>
+    <string name="preferences_week_start_day_title">Week starts on</string>
+    <string name="presence_label">Show me as</string>
+    <string name="privacy_label">Privacy</string>
+    <string name="quick_response_custom_msg">Write your own\u2026</string>
+    <string name="quick_response_dialog_title">Choose quick response</string>
+    <string name="quick_response_email_failed">Failed to find an email program</string>
+    <string name="quick_response_settings">Quick responses</string>
+    <string name="quick_response_settings_edit_title">Quick response</string>
+    <string name="quick_response_settings_summary">Edit default responses when emailing guests</string>
+    <string name="recurrence_end_continously">Forever</string>
+    <string name="recurrence_end_count_label">For a number of events</string>
+    <string name="recurrence_end_date">Until <ns2:g id="date">%s</ns2:g></string>
+    <string name="recurrence_end_date_label">Until a date</string>
+    <string name="recurrence_month_pattern_by_day">on the same day each month</string>
+    <string name="reminders_label">Add reminder</string>
+    <string name="response_maybe">Maybe</string>
+    <string name="response_no">No</string>
+    <string name="response_yes">Yes</string>
+    <string name="rsvp_accepted">"Responded yes."</string>
+    <string name="rsvp_declined">"Responded no."</string>
+    <string name="rsvp_tentative">"Responded maybe."</string>
+    <string name="save_label">Done</string>
+    <string name="saving_event">"Event saved."</string>
+    <string name="saving_event_with_guest">"Updates will be sent."</string>
+    <string name="search">"Search"</string>
+    <string name="search_authority" translatable="false">com.shineflow.app.debug.CalendarRecentSuggestionsProvider</string>
+    <string name="search_history_cleared">Search history cleared.</string>
+    <string name="search_title">Search my calendars</string>
+    <string name="searchview_description_clear">Clear query</string>
+    <string name="select_synced_calendars_button">Calendars to sync</string>
+    <string name="seven_days">7 days</string>
+    <string name="share_label">Share</string>
+    <string name="show_controls">"Show controls"</string>
+    <string name="show_day_view">"Show day"</string>
+    <string name="show_newer_events">Touch to view events after <ns2:g id="newest_search_range">%1$s</ns2:g></string>
+    <string name="show_older_events">Touch to view events before <ns2:g id="oldest_search_range">%1$s</ns2:g></string>
+    <string name="show_time_no">Don\'t show time</string>
+    <string name="show_time_start">Only start time</string>
+    <string name="show_time_start_end">Start and end time</string>
+    <string name="show_time_start_end_below">Start and end time below the event</string>
+    <string name="six_days">6 days</string>
+    <string name="smart_input_ai_failed">AI parsing failed: </string>
+    <string name="smart_input_ai_filled">✅ AI filled in the schedule automatically</string>
+    <string name="smart_input_ai_no_events">AI did not find any events</string>
+    <string name="smart_input_apply">Apply</string>
+    <string name="smart_input_button">Smart import</string>
+    <string name="smart_input_cancel">Cancel</string>
+    <string name="smart_input_complete_title">Complete schedule details</string>
+    <string name="smart_input_confirm">OK</string>
+    <string name="smart_input_connect_failed">Failed to connect to server: </string>
+    <string name="smart_input_field_description">Description (optional)</string>
+    <string name="smart_input_field_location">Location</string>
+    <string name="smart_input_field_time">Time, e.g. 2026-05-19 09:30:00</string>
+    <string name="smart_input_field_title">Event name</string>
+    <string name="smart_input_file_saved">File saved, submitting to AI…</string>
+    <string name="smart_input_filled">✅ Schedule filled in automatically</string>
+    <string name="smart_input_input_failed">Input failed</string>
+    <string name="smart_input_need_content">Please enter text, pick an image, or record audio first</string>
+    <string name="smart_input_need_mic_permission">Microphone permission is required for voice input</string>
+    <string name="smart_input_no_json">No JSON found in the result</string>
+    <string name="smart_input_no_result">No result received yet. Please wait or make sure the server has processed it.</string>
+    <string name="smart_input_option_audio">🎵 Upload audio</string>
+    <string name="smart_input_option_image">🖼️ Upload image</string>
+    <string name="smart_input_option_submit">🚀 Submit to AI</string>
+    <string name="smart_input_option_text">📝 Paste text</string>
+    <string name="smart_input_option_voice">🎤 Voice input</string>
+    <string name="smart_input_parse_failed">Failed to parse response: </string>
+    <string name="smart_input_paste_title">Paste text</string>
+    <string name="smart_input_people_prefix">Participants: </string>
+    <string name="smart_input_pick_audio">Select audio</string>
+    <string name="smart_input_pick_image">Select image</string>
+    <string name="smart_input_read_failed">Read or parse failed: </string>
+    <string name="smart_input_record_failed">Recording failed. Please check the microphone permission or whether it is in use.</string>
+    <string name="smart_input_record_saved">Recording saved, submitting to AI…</string>
+    <string name="smart_input_recording_message">Describe your schedule. The recording is saved to the app\'s private storage. Speak clearly near the microphone at normal volume.</string>
+    <string name="smart_input_recording_title">🎤 Recording…</string>
+    <string name="smart_input_result_format_error">Unexpected result format</string>
+    <string name="smart_input_server_error">Server error: </string>
+    <string name="smart_input_stop">⏹ Stop</string>
+    <string name="smart_input_submitting">Submitting to AI, please wait…</string>
+    <string name="smart_input_text_hint">Paste or type schedule information here…</string>
+    <string name="smart_input_text_saved">Text saved, submitting to AI…</string>
+    <string name="smart_input_title">Choose action</string>
+    <string name="smart_input_upload_failed">Upload failed</string>
+    <string name="snooze_delay_dialog_title">Set snooze delay</string>
+    <string name="snooze_label">"Snooze"</string>
+    <string name="source_code">Source</string>
+    <string name="special_day_anniversary">Anniversary</string>
+    <string name="special_day_birthday">Birthday</string>
+    <string name="special_day_countdown">Countdown</string>
+    <string name="special_day_none">Normal</string>
+    <string name="standalone_app_label" translatable="false">ShineFlow</string>
+    <string name="template_announce_item_index">Event <ns2:g id="item_index">%1$s</ns2:g> of <ns2:g id="item_count">%2$s</ns2:g>.</string>
+    <string name="thirty_minutes">30 minutes</string>
+    <string name="three_days">3 days</string>
+    <string name="time_mode_all_day">All-day</string>
+    <string name="time_mode_period">Span</string>
+    <string name="time_mode_point">Point</string>
+    <string name="today">Today</string>
+    <string name="today_at_time_fmt">"Today at <ns2:g id="time_interval">%s</ns2:g>"</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="tomorrow_at_time_fmt">"Tomorrow at <ns2:g id="time_interval">%s</ns2:g>"</string>
+    <string name="two_days">2 days</string>
+    <string name="two_hours">2 hours</string>
+    <string name="user_rejected_calendar_write_permission">Etar requires calendar read and write permissions to work properly. Please try again.</string>
+    <string name="view_event_calendar_label">Calendar:</string>
+    <string name="view_event_organizer_label">Organizer:</string>
+    <string name="view_event_response_label">Attending?</string>
+    <string name="view_settings">"View settings"</string>
+    <string name="visibility_confidential">Confidential</string>
+    <string name="visibility_default">Default</string>
+    <string name="visibility_private">Private</string>
+    <string name="visibility_public">Public</string>
+    <string name="week_view">"Week"</string>
+    <string name="when_label">When</string>
+    <string name="yearly_plain">Yearly</string>
+    <string name="zero_minutes">0 minutes</string>
+    <style name="Base.CalendarAppThemeWithActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="BaseTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorSecondaryContainer">@color/colorSecondaryContainer</item>
+        <item name="android:statusBarColor">?android:colorBackground</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+    </style>
+    <style name="CalendarAppThemeBlackTeal" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/bg_black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/bg_black</item>
+        <item name="android:itemBackground">@color/bg_black</item>
+        <item name="calendarSpinnerDisabledTextColor">@color/calendar_item_disabled_black</item>
+    </style>
+    <style name="CalendarAppThemeDarkTeal" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:itemBackground">@color/bg_dark</item>
+        <item name="calendarSpinnerDisabledTextColor">@color/calendar_item_disabled_dark</item>
+    </style>
+    <style name="CalendarAppThemeLightTeal" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:itemBackground">@android:color/white</item>
+        <item name="autoCompleteTextViewStyle">@style/actionbar_cursor</item>
+        <item name="calendarSpinnerDisabledTextColor">@color/calendar_item_disabled</item>
+    </style>
+    <style name="CalendarAppThemeWithActionBar" parent="Base.CalendarAppThemeWithActionBar">
+
+    </style>
+    <style name="CalendarTheme.WithActionBar" parent="CalendarAppThemeWithActionBar">
+        <item name="android:endYear">2036</item>
+        <item name="android:startYear">1970</item>
+    </style>
+    <style name="CalendarTheme.WithActionBarWallpaper" parent="CalendarTheme.WithoutActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+    <style name="CalendarTheme.WithoutActionBar" parent="CalendarAppThemeLightTeal">
+        <item name="android:endYear">2036</item>
+        <item name="android:startYear">1970</item>
+        <item name="android:windowBackground">@color/bg_black</item>
+    </style>
+    <style name="ChipAutocompleteDividerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/chip_custom_divider_height</item>
+        <item name="android:background">@color/autocomplete_divider_color</item>
+        <item name="android:layout_marginLeft">@dimen/chip_wrapper_start_padding</item>
+    </style>
+    <style name="ChipAutocompleteDividerStyle.PermissionItem">
+        <item name="android:background">@drawable/chip_autocomplete_divider_background</item>
+        <item name="android:layout_height">3dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+    </style>
+    <style name="ChipAutocompleteWrapperStyle">
+        <item name="android:paddingLeft">@dimen/chip_wrapper_start_padding</item>
+        <item name="android:paddingTop">@dimen/chip_wrapper_top_padding</item>
+        <item name="android:paddingRight">@dimen/chip_wrapper_end_padding</item>
+        <item name="android:paddingBottom">@dimen/chip_wrapper_bottom_padding</item>
+    </style>
+    <style name="ChipDeleteIconBaseStyle">
+        <item name="android:id">@android:id/icon1</item>
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+    <style name="ChipDeleteIconStyle" parent="@style/ChipDeleteIconBaseStyle">
+        <item name="android:paddingLeft">@dimen/chip_icon_padding</item>
+    </style>
+    <style name="ChipEndIconStyle" parent="@style/ChipIconBaseStyle">
+        <item name="android:layout_marginLeft">@dimen/chip_icon_margin_end</item>
+    </style>
+    <style name="ChipIconBaseStyle">
+        <item name="android:id">@android:id/icon</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:contentDescription">@null</item>
+    </style>
+    <style name="ChipIndicatorTextStyle" parent="@style/ChipSubtitleStyle">
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">4dp</item>
+    </style>
+    <style name="ChipPermissionDismissIconStyle">
+        <item name="android:id">@android:id/icon2</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:contentDescription">@android:string/cancel</item>
+        <item name="android:padding">@dimen/chip_icon_padding</item>
+        <item name="android:src">@drawable/ic_close</item>
+    </style>
+    <style name="ChipPermissionStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">@color/chips_dropdown_permission_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:text">@string/chips_permission_text</item>
+    </style>
+    <style name="ChipStartIconStyle" parent="@style/ChipIconBaseStyle">
+        <item name="android:layout_marginRight">@dimen/chip_icon_margin_end</item>
+    </style>
+    <style name="ChipSubtitleStyle">
+        <item name="android:id">@android:id/text1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">@drawable/list_item_font_secondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="ChipTextViewLayoutStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="ChipTitleStyle">
+        <item name="android:id">@android:id/title</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="EditEventCustomActionButtonText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/actionMenuTextAppearance</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:padding">4dp</item>
+    </style>
+    <style name="EditEventSeparator">
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">@color/edit_event_separator</item>
+    </style>
+    <style name="MinusButton">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:src">@drawable/ic_close</item>
+    </style>
+    <style name="MonthView_MiniMonthLabel">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:paddingBottom">2dip</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/month_mini_day_number</item>
+    </style>
+    <style name="NotificationPrimaryText" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="NotificationSecondaryText" parent="@android:style/TextAppearance.Holo">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="RecipientEditTextView" parent="@style/RecipientEditTextViewBase">
+        <item name="android:imeOptions">actionNext|flagNoFullscreen</item>
+    </style>
+    <style name="RecipientEditTextViewBase">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:inputType">textEmailAddress|textMultiLine</item>
+        <item name="android:minHeight">@dimen/chip_height</item>
+        <item name="android:popupBackground">@android:color/white</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textDirection">locale</item>
+    </style>
+    <style name="RecurrenceDayOfWeekStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">4dip</item>
+        <item name="android:layout_marginBottom">4dip</item>
+        <item name="android:layout_marginLeft">8dip</item>
+        <item name="android:layout_marginRight">8dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/recurrence_bubble_text_color</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/recurrence_bubble_fill</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        </style>
+    <style name="TextAppearance" parent="android:TextAppearance">
+    </style>
+    <style name="TextAppearance.Date_Range_Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/calendar_date_range_color</item>
+    </style>
+    <style name="TextAppearance.EditEvent">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextAppearance.EditEvent_Label">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">16dip</item>
+        <item name="android:layout_marginRight">-16dip</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">top|left</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFAAAAAA</item>
+    </style>
+    <style name="TextAppearance.EditEvent_LabelSmall" parent="TextAppearance.EditEvent_Small">
+        <item name="android:minHeight">24dip</item>
+        <item name="android:layout_width">144dip</item>
+        <item name="android:layout_marginLeft">16dip</item>
+        <item name="android:layout_marginRight">16dip</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>
+        <item name="android:layout_marginBottom">4dip</item>
+    </style>
+    <style name="TextAppearance.EditEvent_Small">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextAppearance.EditEvent_Value" parent="TextAppearance.EditEvent">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginRight">12dip</item>
+        <item name="android:layout_marginLeft">12dip</item>
+        <item name="android:paddingLeft">12dp</item>
+    </style>
+    <style name="TextAppearance.EditEvent_homeTime">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:paddingRight">2dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextAppearance.MonthView_DayLabel">
+        <item name="android:textSize">@dimen/day_label_text_size</item>
+        <item name="android:paddingLeft">2dip</item>
+        <item name="android:textColor">@color/month_day_names_color</item>
+    </style>
+    <style name="TextAppearance.MonthView_MiniDayLabel">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/month_other_month_day_number</item>
+    </style>
+    <style name="TextAppearance.RecurrencePickerStyle">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="TextAppearance.SelectCalendar_Name">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Theme.Etar" parent="BaseTheme">
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="ThemeOverlay.CalendarAppTheme.ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/titleTextColor</item>
+    </style>
+    <style name="ThemeOverlay.ShineFlow.Bubblegum" parent="">
+        <item name="colorPrimary">@color/sf_bubblegum</item>
+        <item name="colorAccent">@color/sf_bubblegum</item>
+        <item name="colorOnPrimary">@color/sf_white</item>
+        <item name="colorPrimaryContainer">@color/sf_bubblegum_container</item>
+        <item name="colorOnPrimaryContainer">@color/sf_bubblegum_on_container</item>
+        <item name="colorSecondaryContainer">@color/sf_bubblegum_container</item>
+        <item name="colorOnSecondaryContainer">@color/sf_bubblegum_on_container</item>
+    </style>
+    <style name="ThemeOverlay.ShineFlow.Coral" parent="">
+        <item name="colorPrimary">@color/sf_coral</item>
+        <item name="colorAccent">@color/sf_coral</item>
+        <item name="colorOnPrimary">@color/sf_white</item>
+        <item name="colorPrimaryContainer">@color/sf_coral_container</item>
+        <item name="colorOnPrimaryContainer">@color/sf_coral_on_container</item>
+        <item name="colorSecondaryContainer">@color/sf_coral_container</item>
+        <item name="colorOnSecondaryContainer">@color/sf_coral_on_container</item>
+    </style>
+    <style name="ThemeOverlay.ShineFlow.Grape" parent="">
+        <item name="colorPrimary">@color/sf_grape</item>
+        <item name="colorAccent">@color/sf_grape</item>
+        <item name="colorOnPrimary">@color/sf_white</item>
+        <item name="colorPrimaryContainer">@color/sf_grape_container</item>
+        <item name="colorOnPrimaryContainer">@color/sf_grape_on_container</item>
+        <item name="colorSecondaryContainer">@color/sf_grape_container</item>
+        <item name="colorOnSecondaryContainer">@color/sf_grape_on_container</item>
+    </style>
+    <style name="ThemeOverlay.ShineFlow.Mango" parent="">
+        <item name="colorPrimary">@color/sf_mango</item>
+        <item name="colorAccent">@color/sf_mango</item>
+        <item name="colorOnPrimary">@color/sf_white</item>
+        <item name="colorPrimaryContainer">@color/sf_mango_container</item>
+        <item name="colorOnPrimaryContainer">@color/sf_mango_on_container</item>
+        <item name="colorSecondaryContainer">@color/sf_mango_container</item>
+        <item name="colorOnSecondaryContainer">@color/sf_mango_on_container</item>
+    </style>
+    <style name="ThemeOverlay.ShineFlow.Mint" parent="">
+        <item name="colorPrimary">@color/sf_mint</item>
+        <item name="colorAccent">@color/sf_mint</item>
+        <item name="colorOnPrimary">@color/sf_white</item>
+        <item name="colorPrimaryContainer">@color/sf_mint_container</item>
+        <item name="colorOnPrimaryContainer">@color/sf_mint_on_container</item>
+        <item name="colorSecondaryContainer">@color/sf_mint_container</item>
+        <item name="colorOnSecondaryContainer">@color/sf_mint_on_container</item>
+    </style>
+    <style name="ThemeOverlay.ShineFlow.Sky" parent="">
+        <item name="colorPrimary">@color/sf_sky</item>
+        <item name="colorAccent">@color/sf_sky</item>
+        <item name="colorOnPrimary">@color/sf_white</item>
+        <item name="colorPrimaryContainer">@color/sf_sky_container</item>
+        <item name="colorOnPrimaryContainer">@color/sf_sky_on_container</item>
+        <item name="colorSecondaryContainer">@color/sf_sky_container</item>
+        <item name="colorOnSecondaryContainer">@color/sf_sky_on_container</item>
+    </style>
+    <style name="Widget.CalendarAppTheme.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:theme">@style/ThemeOverlay.CalendarAppTheme.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+    <style name="WidgetDateStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginTop">-6dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="WidgetDayOfWeekStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">4dip</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="actionbar_cursor" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textCursorDrawable">@drawable/actionbar_cursor</item>
+    </style>
+    <style name="colorBackgroundBlack">
+        <item name="android:colorBackground">@color/bg_black</item>
+    </style>
+    <style name="locationIconRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">22dp</item>
+    </style>
+    <declare-styleable name="CustomWidget">
+        <attr format="color" name="light_dark"/>
+        <attr format="reference|color" name="settings_titleText"/>
+        <attr format="color" name="month_header_bgcolor"/>
+        <attr format="color" name="agenda_general_bgcolor"/>
+        <attr format="color" name="edit_event_bgcolor"/>
+        <attr format="color" name="agenda_day_item_text_color"/>
+        <attr format="color" name="editEvent_small_color"/>
+        <attr format="color" name="recurrence_picker_bgcolor_up"/>
+        <attr format="color" name="recurrence_picker_bgcolor"/>
+        <attr format="reference|color" name="done_text_recurrence"/>
+        <attr format="color" name="spinner_privacy_presence_bgcolor"/>
+        <attr format="color" name="event_info_bgcolor"/>
+        <attr format="color" name="event_info_scrollview_bgcolor"/>
+        <attr format="color" name="event_info_organizer_color"/>
+        <attr format="color" name="event_info_description_color"/>
+        <attr format="color" name="event_info_body_color"/>
+        <attr format="color" name="event_info_label_color"/>
+        <attr format="color" name="create_event_date_color"/>
+        <attr format="color" name="calendar_owner_text_color"/>
+        <attr format="color" name="calendar_date_banner_bgcolor"/>
+        <attr format="color" name="app_bar_color"/>
+        <attr format="reference" name="minus_button"/>
+        <attr format="reference" name="ic_menu_email"/>
+        <attr format="color" name="calendar_future_bg_color"/>
+        <attr format="color" name="month_other_bgcolor"/>
+        <attr format="reference" name="settings_calendar_offline"/>
+        <attr format="reference" name="iconAboutAuthors"/>
+        <attr format="reference" name="iconAboutLicense"/>
+        <attr format="reference" name="iconSettingsAbout"/>
+        <attr format="reference" name="iconSettingsGeneral"/>
+        <attr format="reference" name="iconAddCalendar"/>
+        <attr format="reference" name="iconCalendarAccount"/>
+        <attr format="color" name="divider_select_calendars"/>
+        <attr format="color" name="calendarSpinnerDisabledTextColor"/>
+    </declare-styleable>
+    <declare-styleable name="RecipientEditTextView">
+        <attr name="avatarPosition">
+            <enum name="end" value="0"/>
+            <enum name="start" value="1"/>
+        </attr>
+        <attr format="reference" name="chipBackground"/>
+        <attr format="reference" name="chipDelete"/>
+        <attr format="reference" name="chipFontSize"/>
+        <attr format="reference" name="chipHeight"/>
+        <attr format="reference" name="chipPadding"/>
+        <attr format="boolean" name="disableDelete"/>
+        <attr format="reference" name="invalidChipBackground"/>
+        <attr name="imageSpanAlignment">
+            <enum name="bottom" value="0"/>
+            <enum name="baseline" value="1"/>
+        </attr>
+        <attr format="color" name="unselectedChipBackgroundColor"/>
+        <attr format="color" name="unselectedChipTextColor"/>
+    </declare-styleable>
+</resources>

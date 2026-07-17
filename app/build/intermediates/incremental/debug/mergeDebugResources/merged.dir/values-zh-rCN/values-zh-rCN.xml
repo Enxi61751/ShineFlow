@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <string-array name="availability">
+    <item msgid="454869065893453189">"忙碌"</item>
+    <item msgid="6228387173725732140">"有空"</item>
+    <item msgid="2064426942462573474">"暂定"</item>
+  </string-array>
+    <string-array name="backup_country_names">
+    <item msgid="9141777876082196578">"圣马丁岛"</item>
+    <item msgid="5330962017221568054">"荷兰加勒比"</item>
+    <item msgid="1465164631761814300">"库拉索"</item>
+    <item msgid="8972081011408691260">"南苏丹"</item>
+  </string-array>
+    <string-array name="buttons_list">
+    <item msgid="5917946202321434335">"日"</item>
+    <item msgid="6248480754959562740">"周"</item>
+    <item msgid="4298472806133153766">"月"</item>
+    <item msgid="5033084974413793845">"日程"</item>
+  </string-array>
+    <string-array name="change_response_labels">
+    <item msgid="3466644709343519437">"仅限此活动"</item>
+    <item msgid="140670561403965380">"所有重复的活动"</item>
+  </string-array>
+    <string-array name="delete_repeating_labels">
+    <item msgid="4208432367651646938">"仅限此活动"</item>
+    <item msgid="1536401639805370405">"此活动和将来的活动"</item>
+    <item msgid="7833229563617435430">"所有活动"</item>
+  </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+    <item msgid="2285927842308686988">"仅在您不参加的情况下"</item>
+    <item msgid="6367412240524984286">"在您不参加或未回复的情况下"</item>
+  </string-array>
+    <string-array name="preferences_week_start_day_labels">
+    <item msgid="986150274035512339">"语言区域的默认设置"</item>
+    <item msgid="134027225275475280">"星期六"</item>
+    <item msgid="95029346069903091">"星期日"</item>
+    <item msgid="5840983116375063739">"星期一"</item>
+  </string-array>
+    <string-array name="quick_response_defaults">
+        <item msgid="1524421198348168403">"我会迟到几分钟。"</item>
+        <item msgid="6215158751728689832">"我大概再过 10 分钟就可以到了。"</item>
+        <item msgid="4485794001743679338">"先开始，不用等我。"</item>
+        <item msgid="8036557974294987511">"抱歉，我赶不上了，我们另约时间吧。"</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+    <item msgid="3388478383574917007">"每天重复"</item>
+    <item msgid="6300824484048337842">"每周重复"</item>
+    <item msgid="189361731610816256">"每月重复"</item>
+    <item msgid="8714177874112569158">"每年重复"</item>
+  </string-array>
+    <string-array name="reminder_methods_labels">
+    <item msgid="5172236776878811487">"通知"</item>
+    <item msgid="1751151680520784746">"电子邮件"</item>
+    <item msgid="2658001219380695677">"短信"</item>
+    <item msgid="7926918288165444873">"闹钟"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_fri">
+    <item msgid="6534500380525126157">"第一个星期五"</item>
+    <item msgid="1935608297230506940">"第二个星期五"</item>
+    <item msgid="4061877662049317599">"第三个星期五"</item>
+    <item msgid="6856646749131820614">"第四个星期五"</item>
+    <item msgid="6533513913914859794">"最后一个星期五"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_mon">
+    <item msgid="7539974918997689048">"第一个星期一"</item>
+    <item msgid="4484275849072423978">"第二个星期一"</item>
+    <item msgid="8956169860824371383">"第三个星期一"</item>
+    <item msgid="6924403357659569326">"第四个星期一"</item>
+    <item msgid="1379608815263472161">"最后一个星期一"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sat">
+    <item msgid="3556369572649948699">"第一个星期六"</item>
+    <item msgid="9130198690512925355">"第二个星期六"</item>
+    <item msgid="4525736070844032405">"第三个星期六"</item>
+    <item msgid="422053689531707709">"第四个星期六"</item>
+    <item msgid="5499975799312474425">"最后一个星期六"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sun">
+    <item msgid="143841313172233420">"第一个星期日"</item>
+    <item msgid="2557379346106451363">"第二个星期日"</item>
+    <item msgid="7622144489915654132">"第三个星期日"</item>
+    <item msgid="527152448137686021">"第四个星期日"</item>
+    <item msgid="5057483608824759350">"最后一个星期日"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_thurs">
+    <item msgid="920673677566009313">"第一个星期四"</item>
+    <item msgid="4857419136007543270">"第二个星期四"</item>
+    <item msgid="222044587450564839">"第三个星期四"</item>
+    <item msgid="6197927556533030945">"第四个星期四"</item>
+    <item msgid="1023326923033436905">"最后一个星期四"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_tues">
+    <item msgid="8690802834039790777">"第一个星期二"</item>
+    <item msgid="9063613547307760928">"第二个星期二"</item>
+    <item msgid="6688603328729208168">"第三个星期二"</item>
+    <item msgid="6695206006961533357">"第四个星期二"</item>
+    <item msgid="8619069174889809914">"最后一个星期二"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_wed">
+    <item msgid="3233850232075584386">"第一个星期三"</item>
+    <item msgid="5059722045367799217">"第二个星期三"</item>
+    <item msgid="7986246648229272275">"第三个星期三"</item>
+    <item msgid="9068566169348980801">"第四个星期三"</item>
+    <item msgid="7976866743069062134">"最后一个星期三"</item>
+  </string-array>
+    <string-array name="response_labels1">
+    <item msgid="5605392595848194997">"无响应"</item>
+    <item msgid="3724434080904437698">"是"</item>
+    <item msgid="8854145743148992583">"可能"</item>
+    <item msgid="6174292185978948873">"否"</item>
+  </string-array>
+    <string-array name="timezone_rename_labels">
+    <item msgid="4609638052107641231">"澳大利亚中部时间 - 北领地"</item>
+    <item msgid="4345275500159159867">"澳大利亚中部时间 - 南澳洲"</item>
+    <item msgid="6771274300523132094">"澳大利亚东部时间 - 昆士兰"</item>
+    <item msgid="4685547681424666687">"澳大利亚东部时间 - 新南威尔斯"</item>
+    <item msgid="5259393186526893961">"山地标准时间 - 道森克里克"</item>
+    <item msgid="5984634754870859705">"中部标准时间 - 萨斯喀彻温"</item>
+    <item msgid="5340374311583423836">"东部标准时间 - 阿蒂科肯"</item>
+    <item msgid="8922086438245451625">"大西洋标准时间 - 魁北克"</item>
+    <item msgid="8353677384517034413">"夏威夷阿留申时间 - 夏威夷"</item>
+    <item msgid="6426791761018806420">"夏威夷阿留申时间 - 阿拉斯加"</item>
+    <item msgid="7076353182411415610">"太平洋标准时间 - 梅特拉卡特拉"</item>
+    <item msgid="373990592918179890">"山地标准时间 - 亚利桑那州"</item>
+    <item msgid="353899326999279114">"太平洋时间 - 下加利福尼亚"</item>
+    <item msgid="6432134534714673873">"山地时间 - 奇瓦瓦"</item>
+    <item msgid="7629345735485663968">"中部时间 - 塔毛利帕斯"</item>
+    <item msgid="3874729044260979505">"山地时间 - 索诺拉"</item>
+    <item msgid="1106209575683600471">"东非时间"</item>
+    <item msgid="6538017087072480128">"大西洋标准时间"</item>
+    <item msgid="6758957851822881177">"大西洋标准时间"</item>
+    <item msgid="2477556470536619081">"东欧时间"</item>
+    <item msgid="7328461310893621937">"加里宁格勒时间"</item>
+    <item msgid="4212642599758736931">"亚马逊 - 朗多尼亚"</item>
+    <item msgid="2370319280810537375">"巴西利亚 - 帕拉"</item>
+  </string-array>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+<ns1:g id="count">%d</ns1:g> 个事件</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> 天</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> 个事件</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> 小时</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> 分钟</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> 分钟</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> 周</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="other">每 <ns1:g id="number">%d</ns1:g> 天</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">; 重复 <ns1:g id="number">%d</ns1:g> 次</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+<ns1:g id="number">%d</ns1:g></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d 条新通知</item>
+    <item quantity="other">%d 条新通知</item>
+  </plurals>
+    <plurals name="recurrence_end_count">
+        <item msgid="1400782968090516215" quantity="one">"重复<ns1:g id="EVENT_COUNT">%d</ns1:g>次"</item>
+        <item msgid="8779598489398048259" quantity="other">"重复<ns1:g id="EVENT_COUNT">%d</ns1:g>次"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">每 <ns1:g id="count">%d</ns1:g> 天</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">每 <ns1:g id="count">%d</ns1:g> 月</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">每 <ns1:g id="count">%d</ns1:g> 周</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">每 <ns1:g id="count">%d</ns1:g> 年</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="other">第 <ns1:g id="count">%d</ns1:g> 周</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="other">每 <ns1:g id="number">%1$d</ns1:g> 周的 <ns1:g id="days_of_week">%2$s</ns1:g></item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"转到首页"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"完成"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"关闭"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"开启"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete 键"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter 键"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"空格键"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"搜索…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"分享对象"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"与<ns1:g id="APPLICATION_NAME">%s</ns1:g>分享"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"收起"</string>
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"没有任何建议"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"联系人推荐已打开"</string>
+    <string msgid="5654014177472600916" name="accessibility_add_attendee">"添加参加者"</string>
+    <string msgid="2267950744060950152" name="accessibility_add_reminder">"添加提醒"</string>
+    <string msgid="4146955438811915282" name="accessibility_all_day">"全天活动"</string>
+    <string msgid="5624250196618643922" name="accessibility_pick_end_date">"结束日期"</string>
+    <string msgid="7120310166355224941" name="accessibility_pick_end_time">"结束时间"</string>
+    <string msgid="1834311617874828931" name="accessibility_pick_recurrence">"重复活动"</string>
+    <string msgid="3926641487042699037" name="accessibility_pick_start_date">"开始日期"</string>
+    <string msgid="4913428100936555149" name="accessibility_pick_start_time">"开始时间"</string>
+    <string msgid="7155465783500323811" name="accessibility_pick_time_zone">"时区"</string>
+    <string msgid="8669288484484022771" name="accessibility_reminder_privacy">"隐私设置"</string>
+    <string msgid="6669129015980006570" name="accessibility_reminder_showmeas">将我的状态显示为</string>
+    <string msgid="3594100545814579575" name="accessibility_reminder_time">"提醒时间"</string>
+    <string msgid="5339120699701437227" name="accessibility_reminder_type">"提醒类型"</string>
+    <string msgid="7082751172654698863" name="accessibility_remove_attendee">"删除参加者"</string>
+    <string msgid="5261609343259665139" name="accessibility_remove_reminder">"删除提醒"</string>
+    <string msgid="5899029840837836711" name="acessibility_recurrence_choose_end_date_description">"更改结束日期"</string>
+    <string msgid="3010149843148810768" name="acessibility_selected_marker_description">"所选活动"</string>
+    <string msgid="7172664623795021857" name="action_label">"回车"</string>
+    <string name="add_calendar">添加日历</string>
+    <string name="after_start_of_event">在事件开始后</string>
+    <string msgid="5965841338467422191" name="agenda_today">"今天，<ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="3893625470780723605" name="agenda_tomorrow">"明天，<ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="5566084759423843245" name="agenda_view">"日程"</string>
+    <string msgid="4170964206728599693" name="agenda_yesterday">"昨天，<ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="7869592820853066853" name="alert_title">"日历通知"</string>
+    <string name="app_copyright">© 2015-<ns1:g>%1$s</ns1:g> The Etar Project. Portions © 2005-<ns1:g>%1$s</ns1:g> The Android Open Source Project.</string>
+    <string msgid="5452708708398908131" name="app_label">"日历"</string>
+    <string name="authors">作者</string>
+    <string name="bottomsheet_action_collapse">收起底部动作条</string>
+    <string name="bottomsheet_action_expand">展开底部动作条</string>
+    <string name="bottomsheet_action_expand_halfway">展开到一半高度</string>
+    <string name="bottomsheet_drag_handle_content_description">拖动手柄</string>
+    <string name="cal_export_event_sdcard_title">导出至SD卡</string>
+    <string name="cal_export_succ_msg">成功导出事件: %1$s</string>
+    <string name="cal_import_error_date_msg">无法理解给定日期:%s</string>
+    <string name="cal_import_error_msg">导入日历失败</string>
+    <string name="cal_import_error_time_zone_msg">无法理解给定时区： %s</string>
+    <string name="cal_import_menu_title">导入事件</string>
+    <string name="cal_nothing_to_import">无可导入事件</string>
+    <string name="cal_pick_ics">选择导入文件</string>
+    <string name="cal_share_intent_title">发送事件到：</string>
+    <string msgid="3595509200561433667" name="calendar_color_picker_dialog_title">"日历颜色"</string>
+    <string name="calendar_permission_not_granted">需要授予被拒绝的权限，在系统设置中允许这些权限以编辑事件</string>
+    <string msgid="6172731193680500025" name="calendar_refresh">"刷新"</string>
+    <string msgid="7430468363525563483" name="calendar_square_color_picker_description">"颜色选择器"</string>
+    <string name="calendars">日历</string>
+    <string msgid="2960328220008869083" name="call_label">"电话"</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"接听"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"视频通话"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"拒接"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"挂断"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"来电"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"正在通话"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"正在过滤来电"</string>
+    <string name="cancel">取消</string>
+    <string msgid="7704714776070974984" name="change_response_title">"更改答复"</string>
+    <string name="changelog">更新日志</string>
+    <string name="character_counter_content_description">输入了 %1$d 个字符（上限为 %2$d 个）</string>
+    <string name="character_counter_overflowed_content_description">超出字符数限制（共 %1$d 个，上限为 %2$d 个）</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"取消"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"复制"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"允许推荐联系人"</string>
+    <string msgid="2192923501857428854" name="choose_event_color_label">"选择活动颜色"</string>
+    <string name="clear_text_end_icon_content_description">清除文字</string>
+    <string name="color_theme_bubblegum">泡泡粉</string>
+    <string name="color_theme_coral">珊瑚橙</string>
+    <string name="color_theme_grape">葡萄紫</string>
+    <string name="color_theme_mango">芒果橙</string>
+    <string name="color_theme_mint">薄荷绿</string>
+    <string name="color_theme_sky">天空蓝</string>
+    <string msgid="6083905920877235314" name="copy">"复制"</string>
+    <string msgid="437691290566699292" name="copy_db">"发送数据库"</string>
+    <string msgid="1084563757174121331" name="copy_email">"复制电子邮件地址"</string>
+    <string msgid="8860802152973030914" name="copy_number">"复制电话号码"</string>
+    <string name="countdown_days_passed">已过 %1$d 天</string>
+    <string name="countdown_days_remaining">还有 %1$d 天</string>
+    <string name="countdown_today">就是今天</string>
+    <string msgid="1080859798521717414" name="create_event_dialog_save">"保存"</string>
+    <string msgid="7516249252554059980" name="creating_event">"活动已创建。"</string>
+    <string msgid="5758688413124191931" name="creating_event_with_guest">"即将发送邀请。"</string>
+    <string msgid="4137468716966004993" name="custom" product="default">"自定义（无法在手机上自定义）"</string>
+    <string msgid="1642972650061946484" name="date_time_fmt"><ns1:g id="date">%1$s</ns1:g>, <ns1:g id="time_interval">%2$s</ns1:g></string>
+    <string msgid="4467754504843584437" name="day_view">"天"</string>
+    <string msgid="2131483437911536229" name="day_view_new_event_hint">"+ 新建活动"</string>
+    <string name="default_start_last">先前使用视图</string>
+    <string name="default_start_title">默认视图</string>
+    <string msgid="874742811918030739" name="delete_label">"删除"</string>
+    <string msgid="5609046778422180206" name="delete_recurring_event_title">"要删除<ns1:g id="EVENTTITLE">%s</ns1:g>吗？"</string>
+    <string msgid="518402946676919384" name="delete_this_event_title">"要删除此活动吗？"</string>
+    <string msgid="1232037509095606687" name="directory_searching_fmt">"正在搜索 <ns1:g id="DOMAIN">%s</ns1:g>…"</string>
+    <string name="discard">放弃</string>
+    <string name="discard_event_changes">你要放弃更改吗？</string>
+    <string msgid="2394623883289782541" name="discard_label">"取消"</string>
+    <string msgid="1834400025868091301" name="dismiss_all_label">"全部关闭"</string>
+    <string name="display_location">显示位置</string>
+    <string name="display_options">查看细节</string>
+    <string name="display_time">显示时间</string>
+    <string msgid="1877681921029738999" name="does_not_repeat">"一次性活动"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"从收件人列表中移除<ns1:g id="CONTACT">%s</ns1:g>"</string>
+    <string name="duplicate_label">复制</string>
+    <string msgid="6200181113992136073" name="edit_event_all_day_label">"全天"</string>
+    <string msgid="4556498359505856900" name="edit_event_calendar_label">"日历"</string>
+    <string msgid="7413222956349977161" name="edit_event_label">"详细信息"</string>
+    <string msgid="8934331258435656534" name="edit_label">"编辑"</string>
+    <string msgid="8772030932155305903" name="email_guests_label">"向参加者发邮件"</string>
+    <string msgid="7178059542798074813" name="email_organizer_label">"给组织者发送电子邮件"</string>
+    <string msgid="4808253965057791781" name="email_picker_label">"发送邮件时使用"</string>
+    <string msgid="9018699257414338634" name="empty_event">"无法创建空白活动。"</string>
+    <string msgid="7654221304929538201" name="endByDate">"；直到<ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="error_a11y_label">错误：无效</string>
+    <string name="error_generating_ics">分享事件时遇到问题</string>
+    <string name="error_icon_content_description">错误</string>
+    <string msgid="4631938661655159511" name="event_color_picker_dialog_title">"活动颜色"</string>
+    <string msgid="3447218820785647967" name="event_color_set_to_default">"设为默认日历颜色"</string>
+    <string msgid="6941040556709110617" name="event_create">"新建活动"</string>
+    <string msgid="2386667193277770442" name="event_delete">"删除活动"</string>
+    <string msgid="4006961928830064662" name="event_edit">"编辑活动"</string>
+    <string msgid="9138683335394832629" name="event_info_organizer">"组织者："</string>
+    <string msgid="8913097552956388972" name="event_info_reminders_label">"提醒"</string>
+    <string msgid="56024222340421620" name="event_info_title">"查看活动"</string>
+    <string msgid="9160326363769403865" name="event_info_title_invite">"会议邀请"</string>
+    <string msgid="8356864185947582727" name="event_not_found">"找不到活动。"</string>
+    <string msgid="7621353079385122317" name="event_view">"查看活动"</string>
+    <string msgid="5896574838353902978" name="every_weekday">"每个工作日（周一至周五）"</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"高级"</string>
+    <string name="exposed_dropdown_menu_content_description">显示下拉菜单</string>
+    <string name="fifteen_minutes">15 分钟</string>
+    <string name="five_days">5天</string>
+    <string name="foreground_notification_channel_description">内部同步需要通知。你可以安全地隐藏这个通道。</string>
+    <string name="foreground_notification_channel_name">后台任务</string>
+    <string name="foreground_notification_title">安排新提醒中…</string>
+    <string name="four_days">4天</string>
+    <string msgid="5209110911088302855" name="gadget_no_events">"最近没有任何日历活动"</string>
+    <string name="goto_date">跳转到…</string>
+    <string msgid="9162136434410891230" name="goto_today">"今天"</string>
+    <string msgid="830320505938520882" name="hide_controls">"隐藏控件"</string>
+    <string msgid="1650488163176888480" name="hint_attendees">"邀请对象"</string>
+    <string msgid="1910143586169033232" name="hint_description">"说明"</string>
+    <string msgid="804776560897143016" name="hint_time_zone_search">"输入国家/地区名称"</string>
+    <string name="hint_url">URL</string>
+    <string msgid="709155115005044531" name="hint_what">"活动名称"</string>
+    <string msgid="4972598001033801974" name="hint_where">"地点"</string>
+    <string name="icon_content_description">对话框图标</string>
+    <string name="item_view_role_description">标签页</string>
+    <string name="license">许可证</string>
+    <string msgid="3772533493214331230" name="loading">正在加载…</string>
+    <string name="m3_loading_indicator_content_description">正在加载</string>
+    <string msgid="8795383535586556038" name="map_label">"地图"</string>
+    <string name="material_clock_toggle_content_description">选择上午或下午</string>
+    <string name="material_hour_24h_suffix">%1$s 小时</string>
+    <string name="material_hour_selection">选择小时</string>
+    <string name="material_hour_suffix">%1$s 点</string>
+    <string name="material_minute_selection">选择分钟</string>
+    <string name="material_minute_suffix">%1$s 分</string>
+    <string name="material_slider_range_end">范围终点</string>
+    <string name="material_slider_range_start">范围起点</string>
+    <string name="material_slider_value">值</string>
+    <string name="material_timepicker_am">上午</string>
+    <string name="material_timepicker_clock_mode_description">切换到时钟模式来输入时间。</string>
+    <string name="material_timepicker_hour">小时</string>
+    <string name="material_timepicker_minute">分钟</string>
+    <string name="material_timepicker_pm">下午</string>
+    <string name="material_timepicker_select_time">选择时间</string>
+    <string name="material_timepicker_text_input_mode_description">切换到文字输入模式来输入时间。</string>
+    <string name="maximum_number_of_lines">事件最大行数</string>
+    <string name="menu_info">信息</string>
+    <string msgid="9120238479503233925" name="menu_preferences">"设置"</string>
+    <string msgid="4421657265864209041" name="modify_all">"更改所有重复的活动"</string>
+    <string msgid="3017428541066390380" name="modify_all_following">"更改此活动和所有将来的活动"</string>
+    <string msgid="5982876409997142690" name="modify_event">"仅更改此活动"</string>
+    <string msgid="7287101431749285412" name="month_view">"月"</string>
+    <string msgid="4587116285383048586" name="monthly">"每月"</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g>"</string>
+    <string name="mtrl_badge_numberless_content_description">新通知</string>
+    <string name="mtrl_checkbox_state_description_checked">已选中</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">部分选中</string>
+    <string name="mtrl_checkbox_state_description_unchecked">未选中</string>
+    <string name="mtrl_chip_close_icon_content_description">移除%1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">有 %1$d 条以上的新通知</string>
+    <string name="mtrl_picker_a11y_next_month">转到下个月</string>
+    <string name="mtrl_picker_a11y_prev_month">转到上个月</string>
+    <string name="mtrl_picker_announce_current_range_selection">开始日期选择：%1$s – 结束日期选择：%2$s</string>
+    <string name="mtrl_picker_announce_current_selection">当前的选择是：%1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">无</string>
+    <string name="mtrl_picker_cancel">取消</string>
+    <string name="mtrl_picker_confirm">确定</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">请选择日期</string>
+    <string name="mtrl_picker_date_header_unselected">选定的日期</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">结束日期 %1$s</string>
+    <string name="mtrl_picker_invalid_format">格式无效。</string>
+    <string name="mtrl_picker_invalid_format_example">示例：%1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用：%1$s</string>
+    <string name="mtrl_picker_invalid_range">范围无效。</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">转到今年%1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">转到 %1$d 年</string>
+    <string name="mtrl_picker_out_of_range">不在允许的范围内：%1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">开始日期 – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – 结束日期</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">请选择范围</string>
+    <string name="mtrl_picker_range_header_unselected">开始日期 - 结束日期</string>
+    <string name="mtrl_picker_save">保存</string>
+    <string name="mtrl_picker_start_date_description">开始日期 %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">日期</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">结束日期</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">开始日期</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">今天%1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">切换到日历输入模式</string>
+    <string name="mtrl_picker_toggle_to_day_selection">切换到日历视图</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">切换到文本字段输入模式</string>
+    <string name="mtrl_picker_toggle_to_year_selection">切换到年份视图</string>
+    <string name="mtrl_picker_toggled_to_day_selection">已切换到日历视图</string>
+    <string name="mtrl_picker_toggled_to_year_selection">已切换到年份视图</string>
+    <string name="mtrl_timepicker_cancel">取消</string>
+    <string name="mtrl_timepicker_confirm">确定</string>
+    <string msgid="7553105224561147916" name="new_event_dialog_label">"新建活动"</string>
+    <string msgid="6154657379574669371" name="new_event_dialog_option">"新建活动"</string>
+    <string name="no_calendars_found">你必须添加至少一个日历到设备才能添加活动</string>
+    <string name="no_map">手机里没有找到地图</string>
+    <string name="no_reminder_label">无</string>
+    <string msgid="5475293015394772651" name="no_results_found">"找不到任何结果"</string>
+    <string name="no_snooze_label">无</string>
+    <string msgid="7019488867045436129" name="no_syncable_calendars">"无日历"</string>
+    <string msgid="302177118061368042" name="no_title_label">"（无标题）"</string>
+    <string msgid="6573031135582639649" name="not_set">"未设置"</string>
+    <string name="offline_account_name">离线日历</string>
+    <string name="one_and_a_half_hours">1.5 小时</string>
+    <string name="one_hour">1 小时</string>
+    <string msgid="3485026339977302148" name="palestine_display_name">"巴勒斯坦"</string>
+    <string name="password_toggle_content_description">显示密码</string>
+    <string msgid="6685851473431805375" name="preference_copied">"已将“<ns1:g id="SUMMARY">%1$s</ns1:g>”复制到剪贴板。"</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">总是使用默认的暂停提醒时长</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">每次进行暂停操作时均询问暂停时长</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">询问暂停提醒时长</string>
+    <string msgid="6643468203670475296" name="preferences_alerts_popup_title">"弹出式通知"</string>
+    <string msgid="1849706055052358346" name="preferences_alerts_ringtone_title">"提示音"</string>
+    <string msgid="6636088008103904020" name="preferences_alerts_title">"通知"</string>
+    <string msgid="8731372580674292759" name="preferences_alerts_vibrateWhen_title">"振动"</string>
+    <string name="preferences_black_theme">黑</string>
+    <string msgid="8242471883413502068" name="preferences_build_version">"版本号"</string>
+    <string name="preferences_calendar_account">%1$s 账户</string>
+    <string name="preferences_calendar_account_local">离线日历</string>
+    <string name="preferences_calendar_color">颜色</string>
+    <string name="preferences_calendar_color_warning_button">我理解</string>
+    <string name="preferences_calendar_color_warning_message">再次同步日历时，可能会还原更改颜色。
+\n
+\n可以在 DAVx⁵ 中禁用\"管理日历颜色\"以防止这种情况。</string>
+    <string name="preferences_calendar_color_warning_title">警告</string>
+    <string name="preferences_calendar_configure_account">配置 %1$s的日历</string>
+    <string name="preferences_calendar_delete">删除日历</string>
+    <string name="preferences_calendar_delete_cancel">取消</string>
+    <string name="preferences_calendar_delete_delete">删除日历</string>
+    <string name="preferences_calendar_delete_message">您确实要删除此日历吗？</string>
+    <string name="preferences_calendar_display_name">更改名称</string>
+    <string name="preferences_calendar_info_category">日历信息</string>
+    <string name="preferences_calendar_no_display_name">未命名日历</string>
+    <string name="preferences_calendar_number_of_events">%1$d 事件</string>
+    <string name="preferences_calendar_synchronize">同步此日历</string>
+    <string name="preferences_calendar_visible">显示事件</string>
+    <string msgid="7864674093455778158" name="preferences_clear_search_history_summary">"删除您之前进行的所有搜索的记录"</string>
+    <string msgid="6619916370215282982" name="preferences_clear_search_history_title">"清除搜索记录"</string>
+    <string name="preferences_color">原色</string>
+    <string name="preferences_color_pick">基础色</string>
+    <string name="preferences_color_theme">主题配色</string>
+    <string name="preferences_dark_theme">暗</string>
+    <string name="preferences_days_per_week_dialog">每周天数</string>
+    <string name="preferences_days_per_week_title">每周天数</string>
+    <string name="preferences_default_event_duration_title">默认事件持续时间</string>
+    <string msgid="2903884416749959435" name="preferences_default_reminder_default">"10"</string>
+    <string msgid="2490348857239323412" name="preferences_default_reminder_dialog">"默认提醒时间"</string>
+    <string msgid="5188861433342733905" name="preferences_default_reminder_title">"默认提醒时间"</string>
+    <string name="preferences_default_snooze_delay_dialog">暂停提醒时长默认值</string>
+    <string name="preferences_default_snooze_delay_title">默认暂停提醒时长</string>
+    <string name="preferences_do_not_check_battery_optimization">不检查电池优化</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">风险自负！通知将不再工作，小部件将不再更新，后台服务将崩溃。不过如果你想启用后台服务，程序将不再进行询问。</string>
+    <string msgid="8111213192001230350" name="preferences_experimental_category">"实验性"</string>
+    <string msgid="2069075513760573117" name="preferences_general_title">"日历视图设置"</string>
+    <string msgid="1849295943669890034" name="preferences_hide_declined_title">"隐藏您不参加的活动"</string>
+    <string msgid="6680000444088818578" name="preferences_home_tz_title">"家里时区"</string>
+    <string name="preferences_issues">报告问题</string>
+    <string name="preferences_light_theme">亮</string>
+    <string name="preferences_list_add_offline">添加离线日历</string>
+    <string name="preferences_list_add_offline_button">添加日历</string>
+    <string name="preferences_list_add_offline_cancel">取消</string>
+    <string name="preferences_list_add_offline_error_empty">输入日历名称！</string>
+    <string name="preferences_list_add_offline_message">离线日历不会同步到云服务，只能在手机上使用。</string>
+    <string name="preferences_list_add_offline_name">名称</string>
+    <string name="preferences_list_add_offline_title">添加离线日历</string>
+    <string name="preferences_list_add_remote">添加 CalDAV日历</string>
+    <string name="preferences_list_add_remote_etesync">添加 EteSync 日历</string>
+    <string name="preferences_list_calendar_summary_invisible">事件未显示</string>
+    <string name="preferences_list_calendar_summary_sync_off">未同步</string>
+    <string name="preferences_list_general">通用设置</string>
+    <string name="preferences_manage_notifications">管理通知</string>
+    <string name="preferences_menu_about">关于 Etar</string>
+    <string name="preferences_month_view_landscape">月视图布局(横向)</string>
+    <string name="preferences_month_view_portrait">月视图布局(纵向)</string>
+    <string name="preferences_pure_black_night_mode">纯黑夜间模式</string>
+    <string name="preferences_real_event_colors">使用真实事件颜色</string>
+    <string msgid="5199606534191180129" name="preferences_reminder_title">"通知和提醒"</string>
+    <string msgid="1873289128793828352" name="preferences_reminders_responded_dialog">"免去提醒"</string>
+    <string msgid="1196570678238475838" name="preferences_reminders_responded_label">"免去提醒"</string>
+    <string name="preferences_show_lunar_summary">在阳历基础上同时显示农历（阴历）</string>
+    <string name="preferences_show_lunar_title">显示农历</string>
+    <string msgid="5280734329664503461" name="preferences_show_week_num_title">"显示周数"</string>
+    <string name="preferences_system_theme">系统默认</string>
+    <string name="preferences_theme">主题</string>
+    <string msgid="8045855493262131773" name="preferences_title">"设置"</string>
+    <string msgid="4835375381297413746" name="preferences_use_home_tz_descrip">"旅行时按家里的时区显示日历和活动时间"</string>
+    <string msgid="5597546849968598210" name="preferences_use_home_tz_title">"采用家里的时区"</string>
+    <string msgid="5181634128884089113" name="preferences_week_start_day_dialog">"一周起始日"</string>
+    <string msgid="4619489296444901622" name="preferences_week_start_day_title">"一周起始日"</string>
+    <string msgid="6169724148441175862" name="presence_label">"将我的状态显示为"</string>
+    <string msgid="9215031965259597335" name="privacy_label">"活动性质"</string>
+    <string msgid="8792374208224108798" name="quick_response_custom_msg">"自行撰写回复…"</string>
+    <string msgid="2681309456412199207" name="quick_response_dialog_title">"选择快速回复"</string>
+    <string msgid="5544066405231853245" name="quick_response_email_failed">"找不到电子邮件应用"</string>
+    <string msgid="6776151690686068278" name="quick_response_settings">"快速回复"</string>
+    <string msgid="6260055523174081930" name="quick_response_settings_edit_title">"快速回复"</string>
+    <string msgid="7878304729027355604" name="quick_response_settings_summary">"修改向活动参加者发邮件时所用的默认回复"</string>
+    <string msgid="6898950241634912991" name="recurrence_end_continously">"无限重复"</string>
+    <string msgid="1233883668293087977" name="recurrence_end_count_label">"限定次数"</string>
+    <string msgid="3693751578164711701" name="recurrence_end_date">"截至<ns1:g id="DATE">%s</ns1:g>"</string>
+    <string msgid="4142791438636994952" name="recurrence_end_date_label">"截至某个日期"</string>
+    <string msgid="4400107556121003459" name="recurrence_month_pattern_by_day">"在每个月的同一天"</string>
+    <string msgid="7292389181815525676" name="reminders_label">"添加提醒"</string>
+    <string msgid="7791500973627841695" name="response_maybe">"待定"</string>
+    <string msgid="561911691884148136" name="response_no">"不参加"</string>
+    <string msgid="2027484304899988350" name="response_yes">"参加"</string>
+    <string name="rsvp_accepted">回复是。</string>
+    <string name="rsvp_declined">回复不。</string>
+    <string name="rsvp_tentative">回复或许。</string>
+    <string msgid="2133599104834432589" name="save_label">"完成"</string>
+    <string msgid="7694181017411177226" name="saving_event">"活动已保存。"</string>
+    <string msgid="9184584438475689577" name="saving_event_with_guest">"即将发送更新。"</string>
+    <string msgid="550656004486017426" name="search">"搜索"</string>
+    <string msgid="1536707558435227567" name="search_history_cleared">"搜索记录已清除。"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"搜索"</string>
+    <string msgid="8898015280250716254" name="search_title">"搜索我的日历"</string>
+    <string name="searchview_clear_text_content_description">清除文字</string>
+    <string msgid="1603860069305867810" name="searchview_description_clear">"清除查询"</string>
+    <string name="searchview_navigation_content_description">返回</string>
+    <string msgid="8890542984949996251" name="select_synced_calendars_button">"同步的日历"</string>
+    <string name="seven_days">7天</string>
+    <string name="share_label">分享</string>
+    <string msgid="715520586028062621" name="show_controls">"显示控件"</string>
+    <string msgid="5782512782605466016" name="show_day_view">"显示日期"</string>
+    <string msgid="2604638815440163080" name="show_newer_events">"触摸可查看<ns1:g id="NEWEST_SEARCH_RANGE">%1$s</ns1:g>之后的活动"</string>
+    <string msgid="5140647493681439926" name="show_older_events">"触摸可查看<ns1:g id="OLDEST_SEARCH_RANGE">%1$s</ns1:g>之前的活动"</string>
+    <string name="show_time_no">不要显示时间</string>
+    <string name="show_time_start">仅开始时间</string>
+    <string name="show_time_start_end">开始和结束时间</string>
+    <string name="show_time_start_end_below">在事件下方显示开始和结束时间</string>
+    <string name="side_sheet_accessibility_pane_title">侧边动作条</string>
+    <string name="six_days">6天</string>
+    <string name="smart_input_ai_failed">AI解析失败：</string>
+    <string name="smart_input_ai_filled">✅ AI已自动填写日程信息</string>
+    <string name="smart_input_ai_no_events">AI没有解析出日程</string>
+    <string name="smart_input_apply">应用</string>
+    <string name="smart_input_button">智能导入日程</string>
+    <string name="smart_input_cancel">取消</string>
+    <string name="smart_input_complete_title">补全日程信息</string>
+    <string name="smart_input_confirm">确定</string>
+    <string name="smart_input_connect_failed">连接后端失败：</string>
+    <string name="smart_input_field_description">描述，可选</string>
+    <string name="smart_input_field_location">地点</string>
+    <string name="smart_input_field_time">时间，例如 2026-05-19 09:30:00</string>
+    <string name="smart_input_field_title">事件名称</string>
+    <string name="smart_input_file_saved">文件已保存，正在提交给AI解析…</string>
+    <string name="smart_input_filled">✅ 已自动为您填写日程信息</string>
+    <string name="smart_input_input_failed">输入失败</string>
+    <string name="smart_input_need_content">请先输入文字、选择图片或录入音频</string>
+    <string name="smart_input_need_mic_permission">需要麦克风权限才能进行语音录入</string>
+    <string name="smart_input_no_json">解析结果中没有找到JSON</string>
+    <string name="smart_input_no_result">尚未收到解析结果，请稍等或确认后端已处理</string>
+    <string name="smart_input_option_audio">🎵 上传音频</string>
+    <string name="smart_input_option_image">🖼️ 上传图片</string>
+    <string name="smart_input_option_submit">🚀 提交给AI解析</string>
+    <string name="smart_input_option_text">📝 粘贴文字</string>
+    <string name="smart_input_option_voice">🎤 语音录入</string>
+    <string name="smart_input_parse_failed">解析响应失败：</string>
+    <string name="smart_input_paste_title">粘贴文字</string>
+    <string name="smart_input_people_prefix">参与人物：</string>
+    <string name="smart_input_pick_audio">选择音频</string>
+    <string name="smart_input_pick_image">选择图片</string>
+    <string name="smart_input_read_failed">读取或解析失败：</string>
+    <string name="smart_input_record_failed">录音失败，请检查麦克风权限或是否被占用</string>
+    <string name="smart_input_record_saved">录音已保存，正在提交给AI解析…</string>
+    <string name="smart_input_recording_message">请描述您的日程，录音将直接保存至应用安全目录。请尽量靠近麦克风并正常音量说话。</string>
+    <string name="smart_input_recording_title">🎤 正在录音…</string>
+    <string name="smart_input_result_format_error">解析结果格式异常</string>
+    <string name="smart_input_server_error">后端返回错误：</string>
+    <string name="smart_input_stop">⏹ 结束</string>
+    <string name="smart_input_submitting">正在提交给AI解析，请稍等…</string>
+    <string name="smart_input_text_hint">请在此粘贴或输入日程信息…</string>
+    <string name="smart_input_text_saved">文字已保存，正在提交给AI解析…</string>
+    <string name="smart_input_title">选择操作</string>
+    <string name="smart_input_upload_failed">上传失败</string>
+    <string name="snooze_delay_dialog_title">设定暂停提醒的重复时间</string>
+    <string msgid="1515893621063224666" name="snooze_label">"稍后再提醒"</string>
+    <string name="source_code">源代码</string>
+    <string name="special_day_anniversary">纪念日</string>
+    <string name="special_day_birthday">生日</string>
+    <string name="special_day_countdown">倒计时</string>
+    <string name="special_day_none">普通</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>、<ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="4067877800670753110" name="template_announce_item_index">"第 <ns1:g id="ITEM_INDEX">%1$s</ns1:g> 个活动，共 <ns1:g id="ITEM_COUNT">%2$s</ns1:g> 个。"</string>
+    <string name="thirty_minutes">30 分钟</string>
+    <string name="three_days">3天</string>
+    <string name="time_mode_all_day">全天</string>
+    <string name="time_mode_period">时间段</string>
+    <string name="time_mode_point">时间点</string>
+    <string msgid="8577375020252453006" name="today">"今天"</string>
+    <string msgid="1981279213130049736" name="today_at_time_fmt">"今天 <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string msgid="614434811813859237" name="tomorrow">"明天"</string>
+    <string msgid="1330779112841767432" name="tomorrow_at_time_fmt">"明天 <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string name="two_days">2天</string>
+    <string name="two_hours">2 小时</string>
+    <string name="user_rejected_calendar_write_permission">Etar 需要日历读取和写入权限才能正常工作。请重试。</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"已关闭"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"已开启"</string>
+    <string msgid="6126231656338241140" name="view_event_calendar_label">"日历："</string>
+    <string msgid="2753151795647402277" name="view_event_organizer_label">"组织者："</string>
+    <string msgid="8382281658458798329" name="view_event_response_label">"参加吗？"</string>
+    <string name="view_settings">查看设置</string>
+    <string name="visibility_confidential">秘密</string>
+    <string name="visibility_default">默认</string>
+    <string name="visibility_private">私人</string>
+    <string name="visibility_public">公开</string>
+    <string msgid="6775043022159508060" name="week_view">"周"</string>
+    <string msgid="894636567327261599" name="when_label">"时间"</string>
+    <string msgid="3652692085322162449" name="yearly_plain">"每年"</string>
+    <string name="zero_minutes">0 分钟</string>
+</resources>
