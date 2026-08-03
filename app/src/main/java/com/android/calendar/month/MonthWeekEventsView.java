@@ -124,6 +124,8 @@ public class MonthWeekEventsView extends SimpleWeekView {
     protected TextPaint mEventExtrasPaint;
     protected TextPaint mEventDeclinedExtrasPaint;
     protected Paint mWeekNumPaint;
+    // ShineFlow: paint for the cycle-day marker bar.
+    private Paint mPeriodPaint;
     protected Paint mDNAAllDayPaint;
     protected Paint mDNATimePaint;
     protected Paint mEventSquarePaint;
@@ -487,6 +489,22 @@ public class MonthWeekEventsView extends SimpleWeekView {
         return day * mWidth / mNumDays;
     }
 
+    // ShineFlow: cycle-day marker colours.
+    private static int periodMarkerColor(int status) {
+        switch (status) {
+            case com.android.calendar.cycle.PeriodRepository.STATUS_PERIOD:
+                return 0xFFFF4F9A;            // logged period
+            case com.android.calendar.cycle.PeriodRepository.STATUS_PREDICTED_PERIOD:
+                return 0xFFFFB0CE;            // predicted period (lighter)
+            case com.android.calendar.cycle.PeriodRepository.STATUS_OVULATION:
+                return 0xFF8E5BF0;            // ovulation
+            case com.android.calendar.cycle.PeriodRepository.STATUS_FERTILE:
+                return 0xFF0FBFA5;            // fertile window
+            default:
+                return 0x00000000;
+        }
+    }
+
     @Override
     protected void drawDaySeparators(Canvas canvas) {
         final int coordinatesPerLine = 4;
@@ -638,6 +656,27 @@ public class MonthWeekEventsView extends SimpleWeekView {
             canvas.drawText(mDayNumbers[i], x, y, mMonthNumPaint);
             if (isBold) {
                 mMonthNumPaint.setFakeBoldText(isBold = false);
+            }
+
+            // ShineFlow: cycle-day colour bar.
+            boolean periodEnabled =
+                    com.android.calendar.cycle.PeriodRepository.isEnabled(getContext());
+            if (periodEnabled) {
+                long epochDay = (long) mFirstJulianDay + (i - offset) - Utils.EPOCH_JULIAN_DAY;
+                int periodStatus =
+                        com.android.calendar.cycle.PeriodRepository.get(getContext())
+                                .statusFor(epochDay);
+                if (periodStatus != com.android.calendar.cycle.PeriodRepository.STATUS_NONE) {
+                    if (mPeriodPaint == null) {
+                        mPeriodPaint = new Paint();
+                        mPeriodPaint.setAntiAlias(true);
+                    }
+                    mPeriodPaint.setColor(periodMarkerColor(periodStatus));
+                    float left = computeDayLeftPosition(i - offset);
+                    float right = computeDayLeftPosition(i - offset + 1);
+                    float periodDensity = getContext().getResources().getDisplayMetrics().density;
+                    canvas.drawRect(left, 0, right, 4 * periodDensity, mPeriodPaint);
+                }
             }
 
             if (LunarUtils.showLunar(getContext())) {
