@@ -186,17 +186,6 @@
                 android:text="@string/time_mode_all_day" />
         </com.google.android.material.button.MaterialButtonToggleGroup>
 
-        <com.google.android.material.materialswitch.MaterialSwitch
-            android:id="@+id/time_pending_switch"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="48dp"
-            android:layout_marginEnd="24dp"
-            android:text="@string/transit_time_pending"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/time_mode_group" />
-
         <!-- Kept for existing all-day logic; driven by time_mode_group, never shown. -->
         <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/is_all_day"
@@ -221,7 +210,7 @@
             android:paddingHorizontal="12dp"
             android:textAlignment="textStart"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/time_pending_switch" />
+            app:layout_constraintTop_toBottomOf="@+id/time_mode_group" />
 
         <Button
             android:id="@+id/end_date"
