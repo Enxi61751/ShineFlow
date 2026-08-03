@@ -30,7 +30,6 @@ import android.app.Activity;
 import android.content.AsyncQueryHandler;
 import android.content.BroadcastReceiver;
 import android.content.ContentResolver;
-import android.content.ClipData;
 import android.content.ContentUris;
 import android.content.Context;
 import android.content.Intent;
@@ -41,7 +40,6 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.database.ContentObserver;
 import android.graphics.drawable.LayerDrawable;
-import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -58,12 +56,9 @@ import android.text.format.DateUtils;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.Gravity;
 import android.view.View;
 import android.view.accessibility.AccessibilityEvent;
 import android.widget.LinearLayout;
-import android.widget.ImageButton;
-import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.RelativeLayout.LayoutParams;
 import android.widget.TextView;
@@ -212,7 +207,6 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
     private AllInOneMaterialBinding binding;
     private DrawerLayout mDrawerLayout;
     private Toolbar mToolbar;
-    private ImageButton mTransitStationButton;
     private NavigationView mNavigationView;
     private CalendarToolbarHandler mCalendarToolbarHandler;
     // Action bar
@@ -521,58 +515,10 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
 
         mToolbar.setNavigationOnClickListener(v -> AllInOneActivity.this.openDrawer());
         mToolbar.setOnClickListener(v -> goToDate());
-        addTransitStationButton();
         mActionBar = getSupportActionBar();
         if (mActionBar == null) return;
         mActionBar.setDisplayHomeAsUpEnabled(true);
         mActionBar.setHomeButtonEnabled(true);
-    }
-
-    private void addTransitStationButton() {
-        if (mTransitStationButton != null) return;
-        mTransitStationButton = new ImageButton(this);
-        mTransitStationButton.setImageResource(R.drawable.ic_transit_station);
-        mTransitStationButton.setColorFilter(android.graphics.Color.BLACK);
-        mTransitStationButton.setContentDescription(getString(R.string.transit_station));
-        mTransitStationButton.setBackgroundResource(android.R.color.transparent);
-        int size = (int) (48 * getResources().getDisplayMetrics().density);
-        Toolbar.LayoutParams params = new Toolbar.LayoutParams(size, size, Gravity.END);
-        params.rightMargin = (int) (88 * getResources().getDisplayMetrics().density);
-        mToolbar.addView(mTransitStationButton, params);
-        mTransitStationButton.setOnClickListener(v -> showTransitStationPopup());
-    }
-
-    private void showTransitStationPopup() {
-        LinearLayout content = new LinearLayout(this);
-        content.setOrientation(LinearLayout.VERTICAL);
-        int padding = (int) (16 * getResources().getDisplayMetrics().density);
-        content.setPadding(padding, padding, padding, padding);
-        TextView title = new TextView(this);
-        title.setText(R.string.transit_station);
-        title.setTextSize(18);
-        content.addView(title);
-        for (TransitSchedule schedule : new TransitStationRepository(this).getAll()) {
-            TextView item = new TextView(this);
-            item.setPadding(0, padding, 0, padding);
-            item.setText(schedule.title + "\n" + getString(R.string.transit_time_pending));
-            item.setOnLongClickListener(view -> {
-                ClipData data = ClipData.newPlainText("transit_schedule", schedule.id);
-                view.startDragAndDrop(data, new View.DragShadowBuilder(view), null, 0);
-                return true;
-            });
-            content.addView(item);
-        }
-        if (content.getChildCount() == 1) {
-            TextView empty = new TextView(this);
-            empty.setText(R.string.transit_station_empty);
-            content.addView(empty);
-        }
-        PopupWindow popup = new PopupWindow(content,
-                (int) (300 * getResources().getDisplayMetrics().density),
-                android.view.ViewGroup.LayoutParams.WRAP_CONTENT, true);
-        popup.setBackgroundDrawable(new ColorDrawable(android.graphics.Color.WHITE));
-        popup.setOutsideTouchable(true);
-        popup.showAsDropDown(mToolbar, mToolbar.getWidth() - popup.getWidth(), 0);
     }
 
     public void openDrawer() {
