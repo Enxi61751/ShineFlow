@@ -135,6 +135,23 @@
             app:summary="@string/quick_response_settings_summary" />
     </PreferenceCategory>
     <PreferenceCategory
+        app:key="preferences_period_category"
+        app:title="@string/period_title">
+        <SwitchPreference
+            app:key="preferences_period_enabled"
+            app:defaultValue="false"
+            app:title="@string/period_enable_title"
+            app:summary="@string/period_enable_summary" />
+        <ListPreference
+            app:key="preferences_period_reminder_days"
+            app:defaultValue="2"
+            app:dependency="preferences_period_enabled"
+            app:title="@string/period_reminder_days_title"
+            app:summary="@string/period_reminder_days_summary"
+            app:entries="@array/period_reminder_days_labels"
+            app:entryValues="@array/period_reminder_days_values" />
+    </PreferenceCategory>
+    <PreferenceCategory
         app:key="preferences_experimental_category"
         app:title="@string/preferences_experimental_category">
         <Preference
