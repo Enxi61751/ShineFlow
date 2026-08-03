@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <string-array name="availability">
+    <item msgid="454869065893453189">"Upptagen"</item>
+    <item msgid="6228387173725732140">"Tillgänglig"</item>
+    <item msgid="2064426942462573474">"Preliminärt"</item>
+  </string-array>
+    <string-array name="backup_country_names">
+    <item msgid="9141777876082196578">"Sint-Maarten"</item>
+    <item msgid="5330962017221568054">"Karibiska Nederländerna"</item>
+    <item msgid="1465164631761814300">"Curaçao"</item>
+    <item msgid="8972081011408691260">"Sydsudan"</item>
+  </string-array>
+    <string-array name="buttons_list">
+    <item msgid="5917946202321434335">"Dag"</item>
+    <item msgid="6248480754959562740">"Vecka"</item>
+    <item msgid="4298472806133153766">"Månad"</item>
+    <item msgid="5033084974413793845">"Program"</item>
+  </string-array>
+    <string-array name="change_response_labels">
+    <item msgid="3466644709343519437">"Bara den här händelsen"</item>
+    <item msgid="140670561403965380">"Alla händelser i serien"</item>
+  </string-array>
+    <string-array name="delete_repeating_labels">
+    <item msgid="4208432367651646938">"Bara den här händelsen"</item>
+    <item msgid="1536401639805370405">"Den här och framtida händelser"</item>
+    <item msgid="7833229563617435430">"Alla händelser"</item>
+  </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+    <item msgid="2285927842308686988">"Endast vid minskade"</item>
+    <item msgid="6367412240524984286">"Om minskat eller inte svarat"</item>
+  </string-array>
+    <string-array name="preferences_week_start_day_labels">
+    <item msgid="986150274035512339">"Standardinställning för språkkod"</item>
+    <item msgid="134027225275475280">"lördag"</item>
+    <item msgid="95029346069903091">"söndag"</item>
+    <item msgid="5840983116375063739">"måndag"</item>
+  </string-array>
+    <string-array name="quick_response_defaults">
+        <item msgid="1524421198348168403">"Är några minuter sen."</item>
+        <item msgid="6215158751728689832">"Kommer om runt tio minuter."</item>
+        <item msgid="4485794001743679338">"Börja gärna, vänta inte på mig."</item>
+        <item msgid="8036557974294987511">"Jag kan tyvärr inte komma. Vi får välja en ny tid."</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+    <item msgid="3388478383574917007">"UPPREPA VARJE DAG"</item>
+    <item msgid="6300824484048337842">"UPPREPA VARJE VECKA"</item>
+    <item msgid="189361731610816256">"UPPREPA VARJE MÅNAD"</item>
+    <item msgid="8714177874112569158">"UPPREPA VARJE ÅR"</item>
+  </string-array>
+    <string-array name="reminder_methods_labels">
+    <item msgid="5172236776878811487">"Meddelande"</item>
+    <item msgid="1751151680520784746">"E-post"</item>
+    <item msgid="2658001219380695677">"SMS"</item>
+    <item msgid="7926918288165444873">"Larm"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_fri">
+    <item msgid="6534500380525126157">"den första fredagen i månaden"</item>
+    <item msgid="1935608297230506940">"den andra fredagen i månaden"</item>
+    <item msgid="4061877662049317599">"den tredje fredagen i månaden"</item>
+    <item msgid="6856646749131820614">"den fjärde fredagen i månaden"</item>
+    <item msgid="6533513913914859794">"den sista fredagen i månaden"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_mon">
+    <item msgid="7539974918997689048">"den första måndagen i månaden"</item>
+    <item msgid="4484275849072423978">"den andra måndagen i månaden"</item>
+    <item msgid="8956169860824371383">"den tredje måndagen i månaden"</item>
+    <item msgid="6924403357659569326">"den fjärde måndagen i månaden"</item>
+    <item msgid="1379608815263472161">"den sista måndagen i månaden"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sat">
+    <item msgid="3556369572649948699">"den första lördagen i månaden"</item>
+    <item msgid="9130198690512925355">"den andra lördagen i månaden"</item>
+    <item msgid="4525736070844032405">"den tredje lördagen i månaden"</item>
+    <item msgid="422053689531707709">"den fjärde lördagen i månaden"</item>
+    <item msgid="5499975799312474425">"den sista lördagen i månaden"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sun">
+    <item msgid="143841313172233420">"den första söndagen i månaden"</item>
+    <item msgid="2557379346106451363">"den andra söndagen i månaden"</item>
+    <item msgid="7622144489915654132">"den tredje söndagen i månaden"</item>
+    <item msgid="527152448137686021">"den fjärde söndagen i månaden"</item>
+    <item msgid="5057483608824759350">"den sista söndagen i månaden"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_thurs">
+    <item msgid="920673677566009313">"den första torsdagen i månaden"</item>
+    <item msgid="4857419136007543270">"den andra torsdagen i månaden"</item>
+    <item msgid="222044587450564839">"den tredje torsdagen i månaden"</item>
+    <item msgid="6197927556533030945">"den fjärde torsdagen i månaden"</item>
+    <item msgid="1023326923033436905">"den sista torsdagen i månaden"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_tues">
+    <item msgid="8690802834039790777">"den första tisdagen i månaden"</item>
+    <item msgid="9063613547307760928">"den andra tisdagen i månaden"</item>
+    <item msgid="6688603328729208168">"den tredje tisdagen i månaden"</item>
+    <item msgid="6695206006961533357">"den fjärde tisdagen i månaden"</item>
+    <item msgid="8619069174889809914">"den sista tisdagen i månaden"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_wed">
+    <item msgid="3233850232075584386">"den första onsdagen i månaden"</item>
+    <item msgid="5059722045367799217">"den andra onsdagen i månaden"</item>
+    <item msgid="7986246648229272275">"den tredje onsdagen i månaden"</item>
+    <item msgid="9068566169348980801">"den fjärde onsdagen i månaden"</item>
+    <item msgid="7976866743069062134">"den sista onsdagen i månaden"</item>
+  </string-array>
+    <string-array name="response_labels1">
+    <item msgid="5605392595848194997">"Inget svar"</item>
+    <item msgid="3724434080904437698">"Ja"</item>
+    <item msgid="8854145743148992583">"Kanske"</item>
+    <item msgid="6174292185978948873">"Nej"</item>
+  </string-array>
+    <string-array name="timezone_rename_labels">
+    <item msgid="4609638052107641231">"Australian Central – NT"</item>
+    <item msgid="4345275500159159867">"Australian Central – SA"</item>
+    <item msgid="6771274300523132094">"Australian Eastern – QLD"</item>
+    <item msgid="4685547681424666687">"Australian Eastern – NSW"</item>
+    <item msgid="5259393186526893961">"Mountain Standard – Dawson Creek"</item>
+    <item msgid="5984634754870859705">"Central Standard – Saskatchewan"</item>
+    <item msgid="5340374311583423836">"Eastern Standard – Atikokan"</item>
+    <item msgid="8922086438245451625">"Atlantic Standard – Quebec"</item>
+    <item msgid="8353677384517034413">"Hawaii-Aleutian – Hawaii"</item>
+    <item msgid="6426791761018806420">"Hawaii-Aleutian – Alaska"</item>
+    <item msgid="7076353182411415610">"Pacific Standard – Metlakatla"</item>
+    <item msgid="373990592918179890">"Mountain Standard – Arizona"</item>
+    <item msgid="353899326999279114">"Pacific – Baja California"</item>
+    <item msgid="6432134534714673873">"Mountain – Chihuahua"</item>
+    <item msgid="7629345735485663968">"Central – Tamaulipas"</item>
+    <item msgid="3874729044260979505">"Mountain – Sonora"</item>
+    <item msgid="1106209575683600471">"East Africa Time"</item>
+    <item msgid="6538017087072480128">"Atlantic Standard Time"</item>
+    <item msgid="6758957851822881177">"Atlantic Standard Time"</item>
+    <item msgid="2477556470536619081">"Eastern European Time"</item>
+    <item msgid="7328461310893621937">"Kaliningrad"</item>
+    <item msgid="4212642599758736931">"Amazon – Rondônia"</item>
+    <item msgid="2370319280810537375">"Brasilia – Pará"</item>
+  </string-array>
+    <plurals name="N_remaining_events">
+        <item quantity="one">+1 händelse</item>
+        <item quantity="other">+<ns1:g id="count">%d</ns1:g> händelser</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item msgid="5988137255732166573" quantity="one">"1 dag"</item>
+        <item msgid="1709378992389618261" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> dagar"</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item msgid="5230907142214104485" quantity="one">"1 händelse"</item>
+        <item msgid="6093072093209431078" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> händelser"</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item msgid="4793697728599296830" quantity="one">"1 timme"</item>
+        <item msgid="4477841052001760620" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> timmar"</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item msgid="9191090668359663663" quantity="one">"1 min"</item>
+        <item msgid="9175648445939148974" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> minuter"</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="one">1 minut</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> minuter</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 vecka</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> veckor</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">Varje dag</item>
+        <item quantity="other">Var <ns1:g id="number">%d</ns1:g> dag</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item msgid="3727754565990691816" quantity="one">", en gång"</item>
+        <item msgid="4855496837834652446" quantity="other">", <ns1:g id="NUMBER">%d</ns1:g> gånger"</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item msgid="8971334808414201327" quantity="one">"+ 1"</item>
+        <item msgid="1997405398178470838" quantity="other">"+ <ns1:g id="NUMBER">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d ny avisering</item>
+    <item quantity="other">%d nya aviseringar</item>
+  </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">För <ns1:g id="event_count">%d</ns1:g> händelse</item>
+        <item quantity="other">För <ns1:g id="event_count">%d</ns1:g> händelser</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item msgid="1205422710088692631" quantity="one">"Med <ns1:g id="COUNT">%d</ns1:g> dags intervall"</item>
+        <item msgid="707566499994398250" quantity="other">"Med <ns1:g id="COUNT">%d</ns1:g> dagars intervall"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item msgid="4768178401603139718" quantity="one">"Med <ns1:g id="COUNT">%d</ns1:g> månads intervall"</item>
+        <item msgid="5419723710346646523" quantity="other">"Med <ns1:g id="COUNT">%d</ns1:g> månaders intervall"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item msgid="4948681635464488351" quantity="one">"Med <ns1:g id="COUNT">%d</ns1:g> veckas intervall"</item>
+        <item msgid="7094801039989237061" quantity="other">"Med <ns1:g id="COUNT">%d</ns1:g> veckors intervall"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Varje <ns1:g id="count">%d</ns1:g> år</item>
+        <item quantity="other">Vartannat <ns1:g id="count">%d</ns1:g> år</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one">Vecka <ns1:g id="count">%d</ns1:g></item>
+        <item quantity="other">Vecka <ns1:g id="count">%d</ns1:g></item>
+    </plurals>
+    <plurals name="weekly">
+        <item msgid="5463021019301453273" quantity="one">"Varje vecka på <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item msgid="2857390143157377867" quantity="other">"Med <ns1:g id="NUMBER">%1$d</ns1:g> v. intervall på <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navigera hem"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navigera uppåt"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Fler alternativ"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Klar"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Se alla"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Välj en app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"AV"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"PÅ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt + "</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl + "</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"retur"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funktion + "</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta + "</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Skift + "</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"blanksteg"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Symbol + "</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Meny + "</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Sök …"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Ta bort frågan"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Sökfråga"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Sök"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Skicka fråga"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Röstsökning"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Dela med"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Dela med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Komprimera"</string>
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"Det finns inga tillgängliga förslag"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"Kontaktförslag har öppnats"</string>
+    <string msgid="5654014177472600916" name="accessibility_add_attendee">"Lägg till deltagare"</string>
+    <string msgid="2267950744060950152" name="accessibility_add_reminder">"Lägg till påminnelse"</string>
+    <string msgid="4146955438811915282" name="accessibility_all_day">Händelse för hela dagen</string>
+    <string msgid="5624250196618643922" name="accessibility_pick_end_date">"Slutdatum"</string>
+    <string msgid="7120310166355224941" name="accessibility_pick_end_time">"Sluttid"</string>
+    <string msgid="1834311617874828931" name="accessibility_pick_recurrence">"Upprepa händelse"</string>
+    <string msgid="3926641487042699037" name="accessibility_pick_start_date">"Startdatum"</string>
+    <string msgid="4913428100936555149" name="accessibility_pick_start_time">"Starttid"</string>
+    <string msgid="7155465783500323811" name="accessibility_pick_time_zone">"Tidszon"</string>
+    <string msgid="8669288484484022771" name="accessibility_reminder_privacy">"Sekretess"</string>
+    <string msgid="6669129015980006570" name="accessibility_reminder_showmeas">"Visa mig som"</string>
+    <string msgid="3594100545814579575" name="accessibility_reminder_time">"Tid för påminnelse"</string>
+    <string msgid="5339120699701437227" name="accessibility_reminder_type">"Påminnelsetyp"</string>
+    <string msgid="7082751172654698863" name="accessibility_remove_attendee">"Ta bort deltagare"</string>
+    <string msgid="5261609343259665139" name="accessibility_remove_reminder">"Ta bort påminnelse"</string>
+    <string msgid="5899029840837836711" name="acessibility_recurrence_choose_end_date_description">"ändra slutdatum"</string>
+    <string msgid="3010149843148810768" name="acessibility_selected_marker_description">"Markerad händelse"</string>
+    <string msgid="7172664623795021857" name="action_label">"Retur"</string>
+    <string name="add_calendar">Lägg till kalender</string>
+    <string name="after_start_of_event">efter att händelsen har startat</string>
+    <string msgid="5965841338467422191" name="agenda_today">"idag, <ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="3893625470780723605" name="agenda_tomorrow">"imorgon, <ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="5566084759423843245" name="agenda_view">"Agenda"</string>
+    <string msgid="4170964206728599693" name="agenda_yesterday">"igår, <ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="7869592820853066853" name="alert_title">"Kalenderaviseringar"</string>
+    <string name="app_copyright">© 2015-<ns1:g>%1$s</ns1:g>Etar-projektet. Portioner © 2005-<ns1:g>%1$s</ns1:g>Android\'s öppna källkodprojekt.</string>
+    <string msgid="5452708708398908131" name="app_label">"Kalender"</string>
+    <string name="authors">Författare</string>
+    <string name="bottomsheet_action_collapse">Komprimera arket på nedre delen av skärmen</string>
+    <string name="bottomsheet_action_expand">Utöka arket på nedre delen av skärmen</string>
+    <string name="bottomsheet_action_expand_halfway">Utöka till hälften</string>
+    <string name="bottomsheet_drag_handle_content_description">Handtag</string>
+    <string name="cal_export_event_sdcard_title">Exportera till SD-kort</string>
+    <string name="cal_export_succ_msg">Händelse har framgångsrikt exporterats: %1$s</string>
+    <string name="cal_import_error_date_msg">Kunde inte tolka givet datum: %s</string>
+    <string name="cal_import_error_msg">Importering till kalendern misslyckades</string>
+    <string name="cal_import_error_time_zone_msg">Kunde inte förstå den angivna tidszonen: %s</string>
+    <string name="cal_import_menu_title">Importera händelse</string>
+    <string name="cal_nothing_to_import">Ingenting att importera</string>
+    <string name="cal_pick_ics">Välj fil att importera</string>
+    <string name="cal_share_intent_title">Skicka händelse till:</string>
+    <string msgid="3595509200561433667" name="calendar_color_picker_dialog_title">"Kalenderfärg"</string>
+    <string name="calendar_permission_not_granted">Beklagar, denna egenskap är inte tillgänglig. Etar behöver behörigheter för att läsa och skriva till kalendern för att fungera korrekt</string>
+    <string msgid="6172731193680500025" name="calendar_refresh">"Uppdatera"</string>
+    <string msgid="7430468363525563483" name="calendar_square_color_picker_description">"Färgval"</string>
+    <string name="calendars">Kalendrar</string>
+    <string msgid="2960328220008869083" name="call_label">"Ring"</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Svara"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Avvisa"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Lägg på"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Inkommande samtal"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Pågående samtal"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Ett inkommande samtal filtreras"</string>
+    <string name="cancel">Avbryt</string>
+    <string msgid="7704714776070974984" name="change_response_title">"Ändra svar"</string>
+    <string name="changelog">Ändringslogg</string>
+    <string name="character_counter_content_description">%1$d av %2$d tecken har angetts</string>
+    <string name="character_counter_overflowed_content_description">Teckengränsen har överskridits: %1$d av %2$d</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"Avbryt"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"Kopiera"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"Tillåt kontaktförslag"</string>
+    <string msgid="2192923501857428854" name="choose_event_color_label">"Välj färg på eventet"</string>
+    <string name="clear_text_end_icon_content_description">Rensa text</string>
+    <string msgid="6083905920877235314" name="copy">"Kopiera"</string>
+    <string msgid="437691290566699292" name="copy_db">"Skicka databas"</string>
+    <string msgid="1084563757174121331" name="copy_email">"Kopiera e-postadress"</string>
+    <string msgid="8860802152973030914" name="copy_number">"Kopiera telefonnummer"</string>
+    <string msgid="1080859798521717414" name="create_event_dialog_save">"Spara"</string>
+    <string msgid="7516249252554059980" name="creating_event">"Händelsen har skapats."</string>
+    <string msgid="5758688413124191931" name="creating_event_with_guest">"Inbjudningar kommer att skickas."</string>
+    <string msgid="4137468716966004993" name="custom" product="default">"Anpassad (går ej att anpassa i mobilen)"</string>
+    <string msgid="1642972650061946484" name="date_time_fmt"><ns1:g id="date">%1$s</ns1:g>, <ns1:g id="time_interval">%2$s</ns1:g></string>
+    <string msgid="4467754504843584437" name="day_view">"Dag"</string>
+    <string msgid="2131483437911536229" name="day_view_new_event_hint">"+ ny händelse"</string>
+    <string name="default_start_last">Föregående använda vy</string>
+    <string name="default_start_title">Standardvy</string>
+    <string msgid="874742811918030739" name="delete_label">"Ta bort"</string>
+    <string msgid="5609046778422180206" name="delete_recurring_event_title">"Vill du ta bort <ns1:g id="EVENTTITLE">%s</ns1:g>?"</string>
+    <string msgid="518402946676919384" name="delete_this_event_title">"Vill du ta bort den här händelsen?"</string>
+    <string msgid="1232037509095606687" name="directory_searching_fmt">"Söker <ns1:g id="DOMAIN">%s</ns1:g>…"</string>
+    <string name="discard">Kasta bort</string>
+    <string name="discard_event_changes">Vill du kasta bort ändringarna?</string>
+    <string msgid="2394623883289782541" name="discard_label">"Avbryt"</string>
+    <string msgid="1834400025868091301" name="dismiss_all_label">"Ta bort alla permanent"</string>
+    <string name="display_location">Visa plats</string>
+    <string name="display_options">Visa detaljer</string>
+    <string name="display_time">Visa tid</string>
+    <string msgid="1877681921029738999" name="does_not_repeat">"Engångshändelse"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"Ta bort <ns1:g id="CONTACT">%s</ns1:g> från mottagarlistan"</string>
+    <string name="duplicate_label">Fördubbla</string>
+    <string msgid="6200181113992136073" name="edit_event_all_day_label">"Hela dagen"</string>
+    <string msgid="4556498359505856900" name="edit_event_calendar_label">"Kalender"</string>
+    <string msgid="7413222956349977161" name="edit_event_label">"Information"</string>
+    <string msgid="8934331258435656534" name="edit_label">"Redigera"</string>
+    <string msgid="8772030932155305903" name="email_guests_label">"Skicka e-post till gäster"</string>
+    <string msgid="7178059542798074813" name="email_organizer_label">"Skicka e-post till arrangören"</string>
+    <string msgid="4808253965057791781" name="email_picker_label">"Skicka e-post till"</string>
+    <string msgid="9018699257414338634" name="empty_event">"Den tomma händelsen sparades inte."</string>
+    <string msgid="7654221304929538201" name="endByDate">", till <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="error_a11y_label">Fel: ogiltigt</string>
+    <string name="error_generating_ics">Fel uppstod när händelsen delades</string>
+    <string name="error_icon_content_description">Fel</string>
+    <string msgid="4631938661655159511" name="event_color_picker_dialog_title">"Färg på event"</string>
+    <string msgid="3447218820785647967" name="event_color_set_to_default">"Ange som standardfärg på kalendern"</string>
+    <string msgid="6941040556709110617" name="event_create">"Ny händelse"</string>
+    <string msgid="2386667193277770442" name="event_delete">"Ta bort händelse"</string>
+    <string msgid="4006961928830064662" name="event_edit">"Redigera händelse"</string>
+    <string msgid="9138683335394832629" name="event_info_organizer">"Organisatör:"</string>
+    <string msgid="8913097552956388972" name="event_info_reminders_label">"Påminnelser"</string>
+    <string msgid="56024222340421620" name="event_info_title">"Visa händelse"</string>
+    <string msgid="9160326363769403865" name="event_info_title_invite">"Inbjudan till möte"</string>
+    <string msgid="8356864185947582727" name="event_not_found">"Händelsen hittades inte."</string>
+    <string msgid="7621353079385122317" name="event_view">"Visa händelse"</string>
+    <string msgid="5896574838353902978" name="every_weekday">"Varje vardag (mån-fre)"</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Avancerat"</string>
+    <string name="exposed_dropdown_menu_content_description">Visa rullgardinsmenyn</string>
+    <string name="fifteen_minutes">15 minuter</string>
+    <string name="five_days">5 dagar</string>
+    <string name="foreground_notification_channel_description">Aviseringar krävs för intern synk. Du kan säkert gömma den här kanalen.</string>
+    <string name="foreground_notification_channel_name">Varningssynkronisering</string>
+    <string name="foreground_notification_title">Schemalägger nya påminnelser…</string>
+    <string name="four_days">4 dagar</string>
+    <string msgid="5209110911088302855" name="gadget_no_events">"Inga kommande händelser i kalendern"</string>
+    <string name="goto_date">Gå till…</string>
+    <string msgid="9162136434410891230" name="goto_today">"Idag"</string>
+    <string msgid="830320505938520882" name="hide_controls">"Dölj kontroller"</string>
+    <string msgid="1650488163176888480" name="hint_attendees">"Gäster"</string>
+    <string msgid="1910143586169033232" name="hint_description">"Beskrivning"</string>
+    <string msgid="804776560897143016" name="hint_time_zone_search">"Ange land"</string>
+    <string name="hint_url">URL</string>
+    <string msgid="709155115005044531" name="hint_what">"Eventnamn"</string>
+    <string msgid="4972598001033801974" name="hint_where">"Plats"</string>
+    <string name="icon_content_description">Dialogikon</string>
+    <string name="item_view_role_description">Flik</string>
+    <string name="license">Licens</string>
+    <string msgid="3772533493214331230" name="loading">"Hämtar…"</string>
+    <string name="m3_loading_indicator_content_description">Läser in</string>
+    <string msgid="8795383535586556038" name="map_label">"Karta"</string>
+    <string name="material_clock_toggle_content_description">Välj mellan FM och EM</string>
+    <string name="material_hour_24h_suffix">%1$s timmar</string>
+    <string name="material_hour_selection">Ange timme</string>
+    <string name="material_hour_suffix">Klockan %1$s</string>
+    <string name="material_minute_selection">Välj minuter</string>
+    <string name="material_minute_suffix">%1$s minuter</string>
+    <string name="material_slider_range_end">Intervallets slut</string>
+    <string name="material_slider_range_start">Intervallets början</string>
+    <string name="material_slider_value">Värde</string>
+    <string name="material_timepicker_am">FM</string>
+    <string name="material_timepicker_clock_mode_description">Byt till klockläget och ange tid.</string>
+    <string name="material_timepicker_hour">Timme</string>
+    <string name="material_timepicker_minute">Minut</string>
+    <string name="material_timepicker_pm">EM</string>
+    <string name="material_timepicker_select_time">Välj tid</string>
+    <string name="material_timepicker_text_input_mode_description">Byt till textinmatningsläget och ange tid.</string>
+    <string name="maximum_number_of_lines">Max antal rader i händelse</string>
+    <string name="menu_info">Info</string>
+    <string msgid="9120238479503233925" name="menu_preferences">"Inställningar"</string>
+    <string msgid="4421657265864209041" name="modify_all">"Ändra alla händelser i serien"</string>
+    <string msgid="3017428541066390380" name="modify_all_following">"Ändra den här och alla framtida händelser"</string>
+    <string msgid="5982876409997142690" name="modify_event">"Ändra bara den här händelsen"</string>
+    <string msgid="7287101431749285412" name="month_view">"Månad"</string>
+    <string msgid="4587116285383048586" name="monthly">"Varje månad"</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g>"</string>
+    <string name="mtrl_badge_numberless_content_description">Ny avisering</string>
+    <string name="mtrl_checkbox_state_description_checked">Markerad</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Delvis markerad</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Inte markerad</string>
+    <string name="mtrl_chip_close_icon_content_description">Ta bort (%1$s)</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Fler än %1$d nya aviseringar</string>
+    <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
+    <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
+    <string name="mtrl_picker_announce_current_range_selection">Val av startdatum: %1$s – val av slutdatum: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">inget</string>
+    <string name="mtrl_picker_cancel">Avbryt</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Välj datum</string>
+    <string name="mtrl_picker_date_header_unselected">Valt datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Slutdatum %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ogiltigt format.</string>
+    <string name="mtrl_picker_invalid_format_example">Exempel: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Använd %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ogiltigt intervall.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Navigera till innevarande år %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigera till år %1$d</string>
+    <string name="mtrl_picker_out_of_range">Utanför intervallet: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdatum–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–slutdatum</string>
+    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
+    <string name="mtrl_picker_range_header_title">Välj intervall</string>
+    <string name="mtrl_picker_range_header_unselected">Startdatum–slutdatum</string>
+    <string name="mtrl_picker_save">Spara</string>
+    <string name="mtrl_picker_start_date_description">Startdatum %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Slutdatum</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">å</string>
+    <string name="mtrl_picker_today_description">Idag %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Byt till kalender som inmatningsläge</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Byt till kalendervy</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Byt till text som inmatningsläge</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Byt till årsvy</string>
+    <string name="mtrl_picker_toggled_to_day_selection">Du har bytt till kalendervy</string>
+    <string name="mtrl_picker_toggled_to_year_selection">Du har bytt till årsvy</string>
+    <string name="mtrl_timepicker_cancel">Avbryt</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string msgid="7553105224561147916" name="new_event_dialog_label">"Ny händelse"</string>
+    <string msgid="6154657379574669371" name="new_event_dialog_option">"Ny händelse"</string>
+    <string name="no_calendars_found">Du måste lägga till minst en kalender i din enhet innan du kan lägga till en händelse</string>
+    <string name="no_map">Ingen kartapp är installerad</string>
+    <string name="no_reminder_label">Inga</string>
+    <string msgid="5475293015394772651" name="no_results_found">"Inga resultat hittades"</string>
+    <string name="no_snooze_label">Ingen</string>
+    <string msgid="7019488867045436129" name="no_syncable_calendars">"Inga kalendrar"</string>
+    <string msgid="302177118061368042" name="no_title_label">"(Ingen titel)"</string>
+    <string msgid="6573031135582639649" name="not_set">"Inte angett"</string>
+    <string name="offline_account_name">Ej uppkopplad kalender</string>
+    <string name="one_and_a_half_hours">1.5 timmar</string>
+    <string name="one_hour">1 timme</string>
+    <string msgid="3485026339977302148" name="palestine_display_name">"Palestina"</string>
+    <string name="password_toggle_content_description">Visa lösenord</string>
+    <string msgid="6685851473431805375" name="preference_copied">"<ns1:g id="SUMMARY">%1$s</ns1:g> har kopierats till Urklipp."</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Använd alltid standardsnoozelängd</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Fråga efter snoozelängd vid snooze av påminnelser</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Fråga efter snoozelängd</string>
+    <string msgid="6643468203670475296" name="preferences_alerts_popup_title">"Popup-meddelande"</string>
+    <string msgid="1849706055052358346" name="preferences_alerts_ringtone_title">"Ljud"</string>
+    <string msgid="6636088008103904020" name="preferences_alerts_title">"Aviseringar"</string>
+    <string msgid="8731372580674292759" name="preferences_alerts_vibrateWhen_title">"Vibrera"</string>
+    <string name="preferences_black_theme">Svart</string>
+    <string msgid="8242471883413502068" name="preferences_build_version">"Programversion"</string>
+    <string name="preferences_calendar_account">%1$s-konto</string>
+    <string name="preferences_calendar_account_local">Ej uppkopplad kalender</string>
+    <string name="preferences_calendar_color">Färg</string>
+    <string name="preferences_calendar_color_warning_button">Jag förstår</string>
+    <string name="preferences_calendar_color_warning_message">Ändringen av färgen kan återställas när kalendern är synkroniserad igen.
+\n
+\nI DAVx⁵ kan \"Hantera kalenderfärger\" inaktiveras för att förhindra detta.</string>
+    <string name="preferences_calendar_color_warning_title">Varning</string>
+    <string name="preferences_calendar_configure_account">Konfigurera kalender i %1$s</string>
+    <string name="preferences_calendar_delete">Ta bort kalender</string>
+    <string name="preferences_calendar_delete_cancel">Avbryt</string>
+    <string name="preferences_calendar_delete_delete">Ta bort kalender</string>
+    <string name="preferences_calendar_delete_message">Vill du verkligen ta bort den här kalendern\?</string>
+    <string name="preferences_calendar_display_name">Byt namn</string>
+    <string name="preferences_calendar_info_category">Kalenderinformation</string>
+    <string name="preferences_calendar_no_display_name">Kalender utan namn</string>
+    <string name="preferences_calendar_number_of_events">%1$d-händelser</string>
+    <string name="preferences_calendar_synchronize">Synkronisera den här kalendern</string>
+    <string name="preferences_calendar_visible">Visa händelser</string>
+    <string msgid="7864674093455778158" name="preferences_clear_search_history_summary">"Ta bort alla sökningar som du har gjort"</string>
+    <string msgid="6619916370215282982" name="preferences_clear_search_history_title">"Rensa sökhistorik"</string>
+    <string name="preferences_color">Primär färg</string>
+    <string name="preferences_color_pick">Primär färg</string>
+    <string name="preferences_dark_theme">Mörkt</string>
+    <string name="preferences_days_per_week_dialog">Dagar per vecka</string>
+    <string name="preferences_days_per_week_title">Dagar per vecka</string>
+    <string name="preferences_default_event_duration_title">Standardvaraktighet för händelser</string>
+    <string msgid="2903884416749959435" name="preferences_default_reminder_default">"10"</string>
+    <string msgid="2490348857239323412" name="preferences_default_reminder_dialog">"Standardtid för påminnelse"</string>
+    <string msgid="5188861433342733905" name="preferences_default_reminder_title">"Standardtid för påminnelse"</string>
+    <string name="preferences_default_snooze_delay_dialog">Standard snooze-fördröjning</string>
+    <string name="preferences_default_snooze_delay_title">Standardfördröjningstid för snooze</string>
+    <string name="preferences_do_not_check_battery_optimization">Kontrollera inte optimering av batteriet</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Använd på egen risk! Aviseringar kommer inte längre fungera, widgeten kommer inte längre uppdatera och bakgrundstjänster kommer att krascha, men du kommer inte att bli tillfrågad igen om du vill aktivera bakgrundstjänsten.</string>
+    <string msgid="8111213192001230350" name="preferences_experimental_category">"Experimentell"</string>
+    <string msgid="2069075513760573117" name="preferences_general_title">"Inställning för kalendervy"</string>
+    <string msgid="1849295943669890034" name="preferences_hide_declined_title">"Dölj avböjda händelser"</string>
+    <string msgid="6680000444088818578" name="preferences_home_tz_title">"Standardtidszon"</string>
+    <string name="preferences_issues">Rapportera problem</string>
+    <string name="preferences_light_theme">Ljust</string>
+    <string name="preferences_list_add_offline">Lägg till en icke uppkopplad kalender</string>
+    <string name="preferences_list_add_offline_button">Lägg till kalender</string>
+    <string name="preferences_list_add_offline_cancel">Avbryt</string>
+    <string name="preferences_list_add_offline_error_empty">Ange ett kalendernamn!</string>
+    <string name="preferences_list_add_offline_message">Kalendrar som inte är uppkopplade är INTE synkroniserade till en molntjänst och är endast tillgänglig i din telefon.</string>
+    <string name="preferences_list_add_offline_name">Namn</string>
+    <string name="preferences_list_add_offline_title">Lägg till icke uppkopplad kalender</string>
+    <string name="preferences_list_add_remote">Lägg till CalDAV-kalender</string>
+    <string name="preferences_list_add_remote_etesync">Lägg till EteSync-kalender</string>
+    <string name="preferences_list_calendar_summary_invisible">Händelser visas inte</string>
+    <string name="preferences_list_calendar_summary_sync_off">Inte synkroniserad</string>
+    <string name="preferences_list_general">Generella inställningar</string>
+    <string name="preferences_manage_notifications">Hantera aviseringar</string>
+    <string name="preferences_menu_about">Om Etar</string>
+    <string name="preferences_month_view_landscape">Layout för månadsvy (Landskap)</string>
+    <string name="preferences_month_view_portrait">Layout för månadsvy (Porträtt)</string>
+    <string name="preferences_pure_black_night_mode">Rent svart natt-läge</string>
+    <string name="preferences_real_event_colors">Använd riktiga händelsefärger</string>
+    <string msgid="5199606534191180129" name="preferences_reminder_title">"Meddelanden och påminnelser"</string>
+    <string msgid="1873289128793828352" name="preferences_reminders_responded_dialog">"Hoppa över påminnelser"</string>
+    <string msgid="1196570678238475838" name="preferences_reminders_responded_label">"Hoppa över påminnelser"</string>
+    <string msgid="5280734329664503461" name="preferences_show_week_num_title">"Visa veckonummer"</string>
+    <string name="preferences_system_theme">Systemets standard</string>
+    <string name="preferences_theme">Tema</string>
+    <string msgid="8045855493262131773" name="preferences_title">"Inställningar"</string>
+    <string msgid="4835375381297413746" name="preferences_use_home_tz_descrip">Tiderna i kalendern visas i din standardtidszon när du är ute och reser</string>
+    <string msgid="5597546849968598210" name="preferences_use_home_tz_title">"Använd standardtidszon"</string>
+    <string msgid="5181634128884089113" name="preferences_week_start_day_dialog">"Veckan börjar med"</string>
+    <string msgid="4619489296444901622" name="preferences_week_start_day_title">"Veckan börjar med"</string>
+    <string msgid="6169724148441175862" name="presence_label">"Visa mig som"</string>
+    <string msgid="9215031965259597335" name="privacy_label">"Sekretess"</string>
+    <string msgid="8792374208224108798" name="quick_response_custom_msg">Skriv eget svar…</string>
+    <string msgid="2681309456412199207" name="quick_response_dialog_title">"Välj snabbsvar"</string>
+    <string msgid="5544066405231853245" name="quick_response_email_failed">"Det gick inte att hitta något e-postprogram"</string>
+    <string msgid="6776151690686068278" name="quick_response_settings">"Snabbsvar"</string>
+    <string msgid="6260055523174081930" name="quick_response_settings_edit_title">"Snabbsvar"</string>
+    <string msgid="7878304729027355604" name="quick_response_settings_summary">"Redigera standardsvar när du skickar e-post till gäster"</string>
+    <string msgid="6898950241634912991" name="recurrence_end_continously">"För alltid"</string>
+    <string msgid="1233883668293087977" name="recurrence_end_count_label">"Ett antal upprepningar"</string>
+    <string msgid="3693751578164711701" name="recurrence_end_date">"Till den <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string msgid="4142791438636994952" name="recurrence_end_date_label">"Till ett visst datum"</string>
+    <string msgid="4400107556121003459" name="recurrence_month_pattern_by_day">"samma dag varje månad"</string>
+    <string msgid="7292389181815525676" name="reminders_label">"Lägg till påminnelse"</string>
+    <string msgid="7791500973627841695" name="response_maybe">"Kanske"</string>
+    <string msgid="561911691884148136" name="response_no">"Nej"</string>
+    <string msgid="2027484304899988350" name="response_yes">"Ja"</string>
+    <string name="rsvp_accepted">Svarade ja.</string>
+    <string name="rsvp_declined">Svarade nej.</string>
+    <string name="rsvp_tentative">Svarade kanske.</string>
+    <string msgid="2133599104834432589" name="save_label">"Färdig"</string>
+    <string msgid="7694181017411177226" name="saving_event">"Händelsen har sparats."</string>
+    <string msgid="9184584438475689577" name="saving_event_with_guest">"Uppdateringar kommer att skickas."</string>
+    <string msgid="550656004486017426" name="search">"Sök"</string>
+    <string msgid="1536707558435227567" name="search_history_cleared">"Sökhistoriken har rensats."</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Sök"</string>
+    <string msgid="8898015280250716254" name="search_title">"Sök i mina kalendrar"</string>
+    <string name="searchview_clear_text_content_description">Rensa text</string>
+    <string msgid="1603860069305867810" name="searchview_description_clear">"Ta bort frågan"</string>
+    <string name="searchview_navigation_content_description">Tillbaka</string>
+    <string msgid="8890542984949996251" name="select_synced_calendars_button">"Kalendrar som ska synkroniseras"</string>
+    <string name="seven_days">7 dagar</string>
+    <string name="share_label">Dela</string>
+    <string msgid="715520586028062621" name="show_controls">"Visa kontroller"</string>
+    <string msgid="5782512782605466016" name="show_day_view">"Visa dag"</string>
+    <string msgid="2604638815440163080" name="show_newer_events">"Tryck om du vill visa händelser efter <ns1:g id="NEWEST_SEARCH_RANGE">%1$s</ns1:g>"</string>
+    <string msgid="5140647493681439926" name="show_older_events">"Tryck om du vill visa händelser före <ns1:g id="OLDEST_SEARCH_RANGE">%1$s</ns1:g>"</string>
+    <string name="show_time_no">Visa inte tid</string>
+    <string name="show_time_start">Endast starttid</string>
+    <string name="show_time_start_end">Start- och sluttid</string>
+    <string name="show_time_start_end_below">Start- och sluttid nedanför händelsen</string>
+    <string name="side_sheet_accessibility_pane_title">Ark på sidan av skärmen</string>
+    <string name="six_days">6 dagar</string>
+    <string name="snooze_delay_dialog_title">Välj snoozelängd</string>
+    <string msgid="1515893621063224666" name="snooze_label">"Skjut upp"</string>
+    <string name="source_code">Källa</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="4067877800670753110" name="template_announce_item_index">"Händelse <ns1:g id="ITEM_INDEX">%1$s</ns1:g> av <ns1:g id="ITEM_COUNT">%2$s</ns1:g>."</string>
+    <string name="thirty_minutes">30 minuter</string>
+    <string name="three_days">3 dagar</string>
+    <string msgid="8577375020252453006" name="today">"Idag"</string>
+    <string msgid="1981279213130049736" name="today_at_time_fmt">"Idag kl. <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string msgid="614434811813859237" name="tomorrow">"Imorgon"</string>
+    <string msgid="1330779112841767432" name="tomorrow_at_time_fmt">"Imorgon kl. <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string name="two_days">2 dagar</string>
+    <string name="two_hours">2 timmar</string>
+    <string name="user_rejected_calendar_write_permission">För att fungera korrekt behöver Etar behörigheter för att läsa och skriva till kalendern. Var vänlig försök igen.</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"AV"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"PÅ"</string>
+    <string msgid="6126231656338241140" name="view_event_calendar_label">"Kalender:"</string>
+    <string msgid="2753151795647402277" name="view_event_organizer_label">"Organisatör:"</string>
+    <string msgid="8382281658458798329" name="view_event_response_label">"Delta?"</string>
+    <string name="view_settings">Visa inställningar</string>
+    <string name="visibility_confidential">Konfidentiell</string>
+    <string name="visibility_default">Standardinställning</string>
+    <string name="visibility_private">Privat</string>
+    <string name="visibility_public">Offentligt</string>
+    <string msgid="6775043022159508060" name="week_view">"Vecka"</string>
+    <string msgid="894636567327261599" name="when_label">"När"</string>
+    <string msgid="3652692085322162449" name="yearly_plain">"Varje år"</string>
+    <string name="zero_minutes">0 minuter</string>
+</resources>

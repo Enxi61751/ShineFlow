@@ -1,0 +1,671 @@
+package org.gradle.accessors.dm;
+
+import org.gradle.api.NonNullApi;
+import org.gradle.api.artifacts.MinimalExternalModuleDependency;
+import org.gradle.plugin.use.PluginDependency;
+import org.gradle.api.artifacts.ExternalModuleDependencyBundle;
+import org.gradle.api.artifacts.MutableVersionConstraint;
+import org.gradle.api.provider.Provider;
+import org.gradle.api.model.ObjectFactory;
+import org.gradle.api.provider.ProviderFactory;
+import org.gradle.api.internal.catalog.AbstractExternalDependencyFactory;
+import org.gradle.api.internal.catalog.DefaultVersionCatalog;
+import java.util.Map;
+import org.gradle.api.internal.attributes.ImmutableAttributesFactory;
+import org.gradle.api.internal.artifacts.dsl.CapabilityNotationParser;
+import javax.inject.Inject;
+
+/**
+ * A catalog of dependencies accessible via the {@code libs} extension.
+ */
+@NonNullApi
+public class LibrariesForLibs extends AbstractExternalDependencyFactory {
+
+    private final AbstractExternalDependencyFactory owner = this;
+    private final AndroidLibraryAccessors laccForAndroidLibraryAccessors = new AndroidLibraryAccessors(owner);
+    private final AndroidxLibraryAccessors laccForAndroidxLibraryAccessors = new AndroidxLibraryAccessors(owner);
+    private final DmfsLibraryAccessors laccForDmfsLibraryAccessors = new DmfsLibraryAccessors(owner);
+    private final GoogleLibraryAccessors laccForGoogleLibraryAccessors = new GoogleLibraryAccessors(owner);
+    private final KotlinxLibraryAccessors laccForKotlinxLibraryAccessors = new KotlinxLibraryAccessors(owner);
+    private final OkhttpLibraryAccessors laccForOkhttpLibraryAccessors = new OkhttpLibraryAccessors(owner);
+    private final RetrofitLibraryAccessors laccForRetrofitLibraryAccessors = new RetrofitLibraryAccessors(owner);
+    private final VersionAccessors vaccForVersionAccessors = new VersionAccessors(providers, config);
+    private final BundleAccessors baccForBundleAccessors = new BundleAccessors(objects, providers, config, attributesFactory, capabilityNotationParser);
+    private final PluginAccessors paccForPluginAccessors = new PluginAccessors(providers, config);
+
+    @Inject
+    public LibrariesForLibs(DefaultVersionCatalog config, ProviderFactory providers, ObjectFactory objects, ImmutableAttributesFactory attributesFactory, CapabilityNotationParser capabilityNotationParser) {
+        super(config, providers, objects, attributesFactory, capabilityNotationParser);
+    }
+
+    /**
+     * Dependency provider for <b>junit</b> with <b>junit:junit</b> coordinates and
+     * with version reference <b>junit</b>
+     * <p>
+     * This dependency was declared in catalog libs.versions.toml
+     */
+    public Provider<MinimalExternalModuleDependency> getJunit() {
+        return create("junit");
+    }
+
+    /**
+     * Group of libraries at <b>android</b>
+     */
+    public AndroidLibraryAccessors getAndroid() {
+        return laccForAndroidLibraryAccessors;
+    }
+
+    /**
+     * Group of libraries at <b>androidx</b>
+     */
+    public AndroidxLibraryAccessors getAndroidx() {
+        return laccForAndroidxLibraryAccessors;
+    }
+
+    /**
+     * Group of libraries at <b>dmfs</b>
+     */
+    public DmfsLibraryAccessors getDmfs() {
+        return laccForDmfsLibraryAccessors;
+    }
+
+    /**
+     * Group of libraries at <b>google</b>
+     */
+    public GoogleLibraryAccessors getGoogle() {
+        return laccForGoogleLibraryAccessors;
+    }
+
+    /**
+     * Group of libraries at <b>kotlinx</b>
+     */
+    public KotlinxLibraryAccessors getKotlinx() {
+        return laccForKotlinxLibraryAccessors;
+    }
+
+    /**
+     * Group of libraries at <b>okhttp</b>
+     */
+    public OkhttpLibraryAccessors getOkhttp() {
+        return laccForOkhttpLibraryAccessors;
+    }
+
+    /**
+     * Group of libraries at <b>retrofit</b>
+     */
+    public RetrofitLibraryAccessors getRetrofit() {
+        return laccForRetrofitLibraryAccessors;
+    }
+
+    /**
+     * Group of versions at <b>versions</b>
+     */
+    public VersionAccessors getVersions() {
+        return vaccForVersionAccessors;
+    }
+
+    /**
+     * Group of bundles at <b>bundles</b>
+     */
+    public BundleAccessors getBundles() {
+        return baccForBundleAccessors;
+    }
+
+    /**
+     * Group of plugins at <b>plugins</b>
+     */
+    public PluginAccessors getPlugins() {
+        return paccForPluginAccessors;
+    }
+
+    public static class AndroidLibraryAccessors extends SubDependencyFactory {
+        private final AndroidToolsLibraryAccessors laccForAndroidToolsLibraryAccessors = new AndroidToolsLibraryAccessors(owner);
+
+        public AndroidLibraryAccessors(AbstractExternalDependencyFactory owner) { super(owner); }
+
+        /**
+         * Group of libraries at <b>android.tools</b>
+         */
+        public AndroidToolsLibraryAccessors getTools() {
+            return laccForAndroidToolsLibraryAccessors;
+        }
+
+    }
+
+    public static class AndroidToolsLibraryAccessors extends SubDependencyFactory {
+
+        public AndroidToolsLibraryAccessors(AbstractExternalDependencyFactory owner) { super(owner); }
+
+        /**
+         * Dependency provider for <b>desugar</b> with <b>com.android.tools:desugar_jdk_libs</b> coordinates and
+         * with version reference <b>desugar</b>
+         * <p>
+         * This dependency was declared in catalog libs.versions.toml
+         */
+        public Provider<MinimalExternalModuleDependency> getDesugar() {
+            return create("android.tools.desugar");
+        }
+
+    }
+
+    public static class AndroidxLibraryAccessors extends SubDependencyFactory {
+        private final AndroidxLifecycleLibraryAccessors laccForAndroidxLifecycleLibraryAccessors = new AndroidxLifecycleLibraryAccessors(owner);
+
+        public AndroidxLibraryAccessors(AbstractExternalDependencyFactory owner) { super(owner); }
+
+        /**
+         * Dependency provider for <b>appcompat</b> with <b>androidx.appcompat:appcompat</b> coordinates and
+         * with version reference <b>compat</b>
+         * <p>
+         * This dependency was declared in catalog libs.versions.toml
+         */
+        public Provider<MinimalExternalModuleDependency> getAppcompat() {
+            return create("androidx.appcompat");
+        }
+
+        /**
+         * Dependency provider for <b>constraintlayout</b> with <b>androidx.constraintlayout:constraintlayout</b> coordinates and
+         * with version reference <b>constraint</b>
+         * <p>
+         * This dependency was declared in catalog libs.versions.toml
+         */
+        public Provider<MinimalExternalModuleDependency> getConstraintlayout() {
+            return create("androidx.constraintlayout");
+        }
+
+        /**
+         * Dependency provider for <b>core</b> with <b>androidx.core:core-ktx</b> coordinates and
+         * with version reference <b>core</b>
+         * <p>
+         * This dependency was declared in catalog libs.versions.toml
+         */
+        public Provider<MinimalExternalModuleDependency> getCore() {
+            return create("androidx.core");
+        }
+
+        /**
+         * Dependency provider for <b>preference</b> with <b>androidx.preference:preference-ktx</b> coordinates and
+         * with version reference <b>preference</b>
+         * <p>
+         * This dependency was declared in catalog libs.versions.toml
+         */
+        public Provider<MinimalExternalModuleDependency> getPreference() {
+            return create("androidx.preference");
+        }
+
+        /**
+         * Dependency provider for <b>runner</b> with <b>androidx.test:runner</b> coordinates and
+         * with version reference <b>runner</b>
+         * <p>
+         * This dependency was declared in catalog libs.versions.toml
+         */
+        public Provider<MinimalExternalModuleDependency> getRunner() {
+            return create("androidx.runner");
+        }
+
+        /**
+         * Group of libraries at <b>androidx.lifecycle</b>
+         */
+        public AndroidxLifecycleLibraryAccessors getLifecycle() {
+            return laccForAndroidxLifecycleLibraryAccessors;
+        }
+
+    }
+
+    public static class AndroidxLifecycleLibraryAccessors extends SubDependencyFactory {
+
+        public AndroidxLifecycleLibraryAccessors(AbstractExternalDependencyFactory owner) { super(owner); }
+
+        /**
+         * Dependency provider for <b>livedata</b> with <b>androidx.lifecycle:lifecycle-livedata-ktx</b> coordinates and
+         * with version reference <b>lifecycle</b>
+         * <p>
+         * This dependency was declared in catalog libs.versions.toml
+         */
+        public Provider<MinimalExternalModuleDependency> getLivedata() {
+            return create("androidx.lifecycle.livedata");
+        }
+
+    }
+
+    public static class DmfsLibraryAccessors extends SubDependencyFactory {
+        private final DmfsLibLibraryAccessors laccForDmfsLibLibraryAccessors = new DmfsLibLibraryAccessors(owner);
+
+        public DmfsLibraryAccessors(AbstractExternalDependencyFactory owner) { super(owner); }
+
+        /**
+         * Group of libraries at <b>dmfs.lib</b>
+         */
+        public DmfsLibLibraryAccessors getLib() {
+            return laccForDmfsLibLibraryAccessors;
+        }
+
+    }
+
+    public static class DmfsLibLibraryAccessors extends SubDependencyFactory {
+
+        public DmfsLibLibraryAccessors(AbstractExternalDependencyFactory owner) { super(owner); }
+
+        /**
+         * Dependency provider for <b>recur</b> with <b>org.dmfs:lib-recur</b> coordinates and
+         * with version reference <b>libRecur</b>
+         * <p>
+         * This dependency was declared in catalog libs.versions.toml
+         */
+        public Provider<MinimalExternalModuleDependency> getRecur() {
+            return create("dmfs.lib.recur");
+        }
+
+    }
+
+    public static class GoogleLibraryAccessors extends SubDependencyFactory {
+        private final GoogleAndroidLibraryAccessors laccForGoogleAndroidLibraryAccessors = new GoogleAndroidLibraryAccessors(owner);
+
+        public GoogleLibraryAccessors(AbstractExternalDependencyFactory owner) { super(owner); }
+
+        /**
+         * Group of libraries at <b>google.android</b>
+         */
+        public GoogleAndroidLibraryAccessors getAndroid() {
+            return laccForGoogleAndroidLibraryAccessors;
+        }
+
+    }
+
+    public static class GoogleAndroidLibraryAccessors extends SubDependencyFactory {
+
+        public GoogleAndroidLibraryAccessors(AbstractExternalDependencyFactory owner) { super(owner); }
+
+        /**
+         * Dependency provider for <b>material</b> with <b>com.google.android.material:material</b> coordinates and
+         * with version reference <b>material</b>
+         * <p>
+         * This dependency was declared in catalog libs.versions.toml
+         */
+        public Provider<MinimalExternalModuleDependency> getMaterial() {
+            return create("google.android.material");
+        }
+
+    }
+
+    public static class KotlinxLibraryAccessors extends SubDependencyFactory {
+        private final KotlinxCoroutinesLibraryAccessors laccForKotlinxCoroutinesLibraryAccessors = new KotlinxCoroutinesLibraryAccessors(owner);
+
+        public KotlinxLibraryAccessors(AbstractExternalDependencyFactory owner) { super(owner); }
+
+        /**
+         * Group of libraries at <b>kotlinx.coroutines</b>
+         */
+        public KotlinxCoroutinesLibraryAccessors getCoroutines() {
+            return laccForKotlinxCoroutinesLibraryAccessors;
+        }
+
+    }
+
+    public static class KotlinxCoroutinesLibraryAccessors extends SubDependencyFactory {
+
+        public KotlinxCoroutinesLibraryAccessors(AbstractExternalDependencyFactory owner) { super(owner); }
+
+        /**
+         * Dependency provider for <b>android</b> with <b>org.jetbrains.kotlinx:kotlinx-coroutines-android</b> coordinates and
+         * with version reference <b>coroutines</b>
+         * <p>
+         * This dependency was declared in catalog libs.versions.toml
+         */
+        public Provider<MinimalExternalModuleDependency> getAndroid() {
+            return create("kotlinx.coroutines.android");
+        }
+
+    }
+
+    public static class OkhttpLibraryAccessors extends SubDependencyFactory {
+
+        public OkhttpLibraryAccessors(AbstractExternalDependencyFactory owner) { super(owner); }
+
+        /**
+         * Dependency provider for <b>core</b> with <b>com.squareup.okhttp3:okhttp</b> coordinates and
+         * with version reference <b>okhttp</b>
+         * <p>
+         * This dependency was declared in catalog libs.versions.toml
+         */
+        public Provider<MinimalExternalModuleDependency> getCore() {
+            return create("okhttp.core");
+        }
+
+        /**
+         * Dependency provider for <b>logging</b> with <b>com.squareup.okhttp3:logging-interceptor</b> coordinates and
+         * with version reference <b>okhttp</b>
+         * <p>
+         * This dependency was declared in catalog libs.versions.toml
+         */
+        public Provider<MinimalExternalModuleDependency> getLogging() {
+            return create("okhttp.logging");
+        }
+
+    }
+
+    public static class RetrofitLibraryAccessors extends SubDependencyFactory {
+
+        public RetrofitLibraryAccessors(AbstractExternalDependencyFactory owner) { super(owner); }
+
+        /**
+         * Dependency provider for <b>core</b> with <b>com.squareup.retrofit2:retrofit</b> coordinates and
+         * with version reference <b>retrofit</b>
+         * <p>
+         * This dependency was declared in catalog libs.versions.toml
+         */
+        public Provider<MinimalExternalModuleDependency> getCore() {
+            return create("retrofit.core");
+        }
+
+        /**
+         * Dependency provider for <b>gson</b> with <b>com.squareup.retrofit2:converter-gson</b> coordinates and
+         * with version reference <b>retrofit</b>
+         * <p>
+         * This dependency was declared in catalog libs.versions.toml
+         */
+        public Provider<MinimalExternalModuleDependency> getGson() {
+            return create("retrofit.gson");
+        }
+
+    }
+
+    public static class VersionAccessors extends VersionFactory  {
+
+        public VersionAccessors(ProviderFactory providers, DefaultVersionCatalog config) { super(providers, config); }
+
+        /**
+         * Version alias <b>agp</b> with value <b>8.5.2</b>
+         * <p>
+         * If the version is a rich version and cannot be represented as a
+         * single version string, an empty string is returned.
+         * <p>
+         * This version was declared in catalog libs.versions.toml
+         */
+        public Provider<String> getAgp() { return getVersion("agp"); }
+
+        /**
+         * Version alias <b>compat</b> with value <b>1.7.1</b>
+         * <p>
+         * If the version is a rich version and cannot be represented as a
+         * single version string, an empty string is returned.
+         * <p>
+         * This version was declared in catalog libs.versions.toml
+         */
+        public Provider<String> getCompat() { return getVersion("compat"); }
+
+        /**
+         * Version alias <b>constraint</b> with value <b>2.2.1</b>
+         * <p>
+         * If the version is a rich version and cannot be represented as a
+         * single version string, an empty string is returned.
+         * <p>
+         * This version was declared in catalog libs.versions.toml
+         */
+        public Provider<String> getConstraint() { return getVersion("constraint"); }
+
+        /**
+         * Version alias <b>core</b> with value <b>1.13.1</b>
+         * <p>
+         * If the version is a rich version and cannot be represented as a
+         * single version string, an empty string is returned.
+         * <p>
+         * This version was declared in catalog libs.versions.toml
+         */
+        public Provider<String> getCore() { return getVersion("core"); }
+
+        /**
+         * Version alias <b>coroutines</b> with value <b>1.10.2</b>
+         * <p>
+         * If the version is a rich version and cannot be represented as a
+         * single version string, an empty string is returned.
+         * <p>
+         * This version was declared in catalog libs.versions.toml
+         */
+        public Provider<String> getCoroutines() { return getVersion("coroutines"); }
+
+        /**
+         * Version alias <b>desugar</b> with value <b>2.1.5</b>
+         * <p>
+         * If the version is a rich version and cannot be represented as a
+         * single version string, an empty string is returned.
+         * <p>
+         * This version was declared in catalog libs.versions.toml
+         */
+        public Provider<String> getDesugar() { return getVersion("desugar"); }
+
+        /**
+         * Version alias <b>editorconfig</b> with value <b>0.1.0</b>
+         * <p>
+         * If the version is a rich version and cannot be represented as a
+         * single version string, an empty string is returned.
+         * <p>
+         * This version was declared in catalog libs.versions.toml
+         */
+        public Provider<String> getEditorconfig() { return getVersion("editorconfig"); }
+
+        /**
+         * Version alias <b>ideaExt</b> with value <b>1.3</b>
+         * <p>
+         * If the version is a rich version and cannot be represented as a
+         * single version string, an empty string is returned.
+         * <p>
+         * This version was declared in catalog libs.versions.toml
+         */
+        public Provider<String> getIdeaExt() { return getVersion("ideaExt"); }
+
+        /**
+         * Version alias <b>junit</b> with value <b>4.13.2</b>
+         * <p>
+         * If the version is a rich version and cannot be represented as a
+         * single version string, an empty string is returned.
+         * <p>
+         * This version was declared in catalog libs.versions.toml
+         */
+        public Provider<String> getJunit() { return getVersion("junit"); }
+
+        /**
+         * Version alias <b>kotlin</b> with value <b>2.3.0</b>
+         * <p>
+         * If the version is a rich version and cannot be represented as a
+         * single version string, an empty string is returned.
+         * <p>
+         * This version was declared in catalog libs.versions.toml
+         */
+        public Provider<String> getKotlin() { return getVersion("kotlin"); }
+
+        /**
+         * Version alias <b>libRecur</b> with value <b>0.17.1</b>
+         * <p>
+         * If the version is a rich version and cannot be represented as a
+         * single version string, an empty string is returned.
+         * <p>
+         * This version was declared in catalog libs.versions.toml
+         */
+        public Provider<String> getLibRecur() { return getVersion("libRecur"); }
+
+        /**
+         * Version alias <b>lifecycle</b> with value <b>2.10.0</b>
+         * <p>
+         * If the version is a rich version and cannot be represented as a
+         * single version string, an empty string is returned.
+         * <p>
+         * This version was declared in catalog libs.versions.toml
+         */
+        public Provider<String> getLifecycle() { return getVersion("lifecycle"); }
+
+        /**
+         * Version alias <b>material</b> with value <b>1.13.0</b>
+         * <p>
+         * If the version is a rich version and cannot be represented as a
+         * single version string, an empty string is returned.
+         * <p>
+         * This version was declared in catalog libs.versions.toml
+         */
+        public Provider<String> getMaterial() { return getVersion("material"); }
+
+        /**
+         * Version alias <b>okhttp</b> with value <b>5.3.2</b>
+         * <p>
+         * If the version is a rich version and cannot be represented as a
+         * single version string, an empty string is returned.
+         * <p>
+         * This version was declared in catalog libs.versions.toml
+         */
+        public Provider<String> getOkhttp() { return getVersion("okhttp"); }
+
+        /**
+         * Version alias <b>preference</b> with value <b>1.2.1</b>
+         * <p>
+         * If the version is a rich version and cannot be represented as a
+         * single version string, an empty string is returned.
+         * <p>
+         * This version was declared in catalog libs.versions.toml
+         */
+        public Provider<String> getPreference() { return getVersion("preference"); }
+
+        /**
+         * Version alias <b>retrofit</b> with value <b>3.0.0</b>
+         * <p>
+         * If the version is a rich version and cannot be represented as a
+         * single version string, an empty string is returned.
+         * <p>
+         * This version was declared in catalog libs.versions.toml
+         */
+        public Provider<String> getRetrofit() { return getVersion("retrofit"); }
+
+        /**
+         * Version alias <b>runner</b> with value <b>1.7.0</b>
+         * <p>
+         * If the version is a rich version and cannot be represented as a
+         * single version string, an empty string is returned.
+         * <p>
+         * This version was declared in catalog libs.versions.toml
+         */
+        public Provider<String> getRunner() { return getVersion("runner"); }
+
+    }
+
+    public static class BundleAccessors extends BundleFactory {
+
+        public BundleAccessors(ObjectFactory objects, ProviderFactory providers, DefaultVersionCatalog config, ImmutableAttributesFactory attributesFactory, CapabilityNotationParser capabilityNotationParser) { super(objects, providers, config, attributesFactory, capabilityNotationParser); }
+
+    }
+
+    public static class PluginAccessors extends PluginFactory {
+        private final AndroidPluginAccessors paccForAndroidPluginAccessors = new AndroidPluginAccessors(providers, config);
+        private final Ec4jPluginAccessors paccForEc4jPluginAccessors = new Ec4jPluginAccessors(providers, config);
+        private final JetbrainsPluginAccessors paccForJetbrainsPluginAccessors = new JetbrainsPluginAccessors(providers, config);
+
+        public PluginAccessors(ProviderFactory providers, DefaultVersionCatalog config) { super(providers, config); }
+
+        /**
+         * Group of plugins at <b>plugins.android</b>
+         */
+        public AndroidPluginAccessors getAndroid() {
+            return paccForAndroidPluginAccessors;
+        }
+
+        /**
+         * Group of plugins at <b>plugins.ec4j</b>
+         */
+        public Ec4jPluginAccessors getEc4j() {
+            return paccForEc4jPluginAccessors;
+        }
+
+        /**
+         * Group of plugins at <b>plugins.jetbrains</b>
+         */
+        public JetbrainsPluginAccessors getJetbrains() {
+            return paccForJetbrainsPluginAccessors;
+        }
+
+    }
+
+    public static class AndroidPluginAccessors extends PluginFactory {
+
+        public AndroidPluginAccessors(ProviderFactory providers, DefaultVersionCatalog config) { super(providers, config); }
+
+        /**
+         * Plugin provider for <b>android.application</b> with plugin id <b>com.android.application</b> and
+         * with version reference <b>agp</b>
+         * <p>
+         * This plugin was declared in catalog libs.versions.toml
+         */
+        public Provider<PluginDependency> getApplication() { return createPlugin("android.application"); }
+
+        /**
+         * Plugin provider for <b>android.library</b> with plugin id <b>com.android.library</b> and
+         * with version reference <b>agp</b>
+         * <p>
+         * This plugin was declared in catalog libs.versions.toml
+         */
+        public Provider<PluginDependency> getLibrary() { return createPlugin("android.library"); }
+
+    }
+
+    public static class Ec4jPluginAccessors extends PluginFactory {
+
+        public Ec4jPluginAccessors(ProviderFactory providers, DefaultVersionCatalog config) { super(providers, config); }
+
+        /**
+         * Plugin provider for <b>ec4j.editorconfig</b> with plugin id <b>org.ec4j.editorconfig</b> and
+         * with version reference <b>editorconfig</b>
+         * <p>
+         * This plugin was declared in catalog libs.versions.toml
+         */
+        public Provider<PluginDependency> getEditorconfig() { return createPlugin("ec4j.editorconfig"); }
+
+    }
+
+    public static class JetbrainsPluginAccessors extends PluginFactory {
+        private final JetbrainsIdeaPluginAccessors paccForJetbrainsIdeaPluginAccessors = new JetbrainsIdeaPluginAccessors(providers, config);
+        private final JetbrainsKotlinPluginAccessors paccForJetbrainsKotlinPluginAccessors = new JetbrainsKotlinPluginAccessors(providers, config);
+
+        public JetbrainsPluginAccessors(ProviderFactory providers, DefaultVersionCatalog config) { super(providers, config); }
+
+        /**
+         * Group of plugins at <b>plugins.jetbrains.idea</b>
+         */
+        public JetbrainsIdeaPluginAccessors getIdea() {
+            return paccForJetbrainsIdeaPluginAccessors;
+        }
+
+        /**
+         * Group of plugins at <b>plugins.jetbrains.kotlin</b>
+         */
+        public JetbrainsKotlinPluginAccessors getKotlin() {
+            return paccForJetbrainsKotlinPluginAccessors;
+        }
+
+    }
+
+    public static class JetbrainsIdeaPluginAccessors extends PluginFactory {
+
+        public JetbrainsIdeaPluginAccessors(ProviderFactory providers, DefaultVersionCatalog config) { super(providers, config); }
+
+        /**
+         * Plugin provider for <b>jetbrains.idea.ext</b> with plugin id <b>org.jetbrains.gradle.plugin.idea-ext</b> and
+         * with version reference <b>ideaExt</b>
+         * <p>
+         * This plugin was declared in catalog libs.versions.toml
+         */
+        public Provider<PluginDependency> getExt() { return createPlugin("jetbrains.idea.ext"); }
+
+    }
+
+    public static class JetbrainsKotlinPluginAccessors extends PluginFactory {
+
+        public JetbrainsKotlinPluginAccessors(ProviderFactory providers, DefaultVersionCatalog config) { super(providers, config); }
+
+        /**
+         * Plugin provider for <b>jetbrains.kotlin.android</b> with plugin id <b>org.jetbrains.kotlin.android</b> and
+         * with version reference <b>kotlin</b>
+         * <p>
+         * This plugin was declared in catalog libs.versions.toml
+         */
+        public Provider<PluginDependency> getAndroid() { return createPlugin("jetbrains.kotlin.android"); }
+
+    }
+
+}

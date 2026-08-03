@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="backup_country_names">
+    <item msgid="9141777876082196578">"ସିଣ୍ଟ ମାର୍ଟେନ୍‍"</item>
+    <item msgid="5330962017221568054">"କେରିବିଆନ୍‌ ନେଦର୍‌ଲ୍ୟାଣ୍ଡ"</item>
+    <item msgid="1465164631761814300">"କ୍ୟୁରାସାଓ"</item>
+    <item msgid="8972081011408691260">"ଦକ୍ଷିଣ ସୁଡାନ୍‌"</item>
+  </string-array>
+    <string-array name="timezone_rename_labels">
+    <item msgid="4609638052107641231">"ମଧ୍ୟ ଅଷ୍ଟ୍ରେଲୀୟ - NT"</item>
+    <item msgid="4345275500159159867">"ମଧ୍ୟ ଅଷ୍ଟ୍ରେଲୀୟ - SA"</item>
+    <item msgid="6771274300523132094">"ପୂର୍ବ ଅଷ୍ଟ୍ରେଲୀୟ - QLD"</item>
+    <item msgid="4685547681424666687">"ପୂର୍ବ ଅଷ୍ଟ୍ରେଲୀୟ - NSW"</item>
+    <item msgid="5259393186526893961">"ପର୍ବତୀୟ ମାନକ - ଡସନ୍‌ କ୍ରୀକ୍‌"</item>
+    <item msgid="5984634754870859705">"କେନ୍ଦ୍ରୀୟ ମାନକ - ସାସ୍କେଚେୱାନ୍‌"</item>
+    <item msgid="5340374311583423836">"ପୂର୍ବ ମାନକ - ଆଟିକୋକାନ୍‌"</item>
+    <item msgid="8922086438245451625">"ଆଟଲାଣ୍ଟିକ୍‌ ମାନକ - କ୍ୱେବେକ୍‌"</item>
+    <item msgid="8353677384517034413">"ହାୱାଇ-ଆଲ୍ୟୁଶିଆନ୍‌ - ହାୱାଇ"</item>
+    <item msgid="6426791761018806420">"ହାୱାଇ-ଆଲ୍ୟୁଶିଆନ୍‌ - ଆଲାସ୍କା"</item>
+    <item msgid="7076353182411415610">"ପ୍ରଶାନ୍ତ ମାନକ - ମେଟଲାକାଟଲା"</item>
+    <item msgid="373990592918179890">"ପର୍ବତୀୟ ମାନକ - ଆରିଜୋନା"</item>
+    <item msgid="353899326999279114">"ପ୍ରଶାନ୍ତ - ବାଜା କାଲିଫର୍ନିଆ"</item>
+    <item msgid="6432134534714673873">"ପର୍ବତ - ଚିହୁଆହୁଆ"</item>
+    <item msgid="7629345735485663968">"ମଧ୍ୟ - ଟମାଉଲିପାସ୍‌"</item>
+    <item msgid="3874729044260979505">"ପର୍ବତ - ସୋନୋରା"</item>
+    <item msgid="1106209575683600471">"ପୂର୍ବ ଆଫ୍ରିକାର ସମୟ"</item>
+    <item msgid="6538017087072480128">"ଆଟଲାଣ୍ଟିକ୍‌ ମାନକ ସମୟ"</item>
+    <item msgid="6758957851822881177">"ଆଟଲାଣ୍ଟିକ୍‌ ମାନକ ସମୟ"</item>
+    <item msgid="2477556470536619081">"ପୂର୍ବ ୟୁରୋପୀୟ ସମୟ"</item>
+    <item msgid="7328461310893621937">"କାଲିନିନଗ୍ରାଦ୍‌ ସମୟ"</item>
+    <item msgid="4212642599758736931">"ଆମାଜନ୍‌ - ରୋଣ୍ଡୋନିଆ"</item>
+    <item msgid="2370319280810537375">"ବ୍ରାସିଲିୟା - ପେରା"</item>
+  </string-array>
+    <plurals name="weekN">
+        <item quantity="one"/>
+        <item quantity="other">ସପ୍ତାହ <ns1:g id="count">%d</ns1:g></item>
+    </plurals>
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"କୌଣସି ପରାମର୍ଶ ଉପଲବ୍ଧ ନାହିଁ"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"କଣ୍ଟାକ୍ଟ ପରାମର୍ଶ ଖୋଲାଗଲା"</string>
+    <string msgid="7172664623795021857" name="action_label">"ଫେରନ୍ତୁ"</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"ବାତିଲ କରନ୍ତୁ"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"କପି କରନ୍ତୁ"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"ଯୋଗାଯୋଗ ପରାମର୍ଶର ଅନୁମତି ଦିଅନ୍ତୁ"</string>
+    <string msgid="1084563757174121331" name="copy_email">"ଇମେଲ୍ ଠିକଣା କପି କରନ୍ତୁ"</string>
+    <string msgid="8860802152973030914" name="copy_number">"ଫୋନ୍‍ ନମ୍ବର କପି କରନ୍ତୁ"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"ପ୍ରାପ୍ତକର୍ତ୍ତାଙ୍କଠାରୁ <ns1:g id="CONTACT">%s</ns1:g>ଙ୍କୁ ବାହାର କରନ୍ତୁ"</string>
+    <string name="goto_today">ଆଜି</string>
+    <string name="hint_description">ଵର୍ଣ୍ଣନା</string>
+    <string msgid="804776560897143016" name="hint_time_zone_search">"ଦେଶର ନାମ ଲେଖନ୍ତୁ"</string>
+    <string name="menu_info">ସୂଚନା</string>
+    <string name="menu_preferences">ସେଟିଂ</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g>"</string>
+    <string msgid="5475293015394772651" name="no_results_found">"କୌଣସି ଫଳାଫଳ ମିଳିଲା ନାହିଁ"</string>
+    <string msgid="3485026339977302148" name="palestine_display_name">"ପାଲେଷ୍ଟାଇନ୍‌"</string>
+    <string name="preferences_menu_about">Etar ସମ୍ବନ୍ଧରେ</string>
+    <string name="search">ସନ୍ଧାନ</string>
+    <string msgid="1603860069305867810" name="searchview_description_clear">"କ୍ୱେରୀ ଖାଲି କରନ୍ତୁ"</string>
+    <string name="today">ଆଜି</string>
+    <string name="tomorrow">ଆସନ୍ତାକାଲି</string>
+    <string name="when_label">କେବେ</string>
+</resources>

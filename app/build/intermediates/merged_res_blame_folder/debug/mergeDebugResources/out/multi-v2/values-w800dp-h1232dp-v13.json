@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "ws.xsoh.etar.app-mergeDebugResources-42:/values-w800dp-h1232dp-v13/values-w800dp-h1232dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\21370\\Desktop\\ShineFlow-main\\app\\src\\main\\res\\values-w800dp-h1232dp\\config.xml",
+                    "from": {
+                        "startLines": "22,16,19,25",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1220,837,1035,1418",
+                        "endColumns": "64,51,59,57",
+                        "endOffsets": "1280,884,1090,1471"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,120,172,232",
+                        "endColumns": "64,51,59,57",
+                        "endOffsets": "115,167,227,285"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\21370\\Desktop\\ShineFlow-main\\app\\src\\main\\res\\values-w800dp-h1232dp\\dimens.xml",
+                    "from": {
+                        "startLines": "18,17",
+                        "startColumns": "4,4",
+                        "startOffsets": "790,733",
+                        "endColumns": "57,56",
+                        "endOffsets": "843,785"
+                    },
+                    "to": {
+                        "startLines": "6,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "290,348",
+                        "endColumns": "57,56",
+                        "endOffsets": "343,400"
+                    }
+                }
+            ]
+        }
+    ]
+}

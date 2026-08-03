@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "ws.xsoh.etar.app-mergeDebugResources-42:/values-night-v27/values-night-v27.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\21370\\Desktop\\ShineFlow-main\\app\\src\\main\\res\\values-night-v27\\themes.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "243"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "242"
+                    }
+                }
+            ]
+        }
+    ]
+}

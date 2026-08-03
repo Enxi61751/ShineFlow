@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="availability">
+    <item msgid="454869065893453189">"Aizņemts"</item>
+    <item msgid="6228387173725732140">"Pieejams"</item>
+    <item msgid="2064426942462573474">"Pagaidu"</item>
+  </string-array>
+    <string-array name="backup_country_names">
+    <item msgid="9141777876082196578">"Sintmārtena"</item>
+    <item msgid="5330962017221568054">"Nīderlandes Karību salas"</item>
+    <item msgid="1465164631761814300">"Kirasao"</item>
+    <item msgid="8972081011408691260">"Dienvidsudāna"</item>
+  </string-array>
+    <string-array name="buttons_list">
+    <item msgid="5917946202321434335">"Diena"</item>
+    <item msgid="6248480754959562740">"Nedēļa"</item>
+    <item msgid="4298472806133153766">"Mēnesis"</item>
+    <item msgid="5033084974413793845">"Darba kārtība"</item>
+  </string-array>
+    <string-array name="change_response_labels">
+    <item msgid="3466644709343519437">"Tikai šis pasākums"</item>
+    <item msgid="140670561403965380">"Visus virknes pasākumus"</item>
+  </string-array>
+    <string-array name="delete_repeating_labels">
+    <item msgid="4208432367651646938">"Tikai šo pasākumu"</item>
+    <item msgid="1536401639805370405">"Šis un nākamie pasākumi"</item>
+    <item msgid="7833229563617435430">"Visus pasākumus"</item>
+  </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+    <item msgid="2285927842308686988">"Tikai tad, ja tiek noraidīti"</item>
+    <item msgid="6367412240524984286">"Ja tiek noraidīti vai ignorēti"</item>
+  </string-array>
+    <string-array name="preferences_week_start_day_labels">
+    <item msgid="986150274035512339">"Lokalizācijas noklusējums"</item>
+    <item msgid="134027225275475280">"Sestdiena"</item>
+    <item msgid="95029346069903091">"Svētdiena"</item>
+    <item msgid="5840983116375063739">"Pirmdiena"</item>
+  </string-array>
+    <string-array name="quick_response_defaults">
+        <item msgid="1524421198348168403">"Kavēšu dažas minūtes."</item>
+        <item msgid="6215158751728689832">"Būšu pēc aptuveni 10 minūtēm."</item>
+        <item msgid="4485794001743679338">"Sāciet bez manis."</item>
+        <item msgid="8036557974294987511">"Diemžēl nevarēšu ierasties, pasākumu vajadzēs pārcelt."</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+    <item msgid="3388478383574917007">"ATKĀRTOT KATRU DIENU"</item>
+    <item msgid="6300824484048337842">"ATKĀRTOT KATRU NED."</item>
+    <item msgid="189361731610816256">"ATKĀRTOT KATRU MĒN."</item>
+    <item msgid="8714177874112569158">"ATKĀRTOT KATRU GADU"</item>
+  </string-array>
+    <string-array name="reminder_methods_labels">
+    <item msgid="5172236776878811487">"Paziņojums"</item>
+    <item msgid="1751151680520784746">"E-pasts"</item>
+    <item msgid="2658001219380695677">"Īsziņa"</item>
+    <item msgid="7926918288165444873">"Signāls"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_fri">
+    <item msgid="6534500380525126157">"katra mēn. pirmajā piektdienā"</item>
+    <item msgid="1935608297230506940">"katra mēneša otrajā piektdienā"</item>
+    <item msgid="4061877662049317599">"katra mēn. trešajā piektdienā"</item>
+    <item msgid="6856646749131820614">"katra mēn. ceturt. piektdienā"</item>
+    <item msgid="6533513913914859794">"katra mēneša pēdējā piektdienā"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_mon">
+    <item msgid="7539974918997689048">"katra mēneša pirmajā pirmdienā"</item>
+    <item msgid="4484275849072423978">"katra mēneša otrajā pirmdienā"</item>
+    <item msgid="8956169860824371383">"katra mēneša trešajā pirmdienā"</item>
+    <item msgid="6924403357659569326">"katra mēn. ceturtajā pirmdienā"</item>
+    <item msgid="1379608815263472161">"katra mēneša pēdējā pirmdienā"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sat">
+    <item msgid="3556369572649948699">"katra mēneša pirmajā sestdienā"</item>
+    <item msgid="9130198690512925355">"katra mēneša otrajā sestdienā"</item>
+    <item msgid="4525736070844032405">"katra mēneša trešajā sestdienā"</item>
+    <item msgid="422053689531707709">"katra mēn. ceturtajā sestdienā"</item>
+    <item msgid="5499975799312474425">"katra mēneša pēdējā sestdienā"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sun">
+    <item msgid="143841313172233420">"katra mēneša pirmajā svētdienā"</item>
+    <item msgid="2557379346106451363">"katra mēneša otrajā svētdienā"</item>
+    <item msgid="7622144489915654132">"katra mēneša trešajā svētdienā"</item>
+    <item msgid="527152448137686021">"katra mēn. ceturtajā svētdienā"</item>
+    <item msgid="5057483608824759350">"katra mēneša pēdējā svētdienā"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_thurs">
+    <item msgid="920673677566009313">"katra mēn. pirmajā ceturtdienā"</item>
+    <item msgid="4857419136007543270">"katra mēn. otrajā ceturtdienā"</item>
+    <item msgid="222044587450564839">"katra mēn. trešajā ceturtdienā"</item>
+    <item msgid="6197927556533030945">"katra mēn. ceturt. ceturtdienā"</item>
+    <item msgid="1023326923033436905">"katra mēn. pēdējā ceturtdienā"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_tues">
+    <item msgid="8690802834039790777">"katra mēneša pirmajā otrdienā"</item>
+    <item msgid="9063613547307760928">"katra mēneša otrajā otrdienā"</item>
+    <item msgid="6688603328729208168">"katra mēneša trešajā otrdienā"</item>
+    <item msgid="6695206006961533357">"katra mēn. ceturtajā otrdienā"</item>
+    <item msgid="8619069174889809914">"katra mēneša pēdējā otrdienā"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_wed">
+    <item msgid="3233850232075584386">"katra mēneša pirmajā trešdienā"</item>
+    <item msgid="5059722045367799217">"katra mēneša otrajā trešdienā"</item>
+    <item msgid="7986246648229272275">"katra mēneša trešajā trešdienā"</item>
+    <item msgid="9068566169348980801">"katra mēn. ceturtajā trešdienā"</item>
+    <item msgid="7976866743069062134">"katra mēneša pēdējā trešdienā"</item>
+  </string-array>
+    <string-array name="response_labels1">
+    <item msgid="5605392595848194997">"Nav atbildes"</item>
+    <item msgid="3724434080904437698">"Jā"</item>
+    <item msgid="8854145743148992583">"Varbūt"</item>
+    <item msgid="6174292185978948873">"Nē"</item>
+  </string-array>
+    <string-array name="timezone_rename_labels">
+    <item msgid="4609638052107641231">"Austrālijas centr. laiks — NT"</item>
+    <item msgid="4345275500159159867">"Austrālijas centr. laiks — SA"</item>
+    <item msgid="6771274300523132094">"Austrālijas austrumu laiks — QLD"</item>
+    <item msgid="4685547681424666687">"Austrālijas austrumu laiks — NSW"</item>
+    <item msgid="5259393186526893961">"Kalnu r. st. laiks — Dousonkrīka"</item>
+    <item msgid="5984634754870859705">"Centr. st. laiks — Saskačevana"</item>
+    <item msgid="5340374311583423836">"Austrumu standarta laiks — Atikokana"</item>
+    <item msgid="8922086438245451625">"Atlantijas standarta laiks — Kvebeka"</item>
+    <item msgid="8353677384517034413">"Havaju–Aleutu laiks — Havajas"</item>
+    <item msgid="6426791761018806420">"Havaju–Aleutu laiks — Aļaska"</item>
+    <item msgid="7076353182411415610">"Klusā ok. st. laiks — Metlakatla"</item>
+    <item msgid="373990592918179890">"Kalnu rajona st. laiks — Arizona"</item>
+    <item msgid="353899326999279114">"Klusā ok. l. — Lejaskalifornija"</item>
+    <item msgid="6432134534714673873">"Kalnu rajona laiks — Čivava"</item>
+    <item msgid="7629345735485663968">"Centrālais laiks — Tamaulipasa"</item>
+    <item msgid="3874729044260979505">"Kalnu rajona laiks — Sonora"</item>
+    <item msgid="1106209575683600471">"Austrumāfrikas laiks"</item>
+    <item msgid="6538017087072480128">"Atlantijas standarta laiks"</item>
+    <item msgid="6758957851822881177">"Atlantijas standarta laiks"</item>
+    <item msgid="2477556470536619081">"Austrumeiropas laiks"</item>
+    <item msgid="7328461310893621937">"Kaļiņingradas laiks"</item>
+    <item msgid="4212642599758736931">"Amazone — Rondonija"</item>
+    <item msgid="2370319280810537375">"Brazilja — Para"</item>
+  </string-array>
+    <plurals name="N_remaining_events">
+        <item msgid="431585781647034528" quantity="one">"Vēl 1 pasākums"</item>
+        <item msgid="3609243840882275136" quantity="other">"Vēl <ns1:g id="COUNT">%d</ns1:g> pasākums(-i)"</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item msgid="5988137255732166573" quantity="one">"1 diena"</item>
+        <item msgid="1709378992389618261" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> diena(-as)"</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item msgid="5230907142214104485" quantity="one">"1 pasākums"</item>
+        <item msgid="6093072093209431078" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> pasākumi"</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="zero"><ns1:g id="count">%d</ns1:g> stundas</item>
+        <item quantity="one"><ns1:g id="count">%d</ns1:g> stunda</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> stundas</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item msgid="9191090668359663663" quantity="one">"1 min"</item>
+        <item msgid="9175648445939148974" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> min"</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="zero"><ns1:g id="count">%d</ns1:g> minūtes</item>
+        <item quantity="one"><ns1:g id="count">%d</ns1:g> minūte</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> minūtes</item>
+    </plurals>
+    <plurals name="daily">
+        <item msgid="5169052946627480942" quantity="one">"Katru dienu"</item>
+        <item msgid="5455230727715859264" quantity="other">"Ik pēc <ns1:g id="NUMBER">%d</ns1:g> dienām"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item msgid="3727754565990691816" quantity="one">"; vienu reizi"</item>
+        <item msgid="4855496837834652446" quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> reizes"</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item msgid="8971334808414201327" quantity="one">"+1"</item>
+        <item msgid="1997405398178470838" quantity="other">"+<ns1:g id="NUMBER">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item msgid="1400782968090516215" quantity="one">"<ns1:g id="EVENT_COUNT">%d</ns1:g> notikumā"</item>
+        <item msgid="8779598489398048259" quantity="other">"<ns1:g id="EVENT_COUNT">%d</ns1:g> notikumos"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item msgid="1205422710088692631" quantity="one">"Ik pēc <ns1:g id="COUNT">%d</ns1:g> dienas"</item>
+        <item msgid="707566499994398250" quantity="other">"Ik pēc <ns1:g id="COUNT">%d</ns1:g> dienas(-ām)"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item msgid="4768178401603139718" quantity="one">"Ik pēc <ns1:g id="COUNT">%d</ns1:g> mēneša"</item>
+        <item msgid="5419723710346646523" quantity="other">"Ik pēc <ns1:g id="COUNT">%d</ns1:g> mēneša(-iem)"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item msgid="4948681635464488351" quantity="one">"Ik pēc <ns1:g id="COUNT">%d</ns1:g> nedēļas"</item>
+        <item msgid="7094801039989237061" quantity="other">"Ik pēc <ns1:g id="COUNT">%d</ns1:g> nedēļas(-ām)"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item msgid="5819562634008179102" quantity="one">"Ik pēc <ns1:g id="COUNT">%d</ns1:g> gada"</item>
+        <item msgid="5678653649746562060" quantity="other">"Ik pēc <ns1:g id="COUNT">%d</ns1:g> gada(-iem)"</item>
+    </plurals>
+    <plurals name="weekN">
+        <item msgid="8085184869561028365" quantity="other">"<ns1:g id="COUNT">%d</ns1:g>. nedēļa"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item msgid="5463021019301453273" quantity="one">"Reizi nedēļā, katru <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item msgid="2857390143157377867" quantity="other">"Reizi <ns1:g id="NUMBER">%1$d</ns1:g> nedēļās, katru <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">Nav pieejams neviens ieteikums</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">Atvērti kontaktpersonu ieteikumi</string>
+    <string msgid="5654014177472600916" name="accessibility_add_attendee">"Pievienot dalībnieku"</string>
+    <string msgid="2267950744060950152" name="accessibility_add_reminder">"Pievienot atgādinājumu"</string>
+    <string msgid="4146955438811915282" name="accessibility_all_day">"Pasākums visas dienas garumā"</string>
+    <string msgid="5624250196618643922" name="accessibility_pick_end_date">"Beigu datums"</string>
+    <string msgid="7120310166355224941" name="accessibility_pick_end_time">"Beigu laiks"</string>
+    <string msgid="1834311617874828931" name="accessibility_pick_recurrence">"Atkārtot notikumu"</string>
+    <string msgid="3926641487042699037" name="accessibility_pick_start_date">"Sākuma datums"</string>
+    <string msgid="4913428100936555149" name="accessibility_pick_start_time">"Sākuma laiks"</string>
+    <string msgid="7155465783500323811" name="accessibility_pick_time_zone">"Laika josla"</string>
+    <string msgid="8669288484484022771" name="accessibility_reminder_privacy">"Konfidencialitāte"</string>
+    <string msgid="6669129015980006570" name="accessibility_reminder_showmeas">"Rādīt man šādu statusu:"</string>
+    <string msgid="3594100545814579575" name="accessibility_reminder_time">"Atgādinājuma laiks"</string>
+    <string msgid="5339120699701437227" name="accessibility_reminder_type">"Atgādinājuma veids"</string>
+    <string msgid="7082751172654698863" name="accessibility_remove_attendee">"Noņemt dalībnieku"</string>
+    <string msgid="5261609343259665139" name="accessibility_remove_reminder">"Noņemt atgādinājumu"</string>
+    <string msgid="5899029840837836711" name="acessibility_recurrence_choose_end_date_description">"mainīt beigu datumu"</string>
+    <string msgid="3010149843148810768" name="acessibility_selected_marker_description">"Atlasītais pasākums"</string>
+    <string msgid="7172664623795021857" name="action_label">"Atgriezties"</string>
+    <string name="after_start_of_event">after start of event</string>
+    <string msgid="5965841338467422191" name="agenda_today">"šodien, <ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="3893625470780723605" name="agenda_tomorrow">"RĪT: <ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="5566084759423843245" name="agenda_view">"Dienas kārtība"</string>
+    <string msgid="4170964206728599693" name="agenda_yesterday">"vakar, <ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="7869592820853066853" name="alert_title">"Kalendāra paziņojumi"</string>
+    <string msgid="5452708708398908131" name="app_label">"Kalendārs"</string>
+    <string msgid="3595509200561433667" name="calendar_color_picker_dialog_title">"Kalendāra krāsa"</string>
+    <string msgid="6172731193680500025" name="calendar_refresh">"Atsvaidzināt"</string>
+    <string msgid="7430468363525563483" name="calendar_square_color_picker_description">"Krāsu izvēle"</string>
+    <string msgid="2960328220008869083" name="call_label">"Zvanīt"</string>
+    <string msgid="7704714776070974984" name="change_response_title">"Atbildes maiņa"</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"Atcelt"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">Ievietot starpliktuvē</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"Atļaut kontaktpersonu ieteikumus"</string>
+    <string msgid="2192923501857428854" name="choose_event_color_label">"Izvēlieties notikuma teksta krāsu"</string>
+    <string msgid="437691290566699292" name="copy_db">"Nosūtīt datu bāzi"</string>
+    <string msgid="1084563757174121331" name="copy_email">Ievietot e-pasta adresi starpliktuvē</string>
+    <string msgid="8860802152973030914" name="copy_number">Ievietot tālruņa numuru starpliktuvē</string>
+    <string msgid="1080859798521717414" name="create_event_dialog_save">"Saglabāt"</string>
+    <string msgid="7516249252554059980" name="creating_event">"Pasākums ir izveidots."</string>
+    <string msgid="5758688413124191931" name="creating_event_with_guest">"Ielūgumi tiks nosūtīti."</string>
+    <string msgid="4137468716966004993" name="custom" product="default">"Pielāgots (nevar pielāgot tālrunī)"</string>
+    <string msgid="1642972650061946484" name="date_time_fmt">
+        <ns1:g id="date">%1$s</ns1:g>, <ns1:g id="time_interval">%2$s</ns1:g>
+    </string>
+    <string msgid="4467754504843584437" name="day_view">"Diena"</string>
+    <string msgid="2131483437911536229" name="day_view_new_event_hint">"+ Jauns notikums"</string>
+    <string msgid="874742811918030739" name="delete_label">"Dzēst"</string>
+    <string msgid="5609046778422180206" name="delete_recurring_event_title">"Vai dzēst pasākumu <ns1:g id="EVENTTITLE">%s</ns1:g>?"</string>
+    <string msgid="518402946676919384" name="delete_this_event_title">"Vai dzēst šo pasākumu?"</string>
+    <string msgid="1232037509095606687" name="directory_searching_fmt">"Notiek domēna <ns1:g id="DOMAIN">%s</ns1:g> meklēšana…"</string>
+    <string msgid="2394623883289782541" name="discard_label">"Atcelt"</string>
+    <string msgid="1834400025868091301" name="dismiss_all_label">"Noraidīt visus"</string>
+    <string msgid="1877681921029738999" name="does_not_repeat">"Vienreizējs pasākums"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">Noņemt <ns1:g id="CONTACT">%s</ns1:g> no saņēmēju saraksta</string>
+    <string msgid="6200181113992136073" name="edit_event_all_day_label">"Visu dienu"</string>
+    <string msgid="4556498359505856900" name="edit_event_calendar_label">"Kalendārs"</string>
+    <string msgid="7413222956349977161" name="edit_event_label">"Plašāka informācija"</string>
+    <string msgid="8934331258435656534" name="edit_label">"Rediģēt"</string>
+    <string msgid="8772030932155305903" name="email_guests_label">"Sūtīt viesiem e-pasta ziņojumu"</string>
+    <string msgid="7178059542798074813" name="email_organizer_label">"E-pasta organizators"</string>
+    <string msgid="4808253965057791781" name="email_picker_label">"E-pasta ziņojuma adresāts(-i)"</string>
+    <string msgid="9018699257414338634" name="empty_event">"Tukšs pasākums; nav izveidots."</string>
+    <string msgid="7654221304929538201" name="endByDate">"; līdz šādam datumam: <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string msgid="4631938661655159511" name="event_color_picker_dialog_title">"Notikuma teksta krāsa"</string>
+    <string msgid="3447218820785647967" name="event_color_set_to_default">"Iestatīt kā kalendāra noklusējuma krāsu"</string>
+    <string msgid="6941040556709110617" name="event_create">"Jauns pasākums"</string>
+    <string msgid="2386667193277770442" name="event_delete">"Dzēst pasākumu"</string>
+    <string msgid="4006961928830064662" name="event_edit">"Rediģēt pasākumu"</string>
+    <string msgid="9138683335394832629" name="event_info_organizer">"Rīkotājs:"</string>
+    <string msgid="8913097552956388972" name="event_info_reminders_label">"Atgādinājumi"</string>
+    <string msgid="56024222340421620" name="event_info_title">"Skatīt pasākumu"</string>
+    <string msgid="9160326363769403865" name="event_info_title_invite">"Ielūgums uz sapulci"</string>
+    <string msgid="8356864185947582727" name="event_not_found">"Pasākums nav atrasts."</string>
+    <string msgid="7621353079385122317" name="event_view">"Skatīt pasākumu"</string>
+    <string msgid="5896574838353902978" name="every_weekday">"Katru darbadienu (Pr–Pk)"</string>
+    <string msgid="5209110911088302855" name="gadget_no_events">"Kalendārā nav plānotu pasākumu."</string>
+    <string msgid="9162136434410891230" name="goto_today">"Šodien"</string>
+    <string msgid="830320505938520882" name="hide_controls">"Slēpt vadīklas"</string>
+    <string msgid="1650488163176888480" name="hint_attendees">"Viesi"</string>
+    <string msgid="1910143586169033232" name="hint_description">"Apraksts"</string>
+    <string msgid="804776560897143016" name="hint_time_zone_search">Ievadīt valsts nosaukumu</string>
+    <string msgid="709155115005044531" name="hint_what">"Pasākuma nosaukums"</string>
+    <string msgid="4972598001033801974" name="hint_where">"Atrašanās vieta"</string>
+    <string msgid="3772533493214331230" name="loading">"Notiek ielāde…"</string>
+    <string msgid="8795383535586556038" name="map_label">"Karte"</string>
+    <string msgid="9120238479503233925" name="menu_preferences">"Iestatījumi"</string>
+    <string msgid="4421657265864209041" name="modify_all">"Mainīt visus virknes pasākumus"</string>
+    <string msgid="3017428541066390380" name="modify_all_following">"Mainīt šo un visus nākamos pasākumus"</string>
+    <string msgid="5982876409997142690" name="modify_event">"Mainīt tikai šo pasākumu"</string>
+    <string msgid="7287101431749285412" name="month_view">"Mēnesis"</string>
+    <string msgid="4587116285383048586" name="monthly">"Reizi mēnesī"</string>
+    <string msgid="643992135011109762" name="more_string">+<ns1:g id="COUNT">%1$d</ns1:g></string>
+    <string msgid="7553105224561147916" name="new_event_dialog_label">"Jauns notikums"</string>
+    <string msgid="6154657379574669371" name="new_event_dialog_option">"Jauns notikums"</string>
+    <string name="no_reminder_label">Nav</string>
+    <string msgid="5475293015394772651" name="no_results_found">Nekas netika atrasts</string>
+    <string msgid="7019488867045436129" name="no_syncable_calendars">"Nav kalendāru"</string>
+    <string msgid="302177118061368042" name="no_title_label">"(Nav nosaukuma)"</string>
+    <string msgid="3485026339977302148" name="palestine_display_name">"Palestīna"</string>
+    <string msgid="6643468203670475296" name="preferences_alerts_popup_title">"Uznirstošais paziņojums"</string>
+    <string msgid="1849706055052358346" name="preferences_alerts_ringtone_title">"Skaņa"</string>
+    <string msgid="6636088008103904020" name="preferences_alerts_title">"Paziņojumi"</string>
+    <string msgid="8731372580674292759" name="preferences_alerts_vibrateWhen_title">"Vibrozvans"</string>
+    <string msgid="8242471883413502068" name="preferences_build_version">"Būvējuma versija"</string>
+    <string msgid="7864674093455778158" name="preferences_clear_search_history_summary">"Noņemt visus meklētos vienumus"</string>
+    <string msgid="6619916370215282982" name="preferences_clear_search_history_title">"Notīrīt meklēšanas vēsturi"</string>
+    <string msgid="2903884416749959435" name="preferences_default_reminder_default">"10"</string>
+    <string msgid="2490348857239323412" name="preferences_default_reminder_dialog">"Atgādinājuma noklusējuma laiks"</string>
+    <string msgid="5188861433342733905" name="preferences_default_reminder_title">"Atgādinājuma noklusējuma laiks"</string>
+    <string msgid="8111213192001230350" name="preferences_experimental_category">Izmēģinājuma</string>
+    <string msgid="2069075513760573117" name="preferences_general_title">"Kalendāra skatījuma iestatījums"</string>
+    <string msgid="1849295943669890034" name="preferences_hide_declined_title">"Slēpt noraidītos pasākumus"</string>
+    <string msgid="6680000444088818578" name="preferences_home_tz_title">"Sākuma laika josla"</string>
+    <string msgid="5199606534191180129" name="preferences_reminder_title">"Paziņojumi un atgādinājumi"</string>
+    <string msgid="1873289128793828352" name="preferences_reminders_responded_dialog">"Atgādinājumu izlaišana"</string>
+    <string msgid="1196570678238475838" name="preferences_reminders_responded_label">"Izlaist atgādinājumus"</string>
+    <string msgid="5280734329664503461" name="preferences_show_week_num_title">"Rādīt nedēļas numuru"</string>
+    <string msgid="8045855493262131773" name="preferences_title">"Iestatījumi"</string>
+    <string msgid="4835375381297413746" name="preferences_use_home_tz_descrip">"Kalendāri un pasākumu laiks sākuma laika joslā, kad ceļojat."</string>
+    <string msgid="5597546849968598210" name="preferences_use_home_tz_title">"Sākuma laika josla"</string>
+    <string msgid="5181634128884089113" name="preferences_week_start_day_dialog">"Nedēļas pirmā diena"</string>
+    <string msgid="4619489296444901622" name="preferences_week_start_day_title">"Nedēļas pirmā diena"</string>
+    <string msgid="6169724148441175862" name="presence_label">"Rādīt mani ar šādu statusu:"</string>
+    <string msgid="9215031965259597335" name="privacy_label">"Konfidencialitāte"</string>
+    <string msgid="8792374208224108798" name="quick_response_custom_msg">"Rakstīt savu…"</string>
+    <string msgid="2681309456412199207" name="quick_response_dialog_title">"Ātrās atbildes izvēle"</string>
+    <string msgid="5544066405231853245" name="quick_response_email_failed">"Neizdevās atrast e-pasta programmu."</string>
+    <string msgid="6776151690686068278" name="quick_response_settings">"Ātrās atbildes"</string>
+    <string msgid="6260055523174081930" name="quick_response_settings_edit_title">"Ātrā atbilde"</string>
+    <string msgid="7878304729027355604" name="quick_response_settings_summary">"Mainīt atbildes"</string>
+    <string msgid="6898950241634912991" name="recurrence_end_continously">"Bezgalīgi"</string>
+    <string msgid="1233883668293087977" name="recurrence_end_count_label">"Noteiktu reižu skaitu"</string>
+    <string msgid="3693751578164711701" name="recurrence_end_date">"Līdz  šādam datumam: <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string msgid="4142791438636994952" name="recurrence_end_date_label">"Līdz noteiktam datumam"</string>
+    <string msgid="4400107556121003459" name="recurrence_month_pattern_by_day">"Katru mēnesi"</string>
+    <string msgid="7292389181815525676" name="reminders_label">"Pievienot atgādin."</string>
+    <string msgid="7791500973627841695" name="response_maybe">"Varbūt"</string>
+    <string msgid="561911691884148136" name="response_no">"Nē"</string>
+    <string msgid="2027484304899988350" name="response_yes">"Jā"</string>
+    <string msgid="2133599104834432589" name="save_label">"Gatavs"</string>
+    <string msgid="7694181017411177226" name="saving_event">"Pasākums ir saglabāts."</string>
+    <string msgid="9184584438475689577" name="saving_event_with_guest">"Atjauninājumi tiks nosūtīti."</string>
+    <string msgid="550656004486017426" name="search">"Meklēt"</string>
+    <string msgid="1536707558435227567" name="search_history_cleared">"Meklēšanas vēsture ir notīrīta."</string>
+    <string msgid="8898015280250716254" name="search_title">"Meklēt manus kalendārus"</string>
+    <string msgid="1603860069305867810" name="searchview_description_clear">"Notīrīt vaicājumu"</string>
+    <string msgid="8890542984949996251" name="select_synced_calendars_button">"Sinhronizējamie kalendāri"</string>
+    <string msgid="715520586028062621" name="show_controls">"Rādīt vadīklas"</string>
+    <string msgid="5782512782605466016" name="show_day_view">"Rādīt dienu"</string>
+    <string msgid="2604638815440163080" name="show_newer_events">"Pieskarieties, lai skatītu notikumus pēc diapazona <ns1:g id="NEWEST_SEARCH_RANGE">%1$s</ns1:g>"</string>
+    <string msgid="5140647493681439926" name="show_older_events">"Pieskarieties, lai skatītu notikumus pirms diapazona <ns1:g id="OLDEST_SEARCH_RANGE">%1$s</ns1:g>"</string>
+    <string msgid="1515893621063224666" name="snooze_label">"Atlikt"</string>
+    <string msgid="4067877800670753110" name="template_announce_item_index">"<ns1:g id="ITEM_INDEX">%1$s</ns1:g>. notikums no <ns1:g id="ITEM_COUNT">%2$s</ns1:g>."</string>
+    <string msgid="8577375020252453006" name="today">"Šodien"</string>
+    <string msgid="1981279213130049736" name="today_at_time_fmt">"Šodien plkst. <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string msgid="614434811813859237" name="tomorrow">"Rīt"</string>
+    <string msgid="1330779112841767432" name="tomorrow_at_time_fmt">"Rīt plkst. <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string msgid="6126231656338241140" name="view_event_calendar_label">"Kalendārs:"</string>
+    <string msgid="2753151795647402277" name="view_event_organizer_label">"Rīkotājs:"</string>
+    <string msgid="8382281658458798329" name="view_event_response_label">"Vai apmeklēsiet?"</string>
+    <string name="visibility_default">Noklusējums</string>
+    <string name="visibility_private">Privāts</string>
+    <string name="visibility_public">Publisks</string>
+    <string msgid="6775043022159508060" name="week_view">"Nedēļa"</string>
+    <string msgid="894636567327261599" name="when_label">"Kad"</string>
+    <string msgid="3652692085322162449" name="yearly_plain">"Reizi gadā"</string>
+</resources>

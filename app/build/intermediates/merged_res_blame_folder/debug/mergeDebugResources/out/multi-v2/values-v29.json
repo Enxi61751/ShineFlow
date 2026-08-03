@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "ws.xsoh.etar.app-mergeDebugResources-42:/values-v29/values-v29.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\21370\\Desktop\\ShineFlow-main\\app\\src\\main\\res\\values-v29\\arrays.xml",
+                    "from": {
+                        "startLines": "3,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "103,362",
+                        "endLines": "7,13",
+                        "endColumns": "19,19",
+                        "endOffsets": "356,557"
+                    },
+                    "to": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,356",
+                        "endLines": "6,11",
+                        "endColumns": "19,19",
+                        "endOffsets": "351,549"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\21370\\Desktop\\ShineFlow-main\\app\\src\\main\\res\\values-v29\\strings.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "687",
+                        "endColumns": "74",
+                        "endOffsets": "757"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "554",
+                        "endColumns": "74",
+                        "endOffsets": "624"
+                    }
+                }
+            ]
+        }
+    ]
+}
