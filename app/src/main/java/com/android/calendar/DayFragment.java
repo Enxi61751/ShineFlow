@@ -25,6 +25,9 @@ import android.view.ViewGroup.LayoutParams;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ProgressBar;
+import android.widget.LinearLayout;
+import android.widget.PopupWindow;
+import android.widget.TextView;
 import android.widget.ViewSwitcher;
 import android.widget.ViewSwitcher.ViewFactory;
 
@@ -70,6 +73,8 @@ public class DayFragment extends Fragment implements CalendarController.EventHan
     };
 
     private int mNumDays;
+    private View mTransitStationButton;
+    private TextView mTransitStationCount;
 
     public DayFragment() {
         mSelectedDay.set(System.currentTimeMillis());
@@ -107,8 +112,56 @@ public class DayFragment extends Fragment implements CalendarController.EventHan
         mViewSwitcher.setFactory(this);
         mViewSwitcher.getCurrentView().requestFocus();
         ((DayView) mViewSwitcher.getCurrentView()).updateTitle();
+        mTransitStationButton = v.findViewById(R.id.transit_station_button);
+        mTransitStationCount = (TextView) v.findViewById(R.id.transit_station_count);
+        mTransitStationButton.setVisibility(View.GONE);
+        mTransitStationButton.setOnClickListener(view -> showTransitStation());
+        refreshTransitStationCount();
 
         return v;
+    }
+
+    private void refreshTransitStationCount() {
+        if (mTransitStationCount == null) return;
+        int count = new TransitStationRepository(requireContext()).getAll().size();
+        mTransitStationCount.setText(String.valueOf(count));
+        mTransitStationCount.setVisibility(count == 0 ? View.GONE : View.VISIBLE);
+    }
+
+    private void showTransitStation() {
+        LinearLayout content = new LinearLayout(requireContext());
+        content.setOrientation(LinearLayout.VERTICAL);
+        int padding = (int) (16 * getResources().getDisplayMetrics().density);
+        content.setPadding(padding, padding, padding, padding);
+        TextView title = new TextView(requireContext());
+        title.setText(R.string.transit_station);
+        title.setTextSize(18);
+        content.addView(title);
+        for (TransitSchedule schedule : new TransitStationRepository(requireContext()).getAll()) {
+            TextView item = new TextView(requireContext());
+            item.setPadding(0, padding, 0, padding);
+            item.setText(schedule.title + "\n" + getString(R.string.transit_time_pending));
+            item.setOnClickListener(view -> {
+                ((DayView) mViewSwitcher.getCurrentView()).placeTransitScheduleAtSelection(schedule);
+                popupDismissAndRefresh(view);
+            });
+            content.addView(item);
+        }
+        if (content.getChildCount() == 1) {
+            TextView empty = new TextView(requireContext());
+            empty.setText(R.string.transit_station_empty);
+            content.addView(empty);
+        }
+        PopupWindow popup = new PopupWindow(content, (int) (280 * getResources().getDisplayMetrics().density),
+                ViewGroup.LayoutParams.WRAP_CONTENT, true);
+        popup.setBackgroundDrawable(new android.graphics.drawable.ColorDrawable(
+                android.graphics.Color.WHITE));
+        popup.setOutsideTouchable(true);
+        popup.showAsDropDown(mTransitStationButton, -popup.getWidth(), 0);
+    }
+
+    private void popupDismissAndRefresh(View view) {
+        refreshTransitStationCount();
     }
 
     public View makeView() {

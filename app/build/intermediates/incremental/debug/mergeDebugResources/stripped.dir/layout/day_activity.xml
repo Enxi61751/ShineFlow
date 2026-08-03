@@ -25,4 +25,26 @@
         android:id="@+id/switcher"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+    <ImageButton
+        android:id="@+id/transit_station_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="8dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/transit_station"
+        android:src="@drawable/ic_transit_station"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/transit_station_count"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:background="@android:drawable/btn_default_small"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:visibility="gone" />
 </FrameLayout>

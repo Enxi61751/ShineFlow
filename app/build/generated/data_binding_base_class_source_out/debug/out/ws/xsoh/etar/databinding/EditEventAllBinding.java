@@ -23,7 +23,6 @@ import androidx.viewbinding.ViewBindings;
 import com.android.calendar.chips.RecipientEditTextView;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.button.MaterialButtonToggleGroup;
-import com.google.android.material.chip.ChipGroup;
 import com.google.android.material.materialswitch.MaterialSwitch;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
@@ -187,16 +186,10 @@ public final class EditEventAllBinding implements ViewBinding {
   public final TextView startTimeHomeTz;
 
   @NonNull
-  public final MaterialButton tagsAdd;
-
-  @NonNull
-  public final ChipGroup tagsContainer;
-
-  @NonNull
-  public final ImageView tagsIcon;
-
-  @NonNull
   public final MaterialButtonToggleGroup timeModeGroup;
+
+  @NonNull
+  public final MaterialSwitch timePendingSwitch;
 
   @NonNull
   public final Button timezoneButton;
@@ -297,9 +290,8 @@ public final class EditEventAllBinding implements ViewBinding {
       @NonNull RadioButton responseYes, @NonNull Button rrule, @NonNull ImageView rruleIcon,
       @NonNull MaterialButtonToggleGroup specialDayGroup, @NonNull Button startDate,
       @NonNull TextView startDateHomeTz, @NonNull Button startTime,
-      @NonNull TextView startTimeHomeTz, @NonNull MaterialButton tagsAdd,
-      @NonNull ChipGroup tagsContainer, @NonNull ImageView tagsIcon,
-      @NonNull MaterialButtonToggleGroup timeModeGroup, @NonNull Button timezoneButton,
+      @NonNull TextView startTimeHomeTz, @NonNull MaterialButtonToggleGroup timeModeGroup,
+      @NonNull MaterialSwitch timePendingSwitch, @NonNull Button timezoneButton,
       @NonNull Group timezoneButtonRow, @NonNull ImageView timezoneIcon,
       @NonNull TextView timezoneTextView, @NonNull LinearLayout timezoneTextviewRow,
       @NonNull TextInputEditText title, @NonNull LinearLayout toRowHomeTz, @NonNull EditText url,
@@ -360,10 +352,8 @@ public final class EditEventAllBinding implements ViewBinding {
     this.startDateHomeTz = startDateHomeTz;
     this.startTime = startTime;
     this.startTimeHomeTz = startTimeHomeTz;
-    this.tagsAdd = tagsAdd;
-    this.tagsContainer = tagsContainer;
-    this.tagsIcon = tagsIcon;
     this.timeModeGroup = timeModeGroup;
+    this.timePendingSwitch = timePendingSwitch;
     this.timezoneButton = timezoneButton;
     this.timezoneButtonRow = timezoneButtonRow;
     this.timezoneIcon = timezoneIcon;
@@ -718,27 +708,15 @@ public final class EditEventAllBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tags_add;
-      MaterialButton tagsAdd = ViewBindings.findChildViewById(rootView, id);
-      if (tagsAdd == null) {
-        break missingId;
-      }
-
-      id = R.id.tags_container;
-      ChipGroup tagsContainer = ViewBindings.findChildViewById(rootView, id);
-      if (tagsContainer == null) {
-        break missingId;
-      }
-
-      id = R.id.tags_icon;
-      ImageView tagsIcon = ViewBindings.findChildViewById(rootView, id);
-      if (tagsIcon == null) {
-        break missingId;
-      }
-
       id = R.id.time_mode_group;
       MaterialButtonToggleGroup timeModeGroup = ViewBindings.findChildViewById(rootView, id);
       if (timeModeGroup == null) {
+        break missingId;
+      }
+
+      id = R.id.time_pending_switch;
+      MaterialSwitch timePendingSwitch = ViewBindings.findChildViewById(rootView, id);
+      if (timePendingSwitch == null) {
         break missingId;
       }
 
@@ -901,11 +879,11 @@ public final class EditEventAllBinding implements ViewBinding {
           fromRowHomeTz, imageView, isAllDay, location, organizer, organizerLabel, organizerRow,
           reminderAdd, reminderIcon, reminderItemsContainer, responseGroup, responseLabel,
           responseMaybe, responseNo, responseRow, responseValue, responseYes, rrule, rruleIcon,
-          specialDayGroup, startDate, startDateHomeTz, startTime, startTimeHomeTz, tagsAdd,
-          tagsContainer, tagsIcon, timeModeGroup, timezoneButton, timezoneButtonRow, timezoneIcon,
-          timezoneTextView, timezoneTextviewRow, title, toRowHomeTz, url, urlIcon, urlRow, view,
-          view1, view2, view3, view4, view5, view6, view7, visibility, visibilityIcon, when,
-          whenLabel, whenRow, whereIcon, whereRow);
+          specialDayGroup, startDate, startDateHomeTz, startTime, startTimeHomeTz, timeModeGroup,
+          timePendingSwitch, timezoneButton, timezoneButtonRow, timezoneIcon, timezoneTextView,
+          timezoneTextviewRow, title, toRowHomeTz, url, urlIcon, urlRow, view, view1, view2, view3,
+          view4, view5, view6, view7, visibility, visibilityIcon, when, whenLabel, whenRow,
+          whereIcon, whereRow);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

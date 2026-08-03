@@ -237,6 +237,7 @@ public class EditEventView implements View.OnClickListener, DialogInterface.OnCa
     private ArrayList<ConstraintLayout> mReminderItems = new ArrayList<ConstraintLayout>(0);
     private ArrayList<ReminderEntry> mUnsupportedReminders = new ArrayList<ReminderEntry>();
     private String mRrule;
+    private CompoundButton mTimePendingSwitch;
 
     public EditEventView(AppCompatActivity activity, View view, EditDoneRunnable done) {
 
@@ -273,6 +274,7 @@ public class EditEventView implements View.OnClickListener, DialogInterface.OnCa
         mEndTimeHome = (TextView) view.findViewById(R.id.end_time_home_tz);
         mEndDateHome = (TextView) view.findViewById(R.id.end_date_home_tz);
         mAllDayCheckBox = view.findViewById(R.id.is_all_day);
+        mTimePendingSwitch = view.findViewById(R.id.time_pending_switch);
         mTimeModeGroup = view.findViewById(R.id.time_mode_group);
         mSpecialDayGroup = view.findViewById(R.id.special_day_group);
         setupTimeModeControls();
@@ -390,6 +392,10 @@ public class EditEventView implements View.OnClickListener, DialogInterface.OnCa
             tzpd.setOnTimeZoneSetListener(this);
         }
 
+    }
+
+    public boolean isTimePending() {
+        return mTimePendingSwitch != null && mTimePendingSwitch.isChecked();
     }
 
     /**

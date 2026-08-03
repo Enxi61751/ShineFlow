@@ -22,6 +22,8 @@ import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.app.Service;
 import android.content.ContentValues;
+import android.content.ClipData;
+import android.content.ClipDescription;
 import android.content.ContentResolver;
 import android.content.ContentUris;
 import android.content.Context;
@@ -53,6 +55,7 @@ import android.text.format.DateUtils;
 import android.text.style.StyleSpan;
 import android.util.Log;
 import android.view.ContextMenu;
+import android.view.DragEvent;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.GestureDetector;
 import android.view.Gravity;
@@ -212,6 +215,8 @@ public class DayView extends View implements View.OnCreateContextMenuListener,
     private float mDragScaleY = 1f;
     private float mDragRotation;
     private boolean mDragTetherBroken;
+    private boolean mDragCrossedPage;
+    private int mDragPageEdgeDirection;
     private static int mOnDownDelay;
     private int mClickedYLocation;
     private long mDownTouchTime;
@@ -2328,6 +2333,9 @@ public class DayView extends View implements View.OnCreateContextMenuListener,
 
     private void drawJellyTether(Canvas canvas, Event event, float dragCenterX, float dragCenterY,
             float dragWidth, float dragHeight, Paint paint) {
+        if (mDragCrossedPage) {
+            return;
+        }
         float sourceLeft = event.left + EVENT_RECT_LEFT_MARGIN;
         float sourceRight = event.right - EVENT_RECT_RIGHT_MARGIN;
         float sourceTop = event.top + EVENT_RECT_TOP_MARGIN;
@@ -4188,6 +4196,8 @@ public class DayView extends View implements View.OnCreateContextMenuListener,
         mDragScaleY = 1f;
         mDragRotation = 0f;
         mDragTetherBroken = false;
+        mDragCrossedPage = false;
+        mDragPageEdgeDirection = 0;
         // A pressed event uses the blue click color. A drag should leave the
         // stationary card in its normal calendar color instead.
         eventClickCleanup();
@@ -4206,6 +4216,8 @@ public class DayView extends View implements View.OnCreateContextMenuListener,
         mDragScaleY = 1f;
         mDragRotation = 0f;
         mDragTetherBroken = false;
+        mDragCrossedPage = false;
+        mDragPageEdgeDirection = 0;
         mDragTouchOffsetY = 0f;
     }
 
@@ -4228,7 +4240,47 @@ public class DayView extends View implements View.OnCreateContextMenuListener,
             mDragScaleY = 1f + verticalStretch;
             mDragRotation = Math.max(-5f, Math.min(5f, -deltaY / 14f));
         }
+        switchWeekWhileDraggingIfNeeded();
         invalidate();
+    }
+
+    private void switchWeekWhileDraggingIfNeeded() {
+        if (mNumDays <= 1) {
+            return;
+        }
+
+        float edgeWidth = Math.max(48f * mScale, mCellWidth * 0.45f);
+        int edgeDirection = 0;
+        if (mDragTouchX <= mHoursWidth + edgeWidth) {
+            edgeDirection = -1;
+        } else if (mDragTouchX >= getWidth() - edgeWidth) {
+            edgeDirection = 1;
+        }
+
+        if (edgeDirection == 0) {
+            mDragPageEdgeDirection = 0;
+            return;
+        }
+        if (edgeDirection == mDragPageEdgeDirection) {
+            return;
+        }
+
+        Time targetWeek = new Time(mBaseDate.getTimezone());
+        targetWeek.set(mBaseDate);
+        targetWeek.setDay(targetWeek.getDay() + edgeDirection * mNumDays);
+        targetWeek.normalize();
+        mBaseDate.set(targetWeek);
+        recalc();
+        setSelectedDay(mSelectionDay + edgeDirection * mNumDays);
+        clearCachedEvents();
+        reloadEvents();
+        mController.setTime(targetWeek.toMillis());
+        updateTitle();
+
+        // The fixed end belongs to the previous week, so do not leave a
+        // stale tether drawn across the newly visible page.
+        mDragCrossedPage = true;
+        mDragPageEdgeDirection = edgeDirection;
     }
 
     /**
@@ -4241,6 +4293,11 @@ public class DayView extends View implements View.OnCreateContextMenuListener,
         float dragTouchOffsetY = mDragTouchOffsetY;
         cancelEventDrag();
         if (event == null) {
+            return;
+        }
+
+        if (isTransitStationDrop(x, y)) {
+            moveEventToTransitStation(event);
             return;
         }
 
@@ -4310,6 +4367,84 @@ public class DayView extends View implements View.OnCreateContextMenuListener,
         } else {
             Toast.makeText(mContext, "日程时间更新失败", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    private boolean isTransitStationDrop(int x, int y) {
+        if (mNumDays <= 1) return false;
+        // The toolbar station icon sits above this view, between the title and
+        // calendar button. MotionEvent coordinates remain routed to DayView
+        // during a drag and become negative after crossing its top edge.
+        float density = getResources().getDisplayMetrics().density;
+        float left = getWidth() - 184f * density;
+        float right = getWidth() - 72f * density;
+        return x >= left && x <= right && y <= 72f * density;
+    }
+
+    private void moveEventToTransitStation(Event event) {
+        TransitSchedule schedule = TransitSchedule.create(
+                event.title == null ? "" : event.title.toString(),
+                event.location == null ? "" : event.location.toString(), "",
+                -1, event.endMillis - event.startMillis, event.allDay);
+        try {
+            int deleted = mContext.getContentResolver().delete(
+                    ContentUris.withAppendedId(Events.CONTENT_URI, event.id), null, null);
+            if (deleted == 1) {
+                new TransitStationRepository(mContext).add(schedule);
+                clearCachedEvents();
+                reloadEvents();
+                mController.sendEvent(this, EventType.EVENTS_CHANGED, null, null, -1,
+                        ViewType.CURRENT);
+                Toast.makeText(mContext, R.string.transit_station_saved, Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(mContext, "日程移入中转站失败", Toast.LENGTH_SHORT).show();
+            }
+        } catch (SecurityException e) {
+            Toast.makeText(mContext, "没有修改日程的权限", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    public void placeTransitScheduleAtSelection(TransitSchedule schedule) {
+        long start = getSelectedTimeInMillis();
+        if (start < 0 || schedule.allDay) {
+            Toast.makeText(mContext, "请选择时间格后再安排日程", Toast.LENGTH_SHORT).show();
+            return;
+        }
+        ContentValues values = new ContentValues();
+        values.put(Events.TITLE, schedule.title);
+        values.put(Events.EVENT_LOCATION, schedule.location);
+        values.put(Events.DESCRIPTION, schedule.description);
+        values.put(Events.DTSTART, start);
+        values.put(Events.DTEND, start + schedule.durationMillis);
+        if (schedule.calendarId >= 0) values.put(Events.CALENDAR_ID, schedule.calendarId);
+        try {
+            if (mContext.getContentResolver().insert(Events.CONTENT_URI, values) != null) {
+                new TransitStationRepository(mContext).remove(schedule.id);
+                clearCachedEvents();
+                reloadEvents();
+                Toast.makeText(mContext, "已安排日程", Toast.LENGTH_SHORT).show();
+            }
+        } catch (SecurityException e) {
+            Toast.makeText(mContext, "没有修改日程的权限", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    @Override
+    public boolean onDragEvent(DragEvent event) {
+        if (event.getAction() == DragEvent.ACTION_DRAG_STARTED) {
+            return event.getClipDescription() != null
+                    && event.getClipDescription().hasMimeType(ClipDescription.MIMETYPE_TEXT_PLAIN);
+        }
+        if (event.getAction() == DragEvent.ACTION_DROP && event.getClipData() != null
+                && event.getClipData().getItemCount() > 0) {
+            String id = event.getClipData().getItemAt(0).getText().toString();
+            TransitSchedule schedule = new TransitStationRepository(mContext).get(id);
+            if (schedule != null && setSelectionFromPosition((int) event.getX(),
+                    (int) event.getY(), false)) {
+                placeTransitScheduleAtSelection(schedule);
+                return true;
+            }
+        }
+        return true;
     }
 
     private void doScroll(MotionEvent e1, MotionEvent e2, float deltaX, float deltaY) {

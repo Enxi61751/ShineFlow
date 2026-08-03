@@ -4182,6 +4182,7 @@ drawable ic_search_black_24
 drawable ic_search_holo_light
 drawable ic_sync_off_dark
 drawable ic_sync_off_light
+drawable ic_transit_station
 drawable list_focused_holo
 drawable list_item_font_secondary
 drawable list_multi_left_activated_holo
@@ -4998,6 +4999,7 @@ id textinput_suffix_text
 id time
 id time_mode_group
 id time_offset
+id time_pending_switch
 id time_zone
 id timezone_button
 id timezone_button_row
@@ -5022,6 +5024,8 @@ id top_center
 id top_divider_past_present
 id top_divider_simple
 id touch_outside
+id transit_station_button
+id transit_station_count
 id transitionToEnd
 id transitionToStart
 id transition_clip
@@ -6007,6 +6011,10 @@ string today
 string today_at_time_fmt
 string tomorrow
 string tomorrow_at_time_fmt
+string transit_station
+string transit_station_empty
+string transit_station_saved
+string transit_time_pending
 string two_days
 string two_hours
 string user_rejected_calendar_write_permission

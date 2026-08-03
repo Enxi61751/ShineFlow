@@ -1857,7 +1857,14 @@ public class EditEventFragment extends Fragment implements EventHandler, OnColor
                 mModification = Utils.MODIFY_ALL;
             }
 
-            if ((mCode & Utils.DONE_SAVE) != 0 && mModel != null
+            if ((mCode & Utils.DONE_SAVE) != 0 && mModel != null && mView.isTimePending()
+                    && mView.prepareForSave() && !isEmptyNewEvent()) {
+                new com.android.calendar.TransitStationRepository(mActivity).add(
+                        com.android.calendar.TransitSchedule.create(mModel.mTitle, mModel.mLocation,
+                                mModel.mDescription, mModel.mCalendarId,
+                                mModel.mEnd - mModel.mStart, mModel.mAllDay));
+                Toast.makeText(mActivity, R.string.transit_station_saved, Toast.LENGTH_SHORT).show();
+            } else if ((mCode & Utils.DONE_SAVE) != 0 && mModel != null
                     && (EditEventHelper.canRespond(mModel)
                     || EditEventHelper.canModifyEvent(mModel))
                     && mView.prepareForSave()

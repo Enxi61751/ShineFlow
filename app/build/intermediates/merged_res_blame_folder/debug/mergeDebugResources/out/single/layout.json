@@ -1,258 +1,262 @@
 [
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/edit_reminder_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/edit_reminder_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\color_picker_dialog.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\color_picker_dialog.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/agenda_day.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/agenda_day.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\appwidget_no_events.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\appwidget_no_events.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/add_offline_calendar_dialog.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/add_offline_calendar_dialog.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\recurrencepicker_end_text.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\recurrencepicker_end_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\actionbar_pulldown_menu_top_button_no_date.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\actionbar_pulldown_menu_top_button_no_date.xml"
     },
     {
         "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/day_activity.xml",
         "source": "ws.xsoh.etar.app-main-46:/layout/day_activity.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/chips_autocomplete_recipient_dropdown_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/chips_autocomplete_recipient_dropdown_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\location_dropdown_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\location_dropdown_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/select_calendars_fragment.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/select_calendars_fragment.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\edit_event.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\edit_event.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/appwidget.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/appwidget.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\event_info.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\event_info.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/month_by_week.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/month_by_week.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\mini_month_header.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\mini_month_header.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/activity_ml_debug.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/activity_ml_debug.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\simple_spinner_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\simple_spinner_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/event_info.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/event_info.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\alert_activity.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\alert_activity.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/email_autocomplete_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/email_autocomplete_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\edit_event_custom_actionbar.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\edit_event_custom_actionbar.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/edit_event_all.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/edit_event_all.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\about.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\about.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/full_month_by_week.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/full_month_by_week.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\time_zone_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\time_zone_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/agenda_header_footer.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/agenda_header_footer.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\full_month_header.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\full_month_header.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/timezonepickerview.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/timezonepickerview.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\expandable_textview.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\expandable_textview.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/simple_frame_layout_material.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/simple_frame_layout_material.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\edit_reminder_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\edit_reminder_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/calendars_spinner_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/calendars_spinner_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\calendars_dropdown_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\calendars_dropdown_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/event_info_dialog.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/event_info_dialog.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\select_calendars_fragment.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\select_calendars_fragment.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/widget_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/widget_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\agenda_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\agenda_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/actionbar_pulldown_menu_top_button_no_date.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/actionbar_pulldown_menu_top_button_no_date.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\appwidget.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\appwidget.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/recurrencepicker_freq_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/recurrencepicker_freq_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\chips_autocomplete_recipient_dropdown_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\chips_autocomplete_recipient_dropdown_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/about.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/about.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\time_zone_filter_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\time_zone_filter_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/recurrencepicker_end_text.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/recurrencepicker_end_text.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\quick_response_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\quick_response_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/appwidget_loading.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/appwidget_loading.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\recurrencepicker.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\recurrencepicker.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/actionbar_pulldown_menu_button.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/actionbar_pulldown_menu_button.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\color_picker_swatch.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\color_picker_swatch.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/all_in_one.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/all_in_one.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\alert_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\alert_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/dialog_missing_fields.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/dialog_missing_fields.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\edit_event_all.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\edit_event_all.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/create_event_dialog.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/create_event_dialog.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\mini_calendar_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\mini_calendar_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/bubble_event.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/bubble_event.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\actionbar_pulldown_menu_button.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\actionbar_pulldown_menu_button.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/mini_calendar_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/mini_calendar_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\timezonepickerview.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\timezonepickerview.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/contact_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/contact_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\empty_time_zone_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\empty_time_zone_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/all_in_one_material.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/all_in_one_material.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\dialog_missing_fields.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\dialog_missing_fields.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/recurrencepicker.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/recurrencepicker.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\appwidget_day.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\appwidget_day.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/alert_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/alert_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\email_autocomplete_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\email_autocomplete_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/expandable_textview.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/expandable_textview.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\add_offline_calendar_dialog.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\add_offline_calendar_dialog.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/appwidget_day.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/appwidget_day.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\agenda_fragment.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\agenda_fragment.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/location_dropdown_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/location_dropdown_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\simple_frame_layout.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\simple_frame_layout.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/quick_response_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/quick_response_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\event_info_headline.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\event_info_headline.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/agenda_fragment.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/agenda_fragment.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\app_bar.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\app_bar.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/widget_all_day_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/widget_all_day_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\agenda_day.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\agenda_day.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/event_info_headline.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/event_info_headline.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\recurrencepicker_freq_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\recurrencepicker_freq_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/calendars_dropdown_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/calendars_dropdown_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\appwidget_loading.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\appwidget_loading.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/empty_time_zone_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/empty_time_zone_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\email_autocomplete_item_loading.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\email_autocomplete_item_loading.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/simple_spinner_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/simple_spinner_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\agenda_header_footer.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\agenda_header_footer.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/mini_month_header.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/mini_month_header.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\activity_ml_debug.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\activity_ml_debug.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/edit_event_single_column.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/edit_event_single_column.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\calendars_spinner_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\calendars_spinner_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/app_bar.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/app_bar.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\more_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\more_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/event_info_label.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/event_info_label.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\date_range_title.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\date_range_title.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/color_picker_dialog.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/color_picker_dialog.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\widget_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\widget_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/email_autocomplete_item_loading.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/email_autocomplete_item_loading.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\day_activity.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\day_activity.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/appwidget_no_events.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/appwidget_no_events.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\full_month_by_week.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\full_month_by_week.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/agenda_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/agenda_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\widget_all_day_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\widget_all_day_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/actionbar_pulldown_menu_top_button.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/actionbar_pulldown_menu_top_button.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\all_in_one.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\all_in_one.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/full_month_header.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/full_month_header.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\actionbar_pulldown_menu_top_button.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\actionbar_pulldown_menu_top_button.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/chips_recipient_dropdown_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/chips_recipient_dropdown_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\event_info_dialog.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\event_info_dialog.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/edit_event_custom_actionbar.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/edit_event_custom_actionbar.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\month_by_week.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\month_by_week.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/edit_event.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/edit_event.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\contact_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\contact_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/simple_frame_layout.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/simple_frame_layout.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\all_in_one_material.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\all_in_one_material.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/time_zone_filter_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/time_zone_filter_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\create_event_dialog.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\create_event_dialog.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/more_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/more_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\simple_frame_layout_material.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\simple_frame_layout_material.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/color_picker_swatch.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/color_picker_swatch.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\bubble_event.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\bubble_event.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/alert_activity.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/alert_activity.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\event_info_label.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\event_info_label.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/time_zone_item.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/time_zone_item.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\chips_recipient_dropdown_item.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\chips_recipient_dropdown_item.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/date_range_title.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/date_range_title.xml"
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\edit_event_single_column.xml",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\edit_event_single_column.xml"
     }
 ]

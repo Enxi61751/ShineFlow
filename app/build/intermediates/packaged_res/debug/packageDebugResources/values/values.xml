@@ -1314,6 +1314,10 @@
     <string name="today_at_time_fmt">"Today at <ns2:g id="time_interval">%s</ns2:g>"</string>
     <string name="tomorrow">Tomorrow</string>
     <string name="tomorrow_at_time_fmt">"Tomorrow at <ns2:g id="time_interval">%s</ns2:g>"</string>
+    <string name="transit_station">日程中转站</string>
+    <string name="transit_station_empty">暂无待分配时间的日程</string>
+    <string name="transit_station_saved">已将待定时间日程放进中转站</string>
+    <string name="transit_time_pending">时间待定，存入中转站</string>
     <string name="two_days">2 days</string>
     <string name="two_hours">2 hours</string>
     <string name="user_rejected_calendar_write_permission">Etar requires calendar read and write permissions to work properly. Please try again.</string>
