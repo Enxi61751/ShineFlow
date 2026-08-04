@@ -28,6 +28,8 @@ async def chat(request: ChatRequest) -> ChatResponse:
             system_prompt=request.system_prompt,
             history=request.history or [],
             user_message=request.message,
+            personality=request.personality,
+            custom_personality=request.custom_personality,
         )
 
         reply = await llm_service.chat(prompt)
@@ -46,6 +48,8 @@ async def chat(request: ChatRequest) -> ChatResponse:
 async def chat_upload(
     message: str = Form(""),
     system_prompt: Optional[str] = Form(None),
+    personality: str = Form("gentle"),
+    custom_personality: Optional[str] = Form(None),
     history: Optional[str] = Form(None),
     files: Optional[List[UploadFile]] = File(None),
     images: Optional[List[UploadFile]] = File(None),
@@ -65,6 +69,8 @@ async def chat_upload(
             history=history_items,
             user_message=user_message,
             attachments=attachments,
+            personality=personality,
+            custom_personality=custom_personality,
         )
 
         reply = await llm_service.chat(prompt)
@@ -89,6 +95,8 @@ async def schedule_complete(
     timezone: str = Form("Asia/Shanghai"),
     now_iso: Optional[str] = Form(None),
     duration_minutes: int = Form(60),
+    personality: str = Form("gentle"),
+    custom_personality: Optional[str] = Form(None),
     image: Optional[UploadFile] = File(None),
     audio: Optional[UploadFile] = File(None),
     file: Optional[UploadFile] = File(None),
@@ -137,6 +145,8 @@ async def schedule_complete(
             timezone=timezone,
             duration_minutes=max(duration_minutes, 1),
             now_iso=now_iso,
+            personality=personality,
+            custom_personality=custom_personality,
         )
 
         raw_reply = await llm_service.chat(

@@ -11,14 +11,31 @@ CHAT_RULES = (
     "Do not wrap the answer in JSON unless the user explicitly asks for JSON."
 )
 
+PERSONALITY_INSTRUCTIONS = {
+    "gentle": "Use a warm, patient, caring companion tone. Be supportive without being patronizing.",
+    "lively": "Use an upbeat, energetic companion tone. Keep the response natural and helpful.",
+    "cool": "Use a calm, concise, slightly reserved companion tone. Remain respectful and helpful.",
+    "tsundere": "Use a light, playful tsundere-style companion tone. Do not insult, shame, or refuse reasonable help.",
+}
+
+
+def build_personality_instruction(personality: Optional[str], custom_personality: Optional[str]) -> str:
+    """Turn a user-selected companion style into a bounded prompt instruction."""
+    if personality == "custom" and custom_personality and custom_personality.strip():
+        return "Act as a caring companion. User-defined personality: " + custom_personality.strip()[:1000]
+    return PERSONALITY_INSTRUCTIONS.get(personality or "gentle", PERSONALITY_INSTRUCTIONS["gentle"])
+
 
 def build_prompt(
     system_prompt: Optional[str],
     history: List[ChatMessage],
     user_message: str,
     attachments: Optional[Iterable[AttachmentInfo]] = None,
+    personality: Optional[str] = "gentle",
+    custom_personality: Optional[str] = None,
 ) -> str:
     parts = [f"System instructions: {CHAT_RULES}"]
+    parts.append(f"Companion personality: {build_personality_instruction(personality, custom_personality)}")
 
     if system_prompt and system_prompt.strip():
         parts.append(f"Additional instructions: {system_prompt.strip()}")

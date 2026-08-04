@@ -62,6 +62,21 @@
         <item>7</item>
     </string-array>
 
+    <string-array name="agent_personality_entries">
+        <item>@string/agent_personality_gentle</item>
+        <item>@string/agent_personality_lively</item>
+        <item>@string/agent_personality_cool</item>
+        <item>@string/agent_personality_tsundere</item>
+        <item>@string/agent_personality_custom</item>
+    </string-array>
+    <string-array name="agent_personality_values" translatable="false">
+        <item>gentle</item>
+        <item>lively</item>
+        <item>cool</item>
+        <item>tsundere</item>
+        <item>custom</item>
+    </string-array>
+
     <!-- Choices for the "Reminder method" spinner.
          These must be kept in sync with the reminder_methods_values array.
          [CHAR LIMIT=10]

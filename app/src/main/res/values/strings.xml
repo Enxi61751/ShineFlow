@@ -983,6 +983,17 @@
     <string name="period_reminder_title">Period reminder</string>
     <string name="period_reminder_soon">Your period is expected in %1$d days</string>
     <string name="period_reminder_today">Your period is expected today</string>
+    <!-- ShineFlow companion agent -->
+    <string name="agent_personality_title">Companion personality</string>
+    <string name="agent_personality_summary">Choose how the companion agent talks with you</string>
+    <string name="agent_personality_gentle">Gentle</string>
+    <string name="agent_personality_lively">Lively</string>
+    <string name="agent_personality_cool">Cool</string>
+    <string name="agent_personality_tsundere">Tsundere</string>
+    <string name="agent_personality_custom">Custom</string>
+    <string name="agent_personality_custom_title">Custom personality</string>
+    <string name="agent_personality_custom_summary">Describe the companion's tone, manner, and boundaries. This stays on your device until sent with an AI request.</string>
+    <string name="agent_personality_custom_hint">For example: A thoughtful companion who uses short, encouraging sentences.</string>
     <string name="period_symptom_cramps">Cramps</string>
     <string name="period_symptom_headache">Headache</string>
     <string name="period_symptom_fatigue">Fatigue</string>

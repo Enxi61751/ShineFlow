@@ -21,6 +21,8 @@ class ChatRequest(BaseModel):
     message: str
     history: Optional[List[ChatMessage]] = Field(default_factory=list)
     system_prompt: Optional[str] = "You are a concise Chinese assistant."
+    personality: str = "gentle"
+    custom_personality: Optional[str] = None
 
 
 class ChatResponse(BaseModel):
