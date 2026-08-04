@@ -8,9 +8,15 @@ from app.schemas.chat import (
     AttachmentInfo,
     ChatRequest,
     ChatResponse,
+    EmotionSchedulePlanRequest,
+    EmotionSchedulePlanResponse,
     ScheduleCompletionResponse,
 )
+from app.services.emotion_llm_service import emotion_llm_service
 from app.services.llm_service import llm_service
+from app.services.schedule_llm_service import schedule_llm_service
+from app.tool_calling_agent.agent import ToolCallingScheduleAgent
+from app.tool_calling_agent.models import ToolCallingAgentRequest, ToolCallingAgentResponse
 from app.utils.attachment_handler import collect_attachments, parse_history_payload
 from app.utils.prompt_builder import build_prompt
 from app.utils.schedule_prompt_builder import (
@@ -19,6 +25,7 @@ from app.utils.schedule_prompt_builder import (
 )
 
 router = APIRouter(prefix="/api", tags=["chat"])
+tool_calling_schedule_agent = ToolCallingScheduleAgent()
 
 
 @router.post("/chat", response_model=ChatResponse)
@@ -81,6 +88,35 @@ async def chat_upload(
         raise
     except Exception as exc:
         raise HTTPException(status_code=500, detail=f"Model call failed: {exc}") from exc
+
+
+@router.post("/emotion/schedule-plan", response_model=EmotionSchedulePlanResponse)
+async def emotion_schedule_plan(request: EmotionSchedulePlanRequest) -> EmotionSchedulePlanResponse:
+    try:
+        emotion_payload = await emotion_llm_service.analyze(
+            message=request.message,
+            history=[],
+            timezone=request.timezone,
+        )
+        result = await schedule_llm_service.create_plan(
+            message=request.message,
+            tasks=request.tasks,
+            emotion=emotion_payload,
+            timezone=request.timezone,
+            start_time=request.start_time,
+            end_time=request.end_time,
+        )
+        return EmotionSchedulePlanResponse.model_validate(result)
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Emotion schedule planning failed: {exc}") from exc
+
+
+@router.post("/agent/tool-chat", response_model=ToolCallingAgentResponse)
+async def tool_calling_agent_chat(request: ToolCallingAgentRequest) -> ToolCallingAgentResponse:
+    try:
+        return await tool_calling_schedule_agent.run(request)
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Tool-calling agent failed: {exc}") from exc
 
 
 @router.post("/schedule/complete", response_model=ScheduleCompletionResponse)
