@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools" xmlns:ns2="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="agent_personality_entries">
+        <item>@string/agent_personality_gentle</item>
+        <item>@string/agent_personality_lively</item>
+        <item>@string/agent_personality_cool</item>
+        <item>@string/agent_personality_tsundere</item>
+        <item>@string/agent_personality_custom</item>
+    </string-array>
+    <string-array name="agent_personality_values" translatable="false">
+        <item>gentle</item>
+        <item>lively</item>
+        <item>cool</item>
+        <item>tsundere</item>
+        <item>custom</item>
+    </string-array>
     <string-array name="availability">
         <item>Busy</item>
         <item>Available</item>
@@ -920,6 +934,16 @@
     <string name="agenda_tomorrow">Tomorrow, <ns2:g id="date">%1$s</ns2:g></string>
     <string name="agenda_view">"Agenda"</string>
     <string name="agenda_yesterday">Yesterday, <ns2:g id="date">%1$s</ns2:g></string>
+    <string name="agent_personality_cool">Cool</string>
+    <string name="agent_personality_custom">Custom</string>
+    <string name="agent_personality_custom_hint">For example: A thoughtful companion who uses short, encouraging sentences.</string>
+    <string name="agent_personality_custom_summary">Describe the companion\'s tone, manner, and boundaries. This stays on your device until sent with an AI request.</string>
+    <string name="agent_personality_custom_title">Custom personality</string>
+    <string name="agent_personality_gentle">Gentle</string>
+    <string name="agent_personality_lively">Lively</string>
+    <string name="agent_personality_summary">Choose how the companion agent talks with you</string>
+    <string name="agent_personality_title">Companion personality</string>
+    <string name="agent_personality_tsundere">Tsundere</string>
     <string name="alert_title">Calendar notifications</string>
     <string name="app_authors" translatable="false">The Etar Project</string>
     <string name="app_authors_url" translatable="false">https://github.com/Etar-Group/Etar-Calendar/graphs/contributors</string>
@@ -968,6 +992,22 @@
     <string name="countdown_days_passed">%1$d days ago</string>
     <string name="countdown_days_remaining">%1$d days left</string>
     <string name="countdown_today">Today</string>
+    <string name="course_import_apply">Import courses</string>
+    <string name="course_import_draft_hint">One course per line: Course | Code | Teacher | Room | Mon | 1-2 | 1-16 | odd/even/all | excluded dates</string>
+    <string name="course_import_error">Timetable import failed: %1$s</string>
+    <string name="course_import_file_failed">Could not read the selected timetable file.</string>
+    <string name="course_import_first_monday">First Monday of term (yyyy-MM-dd)</string>
+    <string name="course_import_menu_title">Import timetable image</string>
+    <string name="course_import_no_courses">No valid course drafts found.</string>
+    <string name="course_import_ocr_failed">Could not recognize the image. You can still enter courses manually.</string>
+    <string name="course_import_period_gap">Gap between periods (minutes)</string>
+    <string name="course_import_period_length">Period length (minutes)</string>
+    <string name="course_import_pick_file">Choose ICS/CSV/XLSX file</string>
+    <string name="course_import_pick_image">Choose timetable image</string>
+    <string name="course_import_recognize">Recognize image</string>
+    <string name="course_import_start_time">First period starts (HH:mm)</string>
+    <string name="course_import_success">Imported %1$d course events into Timetable.</string>
+    <string name="course_import_title">Import timetable</string>
     <string name="create_event_dialog_save">Save</string>
     <string name="creating_event">"Event created."</string>
     <string name="creating_event_with_guest">"Invitations will be sent."</string>
@@ -1292,12 +1332,16 @@
     <string name="tag_default_life">Life</string>
     <string name="tag_default_study">Study</string>
     <string name="tag_default_work">Work</string>
+    <string name="tag_uncategorized">Uncategorized</string>
     <string name="tags_add">Add tag</string>
     <string name="tags_delete">Delete</string>
     <string name="tags_delete_confirm">Delete this tag? It will be removed from all events.</string>
+    <string name="tags_drag_handle">Drag to reorder</string>
     <string name="tags_edit">Edit tag</string>
     <string name="tags_empty">No tags yet. Tap + to add one.</string>
     <string name="tags_filter_all">All</string>
+    <string name="tags_filter_detail_mode">Show in separate list</string>
+    <string name="tags_filter_empty">No events found for selected tags</string>
     <string name="tags_filter_title">Filter by tag</string>
     <string name="tags_label">Tags</string>
     <string name="tags_manage">Manage tags</string>

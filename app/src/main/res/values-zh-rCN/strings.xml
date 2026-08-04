@@ -428,6 +428,10 @@
     <string name="tag_default_life">生活</string>
     <string name="tag_default_date">约会</string>
     <string name="tag_default_important">重要</string>
+    <string name="tag_uncategorized">未分类</string>
+    <string name="tags_drag_handle">长按拖拽排序</string>
+    <string name="tags_filter_empty">未找到所选标签的日程</string>
+    <string name="tags_filter_detail_mode">单独显示</string>
     <!-- ShineFlow 生理周期 -->
     <string name="period_title">生理周期</string>
     <string name="menu_period">生理周期</string>

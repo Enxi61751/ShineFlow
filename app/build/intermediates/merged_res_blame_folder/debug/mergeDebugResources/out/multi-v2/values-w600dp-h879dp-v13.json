@@ -4,7 +4,24 @@
             "outputFile": "ws.xsoh.etar.app-mergeDebugResources-42:/values-w600dp-h879dp-v13/values-w600dp-h879dp-v13.xml",
             "map": [
                 {
-                    "source": "D:\\IdeaProjects\\ShineFlow\\ShineFlow\\app\\src\\main\\res\\values-w600dp-h879dp\\config.xml",
+                    "source": "D:\\Karen\\4-research\\DACHUANG\\software\\ShineFlow\\app\\src\\main\\res\\values-w600dp-h879dp\\integers.xml",
+                    "from": {
+                        "startLines": "21,23,19,15,17",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "1175,1295,1039,793,900",
+                        "endColumns": "58,50,55,54,55",
+                        "endOffsets": "1229,1341,1090,843,951"
+                    },
+                    "to": {
+                        "startLines": "34,35,36,37,38",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "1787,1846,1897,1953,2008",
+                        "endColumns": "58,50,55,54,55",
+                        "endOffsets": "1841,1892,1948,2003,2059"
+                    }
+                },
+                {
+                    "source": "D:\\Karen\\4-research\\DACHUANG\\software\\ShineFlow\\app\\src\\main\\res\\values-w600dp-h879dp\\config.xml",
                     "from": {
                         "startLines": "29,36,18,15,21,26,32,23,34",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "D:\\IdeaProjects\\ShineFlow\\ShineFlow\\app\\src\\main\\res\\values-w600dp-h879dp\\dimens.xml",
+                    "source": "D:\\Karen\\4-research\\DACHUANG\\software\\ShineFlow\\app\\src\\main\\res\\values-w600dp-h879dp\\dimens.xml",
                     "from": {
                         "startLines": "18,23,21,20,17,24,38,39,37,40,43,42,27,26,31,32,22,29,36,19,25,34,35",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,23 +52,6 @@
                         "startOffsets": "535,589,637,690,746,797,853,914,976,1031,1086,1144,1201,1260,1317,1366,1416,1463,1511,1567,1620,1677,1728",
                         "endColumns": "53,47,52,55,50,55,60,61,54,54,57,56,58,56,48,49,46,47,55,52,56,50,58",
                         "endOffsets": "584,632,685,741,792,848,909,971,1026,1081,1139,1196,1255,1312,1361,1411,1458,1506,1562,1615,1672,1723,1782"
-                    }
-                },
-                {
-                    "source": "D:\\IdeaProjects\\ShineFlow\\ShineFlow\\app\\src\\main\\res\\values-w600dp-h879dp\\integers.xml",
-                    "from": {
-                        "startLines": "21,23,19,15,17",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "1175,1295,1039,793,900",
-                        "endColumns": "58,50,55,54,55",
-                        "endOffsets": "1229,1341,1090,843,951"
-                    },
-                    "to": {
-                        "startLines": "34,35,36,37,38",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "1787,1846,1897,1953,2008",
-                        "endColumns": "58,50,55,54,55",
-                        "endOffsets": "1841,1892,1948,2003,2059"
                     }
                 }
             ]

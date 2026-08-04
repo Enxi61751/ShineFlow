@@ -4,7 +4,7 @@
             "outputFile": "ws.xsoh.etar.app-mergeDebugResources-42:/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "D:\\IdeaProjects\\ShineFlow\\ShineFlow\\app\\src\\main\\res\\values-sw600dp-land\\dimens.xml",
+                    "source": "D:\\Karen\\4-research\\DACHUANG\\software\\ShineFlow\\app\\src\\main\\res\\values-sw600dp-land\\dimens.xml",
                     "from": {
                         "startLines": "18,19",
                         "startColumns": "4,4",

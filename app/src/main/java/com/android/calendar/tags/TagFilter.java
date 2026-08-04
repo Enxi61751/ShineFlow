@@ -17,8 +17,13 @@ import java.util.Set;
  * Holds the current "filter events by tag" selection and a cached map of
  * event id -> assigned tag ids (loaded from the calendar extended properties).
  * When the selection is empty, no filtering is applied.
+ * <p>
+ * A special sentinel id {@link #TAG_ID_UNCATEGORIZED} represents the
+ * "Uncategorized" pseudo-tag that matches events with no assigned tags.
  */
 public class TagFilter {
+
+    public static final long TAG_ID_UNCATEGORIZED = Long.MIN_VALUE;
 
     private static final TagFilter INSTANCE = new TagFilter();
 
@@ -45,6 +50,10 @@ public class TagFilter {
 
     public synchronized boolean isActive() {
         return !mSelected.isEmpty();
+    }
+
+    public synchronized boolean isUncategorizedSelected() {
+        return mSelected.contains(TAG_ID_UNCATEGORIZED);
     }
 
     /**
@@ -85,15 +94,18 @@ public class TagFilter {
      */
     public boolean matches(long eventId) {
         Set<Long> selected;
+        boolean uncategorizedSelected;
         synchronized (this) {
             if (mSelected.isEmpty()) {
                 return true;
             }
             selected = new HashSet<>(mSelected);
+            uncategorizedSelected = selected.contains(TAG_ID_UNCATEGORIZED);
         }
         Set<Long> tags = mEventTags.get(eventId);
-        if (tags == null) {
-            return false;
+        if (tags == null || tags.isEmpty()) {
+            // Event has no tags: shown only if "uncategorized" is selected
+            return uncategorizedSelected;
         }
         for (Long t : tags) {
             if (selected.contains(t)) {

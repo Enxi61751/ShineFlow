@@ -964,6 +964,10 @@
     <string name="tag_default_life">Life</string>
     <string name="tag_default_date">Date</string>
     <string name="tag_default_important">Important</string>
+    <string name="tag_uncategorized">Uncategorized</string>
+    <string name="tags_drag_handle">Drag to reorder</string>
+    <string name="tags_filter_empty">No events found for selected tags</string>
+    <string name="tags_filter_detail_mode">Show in separate list</string>
     <!-- ShineFlow period tracking -->
     <string name="period_title">Cycle</string>
     <string name="menu_period">Cycle tracking</string>
@@ -1012,7 +1016,7 @@
     <string name="agent_personality_tsundere">Tsundere</string>
     <string name="agent_personality_custom">Custom</string>
     <string name="agent_personality_custom_title">Custom personality</string>
-    <string name="agent_personality_custom_summary">Describe the companion's tone, manner, and boundaries. This stays on your device until sent with an AI request.</string>
+    <string name="agent_personality_custom_summary">Describe the companion\'s tone, manner, and boundaries. This stays on your device until sent with an AI request.</string>
     <string name="agent_personality_custom_hint">For example: A thoughtful companion who uses short, encouraging sentences.</string>
     <string name="period_symptom_cramps">Cramps</string>
     <string name="period_symptom_headache">Headache</string>

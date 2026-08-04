@@ -4,7 +4,7 @@
             "outputFile": "ws.xsoh.etar.app-mergeDebugResources-42:/values-w1280dp-h752dp-v13/values-w1280dp-h752dp-v13.xml",
             "map": [
                 {
-                    "source": "D:\\IdeaProjects\\ShineFlow\\ShineFlow\\app\\src\\main\\res\\values-w1280dp-h752dp\\dimens.xml",
+                    "source": "D:\\Karen\\4-research\\DACHUANG\\software\\ShineFlow\\app\\src\\main\\res\\values-w1280dp-h752dp\\dimens.xml",
                     "from": {
                         "startLines": "16,15",
                         "startColumns": "4,4",

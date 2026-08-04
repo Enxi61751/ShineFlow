@@ -304,6 +304,22 @@
     <string name="countdown_days_passed">已过 %1$d 天</string>
     <string name="countdown_days_remaining">还有 %1$d 天</string>
     <string name="countdown_today">就是今天</string>
+    <string name="course_import_apply">导入课程</string>
+    <string name="course_import_draft_hint">每行一门课：课程名 | 课程号 | 教师 | 教室 | 周一 | 1-2 | 1-16 | 单周/双周/全部 | 停课日期</string>
+    <string name="course_import_error">课程表导入失败：%1$s</string>
+    <string name="course_import_file_failed">无法读取所选课程表文件。</string>
+    <string name="course_import_first_monday">学期第一周周一（yyyy-MM-dd）</string>
+    <string name="course_import_menu_title">导入课程表图片</string>
+    <string name="course_import_no_courses">未找到有效课程草稿。</string>
+    <string name="course_import_ocr_failed">图片识别失败，仍可手动编辑课程草稿。</string>
+    <string name="course_import_period_gap">节次间隔（分钟）</string>
+    <string name="course_import_period_length">每节时长（分钟）</string>
+    <string name="course_import_pick_file">选择 ICS/CSV/XLSX 文件</string>
+    <string name="course_import_pick_image">选择课程表图片</string>
+    <string name="course_import_recognize">识别图片</string>
+    <string name="course_import_start_time">第一节开始时间（HH:mm）</string>
+    <string name="course_import_success">已将 %1$d 条课程事件导入“课程表”。</string>
+    <string name="course_import_title">导入课程表</string>
     <string msgid="1080859798521717414" name="create_event_dialog_save">"保存"</string>
     <string msgid="7516249252554059980" name="creating_event">"活动已创建。"</string>
     <string msgid="5758688413124191931" name="creating_event_with_guest">"即将发送邀请。"</string>
@@ -695,12 +711,16 @@
     <string name="tag_default_life">生活</string>
     <string name="tag_default_study">学习</string>
     <string name="tag_default_work">工作</string>
+    <string name="tag_uncategorized">未分类</string>
     <string name="tags_add">新建标签</string>
     <string name="tags_delete">删除</string>
     <string name="tags_delete_confirm">删除该标签？它将从所有事件中移除。</string>
+    <string name="tags_drag_handle">长按拖拽排序</string>
     <string name="tags_edit">编辑标签</string>
     <string name="tags_empty">还没有标签，点击 + 新建。</string>
     <string name="tags_filter_all">全部</string>
+    <string name="tags_filter_detail_mode">单独显示</string>
+    <string name="tags_filter_empty">未找到所选标签的日程</string>
     <string name="tags_filter_title">按标签筛选</string>
     <string name="tags_label">标签</string>
     <string name="tags_manage">管理标签</string>
