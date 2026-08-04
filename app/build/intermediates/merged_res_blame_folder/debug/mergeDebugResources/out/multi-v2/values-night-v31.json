@@ -4,8 +4,15 @@
             "outputFile": "ws.xsoh.etar.app-mergeDebugResources-42:/values-night-v31/values-night-v31.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\21370\\Desktop\\ShineFlow-main\\app\\src\\main\\res\\values-night-v31\\colors.xml",
+                    "source": "D:\\IdeaProjects\\ShineFlow\\ShineFlow\\app\\src\\main\\res\\values-night-v31\\colors.xml",
                     "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "83",
+                        "endOffsets": "136"
+                    },
+                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",

@@ -4,13 +4,13 @@
             "outputFile": "ws.xsoh.etar.app-mergeDebugResources-42:/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\21370\\Desktop\\ShineFlow-main\\app\\src\\main\\res\\values-sw600dp-land\\dimens.xml",
+                    "source": "D:\\IdeaProjects\\ShineFlow\\ShineFlow\\app\\src\\main\\res\\values-sw600dp-land\\dimens.xml",
                     "from": {
                         "startLines": "18,19",
                         "startColumns": "4,4",
-                        "startOffsets": "692,749",
+                        "startOffsets": "710,768",
                         "endColumns": "56,55",
-                        "endOffsets": "744,800"
+                        "endOffsets": "762,819"
                     },
                     "to": {
                         "startLines": "2,3",

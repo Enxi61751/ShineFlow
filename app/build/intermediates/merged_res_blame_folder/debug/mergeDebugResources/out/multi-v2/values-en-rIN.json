@@ -4,7 +4,7 @@
             "outputFile": "ws.xsoh.etar.app-mergeDebugResources-42:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\21370\\.gradle\\caches\\transforms-4\\457793e2ff695b5a34dbd73104df8d15\\transformed\\appcompat-1.7.1\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\86137\\.gradle\\caches\\transforms-4\\457793e2ff695b5a34dbd73104df8d15\\transformed\\appcompat-1.7.1\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\21370\\.gradle\\caches\\transforms-4\\30cf0bd4f0d2fb592315ffff5daa984a\\transformed\\core-1.13.1\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\86137\\.gradle\\caches\\transforms-4\\30cf0bd4f0d2fb592315ffff5daa984a\\transformed\\core-1.13.1\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\21370\\.gradle\\caches\\transforms-4\\63d3e4ef01dfd306d02c83e8bf4bc9de\\transformed\\preference-1.2.1\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\86137\\.gradle\\caches\\transforms-4\\63d3e4ef01dfd306d02c83e8bf4bc9de\\transformed\\preference-1.2.1\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

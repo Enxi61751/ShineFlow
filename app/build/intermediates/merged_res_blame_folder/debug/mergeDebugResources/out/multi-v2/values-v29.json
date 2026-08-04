@@ -4,14 +4,14 @@
             "outputFile": "ws.xsoh.etar.app-mergeDebugResources-42:/values-v29/values-v29.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\21370\\Desktop\\ShineFlow-main\\app\\src\\main\\res\\values-v29\\arrays.xml",
+                    "source": "D:\\IdeaProjects\\ShineFlow\\ShineFlow\\app\\src\\main\\res\\values-v29\\arrays.xml",
                     "from": {
                         "startLines": "3,9",
                         "startColumns": "4,4",
-                        "startOffsets": "103,362",
+                        "startOffsets": "106,371",
                         "endLines": "7,13",
                         "endColumns": "19,19",
-                        "endOffsets": "356,557"
+                        "endOffsets": "363,570"
                     },
                     "to": {
                         "startLines": "2,7",
@@ -23,13 +23,13 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\21370\\Desktop\\ShineFlow-main\\app\\src\\main\\res\\values-v29\\strings.xml",
+                    "source": "D:\\IdeaProjects\\ShineFlow\\ShineFlow\\app\\src\\main\\res\\values-v29\\strings.xml",
                     "from": {
                         "startLines": "17",
                         "startColumns": "4",
-                        "startOffsets": "687",
+                        "startOffsets": "704",
                         "endColumns": "74",
-                        "endOffsets": "757"
+                        "endOffsets": "774"
                     },
                     "to": {
                         "startLines": "12",

@@ -38,6 +38,10 @@
     <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%2$s</xliff:g>"</string>
     <!-- Title of event when no explicit title is specified by the user -->
     <string name="no_title_label">(No title)</string>
+    <string name="transit_station">中转站</string>
+    <string name="transit_time_pending">时间待定</string>
+    <string name="transit_station_saved">已将待定时间日程放进中转站</string>
+    <string name="transit_station_empty">暂无待分配时间的日程</string>
 
     <!-- Reminder format strings -->
     <string name="no_reminder_label">None</string>

@@ -452,6 +452,7 @@ dimen widget_day_num_top_padding
 drawable actionbar_cursor
 drawable agenda_item_bg_primary
 drawable agenda_item_bg_secondary
+drawable bg_transit_station_island
 drawable calendar_color_square
 drawable calendar_widget_preview
 drawable calname_bottom_select_underselect_holo_light
@@ -790,7 +791,6 @@ id text2
 id time
 id time_mode_group
 id time_offset
-id time_pending_switch
 id time_zone
 id timezone_button
 id timezone_button_row

@@ -4068,6 +4068,7 @@ drawable agenda_item_bg_primary
 drawable agenda_item_bg_secondary
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_transit_station_island
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -4999,7 +5000,6 @@ id textinput_suffix_text
 id time
 id time_mode_group
 id time_offset
-id time_pending_switch
 id time_zone
 id timezone_button
 id timezone_button_row

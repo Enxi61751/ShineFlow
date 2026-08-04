@@ -4,13 +4,13 @@
             "outputFile": "ws.xsoh.etar.app-mergeDebugResources-42:/values-w1280dp-h752dp-v13/values-w1280dp-h752dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\21370\\Desktop\\ShineFlow-main\\app\\src\\main\\res\\values-w1280dp-h752dp\\dimens.xml",
+                    "source": "D:\\IdeaProjects\\ShineFlow\\ShineFlow\\app\\src\\main\\res\\values-w1280dp-h752dp\\dimens.xml",
                     "from": {
                         "startLines": "16,15",
                         "startColumns": "4,4",
-                        "startOffsets": "825,768",
+                        "startOffsets": "841,783",
                         "endColumns": "57,56",
-                        "endOffsets": "878,820"
+                        "endOffsets": "894,835"
                     },
                     "to": {
                         "startLines": "2,3",

@@ -16,10 +16,6 @@
         "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\actionbar_pulldown_menu_top_button_no_date.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/day_activity.xml",
-        "source": "ws.xsoh.etar.app-main-46:/layout/day_activity.xml"
-    },
-    {
         "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\location_dropdown_item.xml",
         "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\location_dropdown_item.xml"
     },
@@ -38,6 +34,10 @@
     {
         "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\simple_spinner_item.xml",
         "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\simple_spinner_item.xml"
+    },
+    {
+        "merged": "ws.xsoh.etar.app-mergeDebugResources-43:/layout/edit_event_all.xml",
+        "source": "ws.xsoh.etar.app-main-46:/layout/edit_event_all.xml"
     },
     {
         "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-mergeDebugResources-43:\\layout\\alert_activity.xml",

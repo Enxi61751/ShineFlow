@@ -4,13 +4,13 @@
             "outputFile": "ws.xsoh.etar.app-mergeDebugResources-42:/values-sat/values-sat.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\21370\\Desktop\\ShineFlow-main\\app\\src\\main\\res\\values-sat\\strings.xml",
+                    "source": "D:\\IdeaProjects\\ShineFlow\\ShineFlow\\app\\src\\main\\res\\values-sat\\strings.xml",
                     "from": {
                         "startLines": "6,9,5,4,8,10,2,3,7",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "369,501,314,247,461,621,107,149,416",
+                        "startOffsets": "375,510,319,251,469,631,109,152,423",
                         "endColumns": "46,119,54,66,39,95,41,97,44",
-                        "endOffsets": "411,616,364,309,496,712,144,242,456"
+                        "endOffsets": "417,625,369,313,504,722,146,245,463"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9,10",

@@ -200,10 +200,6 @@
         "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\xml\\general_preferences.xml"
     },
     {
-        "merged": "ws.xsoh.etar.app-debug-44:/layout_day_activity.xml.flat",
-        "source": "ws.xsoh.etar.app-main-46:/layout/day_activity.xml"
-    },
-    {
         "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_calname_bottom_unselected_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\calname_bottom_unselected_pressed_holo_light.9.png"
     },
@@ -412,6 +408,10 @@
         "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\panel_month_event_holo_light.9.png"
     },
     {
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_period.xml.flat",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_period.xml"
+    },
+    {
         "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_calname_bottom_select_underunselected_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\calname_bottom_select_underunselected_pressed_holo_light.9.png"
     },
@@ -498,6 +498,10 @@
     {
         "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_ic_cancel_wht_24dp.png.flat",
         "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\ic_cancel_wht_24dp.png"
+    },
+    {
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_edit_event_all.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/edit_event_all.xml"
     },
     {
         "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_ic_alarm_holo_dark.webp.flat",
@@ -1028,6 +1032,10 @@
         "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\alert_item.xml"
     },
     {
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_outline_label.xml.flat",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_outline_label.xml"
+    },
+    {
         "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_menu_navigator.xml.flat",
         "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_menu_navigator.xml"
     },
@@ -1106,6 +1114,10 @@
     {
         "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_menu_done.xml.flat",
         "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_menu_done.xml"
+    },
+    {
+        "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_bg_transit_station_island.xml.flat",
+        "source": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\bg_transit_station_island.xml"
     },
     {
         "merged": "C:\\Users\\86137\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_recurrencepicker_end_text.xml.flat",
