@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/course_pick_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/course_import_pick_image" />
+
+        <Button
+            android:id="@+id/course_pick_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/course_import_pick_file" />
+
+        <TextView
+            android:id="@+id/course_image_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/course_first_monday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="@string/course_import_first_monday"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/course_start_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/course_import_start_time"
+            android:inputType="textTime" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/course_period_length"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/course_import_period_length"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/course_period_gap"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/course_import_period_gap"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/course_drafts"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_marginTop="12dp"
+            android:gravity="top|start"
+            android:hint="@string/course_import_draft_hint"
+            android:inputType="textMultiLine"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/course_apply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/course_import_apply" />
+    </LinearLayout>
+</ScrollView>

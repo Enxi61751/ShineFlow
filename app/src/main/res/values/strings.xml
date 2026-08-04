@@ -824,6 +824,22 @@
     <string name="cal_import_error_time_zone_msg">Unable to understand given time zone: %s</string>
     <string name="cal_import_error_date_msg">Unable to understand given date: %s</string>
     <string name="cal_pick_ics">Pick file to import</string>
+    <string name="course_import_menu_title">Import timetable image</string>
+    <string name="course_import_title">Import timetable</string>
+    <string name="course_import_pick_image">Choose timetable image</string>
+    <string name="course_import_pick_file">Choose ICS/CSV/XLSX file</string>
+    <string name="course_import_recognize">Recognize image</string>
+    <string name="course_import_apply">Import courses</string>
+    <string name="course_import_draft_hint">One course per line: Course | Code | Teacher | Room | Mon | 1-2 | 1-16 | odd/even/all | excluded dates</string>
+    <string name="course_import_first_monday">First Monday of term (yyyy-MM-dd)</string>
+    <string name="course_import_start_time">First period starts (HH:mm)</string>
+    <string name="course_import_period_length">Period length (minutes)</string>
+    <string name="course_import_period_gap">Gap between periods (minutes)</string>
+    <string name="course_import_ocr_failed">Could not recognize the image. You can still enter courses manually.</string>
+    <string name="course_import_file_failed">Could not read the selected timetable file.</string>
+    <string name="course_import_no_courses">No valid course drafts found.</string>
+    <string name="course_import_success">Imported %1$d course events into Timetable.</string>
+    <string name="course_import_error">Timetable import failed: %1$s</string>
 
     <!-- Strings to describe view details array -->
     <string name="show_time_no">Don\'t show time</string>

@@ -943,6 +943,9 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
             return false;
         } else if (itemId == R.id.action_import) {
             ImportActivity.pickImportFile(this);
+        } else if (itemId == R.id.action_import_timetable) {
+            startActivity(new Intent(this, CourseImportActivity.class));
+            return true;
         } else if (itemId == R.id.action_view_settings) {
             Intent intent = new Intent(this, SettingsActivity.class);
             intent.putExtra(SettingsActivityKt.EXTRA_SHOW_FRAGMENT, ViewDetailsPreferences.class.getName());
