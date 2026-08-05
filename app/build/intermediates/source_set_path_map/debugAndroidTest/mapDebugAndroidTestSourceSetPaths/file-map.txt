@@ -1,0 +1,4 @@
+com.android.calendar.tests.app-androidTest-0 D:\Karen\4-research\DACHUANG\software\ShineFlow\app\build\generated\res\resValues\androidTest\debug
+com.android.calendar.tests.app-mergeDebugAndroidTestResources-1 D:\Karen\4-research\DACHUANG\software\ShineFlow\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.android.calendar.tests.app-mergeDebugAndroidTestResources-2 D:\Karen\4-research\DACHUANG\software\ShineFlow\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.android.calendar.tests.app-debugAndroidTest-3 D:\Karen\4-research\DACHUANG\software\ShineFlow\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

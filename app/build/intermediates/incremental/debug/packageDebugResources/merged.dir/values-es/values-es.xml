@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="availability">
+    <item msgid="454869065893453189">"Ocupado"</item>
+    <item msgid="6228387173725732140">"Disponible"</item>
+    <item msgid="2064426942462573474">"Provisional"</item>
+  </string-array>
+    <string-array name="backup_country_names">
+    <item msgid="9141777876082196578">"Sint Maarten"</item>
+    <item msgid="5330962017221568054">"Caribe neerlandés"</item>
+    <item msgid="1465164631761814300">"Curaçao"</item>
+    <item msgid="8972081011408691260">"Sudán del Sur"</item>
+  </string-array>
+    <string-array name="buttons_list">
+    <item msgid="5917946202321434335">"Día"</item>
+    <item msgid="6248480754959562740">"Semana"</item>
+    <item msgid="4298472806133153766">"Mes"</item>
+    <item msgid="5033084974413793845">"Agenda"</item>
+  </string-array>
+    <string-array name="change_response_labels">
+    <item msgid="3466644709343519437">"Solo este evento"</item>
+    <item msgid="140670561403965380">"Todos los eventos de la serie"</item>
+  </string-array>
+    <string-array name="delete_repeating_labels">
+    <item msgid="4208432367651646938">"Solo este evento"</item>
+    <item msgid="1536401639805370405">"Este y otros eventos posteriores"</item>
+    <item msgid="7833229563617435430">"Todos los eventos"</item>
+  </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+    <item msgid="2285927842308686988">"Solo si se rechaza"</item>
+    <item msgid="6367412240524984286">"Si se rechaza o no responde"</item>
+  </string-array>
+    <string-array name="preferences_week_start_day_labels">
+    <item msgid="986150274035512339">"Región predeterminada"</item>
+    <item msgid="134027225275475280">"Sábado"</item>
+    <item msgid="95029346069903091">"Domingo"</item>
+    <item msgid="5840983116375063739">"Lunes"</item>
+  </string-array>
+    <string-array name="quick_response_defaults">
+        <item msgid="1524421198348168403">"Llego un par de minutos tarde"</item>
+        <item msgid="6215158751728689832">"Llegaré en unos diez minutos"</item>
+        <item msgid="4485794001743679338">"Empezad sin mí"</item>
+        <item msgid="8036557974294987511">"No puedo, mejor en otro momento"</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+    <item msgid="3388478383574917007">"REPETIR DIARIAMENTE"</item>
+    <item msgid="6300824484048337842">"REPETIR SEMANALMENTE"</item>
+    <item msgid="189361731610816256">"REPETIR MENSUALMENTE"</item>
+    <item msgid="8714177874112569158">"REPETIR ANUALMENTE"</item>
+  </string-array>
+    <string-array name="reminder_methods_labels">
+    <item msgid="5172236776878811487">"Notificación"</item>
+    <item msgid="1751151680520784746">"Correo"</item>
+    <item msgid="2658001219380695677">"SMS"</item>
+    <item msgid="7926918288165444873">"Alarma"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_fri">
+    <item msgid="6534500380525126157">"cada primer viernes del mes"</item>
+    <item msgid="1935608297230506940">"cada segundo viernes del mes"</item>
+    <item msgid="4061877662049317599">"cada tercer viernes del mes"</item>
+    <item msgid="6856646749131820614">"cada cuarto viernes del mes"</item>
+    <item msgid="6533513913914859794">"cada último viernes del mes"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_mon">
+    <item msgid="7539974918997689048">"cada primer lunes del mes"</item>
+    <item msgid="4484275849072423978">"cada segundo lunes del mes"</item>
+    <item msgid="8956169860824371383">"cada tercer lunes del mes"</item>
+    <item msgid="6924403357659569326">"cada cuarto lunes del mes"</item>
+    <item msgid="1379608815263472161">"cada último lunes del mes"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sat">
+    <item msgid="3556369572649948699">"cada primer sábado del mes"</item>
+    <item msgid="9130198690512925355">"cada segundo sábado del mes"</item>
+    <item msgid="4525736070844032405">"cada tercer sábado del mes"</item>
+    <item msgid="422053689531707709">"cada cuarto sábado del mes"</item>
+    <item msgid="5499975799312474425">"cada último sábado del mes"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sun">
+    <item msgid="143841313172233420">"cada primer domingo del mes"</item>
+    <item msgid="2557379346106451363">"cada segundo domingo del mes"</item>
+    <item msgid="7622144489915654132">"cada tercer domingo del mes"</item>
+    <item msgid="527152448137686021">"cada cuarto domingo del mes"</item>
+    <item msgid="5057483608824759350">"cada último domingo del mes"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_thurs">
+    <item msgid="920673677566009313">"cada primer jueves del mes"</item>
+    <item msgid="4857419136007543270">"cada segundo jueves del mes"</item>
+    <item msgid="222044587450564839">"cada tercer jueves del mes"</item>
+    <item msgid="6197927556533030945">"cada cuarto jueves del mes"</item>
+    <item msgid="1023326923033436905">"cada último jueves del mes"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_tues">
+    <item msgid="8690802834039790777">"cada primer martes del mes"</item>
+    <item msgid="9063613547307760928">"cada segundo martes del mes"</item>
+    <item msgid="6688603328729208168">"cada tercer martes del mes"</item>
+    <item msgid="6695206006961533357">"cada cuarto martes del mes"</item>
+    <item msgid="8619069174889809914">"cada último martes del mes"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_wed">
+    <item msgid="3233850232075584386">"cada primer miércoles del mes"</item>
+    <item msgid="5059722045367799217">"cada segundo miércoles del mes"</item>
+    <item msgid="7986246648229272275">"cada tercer miércoles del mes"</item>
+    <item msgid="9068566169348980801">"cada cuarto miércoles del mes"</item>
+    <item msgid="7976866743069062134">"cada último miércoles del mes"</item>
+  </string-array>
+    <string-array name="response_labels1">
+    <item msgid="5605392595848194997">"Sin respuesta"</item>
+    <item msgid="3724434080904437698">"Sí"</item>
+    <item msgid="8854145743148992583">"Quizás"</item>
+    <item msgid="6174292185978948873">"No"</item>
+  </string-array>
+    <string-array name="timezone_rename_labels">
+    <item msgid="4609638052107641231">"Central australiana (TN)"</item>
+    <item msgid="4345275500159159867">"Central australiana (AM)"</item>
+    <item msgid="6771274300523132094">"Oriental australiana (Queensland)"</item>
+    <item msgid="4685547681424666687">"Oriental australiana (NGS)"</item>
+    <item msgid="5259393186526893961">"Estándar Montañas (Dawson Creek)"</item>
+    <item msgid="5984634754870859705">"Estándar centro (Saskatchewan)"</item>
+    <item msgid="5340374311583423836">"Estándar oriental (Atikokan)"</item>
+    <item msgid="8922086438245451625">"Estándar del Atlántico (Quebec)"</item>
+    <item msgid="8353677384517034413">"Hawái-Aleutiano (Hawái)"</item>
+    <item msgid="6426791761018806420">"Hawái-Aleutiano (Alaska)"</item>
+    <item msgid="7076353182411415610">"Estándar Pacífico (Metlakatla)"</item>
+    <item msgid="373990592918179890">"Estándar de las Montañas (Arizona)"</item>
+    <item msgid="353899326999279114">"Pacífico (Baja California)"</item>
+    <item msgid="6432134534714673873">"Montañas (Chihuahua)"</item>
+    <item msgid="7629345735485663968">"Central (Tamaulipas)"</item>
+    <item msgid="3874729044260979505">"Montañas (Sonora)"</item>
+    <item msgid="1106209575683600471">"Hora de África oriental"</item>
+    <item msgid="6538017087072480128">"Hora estándar del Atlántico"</item>
+    <item msgid="6758957851822881177">"Hora estándar del Atlántico"</item>
+    <item msgid="2477556470536619081">"Hora de Europa oriental"</item>
+    <item msgid="7328461310893621937">"Hora de Kaliningrado"</item>
+    <item msgid="4212642599758736931">"Amazonas, Rondonia"</item>
+    <item msgid="2370319280810537375">"Brasil, Pará"</item>
+  </string-array>
+    <plurals name="N_remaining_events">
+        <item quantity="one">+1 evento</item>
+        <item quantity="many">+<ns1:g id="count">%d</ns1:g> eventos</item>
+        <item quantity="other">+<ns1:g id="COUNT">%d</ns1:g> eventos</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one">1 día</item>
+        <item quantity="many"><ns1:g id="count">%d</ns1:g> días</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> días</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="one">1 evento</item>
+        <item quantity="many"><ns1:g id="count">%d</ns1:g> eventos</item>
+        <item quantity="other"><ns1:g id="COUNT">%d</ns1:g> eventos</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">1 hora</item>
+        <item quantity="many"><ns1:g id="count">%d</ns1:g> horas</item>
+        <item quantity="other"><ns1:g id="COUNT">%d</ns1:g> horas</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">1 minuto</item>
+        <item quantity="many"><ns1:g id="count">%d</ns1:g> minutos</item>
+        <item quantity="other"><ns1:g id="COUNT">%d</ns1:g> minutos</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="one">1 minuto</item>
+        <item quantity="many"><ns1:g id="count">%d</ns1:g> minutos</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> minutos</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 semana</item>
+        <item quantity="many"><ns1:g id="count">%d</ns1:g> semanas</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> semanas</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">Diariamente</item>
+        <item quantity="many">Cada <ns1:g id="number">%d</ns1:g> días</item>
+        <item quantity="other">Cada <ns1:g id="NUMBER">%d</ns1:g> días</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; por una vez</item>
+        <item quantity="many">; para <ns1:g id="number">%d</ns1:g> veces</item>
+        <item quantity="other">; para <ns1:g id="number">%d</ns1:g> veces</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="one">+1</item>
+        <item quantity="many">+<ns1:g id="number">%d</ns1:g></item>
+        <item quantity="other">+<ns1:g id="NUMBER">%d</ns1:g></item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Para <ns1:g id="EVENT_COUNT">%d</ns1:g> evento</item>
+        <item quantity="many">Para <ns1:g id="EVENT_COUNT">%d</ns1:g> eventos</item>
+        <item quantity="other">Para <ns1:g id="EVENT_COUNT">%d</ns1:g> eventos</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Cada <ns1:g id="COUNT">%d</ns1:g> día</item>
+        <item quantity="many">Cada <ns1:g id="count">%d</ns1:g> días</item>
+        <item quantity="other">Cada <ns1:g id="count">%d</ns1:g> días</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Cada <ns1:g id="COUNT">%d</ns1:g> mes</item>
+        <item quantity="many">Cada <ns1:g id="COUNT">%d</ns1:g> meses</item>
+        <item quantity="other">Cada <ns1:g id="COUNT">%d</ns1:g> meses</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Cada <ns1:g id="COUNT">%d</ns1:g> semana</item>
+        <item quantity="many">Cada <ns1:g id="COUNT">%d</ns1:g> semanas</item>
+        <item quantity="other">Cada <ns1:g id="COUNT">%d</ns1:g> semanas</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Cada <ns1:g id="COUNT">%d</ns1:g> año</item>
+        <item quantity="many">Cada <ns1:g id="COUNT">%d</ns1:g> años</item>
+        <item quantity="other">Cada <ns1:g id="COUNT">%d</ns1:g> años</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one"><ns1:g id="count">%d</ns1:g> semana</item>
+        <item quantity="many"><ns1:g id="count">%d</ns1:g> semana</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> semana</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Semanalmente en <ns1:g id="days_of_week">%2$s</ns1:g></item>
+        <item quantity="many">Cada <ns1:g id="number">%1$d</ns1:g> semana en <ns1:g id="days_of_week">%2$s</ns1:g></item>
+        <item quantity="other">Cada <ns1:g id="number">%1$d</ns1:g> semana en <ns1:g id="days_of_week">%2$s</ns1:g></item>
+    </plurals>
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"No hay sugerencias disponibles"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"Sugerencias de contacto disponibles"</string>
+    <string msgid="5654014177472600916" name="accessibility_add_attendee">"Añadir asistente"</string>
+    <string msgid="2267950744060950152" name="accessibility_add_reminder">"Añadir recordatorio"</string>
+    <string msgid="4146955438811915282" name="accessibility_all_day">Cita para todo el día</string>
+    <string msgid="5624250196618643922" name="accessibility_pick_end_date">"Fecha de finalización"</string>
+    <string msgid="7120310166355224941" name="accessibility_pick_end_time">"Hora de finalización"</string>
+    <string msgid="1834311617874828931" name="accessibility_pick_recurrence">"Repetir evento"</string>
+    <string msgid="3926641487042699037" name="accessibility_pick_start_date">"Fecha de inicio"</string>
+    <string msgid="4913428100936555149" name="accessibility_pick_start_time">"Hora de inicio"</string>
+    <string msgid="7155465783500323811" name="accessibility_pick_time_zone">"Zona horaria"</string>
+    <string msgid="8669288484484022771" name="accessibility_reminder_privacy">"Privacidad"</string>
+    <string msgid="6669129015980006570" name="accessibility_reminder_showmeas">"Mostrarme como"</string>
+    <string msgid="3594100545814579575" name="accessibility_reminder_time">"Duración del recordatorio"</string>
+    <string msgid="5339120699701437227" name="accessibility_reminder_type">"Tipo de recordatorio"</string>
+    <string msgid="7082751172654698863" name="accessibility_remove_attendee">"Eliminar asistente"</string>
+    <string msgid="5261609343259665139" name="accessibility_remove_reminder">"Eliminar recordatorio"</string>
+    <string msgid="5899029840837836711" name="acessibility_recurrence_choose_end_date_description">"cambiar fecha de finalización"</string>
+    <string msgid="3010149843148810768" name="acessibility_selected_marker_description">"Evento seleccionado"</string>
+    <string msgid="7172664623795021857" name="action_label">"Retorno"</string>
+    <string name="add_calendar">Añadir un calendario</string>
+    <string name="after_start_of_event">después de iniciar el evento</string>
+    <string msgid="5965841338467422191" name="agenda_today">Hoy, <ns1:g id="DATE">%1$s</ns1:g></string>
+    <string msgid="3893625470780723605" name="agenda_tomorrow">Mañana, <ns1:g id="date">%1$s</ns1:g></string>
+    <string msgid="5566084759423843245" name="agenda_view">"Agenda"</string>
+    <string msgid="4170964206728599693" name="agenda_yesterday">Ayer, <ns1:g id="DATE">%1$s</ns1:g></string>
+    <string msgid="7869592820853066853" name="alert_title">"Notificaciones de Calendar"</string>
+    <string name="app_copyright">© 2015-<ns1:g>%1$s</ns1:g> The Etar Project. Porciones © 2005-<ns1:g>%1$s</ns1:g> The Android Open Source Project.</string>
+    <string msgid="5452708708398908131" name="app_label">"Calendario"</string>
+    <string name="authors">Autores</string>
+    <string name="cal_export_event_sdcard_title">Exporta a tarjeta SD</string>
+    <string name="cal_export_succ_msg">Evento exportado satisfactoriamente: %1$s</string>
+    <string name="cal_import_error_date_msg">No entiendo la fecha proporcionada: %s</string>
+    <string name="cal_import_error_msg">Importando a calendario falló</string>
+    <string name="cal_import_error_time_zone_msg">No entiendo la zona horaria proporcionada: %s</string>
+    <string name="cal_import_menu_title">Importar evento</string>
+    <string name="cal_nothing_to_import">Nada para importar</string>
+    <string name="cal_pick_ics">Elige un archivo para importar</string>
+    <string name="cal_share_intent_title">Envía evento a:</string>
+    <string msgid="3595509200561433667" name="calendar_color_picker_dialog_title">"Color del calendario"</string>
+    <string name="calendar_permission_not_granted">Los permisos requeridos fueron denegados, habilítelos desde la aplicación de configuración para editar los eventos</string>
+    <string msgid="6172731193680500025" name="calendar_refresh">"Actualizar"</string>
+    <string msgid="7430468363525563483" name="calendar_square_color_picker_description">"Selector de color"</string>
+    <string name="calendars">Calendarios</string>
+    <string msgid="2960328220008869083" name="call_label">"Llamar"</string>
+    <string name="cancel">Cancelar</string>
+    <string msgid="7704714776070974984" name="change_response_title">"Cambiar respuesta"</string>
+    <string name="changelog">Registro de cambios</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"Cancelar"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"Copiar"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"Permitir sugerencias de contactos"</string>
+    <string msgid="2192923501857428854" name="choose_event_color_label">"Seleccionar color del evento"</string>
+    <string msgid="437691290566699292" name="copy_db">"Enviar base de datos"</string>
+    <string msgid="1084563757174121331" name="copy_email">"Copiar dirección de correo electrónico"</string>
+    <string msgid="8860802152973030914" name="copy_number">"Copiar número de teléfono"</string>
+    <string msgid="1080859798521717414" name="create_event_dialog_save">"Guardar"</string>
+    <string msgid="7516249252554059980" name="creating_event">Evento creado.</string>
+    <string msgid="5758688413124191931" name="creating_event_with_guest">"Se enviarán las invitaciones."</string>
+    <string msgid="4137468716966004993" name="custom" product="default">"Personalizar (no se puede personalizar en el teléfono)"</string>
+    <string msgid="1642972650061946484" name="date_time_fmt"><ns1:g id="date">%1$s</ns1:g>, <ns1:g id="time_interval">%2$s</ns1:g></string>
+    <string msgid="4467754504843584437" name="day_view">"Día"</string>
+    <string msgid="2131483437911536229" name="day_view_new_event_hint">"Añadir evento"</string>
+    <string name="default_start_last">Vista previamente utilizada</string>
+    <string name="default_start_title">Vista de</string>
+    <string msgid="874742811918030739" name="delete_label">"Eliminar"</string>
+    <string msgid="5609046778422180206" name="delete_recurring_event_title">"¿Quieres eliminar <ns1:g id="EVENTTITLE">%s</ns1:g>?"</string>
+    <string msgid="518402946676919384" name="delete_this_event_title">"¿Eliminar este evento?"</string>
+    <string msgid="1232037509095606687" name="directory_searching_fmt">"Buscando <ns1:g id="DOMAIN">%s</ns1:g>…"</string>
+    <string name="discard">Descartar</string>
+    <string name="discard_event_changes">¿Desea descartar los cambios?</string>
+    <string msgid="2394623883289782541" name="discard_label">"Cancelar"</string>
+    <string msgid="1834400025868091301" name="dismiss_all_label">"Descartar todo"</string>
+    <string name="display_location">Mostrar ubicación</string>
+    <string name="display_options">Ver detalles</string>
+    <string name="display_time">Mostrar hora</string>
+    <string msgid="1877681921029738999" name="does_not_repeat">"Evento único"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"Quitar a <ns1:g id="CONTACT">%s</ns1:g> de los destinatarios"</string>
+    <string name="duplicate_label">Duplicado</string>
+    <string msgid="6200181113992136073" name="edit_event_all_day_label">"Todo el día"</string>
+    <string msgid="4556498359505856900" name="edit_event_calendar_label">"Calendario"</string>
+    <string msgid="7413222956349977161" name="edit_event_label">"Detalles"</string>
+    <string msgid="8934331258435656534" name="edit_label">"Editar"</string>
+    <string msgid="8772030932155305903" name="email_guests_label">"Escribir a invitados"</string>
+    <string msgid="7178059542798074813" name="email_organizer_label">"Escribir al organizador"</string>
+    <string msgid="4808253965057791781" name="email_picker_label">"Correo electrónico con"</string>
+    <string msgid="9018699257414338634" name="empty_event">Evento vacío no creado.</string>
+    <string msgid="7654221304929538201" name="endByDate">"; hasta <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="error_generating_ics">Problemas encontrados al compartir evento</string>
+    <string msgid="4631938661655159511" name="event_color_picker_dialog_title">"Color del evento"</string>
+    <string msgid="3447218820785647967" name="event_color_set_to_default">"Cambiar a color predeterminado del calendario"</string>
+    <string msgid="6941040556709110617" name="event_create">"Nuevo evento"</string>
+    <string msgid="2386667193277770442" name="event_delete">"Eliminar evento"</string>
+    <string msgid="4006961928830064662" name="event_edit">"Editar evento"</string>
+    <string msgid="9138683335394832629" name="event_info_organizer">"Organizador:"</string>
+    <string msgid="8913097552956388972" name="event_info_reminders_label">"Recordatorios"</string>
+    <string msgid="56024222340421620" name="event_info_title">"Ver evento"</string>
+    <string msgid="9160326363769403865" name="event_info_title_invite">"Invitación a un evento"</string>
+    <string msgid="8356864185947582727" name="event_not_found">"No se ha encontrado el evento."</string>
+    <string msgid="7621353079385122317" name="event_view">"Ver evento"</string>
+    <string msgid="5896574838353902978" name="every_weekday">"Cada día laborable (lunes-viernes)"</string>
+    <string name="fifteen_minutes">15 minutos</string>
+    <string name="five_days">5 días</string>
+    <string name="foreground_notification_channel_description">Notificaciones requeridas para sincronización interna. Puedes ocultar este canal con seguridad.</string>
+    <string name="foreground_notification_channel_name">Tareas en segundo plano</string>
+    <string name="foreground_notification_title">Planificando nuevos recordatorios…</string>
+    <string name="four_days">4 días</string>
+    <string msgid="5209110911088302855" name="gadget_no_events">No hay eventos futuros en el calendario</string>
+    <string name="goto_date">Ir a…</string>
+    <string msgid="9162136434410891230" name="goto_today">"Hoy"</string>
+    <string msgid="830320505938520882" name="hide_controls">"Ocultar controles"</string>
+    <string msgid="1650488163176888480" name="hint_attendees">"Invitados"</string>
+    <string msgid="1910143586169033232" name="hint_description">"Descripción"</string>
+    <string msgid="804776560897143016" name="hint_time_zone_search">"Escribe un nombre de país"</string>
+    <string name="hint_url">Dirección URL</string>
+    <string msgid="709155115005044531" name="hint_what">"Nombre del evento"</string>
+    <string msgid="4972598001033801974" name="hint_where">"Ubicación"</string>
+    <string name="license">Licencia</string>
+    <string msgid="3772533493214331230" name="loading">Cargando…</string>
+    <string msgid="8795383535586556038" name="map_label">"Mapa"</string>
+    <string name="maximum_number_of_lines">Número máximo de líneas en el evento</string>
+    <string name="menu_info">Información</string>
+    <string msgid="9120238479503233925" name="menu_preferences">"Ajustes"</string>
+    <string msgid="4421657265864209041" name="modify_all">"Cambiar todos los eventos de la serie"</string>
+    <string msgid="3017428541066390380" name="modify_all_following">"Cambiar este y todos los eventos posteriores"</string>
+    <string msgid="5982876409997142690" name="modify_event">"Cambiar solo este evento"</string>
+    <string msgid="7287101431749285412" name="month_view">"Mes"</string>
+    <string msgid="4587116285383048586" name="monthly">"Mensualmente"</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g>"</string>
+    <string msgid="7553105224561147916" name="new_event_dialog_label">"Nuevo evento"</string>
+    <string msgid="6154657379574669371" name="new_event_dialog_option">"Nuevo evento"</string>
+    <string name="no_calendars_found">Antes de poder añadir un evento, debes añadir al menos un calendario a tu dispositivo</string>
+    <string name="no_map">No hay app de mapas instalado</string>
+    <string name="no_reminder_label">Ninguno</string>
+    <string msgid="5475293015394772651" name="no_results_found">"No se han encontrado resultados"</string>
+    <string name="no_snooze_label">Ninguno</string>
+    <string msgid="7019488867045436129" name="no_syncable_calendars">No hay calendarios</string>
+    <string msgid="302177118061368042" name="no_title_label">"(Sin título)"</string>
+    <string name="offline_account_name">Calendario fuera de línea</string>
+    <string name="one_and_a_half_hours">1.5 horas</string>
+    <string name="one_hour">1 hora</string>
+    <string msgid="3485026339977302148" name="palestine_display_name">"Palestina"</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Usar siempre el intervalo de tiempo entre recordatorios por defecto</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Preguntar por el intervalo de tiempo entre recordatorios en cada recordatorio</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Recordatorios</string>
+    <string msgid="6643468203670475296" name="preferences_alerts_popup_title">"Notificación emergente"</string>
+    <string msgid="1849706055052358346" name="preferences_alerts_ringtone_title">"Sonido"</string>
+    <string msgid="6636088008103904020" name="preferences_alerts_title">"Notificaciones"</string>
+    <string msgid="8731372580674292759" name="preferences_alerts_vibrateWhen_title">"Vibrar"</string>
+    <string name="preferences_black_theme">Negro</string>
+    <string msgid="8242471883413502068" name="preferences_build_version">"Versión de la compilación"</string>
+    <string name="preferences_calendar_account">Cuenta %1$s</string>
+    <string name="preferences_calendar_account_local">Calendario local</string>
+    <string name="preferences_calendar_color">Color</string>
+    <string name="preferences_calendar_color_warning_button">Entiendo</string>
+    <string name="preferences_calendar_color_warning_message">El cambio de color puede ser revertido cuando el calendario se sincroniza de nuevo.\n\nEn DAVx⁵ \'Gestionar los colores del calendario\' se puede desactivar para evitar esto.</string>
+    <string name="preferences_calendar_color_warning_title">Advertencia</string>
+    <string name="preferences_calendar_configure_account">Configurar calendario en %1$s</string>
+    <string name="preferences_calendar_delete">Borrar calendario</string>
+    <string name="preferences_calendar_delete_cancel">Cancelar</string>
+    <string name="preferences_calendar_delete_delete">Borrar calendario</string>
+    <string name="preferences_calendar_delete_message">¿Realmente quieres borrar este calendario\?</string>
+    <string name="preferences_calendar_display_name">Cambiar nombre</string>
+    <string name="preferences_calendar_info_category">Información de calendario</string>
+    <string name="preferences_calendar_no_display_name">Calendario sin nombre</string>
+    <string name="preferences_calendar_number_of_events">%1$d eventos</string>
+    <string name="preferences_calendar_synchronize">Sincronizar este calendario</string>
+    <string name="preferences_calendar_visible">Mostrar eventos</string>
+    <string msgid="7864674093455778158" name="preferences_clear_search_history_summary">"Eliminar todas las búsquedas anteriores"</string>
+    <string msgid="6619916370215282982" name="preferences_clear_search_history_title">"Borrar historial de búsqueda"</string>
+    <string name="preferences_color">Color primario</string>
+    <string name="preferences_color_pick">Color primario</string>
+    <string name="preferences_dark_theme">Oscuro</string>
+    <string name="preferences_days_per_week_dialog">Días por semana</string>
+    <string name="preferences_days_per_week_title">Días por semana</string>
+    <string name="preferences_default_event_duration_title">Duración por defecto del evento</string>
+    <string msgid="2903884416749959435" name="preferences_default_reminder_default">"10"</string>
+    <string msgid="2490348857239323412" name="preferences_default_reminder_dialog">"Antelación del recordatorio"</string>
+    <string msgid="5188861433342733905" name="preferences_default_reminder_title">"Antelación del recordatorio"</string>
+    <string name="preferences_default_snooze_delay_dialog">Intervalo entre recordatorios por defecto</string>
+    <string name="preferences_default_snooze_delay_title">Intervalo entre recordatorios</string>
+    <string name="preferences_do_not_check_battery_optimization">No comprobar la optimización de la batería</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">¡Use bajo su propio riesgo! Las notificaciones dejarán de funcionar, el widget dejará de actualizarse y los servicios en segundo plano se bloquearán. Pero no se le preguntará de nuevo si desea habilitar el servicio en segundo plano.</string>
+    <string msgid="8111213192001230350" name="preferences_experimental_category">En produción</string>
+    <string msgid="2069075513760573117" name="preferences_general_title">"Configuración de la vista de calendario"</string>
+    <string msgid="1849295943669890034" name="preferences_hide_declined_title">"Ocultar eventos rechazados"</string>
+    <string msgid="6680000444088818578" name="preferences_home_tz_title">"Zona horaria local"</string>
+    <string name="preferences_issues">Reportar error</string>
+    <string name="preferences_light_theme">Claro</string>
+    <string name="preferences_list_add_offline">Añadir calendario fuera de línea</string>
+    <string name="preferences_list_add_offline_button">Añadir calendario</string>
+    <string name="preferences_list_add_offline_cancel">Cancelar</string>
+    <string name="preferences_list_add_offline_error_empty">¡Entrar nombre de calendario!</string>
+    <string name="preferences_list_add_offline_message">Los calendarios fuera de línea NO están sincronizados con un servicio en la nube y están disponibles solo en tu teléfono.</string>
+    <string name="preferences_list_add_offline_name">Nombre</string>
+    <string name="preferences_list_add_offline_title">Añadir calendario fuera de línea</string>
+    <string name="preferences_list_add_remote">Añadir calendario CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Añadir calendario EteSync</string>
+    <string name="preferences_list_calendar_summary_invisible">No se están mostrando los eventos</string>
+    <string name="preferences_list_calendar_summary_sync_off">No sincronizado</string>
+    <string name="preferences_list_general">Configuración general</string>
+    <string name="preferences_manage_notifications">Gestionar las notificaciones</string>
+    <string name="preferences_menu_about">Acerca de Etar</string>
+    <string name="preferences_month_view_landscape">Diseño de vista mensual (horizontal)</string>
+    <string name="preferences_month_view_portrait">Diseño de vista mensual (vertical)</string>
+    <string name="preferences_pure_black_night_mode">Modo noche negro puro</string>
+    <string name="preferences_real_event_colors">Usar colores de eventos reales</string>
+    <string msgid="5199606534191180129" name="preferences_reminder_title">"Notificaciones y recordatorios"</string>
+    <string msgid="1873289128793828352" name="preferences_reminders_responded_dialog">"Omitir recordatorios"</string>
+    <string msgid="1196570678238475838" name="preferences_reminders_responded_label">"Omitir recordatorios"</string>
+    <string msgid="5280734329664503461" name="preferences_show_week_num_title">"Mostrar número de semana"</string>
+    <string name="preferences_system_theme">Sistema por defecto</string>
+    <string name="preferences_theme">Tema</string>
+    <string msgid="8045855493262131773" name="preferences_title">"Ajustes"</string>
+    <string msgid="4835375381297413746" name="preferences_use_home_tz_descrip">"Mostrar calendarios y eventos en la hora local al viajar"</string>
+    <string msgid="5597546849968598210" name="preferences_use_home_tz_title">"Usar hora local"</string>
+    <string msgid="5181634128884089113" name="preferences_week_start_day_dialog">"La semana empieza el"</string>
+    <string msgid="4619489296444901622" name="preferences_week_start_day_title">"La semana empieza el"</string>
+    <string msgid="6169724148441175862" name="presence_label">"Mostrarme como"</string>
+    <string msgid="9215031965259597335" name="privacy_label">"Privacidad"</string>
+    <string msgid="8792374208224108798" name="quick_response_custom_msg">"Escribe tu propia respuesta…"</string>
+    <string msgid="2681309456412199207" name="quick_response_dialog_title">"Seleccionar respuesta rápida"</string>
+    <string msgid="5544066405231853245" name="quick_response_email_failed">"Error al buscar un programa de correo electrónico"</string>
+    <string msgid="6776151690686068278" name="quick_response_settings">"Respuestas rápidas"</string>
+    <string msgid="6260055523174081930" name="quick_response_settings_edit_title">"Respuesta rápida"</string>
+    <string msgid="7878304729027355604" name="quick_response_settings_summary">"Editar respuestas predeterminadas al enviar correos electrónicos a los invitados"</string>
+    <string msgid="6898950241634912991" name="recurrence_end_continously">"Siempre"</string>
+    <string msgid="1233883668293087977" name="recurrence_end_count_label">"Para un número de eventos"</string>
+    <string msgid="3693751578164711701" name="recurrence_end_date">"Hasta el <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string msgid="4142791438636994952" name="recurrence_end_date_label">"Hasta una fecha"</string>
+    <string msgid="4400107556121003459" name="recurrence_month_pattern_by_day">"el mismo día de cada mes"</string>
+    <string msgid="7292389181815525676" name="reminders_label">"Añadir recordatorio"</string>
+    <string msgid="7791500973627841695" name="response_maybe">"Quizás"</string>
+    <string msgid="561911691884148136" name="response_no">"No"</string>
+    <string msgid="2027484304899988350" name="response_yes">"Sí"</string>
+    <string name="rsvp_accepted">Respondió sí.</string>
+    <string name="rsvp_declined">Respondió no.</string>
+    <string name="rsvp_tentative">Respondió quizás.</string>
+    <string msgid="2133599104834432589" name="save_label">"Listo"</string>
+    <string msgid="7694181017411177226" name="saving_event">Evento guardado.</string>
+    <string msgid="9184584438475689577" name="saving_event_with_guest">"Se enviarán las actualizaciones."</string>
+    <string msgid="550656004486017426" name="search">"Buscar"</string>
+    <string msgid="1536707558435227567" name="search_history_cleared">"Se ha borrado el historial de búsqueda."</string>
+    <string msgid="8898015280250716254" name="search_title">"Buscar en mis calendarios"</string>
+    <string msgid="1603860069305867810" name="searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="8890542984949996251" name="select_synced_calendars_button">"Calendarios para sincronizar"</string>
+    <string name="seven_days">7 días</string>
+    <string name="share_label">Compartir</string>
+    <string msgid="715520586028062621" name="show_controls">"Mostrar controles"</string>
+    <string msgid="5782512782605466016" name="show_day_view">"Mostrar día"</string>
+    <string msgid="2604638815440163080" name="show_newer_events">"Tocar para ver eventos posteriores al <ns1:g id="NEWEST_SEARCH_RANGE">%1$s</ns1:g>"</string>
+    <string msgid="5140647493681439926" name="show_older_events">"Tocar para ver eventos anteriores al <ns1:g id="OLDEST_SEARCH_RANGE">%1$s</ns1:g>"</string>
+    <string name="show_time_no">No mostrar la hora</string>
+    <string name="show_time_start">Solo hora de comienzo</string>
+    <string name="show_time_start_end">Hora de comienzo y de terminación</string>
+    <string name="show_time_start_end_below">Hora de comienzo y de terminación debajo del evento</string>
+    <string name="six_days">6 días</string>
+    <string name="snooze_delay_dialog_title">Intervalo de tiempo</string>
+    <string msgid="1515893621063224666" name="snooze_label">"Posponer"</string>
+    <string name="source_code">Fuente</string>
+    <string msgid="4067877800670753110" name="template_announce_item_index">Evento <ns1:g id="item_index">%1$s</ns1:g> de <ns1:g id="item_count">%2$s</ns1:g>.</string>
+    <string name="thirty_minutes">30 minutos</string>
+    <string name="three_days">3 días</string>
+    <string msgid="8577375020252453006" name="today">"Hoy"</string>
+    <string msgid="1981279213130049736" name="today_at_time_fmt">"Hoy a las <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string msgid="614434811813859237" name="tomorrow">"Mañana"</string>
+    <string msgid="1330779112841767432" name="tomorrow_at_time_fmt">"Mañana a las <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string name="two_days">2 días</string>
+    <string name="two_hours">2 horas</string>
+    <string name="user_rejected_calendar_write_permission">Etar requiere permisos para leer y escribir en el calendario para que funcione adecuadamente. Por favor intenté de nuevo.</string>
+    <string msgid="6126231656338241140" name="view_event_calendar_label">"Calendario:"</string>
+    <string msgid="2753151795647402277" name="view_event_organizer_label">"Organizador:"</string>
+    <string msgid="8382281658458798329" name="view_event_response_label">"¿Asistirás?"</string>
+    <string name="view_settings">Ajustes de visualización</string>
+    <string name="visibility_confidential">Confidencial</string>
+    <string name="visibility_default">Predeterminado</string>
+    <string name="visibility_private">Privado</string>
+    <string name="visibility_public">Público</string>
+    <string msgid="6775043022159508060" name="week_view">"Semana"</string>
+    <string msgid="894636567327261599" name="when_label">"Cuándo"</string>
+    <string msgid="3652692085322162449" name="yearly_plain">"Anualmente"</string>
+    <string name="zero_minutes">0 minutos</string>
+</resources>

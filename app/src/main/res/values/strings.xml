@@ -1007,6 +1007,10 @@
     <string name="period_reminder_title">Period reminder</string>
     <string name="period_reminder_soon">Your period is expected in %1$d days</string>
     <string name="period_reminder_today">Your period is expected today</string>
+    <string name="period_color_period_title">Period color</string>
+    <string name="period_color_predicted_title">Predicted period color</string>
+    <string name="period_color_fertile_title">Fertile window color</string>
+    <string name="period_color_ovulation_title">Ovulation color</string>
     <!-- ShineFlow companion agent -->
     <string name="agent_personality_title">Companion personality</string>
     <string name="agent_personality_summary">Choose how the companion agent talks with you</string>
@@ -1029,4 +1033,22 @@
     <string name="period_mood_sad">Sad</string>
     <string name="period_mood_irritable">Irritable</string>
     <string name="period_mood_anxious">Anxious</string>
+    <!-- Period tracking: new UI strings -->
+    <string name="period_cycle_tracking">Cycle tracking</string>
+    <string name="period_start_period">Start period</string>
+    <string name="period_end_period">End period</string>
+    <string name="period_custom_date">Custom date</string>
+    <string name="period_bbt_title">Basal Body Temperature</string>
+    <string name="period_add_temp">Add temperature</string>
+    <string name="period_log_temperature">Log Temperature</string>
+    <string name="period_temperature_hint">Temperature (°C)</string>
+    <string name="period_temperature_date">Date</string>
+    <string name="period_time_morning">Morning</string>
+    <string name="period_time_evening">Evening</string>
+    <string name="period_temperature_notes_hint">Notes (optional)</string>
+    <string name="period_expected_range">Expected: %1$s – %2$s</string>
+    <string name="period_no_temperatures">No temperatures recorded yet</string>
+    <string name="period_quick_actions">Quick Actions</string>
+    <string name="period_fill_mode_title">Full cell fill mode</string>
+    <string name="period_fill_mode_summary">Fill entire date cell with period color instead of a top indicator bar</string>
 </resources>

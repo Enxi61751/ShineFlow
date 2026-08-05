@@ -363,15 +363,27 @@
     <string name="one_and_a_half_hours">1.5 小时</string>
     <string name="one_hour">1 小时</string>
     <string msgid="3485026339977302148" name="palestine_display_name">"巴勒斯坦"</string>
+    <string name="period_add_temp">添加体温</string>
     <string name="period_avg_cycle">平均周期：%1$d 天</string>
     <string name="period_avg_length">平均经期：%1$d 天</string>
+    <string name="period_bbt_title">基础体温 (BBT)</string>
+    <string name="period_color_fertile_title">易孕期颜色</string>
+    <string name="period_color_ovulation_title">排卵日颜色</string>
+    <string name="period_color_period_title">经期颜色</string>
+    <string name="period_color_predicted_title">预测经期颜色</string>
+    <string name="period_custom_date">自定义日期</string>
     <string name="period_cycle_day">周期第 %1$d 天</string>
+    <string name="period_cycle_tracking">生理周期追踪</string>
     <string name="period_delete">删除</string>
     <string name="period_edit_record">编辑记录</string>
     <string name="period_enable_summary">在菜单中显示生理周期，并在日历上标记周期日</string>
     <string name="period_enable_title">启用生理周期</string>
     <string name="period_end_date">结束日期（可选）</string>
+    <string name="period_end_period">结束经期</string>
+    <string name="period_expected_range">预计范围：%1$s – %2$s</string>
     <string name="period_fertile">易孕期</string>
+    <string name="period_fill_mode_summary">用经期颜色填充整个日期格子，而非仅顶部色条</string>
+    <string name="period_fill_mode_title">整格填充模式</string>
     <string name="period_flow">经量</string>
     <string name="period_flow_heavy">多</string>
     <string name="period_flow_light">少</string>
@@ -381,6 +393,7 @@
     <string name="period_in_period">经期第 %1$d 天</string>
     <string name="period_log_end_today">记录经期结束（今天）</string>
     <string name="period_log_start_today">记录经期开始（今天）</string>
+    <string name="period_log_temperature">记录体温</string>
     <string name="period_mark_start">标记经期开始…</string>
     <string name="period_mood">心情</string>
     <string name="period_mood_anxious">焦虑</string>
@@ -392,9 +405,11 @@
     <string name="period_next_overdue">经期已推迟 %1$d 天</string>
     <string name="period_next_today">预计今天来经</string>
     <string name="period_no_data">还没有记录，先记录一次经期开始吧。</string>
+    <string name="period_no_temperatures">暂无体温记录</string>
     <string name="period_notes">备注</string>
     <string name="period_ongoing">进行中</string>
     <string name="period_ovulation">排卵日</string>
+    <string name="period_quick_actions">快捷操作</string>
     <string name="period_reminder_channel">生理周期提醒</string>
     <string name="period_reminder_days_summary">在预测经期前多少天提醒</string>
     <string name="period_reminder_days_title">经期提前提醒</string>
@@ -403,6 +418,7 @@
     <string name="period_reminder_today">预计今天来经</string>
     <string name="period_save">保存</string>
     <string name="period_start_date">开始日期</string>
+    <string name="period_start_period">开始经期</string>
     <string name="period_symptom_acne">长痘</string>
     <string name="period_symptom_backache">腰酸</string>
     <string name="period_symptom_bloating">腹胀</string>
@@ -410,6 +426,11 @@
     <string name="period_symptom_fatigue">疲劳</string>
     <string name="period_symptom_headache">头痛</string>
     <string name="period_symptoms">症状</string>
+    <string name="period_temperature_date">日期</string>
+    <string name="period_temperature_hint">体温 (°C)</string>
+    <string name="period_temperature_notes_hint">备注（可选）</string>
+    <string name="period_time_evening">晚上</string>
+    <string name="period_time_morning">早晨</string>
     <string name="period_title">生理周期</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_off">总是使用默认的暂停提醒时长</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_on">每次进行暂停操作时均询问暂停时长</string>

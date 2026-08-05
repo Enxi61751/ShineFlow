@@ -187,6 +187,32 @@
             app:summary="@string/period_reminder_days_summary"
             app:entries="@array/period_reminder_days_labels"
             app:entryValues="@array/period_reminder_days_values" />
+        <com.android.calendar.settings.PeriodColorPreference
+            app:key="preferences_period_color_period"
+            app:defaultValue="#FF4F9A"
+            app:dependency="preferences_period_enabled"
+            app:title="@string/period_color_period_title" />
+        <com.android.calendar.settings.PeriodColorPreference
+            app:key="preferences_period_color_predicted"
+            app:defaultValue="#FFB0CE"
+            app:dependency="preferences_period_enabled"
+            app:title="@string/period_color_predicted_title" />
+        <com.android.calendar.settings.PeriodColorPreference
+            app:key="preferences_period_color_fertile"
+            app:defaultValue="#8A2BE2"
+            app:dependency="preferences_period_enabled"
+            app:title="@string/period_color_fertile_title" />
+        <com.android.calendar.settings.PeriodColorPreference
+            app:key="preferences_period_color_ovulation"
+            app:defaultValue="#87CEEB"
+            app:dependency="preferences_period_enabled"
+            app:title="@string/period_color_ovulation_title" />
+        <SwitchPreference
+            app:key="preferences_period_fill_mode"
+            app:defaultValue="false"
+            app:dependency="preferences_period_enabled"
+            app:title="@string/period_fill_mode_title"
+            app:summary="@string/period_fill_mode_summary" />
     </PreferenceCategory>
 
     <PreferenceCategory

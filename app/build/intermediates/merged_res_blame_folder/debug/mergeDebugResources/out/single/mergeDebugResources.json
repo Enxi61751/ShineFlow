@@ -1,1270 +1,1274 @@
 [
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_stat_notify_calendar_multiple.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\stat_notify_calendar_multiple.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_collapse_small.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_collapse_small.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_calname_bottom_select_underselect_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\calname_bottom_select_underselect_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_calname_select_underselect_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/calname_select_underselect_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\xml_general_preferences.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\xml\\general_preferences.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_ic_contact_picture.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/ic_contact_picture.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_edit_event.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\edit_event.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_transit_station.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_transit_station.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_baseline_calendar_dayofmonth.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_baseline_calendar_dayofmonth.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_stat_notify_calendar_events.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/stat_notify_calendar_events.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_agenda_item_bg_secondary.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\agenda_item_bg_secondary.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_recurrence_bubble_fill_disabled.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_recurrence_bubble_fill_disabled.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_timeline_indicator_activated_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\timeline_indicator_activated_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_agenda_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/agenda_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_ic_repeat_white.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\ic_repeat_white.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/menu-sw600dp_all_in_one_title_bar.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/menu-sw600dp/all_in_one_title_bar.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_panel_month_event_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\panel_month_event_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/anim_slide_right_in.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/anim/slide_right_in.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_ic_repeat_dark.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\ic_repeat_dark.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_minical_bg_shadow_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/minical_bg_shadow_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_ic_alarm_holo_dark.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\ic_alarm_holo_dark.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_list_pressed_holo.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/list_pressed_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_clear_search_holo_light.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_clear_search_holo_light.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_calname_select_underselect_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/calname_select_underselect_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\anim_slide_left_in.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\anim\\slide_left_in.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_add_offline_calendar_dialog.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/add_offline_calendar_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_list_multi_left_activated_holo.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\list_multi_left_activated_holo.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_calname_select_underunselected_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/calname_select_underunselected_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_event_info_dialog.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\event_info_dialog.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_outline_link.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_outline_link.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_more_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\more_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_period.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_period.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_agenda_day.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\agenda_day.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_outline_share_event.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/outline_share_event.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_ic_contact_picture.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\ic_contact_picture.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_chips_dropdown_background.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/chips_dropdown_background.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_outline_repeat.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_outline_repeat.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_bg_transit_station_island.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/bg_transit_station_island.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_baseline_calendar_today.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_baseline_calendar_today.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_calendar_widget_preview.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/calendar_widget_preview.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_edit_event_single_column.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\edit_event_single_column.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_baseline_calendar_today.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_baseline_calendar_today.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_bg_transit_station_island.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\bg_transit_station_island.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_all_in_one.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/all_in_one.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_calname_bottom_select_underunselected_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\calname_bottom_select_underunselected_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_calname_unselected_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/calname_unselected_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_ic_repeat_white.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\ic_repeat_white.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/anim_slide_left_out.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/anim/slide_left_out.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_outline_view_agenda.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\outline_view_agenda.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_ic_menu_add_field_holo_light.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/ic_menu_add_field_holo_light.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_event_info_label.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\event_info_label.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_ic_menu_remove_field_holo_light.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/ic_menu_remove_field_holo_light.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_ic_menu_email_holo_light.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\ic_menu_email_holo_light.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_baseline_calendar_dayofmonth.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_baseline_calendar_dayofmonth.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_calendar_widget_preview.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\calendar_widget_preview.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_ic_colorpicker_swatch_selected.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/ic_colorpicker_swatch_selected.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_color_picker_dialog.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\color_picker_dialog.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout-sw600dp_full_month_by_week.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout-sw600dp/full_month_by_week.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_menu_cancel.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_menu_cancel.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_outline_settings.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/outline_settings.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_list_focused_holo.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\list_focused_holo.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_calname_unselected_underselect_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/calname_unselected_underselect_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_ic_call.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\ic_call.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_widget_chip_responded_bg.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/widget_chip_responded_bg.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_calname_unselected_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\calname_unselected_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_ic_call.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/ic_call.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_chip_autocomplete_divider_background.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\chip_autocomplete_divider_background.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_recurrence_bubble_outline_disabled.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_recurrence_bubble_outline_disabled.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_mini_month_header.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\mini_month_header.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_actionbar_cursor.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/actionbar_cursor.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_alert_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\alert_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_calname_bottom_unselected_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/calname_bottom_unselected_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_calname_bottom_unselected_underselect_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\calname_bottom_unselected_underselect_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_appwidget_day.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/appwidget_day.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\menu-sw600dp-land_all_in_one_title_bar.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\menu-sw600dp-land\\all_in_one_title_bar.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_event_info_headline.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/event_info_headline.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_event_info_headline.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\event_info_headline.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_outline_public.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_outline_public.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_list_pressed_holo.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\list_pressed_holo.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_calname_select_underselect_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/calname_select_underselect_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_event_info.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\event_info.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_contact_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/contact_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_ic_menu_remove_field_holo_light.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\ic_menu_remove_field_holo_light.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_panel_month_event_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/panel_month_event_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_color_picker_swatch.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\color_picker_swatch.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout-sw600dp_agenda_day.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout-sw600dp/agenda_day.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_ic_alarm_holo_dark.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\ic_alarm_holo_dark.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_list_focused_holo.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/list_focused_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_calname_bottom_unselected_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\calname_bottom_unselected_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_calendar_widget_preview.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/calendar_widget_preview.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_ic_menu_email_holo_dark.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\ic_menu_email_holo_dark.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_ic_alarm_white.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/ic_alarm_white.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_stat_notify_calendar_events.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\stat_notify_calendar_events.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_ic_menu_email_holo_dark.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/ic_menu_email_holo_dark.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_app_bar.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\app_bar.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_timeline_indicator_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/timeline_indicator_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_minical_bg_shadow_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\minical_bg_shadow_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_time_zone_filter_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/time_zone_filter_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_list_item_font_secondary.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\list_item_font_secondary.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_baseline_history.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_baseline_history.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_about.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\about.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/xml-v25_shortcuts.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/xml-v25/shortcuts.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_transit_station.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_transit_station.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_day_activity.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/day_activity.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_chips_dropdown_background.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\chips_dropdown_background.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_expandable_textview.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/expandable_textview.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_calname_bottom_select_underselect_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\calname_bottom_select_underselect_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_list_multi_left_activated_holo.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/list_multi_left_activated_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_calname_unselected_underselect_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\calname_unselected_underselect_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\color_chips_dropdown_text.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\color\\chips_dropdown_text.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_ic_menu_add_field_holo_light.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/ic_menu_add_field_holo_light.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_calendar_color_square.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\calendar_color_square.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_clear_search_holo_light.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_clear_search_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_calname_bottom_select_underunselected_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\calname_bottom_select_underunselected_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_outline_delete_event.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/outline_delete_event.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_ic_menu_add_field_holo_light.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\ic_menu_add_field_holo_light.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_quick_response_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/quick_response_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\menu_search_title_bar.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\menu\\search_title_bar.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_ic_cancel_wht_24dp.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/ic_cancel_wht_24dp.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_ic_alarm_white.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\ic_alarm_white.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_simple_frame_layout_material.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/simple_frame_layout_material.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_calname_select_underunselected_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\calname_select_underunselected_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_duplicate_event.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_duplicate_event.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_recurrence_bubble_outline_disabled.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_recurrence_bubble_outline_disabled.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_outline_label.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_outline_label.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_color_picker_swatch.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\color_picker_swatch.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_ic_repeat_dark.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/ic_repeat_dark.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_expand_small.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_expand_small.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_outline_notes.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_outline_notes.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_recurrence_bubble_outline.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_recurrence_bubble_outline.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_full_month_by_week.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/full_month_by_week.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_outline_edit_event.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\outline_edit_event.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_minical_bg_shadow_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/minical_bg_shadow_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_ic_menu_remove_field_holo_light.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\ic_menu_remove_field_holo_light.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_calname_unselected_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/calname_unselected_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_sync_off_dark.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_sync_off_dark.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_mini_calendar_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/mini_calendar_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_collapse_small.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_collapse_small.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_ic_colorpicker_swatch_selected.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/ic_colorpicker_swatch_selected.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_duplicate_event.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_duplicate_event.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_menu_cancel.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_menu_cancel.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_ic_colorpicker_swatch_selected.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\ic_colorpicker_swatch_selected.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_calname_select_underselect_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/calname_select_underselect_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_tag_management.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\tag_management.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout-sw600dp_full_month_header.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout-sw600dp/full_month_header.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_add.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_add.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_outline_notifications.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_outline_notifications.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_calendar_widget_preview.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\calendar_widget_preview.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_all_in_one_material.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/all_in_one_material.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_list_multi_left_activated_holo.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\list_multi_left_activated_holo.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_calname_bottom_unselected_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/calname_bottom_unselected_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_menu_done.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_menu_done.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_more_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/more_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_list_multi_left_activated_holo.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/list_multi_left_activated_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_chips_autocomplete_recipient_dropdown_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\chips_autocomplete_recipient_dropdown_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_ic_cancel_wht_24dp.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\ic_cancel_wht_24dp.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_event_info_label.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/event_info_label.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_add_offline_calendar_dialog.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\add_offline_calendar_dialog.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/anim_slide_left_in.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/anim/slide_left_in.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_outline_calendar_view_day.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\outline_calendar_view_day.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_stat_notify_calendar_multiple.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/stat_notify_calendar_multiple.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_widget_chip_responded_bg.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\widget_chip_responded_bg.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_calname_bottom_select_underunselected_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\calname_bottom_select_underunselected_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_ic_alarm_holo_dark.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/ic_alarm_holo_dark.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_ic_menu_add_field_holo_light.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\ic_menu_add_field_holo_light.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_ic_clear_search_holo_light.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/ic_clear_search_holo_light.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_calname_unselected_underselect_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\calname_unselected_underselect_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_tag_filtered_events.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/tag_filtered_events.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_calname_select_underselect_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\calname_select_underselect_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_calname_bottom_unselected_underselect_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/calname_bottom_unselected_underselect_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_timeline_indicator_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\timeline_indicator_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_ic_call.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/ic_call.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_stat_notify_refresh_events.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\stat_notify_refresh_events.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_calname_unselected_underselect_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/calname_unselected_underselect_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_select_calendars_fragment.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\select_calendars_fragment.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_about.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/about.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\color_recurrence_done_text_color.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\color\\recurrence_done_text_color.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_calname_bottom_unselected_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/calname_bottom_unselected_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_error_outline.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_error_outline.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/menu_all_in_one_title_bar.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/menu/all_in_one_title_bar.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_today_icon.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\today_icon.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_calname_bottom_select_underselect_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/calname_bottom_select_underselect_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_list_primary_holo.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\list_primary_holo.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/menu_search_title_bar.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/menu/search_title_bar.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_widget_chip_responded_bg.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\widget_chip_responded_bg.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_ic_alarm_holo_dark.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/ic_alarm_holo_dark.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_agenda_header_footer.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\agenda_header_footer.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_time_zone_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\time_zone_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_calname_unselected_underselect_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/calname_unselected_underselect_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_create.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_create.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_calname_bottom_unselected_underselect_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/calname_bottom_unselected_underselect_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_list_multi_left_activated_holo.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\list_multi_left_activated_holo.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_ic_menu_remove_field_holo_light_dark.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/ic_menu_remove_field_holo_light_dark.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_actionbar_pulldown_menu_top_button_no_date.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\actionbar_pulldown_menu_top_button_no_date.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_ic_alarm_holo_dark.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/ic_alarm_holo_dark.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_calendars_spinner_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\calendars_spinner_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_widget_chip_not_responded_bg.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/widget_chip_not_responded_bg.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_calname_select_underunselected_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\calname_select_underunselected_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_recurrencepicker_freq_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/recurrencepicker_freq_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_widget_all_day_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\widget_all_day_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_recurrencepicker.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/recurrencepicker.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_minical_bg_shadow_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\minical_bg_shadow_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_chips_recipient_dropdown_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/chips_recipient_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_outline_lock.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_outline_lock.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_list_pressed_holo.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\list_pressed_holo.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_dialog_missing_fields.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/dialog_missing_fields.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_bubble_event.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\bubble_event.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_actionbar_pulldown_menu_top_button.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/actionbar_pulldown_menu_top_button.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\xml_provider_paths.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\xml\\provider_paths.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_ic_menu_email_holo_dark.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/ic_menu_email_holo_dark.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_list_secondary_holo.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\list_secondary_holo.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_outline_business_center.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_outline_business_center.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_baseline_history.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_baseline_history.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_outline_place.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_outline_place.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_calname_bottom_select_underunselected_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\calname_bottom_select_underunselected_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_ic_contact_picture.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/ic_contact_picture.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\menu_event_info_title_bar.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\menu\\event_info_title_bar.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_calname_unselected_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\calname_unselected_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_description.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_description.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_timeline_indicator_activated_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\timeline_indicator_activated_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_calname_bottom_select_underselect_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/calname_bottom_select_underselect_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_calname_bottom_unselected_underselect_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\calname_bottom_unselected_underselect_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/menu-sw600dp-land_all_in_one_title_bar.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/menu-sw600dp-land/all_in_one_title_bar.xml"
+    },
+    {
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_edit_event_single_column.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/edit_event_single_column.xml"
+    },
+    {
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_ic_repeat_dark.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/ic_repeat_dark.webp"
     },
     {
         "merged": "ws.xsoh.etar.app-debug-44:/xml_general_preferences.xml.flat",
         "source": "ws.xsoh.etar.app-main-46:/xml/general_preferences.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_calname_select_underunselected_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\calname_select_underunselected_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_ic_repeat_white.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/ic_repeat_white.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\color_calendar_spinner_item_colors.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\color\\calendar_spinner_item_colors.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_minical_bg_shadow_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/minical_bg_shadow_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_quick_response_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\quick_response_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_create.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_create.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\xml_searchable.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\xml\\searchable.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_edit_event_all.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/edit_event_all.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\anim_slide_left_out.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\anim\\slide_left_out.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xxhdpi_ic_contact_picture.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xxhdpi/ic_contact_picture.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_collapse_holo_light.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_collapse_holo_light.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_collapse_holo_light.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_collapse_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_search_holo_light.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_search_holo_light.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_list_secondary_holo.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/list_secondary_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_timeline_indicator_activated_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\timeline_indicator_activated_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_ic_map.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/ic_map.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_outline_notifications.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_outline_notifications.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_timeline_indicator_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/timeline_indicator_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_calname_bottom_unselected_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\calname_bottom_unselected_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_circle.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\circle.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout-sw600dp-w960dp-h527dp-land_all_in_one.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout-sw600dp-w960dp-h527dp-land/all_in_one.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_ic_map.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/ic_map.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xxhdpi_ic_cancel_wht_24dp.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xxhdpi\\ic_cancel_wht_24dp.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_calname_unselected_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/calname_unselected_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_appwidget_day.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\appwidget_day.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_ic_menu_add_field_holo_light.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/ic_menu_add_field_holo_light.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_recurrencepicker.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\recurrencepicker.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_color_picker_swatch.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/color_picker_swatch.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_agenda_header_footer.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/agenda_header_footer.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_info_outline.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_info_outline.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_calname_unselected_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/calname_unselected_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\xml_view_details_preferences.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\xml\\view_details_preferences.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_calname_unselected_underselect_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/calname_unselected_underselect_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_ic_alarm_white.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\ic_alarm_white.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_calname_unselected_underselect_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/calname_unselected_underselect_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_calname_unselected_underselect_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\calname_unselected_underselect_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_widget_chip_responded_bg.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/widget_chip_responded_bg.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_month_by_week.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\month_by_week.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_panel_month_event_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/panel_month_event_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_calname_bottom_select_underselect_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\calname_bottom_select_underselect_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_expand_small.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_expand_small.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_panel_month_event_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\panel_month_event_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_ic_alarm_white.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/ic_alarm_white.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_ic_repeat_dark.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\ic_repeat_dark.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_list_secondary_holo.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/list_secondary_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_recurrence_bubble_fill_disabled.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_recurrence_bubble_fill_disabled.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/menu_edit_event_title_bar.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/menu/edit_event_title_bar.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_email_autocomplete_item_loading.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\email_autocomplete_item_loading.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_appwidget_loading.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/appwidget_loading.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_sync_off_light.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_sync_off_light.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_edit_reminder_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/edit_reminder_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_outline_link.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_outline_link.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_simple_frame_layout.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/simple_frame_layout.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_tag_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\tag_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_outline_person_add.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_outline_person_add.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\color_recurrence_done_text_color_black.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\color\\recurrence_done_text_color_black.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_color_picker_dialog.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/color_picker_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_period.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_period.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_list_pressed_holo.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/list_pressed_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_description.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_description.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_outline_repeat.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_outline_repeat.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_ic_menu_remove_field_holo_light.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\ic_menu_remove_field_holo_light.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_list_item_font_secondary.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/list_item_font_secondary.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_calname_unselected_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\calname_unselected_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_calname_bottom_unselected_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/calname_bottom_unselected_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_outline_settings.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\outline_settings.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_today_icon.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/today_icon.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_circle_outline.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\circle_outline.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_calname_bottom_unselected_underselect_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/calname_bottom_unselected_underselect_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_list_focused_holo.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\list_focused_holo.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_ic_repeat_white.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/ic_repeat_white.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_expand_holo_light.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_expand_holo_light.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_calname_bottom_select_underunselected_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/calname_bottom_select_underunselected_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_outline_notes.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_outline_notes.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_bubble_event.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/bubble_event.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_widget_chip_not_responded_bg.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\widget_chip_not_responded_bg.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_agenda_item_bg_secondary.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/agenda_item_bg_secondary.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout-sw600dp_contact_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout-sw600dp\\contact_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_calendars_dropdown_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/calendars_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_day_activity.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\day_activity.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout-sw600dp_all_in_one.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout-sw600dp/all_in_one.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_ic_map.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\ic_map.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_ic_cancel_wht_24dp.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/ic_cancel_wht_24dp.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_edit_event_all.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\edit_event_all.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_location_dropdown_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\location_dropdown_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_calname_unselected_underselect_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/calname_unselected_underselect_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_period_activity.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/period_activity.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_calname_select_underunselected_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\calname_select_underunselected_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_contact_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\contact_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_widget_all_day_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/widget_all_day_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_full_month_by_week.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\full_month_by_week.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_recurrence_bubble_outline.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_recurrence_bubble_outline.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_ic_contact_picture.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\ic_contact_picture.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/xml_searchable.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/xml/searchable.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_ic_alarm_holo_dark.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\ic_alarm_holo_dark.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_calname_select_underunselected_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/calname_select_underunselected_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_agenda_item_bg_primary.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\agenda_item_bg_primary.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout-land_all_in_one.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout-land/all_in_one.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_tag_filtered_events.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\tag_filtered_events.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_ic_alarm_white.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/ic_alarm_white.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_outline_color_lens.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\outline_color_lens.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_tag_dot_bg.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/tag_dot_bg.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_recurrencepicker_freq_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\recurrencepicker_freq_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_add.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_add.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_actionbar_cursor.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\actionbar_cursor.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_calname_bottom_select_underunselected_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/calname_bottom_select_underunselected_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_outline_schedule.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_outline_schedule.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_period_color_preference.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/period_color_preference.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_create_event_dialog.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\create_event_dialog.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/xml_provider_paths.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/xml/provider_paths.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_simple_spinner_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\simple_spinner_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_stat_notify_calendar_multiple.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/stat_notify_calendar_multiple.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_appwidget_no_events.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\appwidget_no_events.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_edit_event_custom_actionbar.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/edit_event_custom_actionbar.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_time_zone_filter_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\time_zone_filter_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_timeline_indicator_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/timeline_indicator_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_minical_bg_shadow_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\minical_bg_shadow_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_list_pressed_holo.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/list_pressed_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_ic_colorpicker_swatch_selected.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\ic_colorpicker_swatch_selected.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_ic_repeat_dark.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/ic_repeat_dark.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/xml_view_details_preferences.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/xml/view_details_preferences.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_calname_bottom_select_underselect_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\calname_bottom_select_underselect_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_ic_menu_email_holo_dark.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/ic_menu_email_holo_dark.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_timeline_indicator_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\timeline_indicator_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_color_picker_swatch.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/color_picker_swatch.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_outline_calendar_view_month.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\outline_calendar_view_month.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_chip_autocomplete_divider_background.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/chip_autocomplete_divider_background.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_close.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_close.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/anim_slide_right_out.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/anim/slide_right_out.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_chips_recipient_dropdown_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\chips_recipient_dropdown_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_calname_bottom_select_underunselected_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/calname_bottom_select_underunselected_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_dialog_missing_fields.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\dialog_missing_fields.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_outline_edit_event.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/outline_edit_event.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout-sw600dp_agenda_fragment.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout-sw600dp\\agenda_fragment.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_alert_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/alert_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_panel_month_event_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\panel_month_event_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_timezonepickerview.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/timezonepickerview.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_list_secondary_holo.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\list_secondary_holo.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_outline_account_circle.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/outline_account_circle.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_list_pressed_holo.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\list_pressed_holo.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_calname_unselected_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/calname_unselected_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_mini_calendar_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\mini_calendar_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_info_outline.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_info_outline.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_widget_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\widget_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_timeline_indicator_activated_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/timeline_indicator_activated_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_outline_label.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_outline_label.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_ic_menu_email_holo_light.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\ic_menu_email_holo_light.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_activity_course_import.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/activity_course_import.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_outline_place.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_outline_place.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_activity_ml_debug.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/activity_ml_debug.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout-sw600dp-w960dp-h527dp-land_all_in_one.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout-sw600dp-w960dp-h527dp-land\\all_in_one.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_ic_contact_picture.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/ic_contact_picture.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_outline_calendar_view_week.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\outline_calendar_view_week.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_calname_select_underselect_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/calname_select_underselect_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_appwidget_loading.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\appwidget_loading.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_menu_search.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_menu_search.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\anim_slide_right_out.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\anim\\slide_right_out.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_calname_unselected_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/calname_unselected_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_agenda_fragment.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\agenda_fragment.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_drag_handle.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_drag_handle.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_ic_repeat_white.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\ic_repeat_white.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_calname_bottom_unselected_underselect_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/calname_bottom_unselected_underselect_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_outline_lock.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_outline_lock.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_calname_bottom_select_underselect_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/calname_bottom_select_underselect_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_simple_frame_layout.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\simple_frame_layout.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_calname_bottom_unselected_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/calname_bottom_unselected_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout-sw600dp_agenda_day.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout-sw600dp\\agenda_day.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout-sw600dp_agenda_fragment.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout-sw600dp/agenda_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_calname_bottom_select_underunselected_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\calname_bottom_select_underunselected_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/color_preference_material_switch_color.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/color/preference_material_switch_color.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_drag_handle.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_drag_handle.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_location_dropdown_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/location_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_outline_delete_event.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\outline_delete_event.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_calname_select_underunselected_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\calname_select_underunselected_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_list_focused_holo.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/list_focused_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_ic_alarm_white.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\ic_alarm_white.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_empty_time_zone_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/empty_time_zone_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_ic_map.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\ic_map.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_outline_view_agenda.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/outline_view_agenda.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout-sw600dp_full_month_by_week.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout-sw600dp\\full_month_by_week.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/color_chips_dropdown_text.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/color/chips_dropdown_text.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\menu-sw600dp_all_in_one_title_bar.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\menu-sw600dp\\all_in_one_title_bar.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_alert_activity.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/alert_activity.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_ic_contact_picture.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\ic_contact_picture.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xxhdpi_ic_cancel_wht_24dp.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xxhdpi/ic_cancel_wht_24dp.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_calname_bottom_unselected_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/calname_bottom_unselected_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_alert_activity.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\alert_activity.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_calname_bottom_select_underselect_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/calname_bottom_select_underselect_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_add_event.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_add_event.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_menu_navigator.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_menu_navigator.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\color_preference_material_switch_color.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\color\\preference_material_switch_color.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_full_month_header.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/full_month_header.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xxhdpi_ic_contact_picture.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xxhdpi\\ic_contact_picture.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_recurrence_bubble_fill.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_recurrence_bubble_fill.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_calname_bottom_unselected_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\calname_bottom_unselected_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_circle_outline.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/circle_outline.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_arrow_back.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_arrow_back.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_edit_event.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/edit_event.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_calname_unselected_underselect_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\calname_unselected_underselect_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/menu_calendar_view.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/menu/calendar_view.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout-sw600dp_agenda_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout-sw600dp\\agenda_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/xml-v26_general_preferences.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/xml-v26/general_preferences.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\xml__generated_res_locale_config.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-localeConfig-39:\\xml\\_generated_res_locale_config.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_calendar_widget_preview.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/calendar_widget_preview.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_timeline_indicator_activated_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/timeline_indicator_activated_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_empty_time_zone_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\empty_time_zone_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_month_by_week.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/month_by_week.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_calname_bottom_unselected_underselect_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\calname_bottom_unselected_underselect_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_expand_holo_light.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_expand_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_calendar_widget_preview.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\calendar_widget_preview.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_time_zone_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/time_zone_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_all_in_one.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\all_in_one.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_date_range_title.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/date_range_title.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_ic_map.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\ic_map.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_ic_menu_email_holo_light.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/ic_menu_email_holo_light.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_calname_select_underselect_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\calname_select_underselect_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_ic_menu_email_holo_light.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/ic_menu_email_holo_light.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_calname_bottom_select_underunselected_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\calname_bottom_select_underunselected_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/menu-land_all_in_one_title_bar.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/menu-land/all_in_one_title_bar.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_ic_call.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\ic_call.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_list_primary_holo.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/list_primary_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_calendars_dropdown_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\calendars_dropdown_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_outline_email.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/outline_email.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_calname_unselected_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\calname_unselected_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_widget_chip_not_responded_bg.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/widget_chip_not_responded_bg.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_activity_ml_debug.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\activity_ml_debug.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_simple_spinner_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/simple_spinner_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\menu_all_in_one_title_bar.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\menu\\all_in_one_title_bar.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_search_holo_light.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_search_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_menu_search.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_menu_search.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_outline_color_lens.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/outline_color_lens.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_calname_unselected_underselect_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\calname_unselected_underselect_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_agenda_day.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/agenda_day.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xxxhdpi_ic_cancel_wht_24dp.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xxxhdpi\\ic_cancel_wht_24dp.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_calname_select_underunselected_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/calname_select_underunselected_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_calname_select_underselect_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\calname_select_underselect_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_widget_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/widget_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_calname_bottom_unselected_underselect_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\calname_bottom_unselected_underselect_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_calname_bottom_select_underunselected_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/calname_bottom_select_underunselected_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\xml-v26_general_preferences.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\xml-v26\\general_preferences.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_close.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_close.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\color_recurrence_bubble_text_color.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\color\\recurrence_bubble_text_color.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xxxhdpi_ic_cancel_wht_24dp.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xxxhdpi/ic_cancel_wht_24dp.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_all_in_one_material.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\all_in_one_material.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_recurrencepicker_end_text.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/recurrencepicker_end_text.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_recurrence_bubble_fill.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_recurrence_bubble_fill.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_error_outline.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_error_outline.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_ic_menu_email_holo_light.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\ic_menu_email_holo_light.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_panel_month_event_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/panel_month_event_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_calname_bottom_select_underselect_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\calname_bottom_select_underselect_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_actionbar_pulldown_menu_button.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/actionbar_pulldown_menu_button.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_calname_bottom_unselected_underselect_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\calname_bottom_unselected_underselect_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_ic_clear_search_holo_light.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\ic_clear_search_holo_light.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_email_autocomplete_item_loading.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/email_autocomplete_item_loading.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_appwidget.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\appwidget.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_edit_event_custom_actionbar.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\edit_event_custom_actionbar.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_select_calendars_fragment.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/select_calendars_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_outline_account_circle.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\outline_account_circle.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_ic_menu_email_holo_light.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/ic_menu_email_holo_light.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_calname_select_underselect_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\calname_select_underselect_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_list_secondary_holo.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/list_secondary_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_recurrence_bubble_fill.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\recurrence_bubble_fill.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_appwidget.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/appwidget.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_menu_navigator.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_menu_navigator.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_calendar_color_square.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/calendar_color_square.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_recurrencepicker_end_text.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\recurrencepicker_end_text.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_sync_off_light.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_sync_off_light.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_ic_cancel_wht_24dp.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\ic_cancel_wht_24dp.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_agenda_item_bg_primary.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/agenda_item_bg_primary.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_outline_person_add.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_outline_person_add.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_chips_autocomplete_recipient_dropdown_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/chips_autocomplete_recipient_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_calname_select_underselect_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\calname_select_underselect_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/color_recurrence_done_text_color.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/color/recurrence_done_text_color.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_calname_bottom_unselected_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\calname_bottom_unselected_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_add_event.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_add_event.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_email_autocomplete_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\email_autocomplete_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout-sw600dp_agenda_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout-sw600dp/agenda_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_actionbar_pulldown_menu_top_button.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\actionbar_pulldown_menu_top_button.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_outline_calendar_view_month.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/outline_calendar_view_month.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_ic_menu_add_field_holo_light.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\ic_menu_add_field_holo_light.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/color_calendar_spinner_item_colors.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/color/calendar_spinner_item_colors.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_widget_chip_not_responded_bg.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\widget_chip_not_responded_bg.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_outline_schedule.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_outline_schedule.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_stat_notify_calendar_multiple.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\stat_notify_calendar_multiple.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout-sw600dp_contact_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout-sw600dp/contact_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_list_primary_holo.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\list_primary_holo.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/menu_event_info_title_bar.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/menu/event_info_title_bar.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_agenda_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\agenda_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_list_focused_holo.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/list_focused_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\anim_slide_right_in.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\anim\\slide_right_in.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_timeline_indicator_activated_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/timeline_indicator_activated_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_outline_business_center.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_outline_business_center.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_sync_off_dark.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_sync_off_dark.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_outline_share_event.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\outline_share_event.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_email_autocomplete_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/email_autocomplete_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_ic_call.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\ic_call.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_calname_bottom_select_underunselected_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/calname_bottom_select_underunselected_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_ic_repeat_white.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/ic_repeat_white.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\xml-v25_shortcuts.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\xml-v25\\shortcuts.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_arrow_back.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_arrow_back.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_stat_notify_calendar_multiple.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\stat_notify_calendar_multiple.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_ic_cancel_wht_24dp.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/ic_cancel_wht_24dp.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_ic_menu_remove_field_holo_light_dark.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\ic_menu_remove_field_holo_light_dark.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_event_info_dialog.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/event_info_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_date_range_title.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\date_range_title.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_list_primary_holo.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/list_primary_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_outline_email.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\outline_email.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_calendars_spinner_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/calendars_spinner_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\menu_calendar_view.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\menu\\calendar_view.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_outline_calendar_view_week.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/outline_calendar_view_week.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_ic_menu_email_holo_dark.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\ic_menu_email_holo_dark.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_ic_call.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/ic_call.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_activity_course_import.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\activity_course_import.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/color_recurrence_bubble_text_color.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/color/recurrence_bubble_text_color.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_outline_public.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_outline_public.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_stat_notify_calendar_multiple.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/stat_notify_calendar_multiple.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_simple_frame_layout_material.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\simple_frame_layout_material.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_calname_bottom_select_underselect_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/calname_bottom_select_underselect_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_calname_bottom_unselected_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\calname_bottom_unselected_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_create_event_dialog.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/create_event_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_edit_reminder_item.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\edit_reminder_item.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_ic_menu_remove_field_holo_light.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/ic_menu_remove_field_holo_light.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_calname_unselected_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\calname_unselected_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_list_primary_holo.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/list_primary_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_ic_cancel_wht_24dp.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\ic_cancel_wht_24dp.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_calname_bottom_unselected_underselect_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/calname_bottom_unselected_underselect_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_calname_unselected_underselect_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\calname_unselected_underselect_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_tag_management.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/tag_management.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_expandable_textview.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\expandable_textview.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_outline_save_event.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/outline_save_event.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_calname_select_underunselected_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\calname_select_underunselected_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_calname_select_underunselected_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/calname_select_underunselected_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_timezonepickerview.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\timezonepickerview.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_ic_menu_remove_field_holo_light.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/ic_menu_remove_field_holo_light.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_calname_bottom_unselected_underselect_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\calname_bottom_unselected_underselect_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_calname_bottom_select_underselect_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/calname_bottom_select_underselect_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/xml__generated_res_locale_config.xml.flat",
+        "source": "ws.xsoh.etar.app-localeConfig-39:/xml/_generated_res_locale_config.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_list_primary_holo.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\list_primary_holo.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_calname_bottom_select_underselect_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\calname_bottom_select_underselect_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_calname_select_underunselected_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/calname_select_underunselected_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_ic_colorpicker_swatch_selected.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\ic_colorpicker_swatch_selected.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_stat_notify_refresh_events.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/stat_notify_refresh_events.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_ic_repeat_dark.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\ic_repeat_dark.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_list_multi_left_activated_holo.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/list_multi_left_activated_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_outline_calendar_view_day.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/outline_calendar_view_day.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_agenda_fragment.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/agenda_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\xml_appwidget_info.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\xml\\appwidget_info.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_circle.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/circle.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_outline_save_event.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\outline_save_event.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_ic_map.webp.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/ic_map.webp"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_tag_dot_bg.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\tag_dot_bg.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_menu_done.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_menu_done.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout-sw600dp_full_month_header.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout-sw600dp\\full_month_header.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-hdpi_calname_select_underselect_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-hdpi/calname_select_underselect_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_calname_bottom_unselected_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\calname_bottom_unselected_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_appwidget_no_events.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/appwidget_no_events.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_actionbar_pulldown_menu_button.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\actionbar_pulldown_menu_button.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/color_recurrence_done_text_color_black.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/color/recurrence_done_text_color_black.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout-land_all_in_one.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout-land\\all_in_one.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_recurrence_bubble_fill.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/recurrence_bubble_fill.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_ic_menu_email_holo_dark.webp.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\ic_menu_email_holo_dark.webp"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_calname_bottom_unselected_underselect_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/calname_bottom_unselected_underselect_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout-sw600dp_all_in_one.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout-sw600dp\\all_in_one.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_app_bar.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/app_bar.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_calname_unselected_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\calname_unselected_pressed_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_tag_item.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/tag_item.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\layout_full_month_header.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\layout\\full_month_header.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_calname_bottom_select_underunselected_pressed_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/calname_bottom_select_underunselected_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\menu-land_all_in_one_title_bar.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\menu-land\\all_in_one_title_bar.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-xhdpi_calname_select_underunselected_holo_light.9.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-xhdpi/calname_select_underunselected_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\menu_edit_event_title_bar.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\menu\\edit_event_title_bar.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_event_info.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/event_info.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-hdpi_list_focused_holo.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-hdpi\\list_focused_holo.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable-mdpi_ic_colorpicker_swatch_selected.png.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable-mdpi/ic_colorpicker_swatch_selected.png"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_list_secondary_holo.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\list_secondary_holo.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_mini_month_header.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/mini_month_header.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable\\ic_launcher_background.xml"
+        "merged": "ws.xsoh.etar.app-debug-44:/drawable_ic_launcher_background.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/xml_appwidget_info.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/xml/appwidget_info.xml"
     },
     {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-xhdpi_timeline_indicator_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-xhdpi\\timeline_indicator_holo_light.9.png"
-    },
-    {
-        "merged": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-debug-44:\\drawable-mdpi_calname_select_underselect_holo_light.9.png.flat",
-        "source": "C:\\Users\\21370\\.gradle\\daemon\\8.7\\ws.xsoh.etar.app-main-46:\\drawable-mdpi\\calname_select_underselect_holo_light.9.png"
+        "merged": "ws.xsoh.etar.app-debug-44:/layout_actionbar_pulldown_menu_top_button_no_date.xml.flat",
+        "source": "ws.xsoh.etar.app-main-46:/layout/actionbar_pulldown_menu_top_button_no_date.xml"
     }
 ]

@@ -1098,15 +1098,27 @@
     <string name="one_and_a_half_hours">1.5 hours</string>
     <string name="one_hour">1 hour</string>
     <string name="palestine_display_name">Palestine</string>
+    <string name="period_add_temp">Add temperature</string>
     <string name="period_avg_cycle">Average cycle: %1$d days</string>
     <string name="period_avg_length">Average period: %1$d days</string>
+    <string name="period_bbt_title">Basal Body Temperature</string>
+    <string name="period_color_fertile_title">Fertile window color</string>
+    <string name="period_color_ovulation_title">Ovulation color</string>
+    <string name="period_color_period_title">Period color</string>
+    <string name="period_color_predicted_title">Predicted period color</string>
+    <string name="period_custom_date">Custom date</string>
     <string name="period_cycle_day">Cycle day %1$d</string>
+    <string name="period_cycle_tracking">Cycle tracking</string>
     <string name="period_delete">Delete</string>
     <string name="period_edit_record">Edit record</string>
     <string name="period_enable_summary">Show period tracking in the menu and mark cycle days on the calendar</string>
     <string name="period_enable_title">Enable cycle tracking</string>
     <string name="period_end_date">End date (optional)</string>
+    <string name="period_end_period">End period</string>
+    <string name="period_expected_range">Expected: %1$s – %2$s</string>
     <string name="period_fertile">Fertile window</string>
+    <string name="period_fill_mode_summary">Fill entire date cell with period color instead of a top indicator bar</string>
+    <string name="period_fill_mode_title">Full cell fill mode</string>
     <string name="period_flow">Flow</string>
     <string name="period_flow_heavy">Heavy</string>
     <string name="period_flow_light">Light</string>
@@ -1116,6 +1128,7 @@
     <string name="period_in_period">Period day %1$d</string>
     <string name="period_log_end_today">Log period end (today)</string>
     <string name="period_log_start_today">Log period start (today)</string>
+    <string name="period_log_temperature">Log Temperature</string>
     <string name="period_mark_start">Mark period start…</string>
     <string name="period_mood">Mood</string>
     <string name="period_mood_anxious">Anxious</string>
@@ -1127,9 +1140,11 @@
     <string name="period_next_overdue">Period is %1$d days late</string>
     <string name="period_next_today">Period expected today</string>
     <string name="period_no_data">No records yet. Log your period start to begin.</string>
+    <string name="period_no_temperatures">No temperatures recorded yet</string>
     <string name="period_notes">Notes</string>
     <string name="period_ongoing">ongoing</string>
     <string name="period_ovulation">Ovulation day</string>
+    <string name="period_quick_actions">Quick Actions</string>
     <string name="period_reminder_channel">Cycle reminders</string>
     <string name="period_reminder_days_summary">Notify this many days before the predicted period</string>
     <string name="period_reminder_days_title">Remind before period</string>
@@ -1138,6 +1153,7 @@
     <string name="period_reminder_today">Your period is expected today</string>
     <string name="period_save">Save</string>
     <string name="period_start_date">Start date</string>
+    <string name="period_start_period">Start period</string>
     <string name="period_symptom_acne">Acne</string>
     <string name="period_symptom_backache">Backache</string>
     <string name="period_symptom_bloating">Bloating</string>
@@ -1145,6 +1161,11 @@
     <string name="period_symptom_fatigue">Fatigue</string>
     <string name="period_symptom_headache">Headache</string>
     <string name="period_symptoms">Symptoms</string>
+    <string name="period_temperature_date">Date</string>
+    <string name="period_temperature_hint">Temperature (°C)</string>
+    <string name="period_temperature_notes_hint">Notes (optional)</string>
+    <string name="period_time_evening">Evening</string>
+    <string name="period_time_morning">Morning</string>
     <string name="period_title">Cycle</string>
     <string name="pref_theme_default" translatable="false">light</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_off">Always use default snooze delay</string>

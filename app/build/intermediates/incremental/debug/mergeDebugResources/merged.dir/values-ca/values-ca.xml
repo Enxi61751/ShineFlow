@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <string-array name="availability">
+    <item msgid="454869065893453189">"Ocupat"</item>
+    <item msgid="6228387173725732140">"Disponible"</item>
+    <item msgid="2064426942462573474">"Provisional"</item>
+  </string-array>
+    <string-array name="backup_country_names">
+    <item msgid="9141777876082196578">"Sint Maarten"</item>
+    <item msgid="5330962017221568054">"Carib Neerlandès"</item>
+    <item msgid="1465164631761814300">"Curaçao"</item>
+    <item msgid="8972081011408691260">"Sudan del Sud"</item>
+  </string-array>
+    <string-array name="buttons_list">
+    <item msgid="5917946202321434335">"Dia"</item>
+    <item msgid="6248480754959562740">"Setmana"</item>
+    <item msgid="4298472806133153766">"Mes"</item>
+    <item msgid="5033084974413793845">"Agenda"</item>
+  </string-array>
+    <string-array name="change_response_labels">
+    <item msgid="3466644709343519437">"Només aquest esdeveniment"</item>
+    <item msgid="140670561403965380">"Tots els esdeveniments de la sèrie"</item>
+  </string-array>
+    <string-array name="delete_repeating_labels">
+    <item msgid="4208432367651646938">"Només aquest esdeveniment"</item>
+    <item msgid="1536401639805370405">"Aquest esdeveniment i esdeveniments futurs"</item>
+    <item msgid="7833229563617435430">"Tots els esdeveniments"</item>
+  </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+    <item msgid="2285927842308686988">"Només si es rebutja"</item>
+    <item msgid="6367412240524984286">"Si es rebutja o no es contesta"</item>
+  </string-array>
+    <string-array name="preferences_week_start_day_labels">
+    <item msgid="986150274035512339">"Regió predeterminada"</item>
+    <item msgid="134027225275475280">"Dissabte"</item>
+    <item msgid="95029346069903091">"Diumenge"</item>
+    <item msgid="5840983116375063739">"Dilluns"</item>
+  </string-array>
+    <string-array name="quick_response_defaults">
+        <item msgid="1524421198348168403">"Arribaré uns quants minuts tard."</item>
+        <item msgid="6215158751728689832">"Arribaré d\'aquí a 10 minuts."</item>
+        <item msgid="4485794001743679338">"Comenceu sense mi."</item>
+        <item msgid="8036557974294987511">"No hi puc assistir, deixem-ho per a un altre moment."</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+    <item msgid="3388478383574917007">"REPETEIX DIÀRIAMENT"</item>
+    <item msgid="6300824484048337842">"REPETEIX SETMANALMENT"</item>
+    <item msgid="189361731610816256">"REPETEIX MENSUALMENT"</item>
+    <item msgid="8714177874112569158">"REPETEIX ANUALMENT"</item>
+  </string-array>
+    <string-array name="reminder_methods_labels">
+    <item msgid="5172236776878811487">"Notificació"</item>
+    <item msgid="1751151680520784746">"Correu electrònic"</item>
+    <item msgid="2658001219380695677">"SMS"</item>
+    <item msgid="7926918288165444873">"Alarma"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_fri">
+    <item msgid="6534500380525126157">"primer divendres de cada mes"</item>
+    <item msgid="1935608297230506940">"segon divendres de cada mes"</item>
+    <item msgid="4061877662049317599">"tercer divendres de cada mes"</item>
+    <item msgid="6856646749131820614">"quart divendres de cada mes"</item>
+    <item msgid="6533513913914859794">"últim divendres de cada mes"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_mon">
+    <item msgid="7539974918997689048">"primer dilluns de cada mes"</item>
+    <item msgid="4484275849072423978">"segon dilluns de cada mes"</item>
+    <item msgid="8956169860824371383">"tercer dilluns de cada mes"</item>
+    <item msgid="6924403357659569326">"quart dilluns de cada mes"</item>
+    <item msgid="1379608815263472161">"últim dilluns de cada mes"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sat">
+    <item msgid="3556369572649948699">"primer dissabte de cada mes"</item>
+    <item msgid="9130198690512925355">"segon dissabte de cada mes"</item>
+    <item msgid="4525736070844032405">"tercer dissabte de cada mes"</item>
+    <item msgid="422053689531707709">"quart dissabte de cada mes"</item>
+    <item msgid="5499975799312474425">"últim dissabte de cada mes"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sun">
+    <item msgid="143841313172233420">"primer diumenge de cada mes"</item>
+    <item msgid="2557379346106451363">"segon diumenge de cada mes"</item>
+    <item msgid="7622144489915654132">"tercer diumenge de cada mes"</item>
+    <item msgid="527152448137686021">"quart diumenge de cada mes"</item>
+    <item msgid="5057483608824759350">"últim diumenge de cada mes"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_thurs">
+    <item msgid="920673677566009313">"primer dijous de cada mes"</item>
+    <item msgid="4857419136007543270">"segon dijous de cada mes"</item>
+    <item msgid="222044587450564839">"tercer dijous de cada mes"</item>
+    <item msgid="6197927556533030945">"quart dijous de cada mes"</item>
+    <item msgid="1023326923033436905">"últim dijous de cada mes"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_tues">
+    <item msgid="8690802834039790777">"primer dimarts de cada mes"</item>
+    <item msgid="9063613547307760928">"segon dimarts de cada mes"</item>
+    <item msgid="6688603328729208168">"tercer dimarts de cada mes"</item>
+    <item msgid="6695206006961533357">"quart dimarts de cada mes"</item>
+    <item msgid="8619069174889809914">"últim dimarts de cada mes"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_wed">
+    <item msgid="3233850232075584386">"primer dimecres de cada mes"</item>
+    <item msgid="5059722045367799217">"segon dimecres de cada mes"</item>
+    <item msgid="7986246648229272275">"tercer dimecres de cada mes"</item>
+    <item msgid="9068566169348980801">"quart dimecres de cada mes"</item>
+    <item msgid="7976866743069062134">"últim dimecres de cada mes"</item>
+  </string-array>
+    <string-array name="response_labels1">
+    <item msgid="5605392595848194997">"Cap resposta"</item>
+    <item msgid="3724434080904437698">"Sí"</item>
+    <item msgid="8854145743148992583">"Potser"</item>
+    <item msgid="6174292185978948873">"No"</item>
+  </string-array>
+    <string-array name="timezone_rename_labels">
+    <item msgid="4609638052107641231">"Hora del centre d\'Austràlia - NT"</item>
+    <item msgid="4345275500159159867">"Hora del centre d\'Austràlia - SA"</item>
+    <item msgid="6771274300523132094">"Hora de l\'est d\'Austràlia - QLD"</item>
+    <item msgid="4685547681424666687">"Hora de l\'est d\'Austràlia - NSW"</item>
+    <item msgid="5259393186526893961">"Hora estàndard de les Muntanyes - Dawson Creek"</item>
+    <item msgid="5984634754870859705">"Hora estàndard central - Saskatchewan"</item>
+    <item msgid="5340374311583423836">"Hora estàndard de l\'est - Atikokan"</item>
+    <item msgid="8922086438245451625">"Hora estàndard de l\'Atlàntic - Quebec"</item>
+    <item msgid="8353677384517034413">"Hora de Hawaii-Illes Aleutianes - Hawaii"</item>
+    <item msgid="6426791761018806420">"Hora de Hawaii-Illes Aleutianes - Alaska"</item>
+    <item msgid="7076353182411415610">"Hora estàndard del Pacífic - Metlakatla"</item>
+    <item msgid="373990592918179890">"Hora estàndard de les Muntanyes - Arizona"</item>
+    <item msgid="353899326999279114">"Hora del Pacífic - Baix Califòrnia"</item>
+    <item msgid="6432134534714673873">"Hora de les Muntanyes - Chihuahua"</item>
+    <item msgid="7629345735485663968">"Hora central - Tamaulipas"</item>
+    <item msgid="3874729044260979505">"Hora de les Muntanyes - Sonora"</item>
+    <item msgid="1106209575683600471">"Hora de l\'Àfrica oriental"</item>
+    <item msgid="6538017087072480128">"Hora estàndard de l\'Atlàntic"</item>
+    <item msgid="6758957851822881177">"Hora estàndard de l\'Atlàntic"</item>
+    <item msgid="2477556470536619081">"Hora de l’Est d’Europa"</item>
+    <item msgid="7328461310893621937">"Hora de Kaliningrad"</item>
+    <item msgid="4212642599758736931">"Amazònia - Rondônia"</item>
+    <item msgid="2370319280810537375">"Brasília - Pará"</item>
+  </string-array>
+    <plurals name="N_remaining_events">
+        <item quantity="one">+1 esdeveniment</item>
+        <item quantity="other">+<ns1:g id="count">%d</ns1:g> esdeveniments</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one">1 dia</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> dies</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="one">1 esdeveniment</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> esdeveniments</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">1 hora</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> hores</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">1 min</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> mins</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="one">1 minut</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> minuts</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 setmana</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> setmanes</item>
+    </plurals>
+    <plurals name="daily">
+        <item msgid="5169052946627480942" quantity="one">"Diàriament"</item>
+        <item msgid="5455230727715859264" quantity="other">"Cada <ns1:g id="NUMBER">%d</ns1:g> dies"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item msgid="3727754565990691816" quantity="one">"; una vegada"</item>
+        <item msgid="4855496837834652446" quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> vegades"</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="one">+1</item>
+        <item quantity="other"><ns1:g id="number">%d</ns1:g></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notificació nova</item>
+    <item quantity="other">%d notificacions noves</item>
+  </plurals>
+    <plurals name="recurrence_end_count">
+        <item msgid="1400782968090516215" quantity="one">"Per a <ns1:g id="EVENT_COUNT">%d</ns1:g> esdeveniment"</item>
+        <item msgid="8779598489398048259" quantity="other">"Per a <ns1:g id="EVENT_COUNT">%d</ns1:g> esdeveniments"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Cada <ns1:g id="count">%d</ns1:g> dia</item>
+        <item quantity="other">Cada <ns1:g id="count">%d</ns1:g> dies</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Cada <ns1:g id="count">%d</ns1:g> mes</item>
+        <item quantity="other">Cada <ns1:g id="count">%d</ns1:g> mesos</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Cada <ns1:g id="count">%d</ns1:g> setmana</item>
+        <item quantity="other">Cada <ns1:g id="count">%d</ns1:g> setmanes</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Cada <ns1:g id="count">%d</ns1:g> any</item>
+        <item quantity="other">Cada <ns1:g id="count">%d</ns1:g> anys</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one">Setmana <ns1:g id="count">%d</ns1:g></item>
+        <item quantity="other">Setmanes <ns1:g id="count">%d</ns1:g></item>
+    </plurals>
+    <plurals name="weekly">
+        <item msgid="5463021019301453273" quantity="one">"Setmanalment el <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item msgid="2857390143157377867" quantity="other">"Cada <ns1:g id="NUMBER">%1$d</ns1:g> setmanes el <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navega fins a la pàgina d\'inici"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navega cap amunt"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Més opcions"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Fet"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Mostra-ho tot"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Selecciona una aplicació"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESACTIVA"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVA"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Supr"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Retorn"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funció+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Maj+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Espai"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menú+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Cerca…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Esborra la consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de cerca"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Envia la consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Cerca per veu"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Comparteix amb"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Comparteix amb <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Replega"</string>
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"No hi ha cap suggeriment disponible"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"S\'han obert els suggeriments de contactes."</string>
+    <string msgid="5654014177472600916" name="accessibility_add_attendee">"Afegeix un assistent"</string>
+    <string msgid="2267950744060950152" name="accessibility_add_reminder">"Afegeix un recordatori"</string>
+    <string msgid="4146955438811915282" name="accessibility_all_day">"Esdeveniment de tot el dia"</string>
+    <string msgid="5624250196618643922" name="accessibility_pick_end_date">"Data de finalització"</string>
+    <string msgid="7120310166355224941" name="accessibility_pick_end_time">"Hora de finalització"</string>
+    <string msgid="1834311617874828931" name="accessibility_pick_recurrence">"Repeteix l\'esdeveniment"</string>
+    <string msgid="3926641487042699037" name="accessibility_pick_start_date">"Data d\'inici"</string>
+    <string msgid="4913428100936555149" name="accessibility_pick_start_time">"Hora d\'inici"</string>
+    <string msgid="7155465783500323811" name="accessibility_pick_time_zone">"Zona horària"</string>
+    <string msgid="8669288484484022771" name="accessibility_reminder_privacy">"Privadesa"</string>
+    <string msgid="6669129015980006570" name="accessibility_reminder_showmeas">"Mostra\'m com a"</string>
+    <string msgid="3594100545814579575" name="accessibility_reminder_time">"Temps de recordatori"</string>
+    <string msgid="5339120699701437227" name="accessibility_reminder_type">"Tipus de recordatori"</string>
+    <string msgid="7082751172654698863" name="accessibility_remove_attendee">"Elimina un assistent"</string>
+    <string msgid="5261609343259665139" name="accessibility_remove_reminder">"Elimina el recordatori"</string>
+    <string msgid="5899029840837836711" name="acessibility_recurrence_choose_end_date_description">"canvia la data de finalització"</string>
+    <string msgid="3010149843148810768" name="acessibility_selected_marker_description">"Esdeveniment seleccionat"</string>
+    <string msgid="7172664623795021857" name="action_label">"Torna"</string>
+    <string name="add_calendar">Afegeix calendari</string>
+    <string name="after_start_of_event">després de l\'inici de l\'esdeveniment</string>
+    <string msgid="5965841338467422191" name="agenda_today">Avui, <ns1:g id="date">%1$s</ns1:g></string>
+    <string msgid="3893625470780723605" name="agenda_tomorrow">Demà, <ns1:g id="DATE">%1$s</ns1:g></string>
+    <string msgid="5566084759423843245" name="agenda_view">"Agenda"</string>
+    <string msgid="4170964206728599693" name="agenda_yesterday">Ahir, <ns1:g id="DATE">%1$s</ns1:g></string>
+    <string msgid="7869592820853066853" name="alert_title">"Notificacions de calendari"</string>
+    <string name="app_copyright">© 2015-<ns1:g>%1$s</ns1:g> The Etar Project. Porcions © 2005-<ns1:g>%1$s</ns1:g> The Android Open Source Project.</string>
+    <string msgid="5452708708398908131" name="app_label">"Calendari"</string>
+    <string name="authors">Autors</string>
+    <string name="bottomsheet_action_collapse">Replega el full inferior</string>
+    <string name="bottomsheet_action_expand">Desplega el full inferior</string>
+    <string name="bottomsheet_action_expand_halfway">Desplega fins a la meitat</string>
+    <string name="bottomsheet_drag_handle_content_description">Ansa per arrossegar</string>
+    <string name="cal_export_event_sdcard_title">Exporta a la targeta SD</string>
+    <string name="cal_export_succ_msg">Esdeveniment exportat satisfactòriament: %1$s</string>
+    <string name="cal_import_error_date_msg">No s\'ha pogut entendre la data proporcionada: %s</string>
+    <string name="cal_import_error_msg">L\'importació a calendari ha fallat</string>
+    <string name="cal_import_error_time_zone_msg">Incapaç d\'entendre el fus horari proporcionat: %s</string>
+    <string name="cal_import_menu_title">Importar l\'esdeveniment</string>
+    <string name="cal_nothing_to_import">No hi ha res per a importar</string>
+    <string name="cal_pick_ics">Escull un fitxer per a importar</string>
+    <string name="cal_share_intent_title">Envia l\'esdeveniment a:</string>
+    <string msgid="3595509200561433667" name="calendar_color_picker_dialog_title">"Color del calendari"</string>
+    <string name="calendar_permission_not_granted">S\'han denegat els permisos necessaris, activeu-los des de la configuració per a editar esdeveniments</string>
+    <string msgid="6172731193680500025" name="calendar_refresh">"Actualitza"</string>
+    <string msgid="7430468363525563483" name="calendar_square_color_picker_description">"Selector de color"</string>
+    <string name="calendars">Calendaris</string>
+    <string msgid="2960328220008869083" name="call_label">"Truca"</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Respon"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vídeo"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Rebutja"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Penja"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Trucada entrant"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Trucada en curs"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"S\'està filtrant una trucada entrant"</string>
+    <string name="cancel">Cancel·la</string>
+    <string msgid="7704714776070974984" name="change_response_title">"Canvia la resposta"</string>
+    <string name="changelog">Registre de canvis</string>
+    <string name="character_counter_content_description">Caràcters introduïts: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">S\'ha superat el límit de caràcters (%1$d de %2$d)</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"Cancel·la"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"Copia"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"Permet els suggeriments de contactes"</string>
+    <string msgid="2192923501857428854" name="choose_event_color_label">"Tria el color de l\'esdeveniment"</string>
+    <string name="clear_text_end_icon_content_description">Esborra el text</string>
+    <string msgid="6083905920877235314" name="copy">"Copia"</string>
+    <string msgid="437691290566699292" name="copy_db">"Envia la base de dades"</string>
+    <string msgid="1084563757174121331" name="copy_email">"Copia l\'adreça electrònica"</string>
+    <string msgid="8860802152973030914" name="copy_number">"Copia el número de telèfon"</string>
+    <string msgid="1080859798521717414" name="create_event_dialog_save">"Desa"</string>
+    <string msgid="7516249252554059980" name="creating_event">"S\'ha creat un esdeveniment."</string>
+    <string msgid="5758688413124191931" name="creating_event_with_guest">"S\'enviaran les invitacions."</string>
+    <string msgid="4137468716966004993" name="custom" product="default">"Personalitzat (no es pot personalitzar al telèfon)"</string>
+    <string msgid="1642972650061946484" name="date_time_fmt"><ns1:g id="date">%1$s</ns1:g>, <ns1:g id="time_interval">%2$s</ns1:g></string>
+    <string msgid="4467754504843584437" name="day_view">"Dia"</string>
+    <string msgid="2131483437911536229" name="day_view_new_event_hint">"+ Esdeveniment nou"</string>
+    <string name="default_start_last">Vista utilitzada prèviament</string>
+    <string name="default_start_title">Vista per defecte</string>
+    <string msgid="874742811918030739" name="delete_label">"Suprimeix"</string>
+    <string msgid="5609046778422180206" name="delete_recurring_event_title">"Vols suprimir <ns1:g id="EVENTTITLE">%s</ns1:g>?"</string>
+    <string msgid="518402946676919384" name="delete_this_event_title">"Vols suprimir aquest esdeveniment?"</string>
+    <string msgid="1232037509095606687" name="directory_searching_fmt">"S\'està cercant <ns1:g id="DOMAIN">%s</ns1:g>…"</string>
+    <string name="discard">Descarta</string>
+    <string name="discard_event_changes">Voleu descartar els canvis?</string>
+    <string msgid="2394623883289782541" name="discard_label">"Cancel·la"</string>
+    <string msgid="1834400025868091301" name="dismiss_all_label">"Omet-les totes"</string>
+    <string name="display_location">Mostra la ubicació</string>
+    <string name="display_options">Veure detalls</string>
+    <string name="display_time">Mostra l\'hora</string>
+    <string msgid="1877681921029738999" name="does_not_repeat">"Esdeveniment únic"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"Suprimeix <ns1:g id="CONTACT">%s</ns1:g> dels destinataris"</string>
+    <string name="duplicate_label">Duplica</string>
+    <string msgid="6200181113992136073" name="edit_event_all_day_label">"Tot el dia"</string>
+    <string msgid="4556498359505856900" name="edit_event_calendar_label">"Calendari"</string>
+    <string msgid="7413222956349977161" name="edit_event_label">"Detalls"</string>
+    <string msgid="8934331258435656534" name="edit_label">"Edita"</string>
+    <string msgid="8772030932155305903" name="email_guests_label">"Notifica per correu electrònic als convidats"</string>
+    <string msgid="7178059542798074813" name="email_organizer_label">"Envia un correu a l\'organitzador"</string>
+    <string msgid="4808253965057791781" name="email_picker_label">"Correu electrònic amb"</string>
+    <string msgid="9018699257414338634" name="empty_event">Esdeveniment buit no creat.</string>
+    <string msgid="7654221304929538201" name="endByDate">"; fins al dia <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="error_a11y_label">Error: no vàlid</string>
+    <string name="error_generating_ics">S\'han trobat problemes mentre es compartia l\'esdeveniment</string>
+    <string name="error_icon_content_description">Error</string>
+    <string msgid="4631938661655159511" name="event_color_picker_dialog_title">"Color de l\'esdeveniment"</string>
+    <string msgid="3447218820785647967" name="event_color_set_to_default">"Selecciona el color predeterminat del calendari"</string>
+    <string msgid="6941040556709110617" name="event_create">"Esdeveniment nou"</string>
+    <string msgid="2386667193277770442" name="event_delete">"Suprimeix l\'esdeveniment"</string>
+    <string msgid="4006961928830064662" name="event_edit">"Edita l\'esdeveniment"</string>
+    <string msgid="9138683335394832629" name="event_info_organizer">"Organitz.:"</string>
+    <string msgid="8913097552956388972" name="event_info_reminders_label">"Recordatoris"</string>
+    <string msgid="56024222340421620" name="event_info_title">"Visualitza l\'esdeveniment"</string>
+    <string msgid="9160326363769403865" name="event_info_title_invite">"Invitació a una reunió"</string>
+    <string msgid="8356864185947582727" name="event_not_found">"No s\'ha trobat l\'esdeveniment."</string>
+    <string msgid="7621353079385122317" name="event_view">"Visualitza l\'esdeveniment"</string>
+    <string msgid="5896574838353902978" name="every_weekday">"Entre setmana (Dl.-Dv.)"</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Opcions avançades"</string>
+    <string name="exposed_dropdown_menu_content_description">Mostra el menú desplegable</string>
+    <string name="fifteen_minutes">15 minuts</string>
+    <string name="five_days">5 dies</string>
+    <string name="foreground_notification_channel_description">Les notificacions són necessaries per a la sincronització interna. Pots ocultar aquest canal amb seguretat.</string>
+    <string name="foreground_notification_channel_name">Tasques en segon pla</string>
+    <string name="foreground_notification_title">Planificant nous recordatoris…</string>
+    <string name="four_days">4 dies</string>
+    <string msgid="5209110911088302855" name="gadget_no_events">"No hi ha cap esdeveniment del calendari proper"</string>
+    <string name="goto_date">Ves a…</string>
+    <string msgid="9162136434410891230" name="goto_today">"Avui"</string>
+    <string msgid="830320505938520882" name="hide_controls">"Amaga els controls"</string>
+    <string msgid="1650488163176888480" name="hint_attendees">"Convidats"</string>
+    <string msgid="1910143586169033232" name="hint_description">"Descripció"</string>
+    <string msgid="804776560897143016" name="hint_time_zone_search">"Escriu el nom del país"</string>
+    <string name="hint_url">Adreça URL</string>
+    <string msgid="709155115005044531" name="hint_what">"Nom de l\'esdeveniment"</string>
+    <string msgid="4972598001033801974" name="hint_where">"Ubicació"</string>
+    <string name="icon_content_description">Icona del quadre de diàleg</string>
+    <string name="item_view_role_description">Tabulador</string>
+    <string name="license">Llicència</string>
+    <string msgid="3772533493214331230" name="loading">"S\'està carregant…"</string>
+    <string name="m3_loading_indicator_content_description">S\'està carregant</string>
+    <string msgid="8795383535586556038" name="map_label">"Mapa"</string>
+    <string name="material_clock_toggle_content_description">Selecciona a. m. o p. m.</string>
+    <string name="material_hour_24h_suffix">%1$s hores</string>
+    <string name="material_hour_selection">Seleccioneu l\'hora</string>
+    <string name="material_hour_suffix">%1$s en punt</string>
+    <string name="material_minute_selection">Selecciona els minuts</string>
+    <string name="material_minute_suffix">%1$s minuts</string>
+    <string name="material_slider_range_end">Fi de l\'interval</string>
+    <string name="material_slider_range_start">Inici de l\'interval</string>
+    <string name="material_slider_value">Valor</string>
+    <string name="material_timepicker_am">a. m.</string>
+    <string name="material_timepicker_clock_mode_description">Canvia al mode de rellotge per introduir l\'hora.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minut</string>
+    <string name="material_timepicker_pm">p. m.</string>
+    <string name="material_timepicker_select_time">Selecció de l\'hora</string>
+    <string name="material_timepicker_text_input_mode_description">Canvia al mode d\'introducció de text per introduir l\'hora.</string>
+    <string name="maximum_number_of_lines">Número màxim de línies a l\'esdeveniment</string>
+    <string name="menu_info">Informació</string>
+    <string msgid="9120238479503233925" name="menu_preferences">"Configuració"</string>
+    <string msgid="4421657265864209041" name="modify_all">"Canvia tots els esdeveniments de la sèrie"</string>
+    <string msgid="3017428541066390380" name="modify_all_following">"Canvia aquest i tots els esdeveniments futurs"</string>
+    <string msgid="5982876409997142690" name="modify_event">"Canvia només aquest esdeveniment"</string>
+    <string msgid="7287101431749285412" name="month_view">"Mes"</string>
+    <string msgid="4587116285383048586" name="monthly">"Mensualment"</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g>"</string>
+    <string name="mtrl_badge_numberless_content_description">Notificació nova</string>
+    <string name="mtrl_checkbox_state_description_checked">Marcat</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Marcat parcialment</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Desmarcat</string>
+    <string name="mtrl_chip_close_icon_content_description">Suprimeix %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Més de %1$d notificacions noves</string>
+    <string name="mtrl_picker_a11y_next_month">Canvia al mes següent</string>
+    <string name="mtrl_picker_a11y_prev_month">Canvia al mes anterior</string>
+    <string name="mtrl_picker_announce_current_range_selection">Selecció de la data d\'inici: %1$s – Selecció de la data de finalització: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">Selecció actual: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">cap</string>
+    <string name="mtrl_picker_cancel">Cancel·la</string>
+    <string name="mtrl_picker_confirm">D’acord</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecciona una data</string>
+    <string name="mtrl_picker_date_header_unselected">Data seleccionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Data de finalització: %1$s</string>
+    <string name="mtrl_picker_invalid_format">El format no és vàlid.</string>
+    <string name="mtrl_picker_invalid_format_example">Exemple: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Utilitza: %1$s</string>
+    <string name="mtrl_picker_invalid_range">L\'interval no és vàlid.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Navega fins a l\'any actual %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Canvia a l\'any %1$d</string>
+    <string name="mtrl_picker_out_of_range">La data està fora de l\'interval: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Data d\'inici - %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s - Data de finalització</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecciona un interval</string>
+    <string name="mtrl_picker_range_header_unselected">Data d\'inici - Data de finalització</string>
+    <string name="mtrl_picker_save">Desa</string>
+    <string name="mtrl_picker_start_date_description">Data d\'inici: %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">Data</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Data de finalització</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Data d\'inici</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_today_description">Avui, dia %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Canvia al mode d\'introducció de dades del calendari</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Canvia a la visualització de calendari</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Canvia al mode d\'introducció de text</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Canvia a la visualització d\'any</string>
+    <string name="mtrl_picker_toggled_to_day_selection">S\'ha canviat a la visualització de calendari</string>
+    <string name="mtrl_picker_toggled_to_year_selection">S\'ha canviat a la visualització d\'any</string>
+    <string name="mtrl_timepicker_cancel">Cancel·la</string>
+    <string name="mtrl_timepicker_confirm">D’acord</string>
+    <string msgid="7553105224561147916" name="new_event_dialog_label">"Esdeveniment nou"</string>
+    <string msgid="6154657379574669371" name="new_event_dialog_option">"Esdeveniment nou"</string>
+    <string name="no_calendars_found">Abans de crear un esdeveniment, heu d\'afegir almenys un calendari al vostre dispositiu</string>
+    <string name="no_map">No hi ha aplicació de mapes instal·lada</string>
+    <string name="no_reminder_label">Cap</string>
+    <string msgid="5475293015394772651" name="no_results_found">"No s\'han trobat resultats"</string>
+    <string name="no_snooze_label">Cap</string>
+    <string msgid="7019488867045436129" name="no_syncable_calendars">"No hi ha cap calendari"</string>
+    <string msgid="302177118061368042" name="no_title_label">"(Sense títol)"</string>
+    <string msgid="6573031135582639649" name="not_set">"No definit"</string>
+    <string name="offline_account_name">Calendari fora de línia</string>
+    <string name="one_and_a_half_hours">1.5 hores</string>
+    <string name="one_hour">1 hora</string>
+    <string msgid="3485026339977302148" name="palestine_display_name">"Palestina"</string>
+    <string name="password_toggle_content_description">Mostra la contrasenya</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" s\'ha copiat al porta-retalls"</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Utilitza sempre el retard entre repeticions predefinit</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Demana el retard entre repeticions en cada recordatori</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Demana el retard entre repeticions en els recordatoris</string>
+    <string msgid="6643468203670475296" name="preferences_alerts_popup_title">"Notificació emergent"</string>
+    <string msgid="1849706055052358346" name="preferences_alerts_ringtone_title">"So"</string>
+    <string msgid="6636088008103904020" name="preferences_alerts_title">"Notificacions"</string>
+    <string msgid="8731372580674292759" name="preferences_alerts_vibrateWhen_title">"Vibra"</string>
+    <string name="preferences_black_theme">Negre</string>
+    <string msgid="8242471883413502068" name="preferences_build_version">"Versió de compilació"</string>
+    <string name="preferences_calendar_account">Compte %1$s</string>
+    <string name="preferences_calendar_account_local">Calendari fora de línia</string>
+    <string name="preferences_calendar_color">Color</string>
+    <string name="preferences_calendar_color_warning_button">Ho entenc</string>
+    <string name="preferences_calendar_color_warning_message">El canvi de color podria ser revertit quan el calendari es torni a sincronitzar.
+\n
+\nEs pot desactivar l\'opció \'Gestiona els colors del calendari\' a DAVx⁵ per prevenir-ho.</string>
+    <string name="preferences_calendar_color_warning_title">Advertència</string>
+    <string name="preferences_calendar_configure_account">Configura el calendari a %1$s</string>
+    <string name="preferences_calendar_delete">Esborra el calendari</string>
+    <string name="preferences_calendar_delete_cancel">Cancel·la</string>
+    <string name="preferences_calendar_delete_delete">Esborra el calendari</string>
+    <string name="preferences_calendar_delete_message">Realment vols esborrar aquest calendari\?</string>
+    <string name="preferences_calendar_display_name">Canvia el nom</string>
+    <string name="preferences_calendar_info_category">Informació del calendari</string>
+    <string name="preferences_calendar_no_display_name">Calendari sense nom</string>
+    <string name="preferences_calendar_number_of_events">%1$d esdeveniments</string>
+    <string name="preferences_calendar_synchronize">Sincronitza aquest calendari</string>
+    <string name="preferences_calendar_visible">Mostra els esdeveniments</string>
+    <string msgid="7864674093455778158" name="preferences_clear_search_history_summary">"Elimina totes les cerques fetes"</string>
+    <string msgid="6619916370215282982" name="preferences_clear_search_history_title">"Esborra l\'historial de cerca"</string>
+    <string name="preferences_color">Color primari</string>
+    <string name="preferences_color_pick">Color primari</string>
+    <string name="preferences_dark_theme">Fosc</string>
+    <string name="preferences_days_per_week_dialog">Dies per setmana</string>
+    <string name="preferences_days_per_week_title">Dies per setmana</string>
+    <string name="preferences_default_event_duration_title">Duració d\'esdeveniment per defecte</string>
+    <string msgid="2903884416749959435" name="preferences_default_reminder_default">"10"</string>
+    <string msgid="2490348857239323412" name="preferences_default_reminder_dialog">"Temps de recordatori predeterminat"</string>
+    <string msgid="5188861433342733905" name="preferences_default_reminder_title">"Temps de recordatori predeterminat"</string>
+    <string name="preferences_default_snooze_delay_dialog">Retard de la repetició predefinit</string>
+    <string name="preferences_default_snooze_delay_title">Temps de retard de la repetició predefinit</string>
+    <string name="preferences_do_not_check_battery_optimization">No verifiquis l\'optimització de la bateria</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Utilitzeu sota el vostre compte i risc! Les notificacions no funcionaran, el giny no s\'actualitzarà i els serveis en rerefons fallaran. I no si us demanarà més si voleu tornar-los a habilitar.</string>
+    <string msgid="8111213192001230350" name="preferences_experimental_category">"Experimental"</string>
+    <string msgid="2069075513760573117" name="preferences_general_title">"Configuració de la visualització"</string>
+    <string msgid="1849295943669890034" name="preferences_hide_declined_title">"Amaga esdeveniments rebutjats"</string>
+    <string msgid="6680000444088818578" name="preferences_home_tz_title">"Zona horària local"</string>
+    <string name="preferences_issues">Reporta problema</string>
+    <string name="preferences_light_theme">Clar</string>
+    <string name="preferences_list_add_offline">Afegeix un calendari fora de línia</string>
+    <string name="preferences_list_add_offline_button">Afegeix un calendari</string>
+    <string name="preferences_list_add_offline_cancel">Cancel·la</string>
+    <string name="preferences_list_add_offline_error_empty">Introdueix un nom de calendari!</string>
+    <string name="preferences_list_add_offline_message">Els calendaris fora de línia NO es sincronitzen al núvol i només són disponibles al teu telèfon.</string>
+    <string name="preferences_list_add_offline_name">Nom</string>
+    <string name="preferences_list_add_offline_title">Afegeix un calendari fora de línia</string>
+    <string name="preferences_list_add_remote">Afegeix un calendari CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Afegeix un calendari EteSync</string>
+    <string name="preferences_list_calendar_summary_invisible">No es mostren els esdeveniments</string>
+    <string name="preferences_list_calendar_summary_sync_off">No sincronitzat</string>
+    <string name="preferences_list_general">Configuració general</string>
+    <string name="preferences_manage_notifications">Administra les notificacions</string>
+    <string name="preferences_menu_about">Sobre Etar</string>
+    <string name="preferences_month_view_landscape">Disseny de vista mensual (horitzontal)</string>
+    <string name="preferences_month_view_portrait">Disseny de vista mensual (vertical)</string>
+    <string name="preferences_pure_black_night_mode">Mode negra nit pura</string>
+    <string name="preferences_real_event_colors">Fes servir colors d\'esdeveniments reals</string>
+    <string msgid="5199606534191180129" name="preferences_reminder_title">"Notificacions i recordatoris"</string>
+    <string msgid="1873289128793828352" name="preferences_reminders_responded_dialog">"Omissió dels recordatoris"</string>
+    <string msgid="1196570678238475838" name="preferences_reminders_responded_label">"Omet els recordatoris"</string>
+    <string msgid="5280734329664503461" name="preferences_show_week_num_title">"Mostra el número de setmana"</string>
+    <string name="preferences_system_theme">Sistema</string>
+    <string name="preferences_theme">Tema</string>
+    <string msgid="8045855493262131773" name="preferences_title">"Configuració"</string>
+    <string msgid="4835375381297413746" name="preferences_use_home_tz_descrip">"En viatjar, mostra calendaris i esdeveniments en l\'hora local"</string>
+    <string msgid="5597546849968598210" name="preferences_use_home_tz_title">"Utilitza hora local"</string>
+    <string msgid="5181634128884089113" name="preferences_week_start_day_dialog">"La setmana comença el"</string>
+    <string msgid="4619489296444901622" name="preferences_week_start_day_title">"La setmana comença el"</string>
+    <string msgid="6169724148441175862" name="presence_label">"Mostra\'m com a"</string>
+    <string msgid="9215031965259597335" name="privacy_label">"Privadesa"</string>
+    <string msgid="8792374208224108798" name="quick_response_custom_msg">"Escriu la teva…"</string>
+    <string msgid="2681309456412199207" name="quick_response_dialog_title">"Tria una resposta ràpida"</string>
+    <string msgid="5544066405231853245" name="quick_response_email_failed">"No s\'ha pogut trobar un programa de correu electrònic"</string>
+    <string msgid="6776151690686068278" name="quick_response_settings">"Respostes ràpides"</string>
+    <string msgid="6260055523174081930" name="quick_response_settings_edit_title">"Resposta ràpida"</string>
+    <string msgid="7878304729027355604" name="quick_response_settings_summary">"Edita respostes predeterminades en enviar correus als convidats"</string>
+    <string msgid="6898950241634912991" name="recurrence_end_continously">"Sempre"</string>
+    <string msgid="1233883668293087977" name="recurrence_end_count_label">"Per a alguns esdeveniments"</string>
+    <string msgid="3693751578164711701" name="recurrence_end_date">"Fins al dia <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string msgid="4142791438636994952" name="recurrence_end_date_label">"Fins a una data"</string>
+    <string msgid="4400107556121003459" name="recurrence_month_pattern_by_day">"el mateix dia de cada mes"</string>
+    <string msgid="7292389181815525676" name="reminders_label">"Afegeix recordatori"</string>
+    <string msgid="7791500973627841695" name="response_maybe">"Potser"</string>
+    <string msgid="561911691884148136" name="response_no">"No"</string>
+    <string msgid="2027484304899988350" name="response_yes">"Sí"</string>
+    <string name="rsvp_accepted">Ha respost sí.</string>
+    <string name="rsvp_declined">Ha respost no.</string>
+    <string name="rsvp_tentative">Ha respost potser.</string>
+    <string msgid="2133599104834432589" name="save_label">"Fet"</string>
+    <string msgid="7694181017411177226" name="saving_event">"S\'ha desat l\'esdeveniment."</string>
+    <string msgid="9184584438475689577" name="saving_event_with_guest">"S\'enviaran les actualitzacions."</string>
+    <string msgid="550656004486017426" name="search">"Cerca"</string>
+    <string msgid="1536707558435227567" name="search_history_cleared">"S\'ha buidat l\'historial de cerca."</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Cerca"</string>
+    <string msgid="8898015280250716254" name="search_title">"Cerca als meus calendaris"</string>
+    <string name="searchview_clear_text_content_description">Esborra el text</string>
+    <string msgid="1603860069305867810" name="searchview_description_clear">"Esborra la consulta"</string>
+    <string name="searchview_navigation_content_description">Enrere</string>
+    <string msgid="8890542984949996251" name="select_synced_calendars_button">"Calendaris per sincronitzar"</string>
+    <string name="seven_days">7 dies</string>
+    <string name="share_label">Comparteix</string>
+    <string msgid="715520586028062621" name="show_controls">"Mostra els controls"</string>
+    <string msgid="5782512782605466016" name="show_day_view">"Mostra el dia"</string>
+    <string msgid="2604638815440163080" name="show_newer_events">"Toca per mostrar esdeveniments posteriors a <ns1:g id="NEWEST_SEARCH_RANGE">%1$s</ns1:g>"</string>
+    <string msgid="5140647493681439926" name="show_older_events">"Toca per mostrar esdeveniments anteriors a <ns1:g id="OLDEST_SEARCH_RANGE">%1$s</ns1:g>"</string>
+    <string name="show_time_no">No mostrar l\'hora</string>
+    <string name="show_time_start">Només l\'hora d\'inici</string>
+    <string name="show_time_start_end">Hora d\'inici i finalització</string>
+    <string name="show_time_start_end_below">Hora d\'inici i de finalització sota l\'esdeveniment</string>
+    <string name="side_sheet_accessibility_pane_title">Panell lateral</string>
+    <string name="six_days">6 dies</string>
+    <string name="snooze_delay_dialog_title">Fixa el retard de la repetició</string>
+    <string msgid="1515893621063224666" name="snooze_label">"Posposa"</string>
+    <string name="source_code">Font</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="4067877800670753110" name="template_announce_item_index">"Esdeveniment <ns1:g id="ITEM_INDEX">%1$s</ns1:g> de <ns1:g id="ITEM_COUNT">%2$s</ns1:g>."</string>
+    <string name="thirty_minutes">30 minuts</string>
+    <string name="three_days">3 dies</string>
+    <string msgid="8577375020252453006" name="today">"Avui"</string>
+    <string msgid="1981279213130049736" name="today_at_time_fmt">"Avui a les <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string msgid="614434811813859237" name="tomorrow">"Demà"</string>
+    <string msgid="1330779112841767432" name="tomorrow_at_time_fmt">"Demà a les <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string name="two_days">2 dies</string>
+    <string name="two_hours">2 hores</string>
+    <string name="user_rejected_calendar_write_permission">Etar requereix permisos per a llegir i escriure al calendari per a funcionar correctament. Si us plau, prova-ho de nou.</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"DESACTIVAT"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"ACTIVAT"</string>
+    <string msgid="6126231656338241140" name="view_event_calendar_label">"Calendari:"</string>
+    <string msgid="2753151795647402277" name="view_event_organizer_label">"Organitzador:"</string>
+    <string msgid="8382281658458798329" name="view_event_response_label">"Hi assistireu?"</string>
+    <string name="view_settings">Configuració de visualització</string>
+    <string name="visibility_confidential">Confidencial</string>
+    <string name="visibility_default">Predeterminada</string>
+    <string name="visibility_private">Privat</string>
+    <string name="visibility_public">Públic</string>
+    <string msgid="6775043022159508060" name="week_view">"Setmana"</string>
+    <string msgid="894636567327261599" name="when_label">"Quan"</string>
+    <string msgid="3652692085322162449" name="yearly_plain">"Anualment"</string>
+    <string name="zero_minutes">0 minuts</string>
+</resources>

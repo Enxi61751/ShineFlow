@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.android.calendar.tests.app-debugAndroidTest-3:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Karen\\4-research\\DACHUANG\\software\\ShineFlow\\app\\build\\generated\\res\\resValues\\androidTest\\debug\\values\\gradleResValues.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "161",
+                        "endColumns": "123",
+                        "endOffsets": "280"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "123",
+                        "endOffsets": "174"
+                    }
+                }
+            ]
+        }
+    ]
+}

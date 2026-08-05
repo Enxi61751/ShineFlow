@@ -88,7 +88,6 @@
         android:requestLegacyExternalStorage="true"
         android:requiredAccountType="*"
         android:taskAffinity="ws.xsoh.etar.task"
-        android:testOnly="true"
         android:theme="@style/Theme.Etar"
         android:usesCleartextTraffic="true" >
         <activity

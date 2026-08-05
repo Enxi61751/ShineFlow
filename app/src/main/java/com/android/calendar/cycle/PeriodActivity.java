@@ -1,7 +1,6 @@
 package com.android.calendar.cycle;
 
 import android.app.DatePickerDialog;
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -15,6 +14,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.android.calendar.theme.DynamicThemeKt;
 import com.google.android.material.button.MaterialButton;
@@ -27,76 +27,82 @@ import java.time.format.FormatStyle;
 import java.util.ArrayList;
 import java.util.List;
 
+import kotlin.Pair;
 import ws.xsoh.etar.R;
 
 /**
- * Dedicated cycle-tracking screen: overview, quick logging, history and a
- * per-record editor (flow / symptoms / mood / notes). All data is local.
+ * Dedicated cycle-tracking screen: summary overview, quick start/end logging,
+ * BBT temperature chart, per-record editor (flow / symptoms / mood / notes),
+ * and period history. All data is local.
  */
 public class PeriodActivity extends AppCompatActivity {
 
     private PeriodRepository mRepo;
     private int mDensity;
 
-    private LinearLayout mSummaryBox;
-    private MaterialButton mPrimaryAction;
-    private LinearLayout mHistoryBox;
+    // Views
+    private Toolbar mToolbar;
+    private TextView mCycleDayInfo;
+    private TextView mNextPeriodInfo;
+    private TextView mOvulationInfo;
+    private TextView mAveragesInfo;
+    private MaterialButton mBtnLogStart;
+    private MaterialButton mBtnLogCustom;
+    private BbtChartView mBbtChart;
+    private TextView mBbtEmptyText;
+    private MaterialButton mBtnAddTemp;
+    private LinearLayout mHistoryContainer;
 
     private final DateTimeFormatter mDateFmt =
             DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM);
+    private final DateTimeFormatter mShortDateFmt =
+            DateTimeFormatter.ofPattern("MMM d");
+
+    // =================================================================== lifecycle
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         DynamicThemeKt.applyTheme(this);
+        setContentView(R.layout.period_activity);
+
         mRepo = PeriodRepository.get(this);
         mDensity = (int) getResources().getDisplayMetrics().density;
 
+        findViews();
+        setupToolbar();
+        setupListeners();
+        refresh();
+    }
+
+    // =================================================================== view wiring
+
+    private void findViews() {
+        mToolbar = findViewById(R.id.toolbar);
+        mCycleDayInfo = findViewById(R.id.cycle_day_info);
+        mNextPeriodInfo = findViewById(R.id.next_period_info);
+        mOvulationInfo = findViewById(R.id.ovulation_info);
+        mAveragesInfo = findViewById(R.id.averages_info);
+        mBtnLogStart = findViewById(R.id.btn_log_start);
+        mBtnLogCustom = findViewById(R.id.btn_log_custom);
+        mBbtChart = findViewById(R.id.bbt_chart);
+        mBbtEmptyText = findViewById(R.id.bbt_empty_text);
+        mBtnAddTemp = findViewById(R.id.btn_add_temp);
+        mHistoryContainer = findViewById(R.id.history_container);
+    }
+
+    private void setupToolbar() {
+        mToolbar.setTitle(R.string.period_cycle_tracking);
+        setSupportActionBar(mToolbar);
         if (getSupportActionBar() != null) {
-            getSupportActionBar().setTitle(R.string.period_title);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
+    }
 
-        ScrollView scroll = new ScrollView(this);
-        LinearLayout root = new LinearLayout(this);
-        root.setOrientation(LinearLayout.VERTICAL);
-        int pad = 16 * mDensity;
-        root.setPadding(pad, pad, pad, pad);
-        scroll.addView(root);
-        setContentView(scroll);
-
-        mSummaryBox = new LinearLayout(this);
-        mSummaryBox.setOrientation(LinearLayout.VERTICAL);
-        mSummaryBox.setPadding(pad, pad, pad, pad);
-        root.addView(mSummaryBox);
-
-        mPrimaryAction = new MaterialButton(this);
-        mPrimaryAction.setOnClickListener(v -> onPrimaryAction());
-        LinearLayout.LayoutParams pLp = new LinearLayout.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        pLp.topMargin = 12 * mDensity;
-        root.addView(mPrimaryAction, pLp);
-
-        MaterialButton markStart = new MaterialButton(this,
-                null, com.google.android.material.R.attr.materialButtonOutlinedStyle);
-        markStart.setText(R.string.period_mark_start);
-        markStart.setOnClickListener(v -> pickStartDate());
-        LinearLayout.LayoutParams mLp = new LinearLayout.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        mLp.topMargin = 8 * mDensity;
-        root.addView(markStart, mLp);
-
-        TextView historyHeader = new TextView(this);
-        historyHeader.setText(R.string.period_history);
-        historyHeader.setTypeface(Typeface.DEFAULT_BOLD);
-        historyHeader.setPadding(pad, 24 * mDensity, pad, 8 * mDensity);
-        root.addView(historyHeader);
-
-        mHistoryBox = new LinearLayout(this);
-        mHistoryBox.setOrientation(LinearLayout.VERTICAL);
-        root.addView(mHistoryBox);
-
-        refresh();
+    private void setupListeners() {
+        mBtnLogStart.setOnClickListener(v -> onPrimaryAction());
+        mBtnLogCustom.setOnClickListener(v -> pickCustomDate());
+        mBtnAddTemp.setOnClickListener(v -> showAddTemperatureDialog());
     }
 
     @Override
@@ -108,40 +114,45 @@ public class PeriodActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    // ------------------------------------------------------------- rendering
+    // =================================================================== refresh
 
     private void refresh() {
         renderSummary();
+        renderQuickActions();
+        renderBBTChart();
         renderHistory();
         PeriodReminderReceiver.schedule(this);
     }
 
+    // ---------------------------------------------------- summary
+
     private void renderSummary() {
-        mSummaryBox.removeAllViews();
         long today = PeriodRepository.todayEpochDay();
 
         if (!mRepo.hasData()) {
-            addSummaryLine(mRepo == null ? "" : getString(R.string.period_no_data), 16, false);
-            mPrimaryAction.setText(R.string.period_log_start_today);
+            mCycleDayInfo.setText(R.string.period_no_data);
+            mNextPeriodInfo.setText("");
+            mOvulationInfo.setText("");
+            mAveragesInfo.setText("");
             return;
         }
 
         PeriodRecord last = mRepo.lastRecord();
-        boolean ongoing = last.endEpochDay == null;
+        boolean ongoing = last != null && last.endEpochDay == null;
         int status = mRepo.statusFor(today);
 
-        String bigLine;
+        // Cycle day / period day
         if (status == PeriodRepository.STATUS_PERIOD && ongoing) {
-            bigLine = getString(R.string.period_in_period,
-                    (int) (today - last.startEpochDay + 1));
+            mCycleDayInfo.setText(getString(R.string.period_in_period,
+                    (int) (today - last.startEpochDay + 1)));
         } else {
-            bigLine = getString(R.string.period_cycle_day,
-                    (int) (today - last.startEpochDay + 1));
+            mCycleDayInfo.setText(getString(R.string.period_cycle_day,
+                    (int) (today - last.startEpochDay + 1)));
         }
-        addSummaryLine(bigLine, 22, true);
 
-        long next = mRepo.predictedNextStart();
-        long daysLeft = next - today;
+        // Next period prediction with range
+        long nextStart = mRepo.predictedNextStart();
+        long daysLeft = nextStart - today;
         String nextLine;
         if (daysLeft > 0) {
             nextLine = getString(R.string.period_next_in, (int) daysLeft);
@@ -150,77 +161,174 @@ public class PeriodActivity extends AppCompatActivity {
         } else {
             nextLine = getString(R.string.period_next_overdue, (int) -daysLeft);
         }
-        addSummaryLine(nextLine, 16, false);
+        long rangeMin = mRepo.predictedNextStartMin();
+        long rangeMax = mRepo.predictedNextStartMax();
+        if (rangeMin > 0 && rangeMax > 0) {
+            String minStr = LocalDate.ofEpochDay(rangeMin).format(mShortDateFmt);
+            String maxStr = LocalDate.ofEpochDay(rangeMax).format(mShortDateFmt);
+            nextLine += " " + getString(R.string.period_expected_range, minStr, maxStr);
+        }
+        mNextPeriodInfo.setText(nextLine);
 
-        if (status == PeriodRepository.STATUS_OVULATION) {
-            addSummaryLine(getString(R.string.period_ovulation), 15, false);
-        } else if (status == PeriodRepository.STATUS_FERTILE) {
-            addSummaryLine(getString(R.string.period_fertile), 15, false);
+        // Ovulation
+        long ovulation = mRepo.predictedOvulation();
+        if (ovulation > 0) {
+            String ovStr = getString(R.string.period_ovulation) + " — "
+                    + LocalDate.ofEpochDay(ovulation).format(mShortDateFmt);
+            if (status == PeriodRepository.STATUS_OVULATION) {
+                ovStr += " ✓";
+            } else if (status == PeriodRepository.STATUS_FERTILE) {
+                ovStr += " (" + getString(R.string.period_fertile) + ")";
+            }
+            mOvulationInfo.setText(ovStr);
+        } else {
+            mOvulationInfo.setText("");
         }
 
-        addSummaryLine(getString(R.string.period_avg_cycle, mRepo.averageCycleLength()), 14, false);
-        addSummaryLine(getString(R.string.period_avg_length, mRepo.averagePeriodLength()), 14, false);
-
-        mPrimaryAction.setText(ongoing
-                ? R.string.period_log_end_today
-                : R.string.period_log_start_today);
+        // Averages
+        mAveragesInfo.setText(getString(R.string.period_avg_cycle, mRepo.averageCycleLength())
+                + "  ·  " + getString(R.string.period_avg_length, mRepo.averagePeriodLength()));
     }
 
-    private void addSummaryLine(String text, int sizeSp, boolean bold) {
-        TextView tv = new TextView(this);
-        tv.setText(text);
-        tv.setTextSize(sizeSp);
-        if (bold) {
-            tv.setTypeface(Typeface.DEFAULT_BOLD);
-            tv.setTextColor(getThemeColor(androidx.appcompat.R.attr.colorPrimary));
+    // ---------------------------------------------------- quick actions
+
+    private void renderQuickActions() {
+        long today = PeriodRepository.todayEpochDay();
+        PeriodRecord last = mRepo.lastRecord();
+        boolean ongoing = last != null && last.endEpochDay == null && last.startEpochDay <= today;
+
+        mBtnLogStart.setText(ongoing
+                ? R.string.period_end_period
+                : R.string.period_start_period);
+    }
+
+    // ---------------------------------------------------- BBT chart
+
+    private void renderBBTChart() {
+        List<PeriodRepository.TemperatureRecord> temps = mRepo.getTemperatures();
+        if (temps == null || temps.isEmpty()) {
+            mBbtChart.setVisibility(View.GONE);
+            mBbtEmptyText.setVisibility(View.VISIBLE);
+            return;
         }
-        tv.setPadding(0, 2 * mDensity, 0, 2 * mDensity);
-        mSummaryBox.addView(tv);
+
+        mBbtChart.setVisibility(View.VISIBLE);
+        mBbtEmptyText.setVisibility(View.GONE);
+
+        List<Pair<Long, Double>> chartData = new ArrayList<>();
+        for (PeriodRepository.TemperatureRecord t : temps) {
+            chartData.add(new Pair<>(t.dateEpochDay, t.temperature));
+        }
+        mBbtChart.setData(chartData);
+
+        // Period ranges for highlighting
+        List<Pair<Long, Long>> ranges = new ArrayList<>();
+        for (PeriodRecord r : mRepo.getAll()) {
+            long end = r.endEpochDay != null ? r.endEpochDay : r.startEpochDay + mRepo.averagePeriodLength() - 1;
+            ranges.add(new Pair<>(r.startEpochDay, end));
+        }
+        mBbtChart.setPeriodRanges(ranges);
     }
+
+    // ---------------------------------------------------- history
 
     private void renderHistory() {
-        mHistoryBox.removeAllViews();
+        mHistoryContainer.removeAllViews();
         List<PeriodRecord> all = mRepo.getAll();
         for (int i = all.size() - 1; i >= 0; i--) {
             final PeriodRecord r = all.get(i);
-            LinearLayout row = new LinearLayout(this);
-            row.setOrientation(LinearLayout.HORIZONTAL);
-            row.setGravity(Gravity.CENTER_VERTICAL);
-            row.setPadding(0, 12 * mDensity, 0, 12 * mDensity);
-            row.setClickable(true);
-            row.setOnClickListener(v -> showRecordEditor(r));
-
-            View dot = new View(this);
-            android.graphics.drawable.GradientDrawable c =
-                    new android.graphics.drawable.GradientDrawable();
-            c.setShape(android.graphics.drawable.GradientDrawable.OVAL);
-            c.setColor(0xFFFF4F9A);
-            dot.setBackground(c);
-            LinearLayout.LayoutParams dotLp =
-                    new LinearLayout.LayoutParams(14 * mDensity, 14 * mDensity);
-            dotLp.rightMargin = 12 * mDensity;
-            row.addView(dot, dotLp);
-
-            TextView tv = new TextView(this);
-            String start = LocalDate.ofEpochDay(r.startEpochDay).format(mDateFmt);
-            String range = r.endEpochDay != null
-                    ? start + " – " + LocalDate.ofEpochDay(r.endEpochDay).format(mDateFmt)
-                    : start + " (" + getString(R.string.period_ongoing) + ")";
-            tv.setText(range);
-            tv.setTextSize(15);
-            row.addView(tv);
-
-            mHistoryBox.addView(row);
+            mHistoryContainer.addView(buildHistoryRow(r));
         }
     }
 
-    // ------------------------------------------------------------- actions
+    private View buildHistoryRow(final PeriodRecord r) {
+        LinearLayout row = new LinearLayout(this);
+        row.setOrientation(LinearLayout.HORIZONTAL);
+        row.setGravity(Gravity.CENTER_VERTICAL);
+        int vPad = 10 * mDensity;
+        row.setPadding(0, vPad, 0, vPad);
+
+        // Color dot
+        View dot = new View(this);
+        android.graphics.drawable.GradientDrawable c =
+                new android.graphics.drawable.GradientDrawable();
+        c.setShape(android.graphics.drawable.GradientDrawable.OVAL);
+        int color = 0xFFFF4F9A;
+        if (r.flow == 1) color = 0xFFFFB6C1;   // light
+        else if (r.flow == 2) color = 0xFFFF4F9A; // medium
+        else if (r.flow == 3) color = 0xFFC2185B; // heavy
+        c.setColor(color);
+        dot.setBackground(c);
+        LinearLayout.LayoutParams dotLp =
+                new LinearLayout.LayoutParams(12 * mDensity, 12 * mDensity);
+        dotLp.rightMargin = 12 * mDensity;
+        dotLp.gravity = Gravity.CENTER_VERTICAL;
+        row.addView(dot, dotLp);
+
+        // Date range text
+        LinearLayout textCol = new LinearLayout(this);
+        textCol.setOrientation(LinearLayout.VERTICAL);
+        LinearLayout.LayoutParams tcLp = new LinearLayout.LayoutParams(
+                0, ViewGroup.LayoutParams.WRAP_CONTENT, 1f);
+        row.addView(textCol, tcLp);
+
+        String start = LocalDate.ofEpochDay(r.startEpochDay).format(mDateFmt);
+        String range = r.endEpochDay != null
+                ? start + " – " + LocalDate.ofEpochDay(r.endEpochDay).format(mDateFmt)
+                : start + " (" + getString(R.string.period_ongoing) + ")";
+        TextView dateTv = new TextView(this);
+        dateTv.setText(range);
+        dateTv.setTextSize(15);
+        dateTv.setTextColor(0xFF000000);
+        textCol.addView(dateTv);
+
+        // Subtitle with flow info
+        if (r.flow > 0) {
+            TextView flowTv = new TextView(this);
+            int flowRes;
+            switch (r.flow) {
+                case 1: flowRes = R.string.period_flow_light; break;
+                case 2: flowRes = R.string.period_flow_medium; break;
+                case 3: flowRes = R.string.period_flow_heavy; break;
+                default: flowRes = 0;
+            }
+            if (flowRes != 0) {
+                flowTv.setText(getString(flowRes));
+            }
+            flowTv.setTextSize(12);
+            flowTv.setTextColor(0xFF888888);
+            textCol.addView(flowTv);
+        }
+
+        // Delete button
+        MaterialButton delBtn = new MaterialButton(this);
+        delBtn.setText("✕");
+        delBtn.setTextSize(16);
+        delBtn.setPadding(8 * mDensity, 4 * mDensity, 8 * mDensity, 4 * mDensity);
+        delBtn.setOnClickListener(v -> {
+            mRepo.delete(r.startEpochDay);
+            refresh();
+        });
+        row.addView(delBtn);
+
+        // Tap row to edit
+        row.setClickable(true);
+        row.setOnClickListener(v -> showRecordEditor(r));
+        // Use resolveAttribute for selectableItemBackground
+        android.util.TypedValue outVal = new android.util.TypedValue();
+        getTheme().resolveAttribute(android.R.attr.selectableItemBackground, outVal, true);
+        row.setBackgroundResource(outVal.resourceId);
+
+        return row;
+    }
+
+    // =================================================================== actions
 
     private void onPrimaryAction() {
         long today = PeriodRepository.todayEpochDay();
         PeriodRecord last = mRepo.lastRecord();
         if (last != null && last.endEpochDay == null && last.startEpochDay <= today) {
-            // Close the ongoing period.
+            // Close the ongoing period
             last.endEpochDay = today;
             mRepo.addOrUpdate(last);
         } else {
@@ -231,7 +339,7 @@ public class PeriodActivity extends AppCompatActivity {
         refresh();
     }
 
-    private void pickStartDate() {
+    private void pickCustomDate() {
         LocalDate now = LocalDate.now();
         DatePickerDialog dialog = new DatePickerDialog(this, (view, year, month, day) -> {
             PeriodRecord r = new PeriodRecord();
@@ -241,7 +349,101 @@ public class PeriodActivity extends AppCompatActivity {
         dialog.show();
     }
 
-    // ------------------------------------------------------------- editor
+    // =================================================================== temperature dialog
+
+    private void showAddTemperatureDialog() {
+        int pad = 20 * mDensity;
+        LinearLayout content = new LinearLayout(this);
+        content.setOrientation(LinearLayout.VERTICAL);
+        content.setPadding(pad, 8 * mDensity, pad, 16 * mDensity);
+
+        // Date picker
+        final long[] selectedDay = {PeriodRepository.todayEpochDay()};
+        final MaterialButton dateBtn = new MaterialButton(this,
+                null, com.google.android.material.R.attr.materialButtonOutlinedStyle);
+        dateBtn.setText(getString(R.string.period_temperature_date) + ": "
+                + LocalDate.ofEpochDay(selectedDay[0]).format(mDateFmt));
+        dateBtn.setOnClickListener(v -> {
+            LocalDate d = LocalDate.ofEpochDay(selectedDay[0]);
+            new DatePickerDialog(PeriodActivity.this, (view, y, m, day) -> {
+                selectedDay[0] = LocalDate.of(y, m + 1, day).toEpochDay();
+                dateBtn.setText(getString(R.string.period_temperature_date) + ": "
+                        + LocalDate.ofEpochDay(selectedDay[0]).format(mDateFmt));
+            }, d.getYear(), d.getMonthValue() - 1, d.getDayOfMonth()).show();
+        });
+        content.addView(dateBtn);
+
+        // Temperature input
+        TextView tempLabel = new TextView(this);
+        tempLabel.setText(R.string.period_temperature_hint);
+        tempLabel.setTypeface(Typeface.DEFAULT_BOLD);
+        tempLabel.setPadding(0, 16 * mDensity, 0, 4 * mDensity);
+        content.addView(tempLabel);
+
+        final EditText tempInput = new EditText(this);
+        tempInput.setHint("36.5");
+        tempInput.setInputType(android.text.InputType.TYPE_CLASS_NUMBER
+                | android.text.InputType.TYPE_NUMBER_FLAG_DECIMAL);
+        tempInput.setText("36.5");
+        content.addView(tempInput);
+
+        // Time of day chips
+        addSectionLabel(content, R.string.period_time_morning);
+        final ChipGroup timeGroup = new ChipGroup(this);
+        timeGroup.setSingleSelection(true);
+        String[] timeLabels = {getString(R.string.period_time_morning), getString(R.string.period_time_evening)};
+        for (String label : timeLabels) {
+            Chip chip = new Chip(this);
+            chip.setText(label);
+            chip.setCheckable(true);
+            chip.setTag(label);
+            timeGroup.addView(chip);
+        }
+        // Default: morning selected
+        if (timeGroup.getChildCount() > 0) {
+            ((Chip) timeGroup.getChildAt(0)).setChecked(true);
+        }
+        content.addView(timeGroup);
+
+        // Notes
+        addSectionLabel(content, R.string.period_notes);
+        final EditText notesInput = new EditText(this);
+        notesInput.setHint(R.string.period_temperature_notes_hint);
+        content.addView(notesInput);
+
+        AlertDialog dialog = new AlertDialog.Builder(this)
+                .setTitle(R.string.period_log_temperature)
+                .setView(content)
+                .setPositiveButton(R.string.period_save, (d, w) -> {
+                    String tempStr = tempInput.getText().toString().trim();
+                    double temp;
+                    try {
+                        temp = Double.parseDouble(tempStr);
+                    } catch (NumberFormatException e) {
+                        temp = 36.5;
+                    }
+                    // Clamp to valid range
+                    temp = Math.max(35.5, Math.min(38.5, temp));
+
+                    String timeOfDay = null;
+                    for (int i = 0; i < timeGroup.getChildCount(); i++) {
+                        Chip chip = (Chip) timeGroup.getChildAt(i);
+                        if (chip.isChecked()) {
+                            timeOfDay = (String) chip.getTag();
+                        }
+                    }
+                    String notes = notesInput.getText().toString().trim();
+                    if (notes.isEmpty()) notes = null;
+
+                    mRepo.addTemperature(selectedDay[0], temp, timeOfDay, notes);
+                    refresh();
+                })
+                .setNegativeButton(android.R.string.cancel, null)
+                .create();
+        dialog.show();
+    }
+
+    // =================================================================== record editor dialog
 
     private void showRecordEditor(final PeriodRecord original) {
         final PeriodRecord r = copy(original);
@@ -252,7 +454,7 @@ public class PeriodActivity extends AppCompatActivity {
         content.setOrientation(LinearLayout.VERTICAL);
         content.setPadding(pad, 8 * mDensity, pad, 0);
 
-        // Start date
+        // --- Start date ---
         final MaterialButton startBtn = new MaterialButton(this,
                 null, com.google.android.material.R.attr.materialButtonOutlinedStyle);
         startBtn.setText(getString(R.string.period_start_date) + ": "
@@ -267,7 +469,7 @@ public class PeriodActivity extends AppCompatActivity {
         });
         content.addView(startBtn);
 
-        // Ongoing checkbox + end date
+        // --- Ongoing checkbox + end date ---
         final MaterialButton endBtn = new MaterialButton(this,
                 null, com.google.android.material.R.attr.materialButtonOutlinedStyle);
         final CheckBox ongoing = new CheckBox(this);
@@ -302,11 +504,11 @@ public class PeriodActivity extends AppCompatActivity {
         });
         content.addView(endBtn);
 
-        // Flow (single choice)
+        // --- Flow (single choice) ---
         addSectionLabel(content, R.string.period_flow);
         final ChipGroup flowGroup = new ChipGroup(this);
         flowGroup.setSingleSelection(true);
-        final int[] flowIds = new int[4];
+        final int[] flowResIds = new int[4];
         int[] flowLabels = {R.string.period_flow_none, R.string.period_flow_light,
                 R.string.period_flow_medium, R.string.period_flow_heavy};
         for (int i = 0; i < flowLabels.length; i++) {
@@ -314,7 +516,7 @@ public class PeriodActivity extends AppCompatActivity {
             chip.setText(flowLabels[i]);
             chip.setCheckable(true);
             chip.setId(View.generateViewId());
-            flowIds[i] = chip.getId();
+            flowResIds[i] = chip.getId();
             if (r.flow == i) {
                 chip.setChecked(true);
             }
@@ -322,7 +524,7 @@ public class PeriodActivity extends AppCompatActivity {
         }
         content.addView(flowGroup);
 
-        // Symptoms (multi)
+        // --- Symptoms (multi) ---
         addSectionLabel(content, R.string.period_symptoms);
         final int[] symptomLabels = {R.string.period_symptom_cramps, R.string.period_symptom_headache,
                 R.string.period_symptom_fatigue, R.string.period_symptom_bloating,
@@ -330,7 +532,7 @@ public class PeriodActivity extends AppCompatActivity {
         final ChipGroup symptomGroup = buildMultiChips(symptomLabels, r.symptoms);
         content.addView(symptomGroup);
 
-        // Mood (single)
+        // --- Mood (single) ---
         addSectionLabel(content, R.string.period_mood);
         final int[] moodLabels = {R.string.period_mood_happy, R.string.period_mood_calm,
                 R.string.period_mood_sad, R.string.period_mood_irritable, R.string.period_mood_anxious};
@@ -348,7 +550,7 @@ public class PeriodActivity extends AppCompatActivity {
         }
         content.addView(moodGroup);
 
-        // Notes
+        // --- Notes ---
         addSectionLabel(content, R.string.period_notes);
         final EditText notes = new EditText(this);
         notes.setHint(R.string.period_notes);
@@ -366,8 +568,8 @@ public class PeriodActivity extends AppCompatActivity {
                 .setPositiveButton(R.string.period_save, (d, w) -> {
                     // flow
                     r.flow = 0;
-                    for (int i = 0; i < flowIds.length; i++) {
-                        if (flowGroup.getCheckedChipId() == flowIds[i]) {
+                    for (int i = 0; i < flowResIds.length; i++) {
+                        if (flowGroup.getCheckedChipId() == flowResIds[i]) {
                             r.flow = i;
                         }
                     }
@@ -382,7 +584,7 @@ public class PeriodActivity extends AppCompatActivity {
                         }
                     }
                     r.notes = notes.getText().toString();
-                    // If start day changed, remove the old record first.
+                    // If start day changed, remove the old record first
                     if (!isNew && original.startEpochDay != r.startEpochDay) {
                         mRepo.delete(original.startEpochDay);
                     }
@@ -398,6 +600,8 @@ public class PeriodActivity extends AppCompatActivity {
         }
         b.show();
     }
+
+    // =================================================================== utility helpers
 
     private ChipGroup buildMultiChips(int[] labelRes, List<String> selected) {
         ChipGroup group = new ChipGroup(this);
@@ -437,6 +641,7 @@ public class PeriodActivity extends AppCompatActivity {
 
     private PeriodRecord copy(PeriodRecord src) {
         PeriodRecord r = new PeriodRecord();
+        r.id = src.id;
         r.startEpochDay = src.startEpochDay;
         r.endEpochDay = src.endEpochDay;
         r.flow = src.flow;
@@ -446,9 +651,16 @@ public class PeriodActivity extends AppCompatActivity {
         return r;
     }
 
-    private int getThemeColor(int attr) {
+    private int getColorAttr(int attrRes, int fallback) {
         android.util.TypedValue tv = new android.util.TypedValue();
-        getTheme().resolveAttribute(attr, tv, true);
-        return tv.data != 0 ? tv.data : Color.parseColor("#FF4F9A");
+        try {
+            getTheme().resolveAttribute(attrRes, tv, true);
+            if (tv.type >= android.util.TypedValue.TYPE_FIRST_COLOR_INT
+                    && tv.type <= android.util.TypedValue.TYPE_LAST_COLOR_INT) {
+                return tv.data;
+            }
+        } catch (Exception ignored) {
+        }
+        return fallback;
     }
 }

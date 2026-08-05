@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="availability">
+    <item msgid="454869065893453189">"Nemám čas"</item>
+    <item msgid="6228387173725732140">"K dispozici"</item>
+    <item msgid="2064426942462573474">"Možná"</item>
+  </string-array>
+    <string-array name="backup_country_names">
+    <item msgid="9141777876082196578">"Sint Maarten"</item>
+    <item msgid="5330962017221568054">"Karibské Nizozemsko"</item>
+    <item msgid="1465164631761814300">"Curaçao"</item>
+    <item msgid="8972081011408691260">"Jižní Súdán"</item>
+  </string-array>
+    <string-array name="buttons_list">
+    <item msgid="5917946202321434335">"Den"</item>
+    <item msgid="6248480754959562740">"Týden"</item>
+    <item msgid="4298472806133153766">"Měsíc"</item>
+    <item msgid="5033084974413793845">"Agenda"</item>
+  </string-array>
+    <string-array name="change_response_labels">
+    <item msgid="3466644709343519437">"Pouze tato událost"</item>
+    <item msgid="140670561403965380">"Všechny události série"</item>
+  </string-array>
+    <string-array name="delete_repeating_labels">
+    <item msgid="4208432367651646938">"Pouze tato událost"</item>
+    <item msgid="1536401639805370405">"Tato a budoucí události"</item>
+    <item msgid="7833229563617435430">"Všechny události"</item>
+  </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+    <item msgid="2285927842308686988">"Jen v případě odmítnutí"</item>
+    <item msgid="6367412240524984286">"Při odmítnutí nebo bez odpovědi"</item>
+  </string-array>
+    <string-array name="preferences_week_start_day_labels">
+    <item msgid="986150274035512339">"Výchozí hodnota regionálního nastavení"</item>
+    <item msgid="134027225275475280">"Sobota"</item>
+    <item msgid="95029346069903091">"Neděle"</item>
+    <item msgid="5840983116375063739">"Pondělí"</item>
+  </string-array>
+    <string-array name="quick_response_defaults">
+        <item msgid="1524421198348168403">"Opozdím se o několik minut."</item>
+        <item msgid="6215158751728689832">"Jsem tam za 10 minut."</item>
+        <item msgid="4485794001743679338">"Začněte beze mne."</item>
+        <item msgid="8036557974294987511">"Lituji, nestíhám. Naplánujeme to na jindy."</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+    <item msgid="3388478383574917007">"OPAKOVAT DENNĚ"</item>
+    <item msgid="6300824484048337842">"OPAKOVAT TÝDNĚ"</item>
+    <item msgid="189361731610816256">"OPAKOVAT MĚSÍČNĚ"</item>
+    <item msgid="8714177874112569158">"OPAKOVAT ROČNĚ"</item>
+  </string-array>
+    <string-array name="reminder_methods_labels">
+    <item msgid="5172236776878811487">"Oznámení"</item>
+    <item msgid="1751151680520784746">"E-mail"</item>
+    <item msgid="2658001219380695677">"SMS"</item>
+    <item msgid="7926918288165444873">"Budík"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_fri">
+    <item msgid="6534500380525126157">"každý první pátek"</item>
+    <item msgid="1935608297230506940">"každý druhý pátek"</item>
+    <item msgid="4061877662049317599">"každý třetí pátek"</item>
+    <item msgid="6856646749131820614">"každý čtvrtý pátek"</item>
+    <item msgid="6533513913914859794">"každý poslední pátek"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_mon">
+    <item msgid="7539974918997689048">"každé první pondělí"</item>
+    <item msgid="4484275849072423978">"každé druhé pondělí"</item>
+    <item msgid="8956169860824371383">"každé třetí pondělí"</item>
+    <item msgid="6924403357659569326">"každé čtvrté pondělí"</item>
+    <item msgid="1379608815263472161">"každé poslední pondělí"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sat">
+    <item msgid="3556369572649948699">"každou první sobotu"</item>
+    <item msgid="9130198690512925355">"každou druhou sobotu"</item>
+    <item msgid="4525736070844032405">"každou třetí sobotu"</item>
+    <item msgid="422053689531707709">"každou čtvrtou sobotu"</item>
+    <item msgid="5499975799312474425">"každou poslední sobotu"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sun">
+    <item msgid="143841313172233420">"každou první neděli"</item>
+    <item msgid="2557379346106451363">"každou druhou neděli"</item>
+    <item msgid="7622144489915654132">"každou třetí neděli"</item>
+    <item msgid="527152448137686021">"každou čtvrtou neděli"</item>
+    <item msgid="5057483608824759350">"každou poslední neděli"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_thurs">
+    <item msgid="920673677566009313">"každý první čtvrtek"</item>
+    <item msgid="4857419136007543270">"každý druhý čtvrtek"</item>
+    <item msgid="222044587450564839">"každý třetí čtvrtek"</item>
+    <item msgid="6197927556533030945">"každý čtvrtý čtvrtek"</item>
+    <item msgid="1023326923033436905">"každý poslední čtvrtek"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_tues">
+    <item msgid="8690802834039790777">"každé první úterý"</item>
+    <item msgid="9063613547307760928">"každé druhé úterý"</item>
+    <item msgid="6688603328729208168">"každé třetí úterý"</item>
+    <item msgid="6695206006961533357">"každé čtvrté úterý"</item>
+    <item msgid="8619069174889809914">"každé poslední úterý"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_wed">
+    <item msgid="3233850232075584386">"každou první středu"</item>
+    <item msgid="5059722045367799217">"každou druhou středu"</item>
+    <item msgid="7986246648229272275">"každou třetí středu"</item>
+    <item msgid="9068566169348980801">"každou čtvrtou středu"</item>
+    <item msgid="7976866743069062134">"každou poslední středu"</item>
+  </string-array>
+    <string-array name="response_labels1">
+    <item msgid="5605392595848194997">"Žádná odpověď"</item>
+    <item msgid="3724434080904437698">"Ano"</item>
+    <item msgid="8854145743148992583">"Možná"</item>
+    <item msgid="6174292185978948873">"Ne"</item>
+  </string-array>
+    <string-array name="timezone_rename_labels">
+    <item msgid="4609638052107641231">"Středoaustralský čas – NT"</item>
+    <item msgid="4345275500159159867">"Středoaustralský čas – SA"</item>
+    <item msgid="6771274300523132094">"Východoaustralský čas – QLD"</item>
+    <item msgid="4685547681424666687">"Východoaustralský čas – NSW"</item>
+    <item msgid="5259393186526893961">"Horský standardní – Dawson Creek"</item>
+    <item msgid="5984634754870859705">"Centrální standardní – Saskatch."</item>
+    <item msgid="5340374311583423836">"Východní standardní – Atikokan"</item>
+    <item msgid="8922086438245451625">"Atlantický standardní – Québec"</item>
+    <item msgid="8353677384517034413">"Havajsko-aleutský čas – Havaj"</item>
+    <item msgid="6426791761018806420">"Havajsko-aleutský čas – Aljaška"</item>
+    <item msgid="7076353182411415610">"Pacific. standardní – Metlakatla"</item>
+    <item msgid="373990592918179890">"Horský standardní čas – Arizona"</item>
+    <item msgid="353899326999279114">"Pacifický čas – Baja California"</item>
+    <item msgid="6432134534714673873">"Horský čas – Chihuahua"</item>
+    <item msgid="7629345735485663968">"Severoamerický centrální čas – Tamaulipas"</item>
+    <item msgid="3874729044260979505">"Horský čas – Sonora"</item>
+    <item msgid="1106209575683600471">"Východoafrický čas"</item>
+    <item msgid="6538017087072480128">"Atlantický standardní čas"</item>
+    <item msgid="6758957851822881177">"Atlantický standardní čas"</item>
+    <item msgid="2477556470536619081">"Východoevropský čas"</item>
+    <item msgid="7328461310893621937">"Kaliningradský čas"</item>
+    <item msgid="4212642599758736931">"Amazonie – Rondônia"</item>
+    <item msgid="2370319280810537375">"Brazílie – Pará"</item>
+  </string-array>
+    <plurals name="N_remaining_events">
+        <item quantity="one">+ 1 událost</item>
+        <item quantity="few">+ <ns1:g id="count">%d</ns1:g> události</item>
+        <item quantity="other">+ <ns1:g id="count">%d</ns1:g> událostí</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one">1 den</item>
+        <item quantity="few"><ns1:g id="count">%d</ns1:g> dny</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> dnů</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="one">1 událost</item>
+        <item quantity="few"><ns1:g id="count">%d</ns1:g> události</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> událostí</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">1 hodina</item>
+        <item quantity="few"><ns1:g id="count">%d</ns1:g> hodiny</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> hodin</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">1 min</item>
+        <item quantity="few"><ns1:g id="count">%d</ns1:g> min</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> min</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="one">1 minuta</item>
+        <item quantity="few"><ns1:g id="count">%d</ns1:g> minuty</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> minut</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 týden</item>
+        <item quantity="few"><ns1:g id="count">%d</ns1:g> týdny</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> týdnů</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">Denně</item>
+        <item quantity="few">Jednou za <ns1:g id="number">%d</ns1:g> dny</item>
+        <item quantity="other">Jednou za <ns1:g id="number">%d</ns1:g> dnů</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">, jednorázově</item>
+        <item quantity="few">, <ns1:g id="number">%d</ns1:g> krát</item>
+        <item quantity="other">, <ns1:g id="number">%d</ns1:g> krát</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="one">+1</item>
+        <item quantity="few">+<ns1:g id="number">%d</ns1:g></item>
+        <item quantity="other">+<ns1:g id="number">%d</ns1:g></item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Pro <ns1:g id="event_count">%d</ns1:g> událost</item>
+        <item quantity="few">Pro <ns1:g id="event_count">%d</ns1:g> události</item>
+        <item quantity="other">Pro <ns1:g id="event_count">%d</ns1:g> událostí</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Jednou za <ns1:g id="count">%d</ns1:g> den</item>
+        <item quantity="few">Jednou za <ns1:g id="count">%d</ns1:g> dny</item>
+        <item quantity="other">Jednou za <ns1:g id="count">%d</ns1:g> dnů</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Jednou za <ns1:g id="count">%d</ns1:g> měsíc</item>
+        <item quantity="few">Jednou za <ns1:g id="count">%d</ns1:g> měsíce</item>
+        <item quantity="other">Jednou za <ns1:g id="count">%d</ns1:g> měsíců</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Jednou za <ns1:g id="count">%d</ns1:g> týden</item>
+        <item quantity="few">Jednou za <ns1:g id="count">%d</ns1:g> týdny</item>
+        <item quantity="other">Jednou za <ns1:g id="count">%d</ns1:g> týdnů</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Jednou za <ns1:g id="count">%d</ns1:g> rok</item>
+        <item quantity="few">Jednou za <ns1:g id="count">%d</ns1:g> roky</item>
+        <item quantity="other">Jednou za <ns1:g id="count">%d</ns1:g> let</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one"><ns1:g id="count">%d</ns1:g>. týden</item>
+        <item quantity="few"><ns1:g id="count">%d</ns1:g>. týden</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g>. týden</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Každý týden v <ns1:g id="days_of_week">%2$s</ns1:g></item>
+        <item quantity="few">Jednou za <ns1:g id="number">%1$d</ns1:g> týdny v <ns1:g id="days_of_week">%2$s</ns1:g></item>
+        <item quantity="other">Jednou za <ns1:g id="number">%1$d</ns1:g> týdnů v <ns1:g id="days_of_week">%2$s</ns1:g></item>
+    </plurals>
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"Nejsou k dispozici žádné návrhy"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"Otevřené návrhy kontaktů"</string>
+    <string msgid="5654014177472600916" name="accessibility_add_attendee">"Přidat účastníka"</string>
+    <string msgid="2267950744060950152" name="accessibility_add_reminder">"Přidat připomenutí"</string>
+    <string msgid="4146955438811915282" name="accessibility_all_day">"Celodenní událost"</string>
+    <string msgid="5624250196618643922" name="accessibility_pick_end_date">"Datum ukončení"</string>
+    <string msgid="7120310166355224941" name="accessibility_pick_end_time">"Čas ukončení"</string>
+    <string msgid="1834311617874828931" name="accessibility_pick_recurrence">"Opakovat událost"</string>
+    <string msgid="3926641487042699037" name="accessibility_pick_start_date">"Datum zahájení"</string>
+    <string msgid="4913428100936555149" name="accessibility_pick_start_time">"Čas zahájení"</string>
+    <string msgid="7155465783500323811" name="accessibility_pick_time_zone">"Časové pásmo"</string>
+    <string msgid="8669288484484022771" name="accessibility_reminder_privacy">Soukromí</string>
+    <string msgid="6669129015980006570" name="accessibility_reminder_showmeas">"Zobrazit mě jako"</string>
+    <string msgid="3594100545814579575" name="accessibility_reminder_time">"Čas připomenutí"</string>
+    <string msgid="5339120699701437227" name="accessibility_reminder_type">"Typ připomenutí"</string>
+    <string msgid="7082751172654698863" name="accessibility_remove_attendee">"Odebrat účastníka"</string>
+    <string msgid="5261609343259665139" name="accessibility_remove_reminder">"Odebrat připomenutí"</string>
+    <string msgid="5899029840837836711" name="acessibility_recurrence_choose_end_date_description">"změnit datum ukončení"</string>
+    <string msgid="3010149843148810768" name="acessibility_selected_marker_description">"Vybraná událost"</string>
+    <string msgid="7172664623795021857" name="action_label">"Enter"</string>
+    <string name="add_calendar">Přidat kalendář</string>
+    <string name="after_start_of_event">po zahájení události</string>
+    <string msgid="5965841338467422191" name="agenda_today">Dnes, <ns1:g id="date">%1$s</ns1:g></string>
+    <string msgid="3893625470780723605" name="agenda_tomorrow">Zítra, <ns1:g id="DATE">%1$s</ns1:g></string>
+    <string msgid="5566084759423843245" name="agenda_view">"Agenda"</string>
+    <string msgid="4170964206728599693" name="agenda_yesterday">Včera, <ns1:g id="DATE">%1$s</ns1:g></string>
+    <string msgid="7869592820853066853" name="alert_title">"Upozornění kalendáře"</string>
+    <string name="app_copyright">© 2015-<ns1:g>%1$s</ns1:g> The Etar Project. Části © 2005-<ns1:g>%1$s</ns1:g> The Android Open Source Project.</string>
+    <string msgid="5452708708398908131" name="app_label">"Kalendář"</string>
+    <string name="authors">Autoři</string>
+    <string name="cal_export_event_sdcard_title">Exportovat na kartu SD</string>
+    <string name="cal_export_succ_msg">Událost úspěšně exportována: %1$s</string>
+    <string name="cal_import_error_date_msg">Není možné pochopit dané datum: %s</string>
+    <string name="cal_import_error_msg">Import do kalendáře selhal</string>
+    <string name="cal_import_error_time_zone_msg">Není možné pochopit dané časové pásmo: %s</string>
+    <string name="cal_import_menu_title">Importovat událost</string>
+    <string name="cal_nothing_to_import">Není nic k importu</string>
+    <string name="cal_pick_ics">Vyberte soubor pro import</string>
+    <string name="cal_share_intent_title">Odeslat událost na:</string>
+    <string msgid="3595509200561433667" name="calendar_color_picker_dialog_title">"Barva kalendáře"</string>
+    <string name="calendar_permission_not_granted">Požadovaná oprávnění byla odepřena. Povolte je v aplikaci Nastavení, abyste mohli události upravovat</string>
+    <string msgid="6172731193680500025" name="calendar_refresh">"Aktualizovat"</string>
+    <string msgid="7430468363525563483" name="calendar_square_color_picker_description">"Výběr barev"</string>
+    <string name="calendars">Kalendáře</string>
+    <string msgid="2960328220008869083" name="call_label">"Volat"</string>
+    <string name="cancel">Zrušit</string>
+    <string msgid="7704714776070974984" name="change_response_title">"Změnit odpověď"</string>
+    <string name="changelog">Seznam změn</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"Zrušit"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"Kopírovat"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"Povolit návrhy kontaktů"</string>
+    <string msgid="2192923501857428854" name="choose_event_color_label">Vyberte barvu události</string>
+    <string msgid="437691290566699292" name="copy_db">"Odeslat databázi"</string>
+    <string msgid="1084563757174121331" name="copy_email">"Kopírovat e-mailovou adresu"</string>
+    <string msgid="8860802152973030914" name="copy_number">"Kopírovat telefonní číslo"</string>
+    <string msgid="1080859798521717414" name="create_event_dialog_save">"Uložit"</string>
+    <string msgid="7516249252554059980" name="creating_event">"Událost byla vytvořena."</string>
+    <string msgid="5758688413124191931" name="creating_event_with_guest">"Pozvánky budou odeslány."</string>
+    <string msgid="4137468716966004993" name="custom" product="default">Vlastní (nelze upravit v telefonu)</string>
+    <string msgid="1642972650061946484" name="date_time_fmt"><ns1:g id="date">%1$s</ns1:g>, <ns1:g id="time_interval">%2$s</ns1:g></string>
+    <string msgid="4467754504843584437" name="day_view">"Den"</string>
+    <string msgid="2131483437911536229" name="day_view_new_event_hint">+ Nová událost</string>
+    <string name="default_start_last">Předchozí použité zobrazení</string>
+    <string name="default_start_title">Výchozí zobrazení</string>
+    <string msgid="874742811918030739" name="delete_label">"Smazat"</string>
+    <string msgid="5609046778422180206" name="delete_recurring_event_title">"Smazat <ns1:g id="EVENTTITLE">%s</ns1:g>?"</string>
+    <string msgid="518402946676919384" name="delete_this_event_title">"Smazat tuto událost?"</string>
+    <string msgid="1232037509095606687" name="directory_searching_fmt">Vyhledávání na webu <ns1:g id="domain">%s</ns1:g>…</string>
+    <string name="discard">Zahodit</string>
+    <string name="discard_event_changes">Chcete zahodit změny?</string>
+    <string msgid="2394623883289782541" name="discard_label">"Zrušit"</string>
+    <string msgid="1834400025868091301" name="dismiss_all_label">"Zavřít vše"</string>
+    <string name="display_location">Zobrazovat místo</string>
+    <string name="display_options">Možnosti zobrazení</string>
+    <string name="display_time">Zobrazovat čas</string>
+    <string msgid="1877681921029738999" name="does_not_repeat">"Jednorázová událost"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"Odstranit z příjemců kontakt <ns1:g id="CONTACT">%s</ns1:g>"</string>
+    <string name="duplicate_label">Duplikovat</string>
+    <string msgid="6200181113992136073" name="edit_event_all_day_label">"Celý den"</string>
+    <string msgid="4556498359505856900" name="edit_event_calendar_label">"Kalendář"</string>
+    <string msgid="7413222956349977161" name="edit_event_label">"Podrobnosti"</string>
+    <string msgid="8934331258435656534" name="edit_label">"Upravit"</string>
+    <string msgid="8772030932155305903" name="email_guests_label">Poslat účastníkům e-mail</string>
+    <string msgid="7178059542798074813" name="email_organizer_label">Poslat e-mail pořadateli</string>
+    <string msgid="4808253965057791781" name="email_picker_label">Psát si s uživateli</string>
+    <string msgid="9018699257414338634" name="empty_event">Prázdná událost se nevytvořila.</string>
+    <string msgid="7654221304929538201" name="endByDate">, do <ns1:g id="date">%s</ns1:g></string>
+    <string name="error_generating_ics">Nastaly problémy při sdílení události</string>
+    <string msgid="4631938661655159511" name="event_color_picker_dialog_title">"Barva události"</string>
+    <string msgid="3447218820785647967" name="event_color_set_to_default">"Nastavit na výchozí barvu kalendáře"</string>
+    <string msgid="6941040556709110617" name="event_create">"Nová událost"</string>
+    <string msgid="2386667193277770442" name="event_delete">"Smazat událost"</string>
+    <string msgid="4006961928830064662" name="event_edit">"Upravit událost"</string>
+    <string msgid="9138683335394832629" name="event_info_organizer">Pořadatel:</string>
+    <string msgid="8913097552956388972" name="event_info_reminders_label">"Připomenutí"</string>
+    <string msgid="56024222340421620" name="event_info_title">"Zobrazit událost"</string>
+    <string msgid="9160326363769403865" name="event_info_title_invite">"Pozvánka na schůzku"</string>
+    <string msgid="8356864185947582727" name="event_not_found">"Událost nebyla nalezena."</string>
+    <string msgid="7621353079385122317" name="event_view">"Zobrazit událost"</string>
+    <string msgid="5896574838353902978" name="every_weekday">"Každý pracovní den (po–pá)"</string>
+    <string name="fifteen_minutes">15 minut</string>
+    <string name="five_days">5 dní</string>
+    <string name="foreground_notification_channel_description">Oznámení vyžadovaná pro interní synchronizaci. Tento kanál můžete bezpečně skrýt.</string>
+    <string name="foreground_notification_channel_name">Úlohy na pozadí</string>
+    <string name="foreground_notification_title">Plánování nových připomenutí…</string>
+    <string name="four_days">4 dny</string>
+    <string msgid="5209110911088302855" name="gadget_no_events">"Žádné nadcházející události"</string>
+    <string name="goto_date">Přejít na…</string>
+    <string msgid="9162136434410891230" name="goto_today">"Dnes"</string>
+    <string msgid="830320505938520882" name="hide_controls">"Skrýt ovládací prvky"</string>
+    <string msgid="1650488163176888480" name="hint_attendees">"Hosté"</string>
+    <string msgid="1910143586169033232" name="hint_description">"Popis"</string>
+    <string msgid="804776560897143016" name="hint_time_zone_search">"Zadejte název země"</string>
+    <string name="hint_url">Adresa URL</string>
+    <string msgid="709155115005044531" name="hint_what">"Název události"</string>
+    <string msgid="4972598001033801974" name="hint_where">"Místo"</string>
+    <string name="license">Licence</string>
+    <string msgid="3772533493214331230" name="loading">"Načítání\u2026"</string>
+    <string msgid="8795383535586556038" name="map_label">"Mapa"</string>
+    <string name="maximum_number_of_lines">Maximální počet řádků v události</string>
+    <string name="menu_info">Informace</string>
+    <string msgid="9120238479503233925" name="menu_preferences">"Nastavení"</string>
+    <string msgid="4421657265864209041" name="modify_all">Změnit všechny události v sérii</string>
+    <string msgid="3017428541066390380" name="modify_all_following">"Změnit tuto událost a všechny budoucí"</string>
+    <string msgid="5982876409997142690" name="modify_event">"Změnit pouze tuto událost"</string>
+    <string msgid="7287101431749285412" name="month_view">"Měsíc"</string>
+    <string msgid="4587116285383048586" name="monthly">"Měsíčně"</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g>"</string>
+    <string msgid="7553105224561147916" name="new_event_dialog_label">"Nová událost"</string>
+    <string msgid="6154657379574669371" name="new_event_dialog_option">"Nová událost"</string>
+    <string name="no_calendars_found">Před přidáním události je nutné přidat do zařízení alespoň jeden účet s kalendářem</string>
+    <string name="no_map">Není nainstalovaná žádná aplikace pro mapy</string>
+    <string name="no_reminder_label">Žádný</string>
+    <string msgid="5475293015394772651" name="no_results_found">"Nebyly nalezeny žádné výsledky"</string>
+    <string name="no_snooze_label">Žádný</string>
+    <string msgid="7019488867045436129" name="no_syncable_calendars">"Žádné kalendáře"</string>
+    <string msgid="302177118061368042" name="no_title_label">"(bez názvu)"</string>
+    <string name="offline_account_name">Offline kalendář</string>
+    <string name="one_and_a_half_hours">1,5 hodiny</string>
+    <string name="one_hour">1 hodina</string>
+    <string msgid="3485026339977302148" name="palestine_display_name">"Palestina"</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Vždy použít výchozí délku odložení</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Ptát se na délku trvání při odložení upomínky</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Zeptat se na odložení upomínky</string>
+    <string msgid="6643468203670475296" name="preferences_alerts_popup_title">"Vyskakovací oznámení"</string>
+    <string msgid="1849706055052358346" name="preferences_alerts_ringtone_title">"Zvuk"</string>
+    <string msgid="6636088008103904020" name="preferences_alerts_title">"Oznámení"</string>
+    <string msgid="8731372580674292759" name="preferences_alerts_vibrateWhen_title">"Vibrace"</string>
+    <string name="preferences_black_theme">Černý</string>
+    <string msgid="8242471883413502068" name="preferences_build_version">"Verze sestavení"</string>
+    <string name="preferences_calendar_account">Účet %1$s</string>
+    <string name="preferences_calendar_account_local">Offline kalendář</string>
+    <string name="preferences_calendar_color">Barva</string>
+    <string name="preferences_calendar_color_warning_button">Rozumím</string>
+    <string name="preferences_calendar_color_warning_message">Změna barvy se může vrátit při opětovné synchronizaci kalendáře.
+\n
+\nV okně DAVx⁵ „Správa barvy kalendářů“ lze toto chování zakázat.</string>
+    <string name="preferences_calendar_color_warning_title">Varování</string>
+    <string name="preferences_calendar_configure_account">Nastavit kalendář v %1$s</string>
+    <string name="preferences_calendar_delete">Odstranit kalendář</string>
+    <string name="preferences_calendar_delete_cancel">Zrušit</string>
+    <string name="preferences_calendar_delete_delete">Odstranit kalendář</string>
+    <string name="preferences_calendar_delete_message">Opravdu chcete odstranit tento kalendář\?</string>
+    <string name="preferences_calendar_display_name">Změnit jméno</string>
+    <string name="preferences_calendar_info_category">Informace o kalendáři</string>
+    <string name="preferences_calendar_no_display_name">Nepojmenovaný kalendář</string>
+    <string name="preferences_calendar_number_of_events">Událostí: %1$d</string>
+    <string name="preferences_calendar_synchronize">Synchronizovat tento kalendář</string>
+    <string name="preferences_calendar_visible">Zobrazovat události</string>
+    <string msgid="7864674093455778158" name="preferences_clear_search_history_summary">"Odstranit všechna provedená vyhledávání"</string>
+    <string msgid="6619916370215282982" name="preferences_clear_search_history_title">"Vymazat historii vyhledávání"</string>
+    <string name="preferences_color">Základní barva</string>
+    <string name="preferences_color_pick">Základní barva</string>
+    <string name="preferences_dark_theme">Tmavý</string>
+    <string name="preferences_days_per_week_dialog">Dnů v týdnu</string>
+    <string name="preferences_days_per_week_title">Dnů v týdnu</string>
+    <string name="preferences_default_event_duration_title">Výchozí doba trvání události</string>
+    <string msgid="2903884416749959435" name="preferences_default_reminder_default">"10"</string>
+    <string msgid="2490348857239323412" name="preferences_default_reminder_dialog">"Výchozí čas připomenutí"</string>
+    <string msgid="5188861433342733905" name="preferences_default_reminder_title">"Výchozí čas připomenutí"</string>
+    <string name="preferences_default_snooze_delay_dialog">Výchozí délka odložení</string>
+    <string name="preferences_default_snooze_delay_title">Výchozí délka odložení</string>
+    <string name="preferences_do_not_check_battery_optimization">Nekontrolovat optimalizace baterie</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Použijte na vlastní nebezpečí! Oznámení nebudou fungovat, widget se nebude aktualizovat a služby na pozadí mohou být ukončeny. Nebudete ale znovu dotázáni, zda chcete povolit službu na pozadí.</string>
+    <string msgid="8111213192001230350" name="preferences_experimental_category">"Experimentální"</string>
+    <string msgid="2069075513760573117" name="preferences_general_title">"Nastavení zobrazení kalendáře"</string>
+    <string msgid="1849295943669890034" name="preferences_hide_declined_title">"Skrýt odmítnuté události"</string>
+    <string msgid="6680000444088818578" name="preferences_home_tz_title">"Domovské časové pásmo"</string>
+    <string name="preferences_issues">Nahlásit problémy</string>
+    <string name="preferences_light_theme">Světlý</string>
+    <string name="preferences_list_add_offline">Přidat offline kalendář</string>
+    <string name="preferences_list_add_offline_button">Přidat kalendář</string>
+    <string name="preferences_list_add_offline_cancel">Zrušit</string>
+    <string name="preferences_list_add_offline_error_empty">Zadejte název kalendáře!</string>
+    <string name="preferences_list_add_offline_message">Offline kalendáře NEJSOU synchronizovány s webovou službou a jsou dostupné pouze na vašem telefonu.</string>
+    <string name="preferences_list_add_offline_name">Název</string>
+    <string name="preferences_list_add_offline_title">Přidat offline kalendář</string>
+    <string name="preferences_list_add_remote">Přidat kalendář CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Přidat kalendář EteSync</string>
+    <string name="preferences_list_calendar_summary_invisible">Události nejsou zobrazovány</string>
+    <string name="preferences_list_calendar_summary_sync_off">Není synchronizováno</string>
+    <string name="preferences_list_general">Obecná nastavení</string>
+    <string name="preferences_manage_notifications">Správa oznámení</string>
+    <string name="preferences_menu_about">O aplikaci</string>
+    <string name="preferences_month_view_landscape">Rozvržení zobrazení měsíce (na šířku)</string>
+    <string name="preferences_month_view_portrait">Rozvržení zobrazení měsíce (na výšku)</string>
+    <string name="preferences_pure_black_night_mode">Čistě černý noční režim</string>
+    <string name="preferences_real_event_colors">Použít skutečné barvy událostí</string>
+    <string msgid="5199606534191180129" name="preferences_reminder_title">"Oznámení a připomenutí"</string>
+    <string msgid="1873289128793828352" name="preferences_reminders_responded_dialog">"Přeskakování upomínek"</string>
+    <string msgid="1196570678238475838" name="preferences_reminders_responded_label">"Přeskakování upomínek"</string>
+    <string msgid="5280734329664503461" name="preferences_show_week_num_title">"Zobrazovat číslo týdne"</string>
+    <string name="preferences_system_theme">Výchozí systémový</string>
+    <string name="preferences_theme">Motiv</string>
+    <string msgid="8045855493262131773" name="preferences_title">"Nastavení"</string>
+    <string msgid="4835375381297413746" name="preferences_use_home_tz_descrip">Kalendáře a události se vždy zobrazí v domovském časovém pásmu</string>
+    <string msgid="5597546849968598210" name="preferences_use_home_tz_title">Použít domovské časové pásmo</string>
+    <string msgid="5181634128884089113" name="preferences_week_start_day_dialog">"Začátek týdne"</string>
+    <string msgid="4619489296444901622" name="preferences_week_start_day_title">"Začátek týdne"</string>
+    <string msgid="6169724148441175862" name="presence_label">"Zobrazit mě jako"</string>
+    <string msgid="9215031965259597335" name="privacy_label">Soukromí</string>
+    <string msgid="7265035125070482285" name="quick_response_custom_msg">"Vlastní zpráva\u2026"</string>
+    <string msgid="2681309456412199207" name="quick_response_dialog_title">"Vyberte rychlou odpověď"</string>
+    <string msgid="5544066405231853245" name="quick_response_email_failed">"Nepodařilo se najít e-mailovou aplikaci"</string>
+    <string msgid="6776151690686068278" name="quick_response_settings">"Rychlé odpovědi"</string>
+    <string msgid="6260055523174081930" name="quick_response_settings_edit_title">"Rychlá odpověď"</string>
+    <string msgid="7878304729027355604" name="quick_response_settings_summary">Změna výchozích odpovědí pro zasílání emailů účastníkům</string>
+    <string msgid="6898950241634912991" name="recurrence_end_continously">"Navždy"</string>
+    <string msgid="1233883668293087977" name="recurrence_end_count_label">"Po určitý počet událostí"</string>
+    <string msgid="3693751578164711701" name="recurrence_end_date">Do <ns1:g id="date">%s</ns1:g></string>
+    <string msgid="4142791438636994952" name="recurrence_end_date_label">"Do určitého data"</string>
+    <string msgid="4400107556121003459" name="recurrence_month_pattern_by_day">"měsíčně tentýž den"</string>
+    <string msgid="7292389181815525676" name="reminders_label">"Přidat připomenutí"</string>
+    <string msgid="7791500973627841695" name="response_maybe">"Možná"</string>
+    <string msgid="561911691884148136" name="response_no">"Ne"</string>
+    <string msgid="2027484304899988350" name="response_yes">"Ano"</string>
+    <string name="rsvp_accepted">Odpovězeno ano.</string>
+    <string name="rsvp_declined">Odpovězeno ne.</string>
+    <string name="rsvp_tentative">Odpovězeno možná.</string>
+    <string msgid="2133599104834432589" name="save_label">"Hotovo"</string>
+    <string msgid="7694181017411177226" name="saving_event">"Událost byla uložena."</string>
+    <string msgid="9184584438475689577" name="saving_event_with_guest">"Změny budou odeslány."</string>
+    <string msgid="550656004486017426" name="search">"Hledat"</string>
+    <string msgid="1536707558435227567" name="search_history_cleared">Historie vyhledávání vymazána.</string>
+    <string msgid="8898015280250716254" name="search_title">Hledat v mých kalendářích</string>
+    <string msgid="1603860069305867810" name="searchview_description_clear">"Smazat dotaz"</string>
+    <string msgid="8890542984949996251" name="select_synced_calendars_button">"Synchronizace kalendářů"</string>
+    <string name="seven_days">7 dní</string>
+    <string name="share_label">Sdílet</string>
+    <string msgid="715520586028062621" name="show_controls">"Zobrazit ovládací prvky"</string>
+    <string msgid="5782512782605466016" name="show_day_view">"Zobrazit den"</string>
+    <string msgid="2604638815440163080" name="show_newer_events">Dotykem zobrazíte události po období <ns1:g id="newest_search_range">%1$s</ns1:g></string>
+    <string msgid="5140647493681439926" name="show_older_events">Dotykem zobrazíte události před obdobím <ns1:g id="oldest_search_range">%1$s</ns1:g></string>
+    <string name="show_time_no">Nezobrazovat čas</string>
+    <string name="show_time_start">Pouze čas zahájení</string>
+    <string name="show_time_start_end">Čas zahájení i konce</string>
+    <string name="show_time_start_end_below">Čas zahájení i konce pod událostí</string>
+    <string name="six_days">6 dní</string>
+    <string name="snooze_delay_dialog_title">Nastavit délku odložení</string>
+    <string msgid="1515893621063224666" name="snooze_label">"Odložit"</string>
+    <string name="source_code">Zdroj</string>
+    <string msgid="4067877800670753110" name="template_announce_item_index">Událost <ns1:g id="item_index">%1$s</ns1:g> z <ns1:g id="item_count">%2$s</ns1:g>.</string>
+    <string name="thirty_minutes">30 minut</string>
+    <string name="three_days">3 dny</string>
+    <string msgid="8577375020252453006" name="today">"Dnes"</string>
+    <string msgid="1981279213130049736" name="today_at_time_fmt">Dnes v <ns1:g id="time_interval">%s</ns1:g></string>
+    <string msgid="614434811813859237" name="tomorrow">"Zítra"</string>
+    <string msgid="1330779112841767432" name="tomorrow_at_time_fmt">Zítra v <ns1:g id="time_interval">%s</ns1:g></string>
+    <string name="two_days">2 dny</string>
+    <string name="two_hours">2 hodiny</string>
+    <string name="user_rejected_calendar_write_permission">Etar vyžaduje pro správnou funkci oprávnění ke čtení a zápisu do kalendáře. Prosím, zkuste to znovu.</string>
+    <string msgid="6126231656338241140" name="view_event_calendar_label">"Kalendář:"</string>
+    <string msgid="2753151795647402277" name="view_event_organizer_label">Pořadatel:</string>
+    <string msgid="8382281658458798329" name="view_event_response_label">"Zúčastníte se?"</string>
+    <string name="view_settings">Nastavení zobrazení</string>
+    <string name="visibility_confidential">Důvěrná</string>
+    <string name="visibility_default">Výchozí nastavení</string>
+    <string name="visibility_private">Soukromá</string>
+    <string name="visibility_public">Veřejná</string>
+    <string msgid="6775043022159508060" name="week_view">"Týden"</string>
+    <string msgid="894636567327261599" name="when_label">"Kdy"</string>
+    <string msgid="3652692085322162449" name="yearly_plain">"Ročně"</string>
+    <string name="zero_minutes">0 minut</string>
+</resources>

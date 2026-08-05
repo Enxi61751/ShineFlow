@@ -114,6 +114,9 @@ public class SimpleWeekView extends View {
     protected Paint mMonthNumPaint;
     protected Drawable mSelectedDayLine;
 
+    // ShineFlow: paint for the cycle-day marker bar.
+    private Paint mPeriodPaint;
+
     // Cache the number strings so we don't have to recompute them each time
     protected String[] mDayNumbers;
     // Quick lookup for checking which days are in the focus month
@@ -443,6 +446,18 @@ public class SimpleWeekView extends View {
         boolean isFocusMonth = mFocusDay[i];
         mMonthNumPaint.setColor(isFocusMonth ? mFocusMonthColor : mOtherMonthColor);
         mMonthNumPaint.setFakeBoldText(false);
+
+        // ShineFlow: period rendering for week view
+        boolean periodEnabled = false;
+        boolean fillMode = false;
+        try {
+            periodEnabled =
+                    com.android.calendar.cycle.PeriodRepository.isEnabled(getContext());
+            fillMode = periodEnabled &&
+                    com.android.calendar.Utils.getSharedPreference(getContext(),
+                            "preferences_period_fill_mode", false);
+        } catch (Exception ignored) { }
+
         for (; i < nDays; i++) {
             if (mFocusDay[i] != isFocusMonth) {
                 isFocusMonth = mFocusDay[i];
@@ -452,6 +467,34 @@ public class SimpleWeekView extends View {
                 mMonthNumPaint.setTextSize(MINI_TODAY_NUMBER_TEXT_SIZE);
                 mMonthNumPaint.setFakeBoldText(true);
             }
+
+            // ShineFlow: period fill/bar for week view
+            if (periodEnabled) {
+                try {
+                    long epochDay = (long) mFirstJulianDay + i
+                            - com.android.calendar.Utils.EPOCH_JULIAN_DAY;
+                    int status = com.android.calendar.cycle.PeriodRepository.get(getContext())
+                            .statusFor(epochDay);
+                    if (status != com.android.calendar.cycle.PeriodRepository.STATUS_NONE) {
+                        if (mPeriodPaint == null) {
+                            mPeriodPaint = new Paint();
+                            mPeriodPaint.setAntiAlias(true);
+                        }
+                        mPeriodPaint.setColor(
+                                com.android.calendar.settings.PeriodColorPreference.Companion
+                                        .getStatusColor(getContext(), status));
+                        float left = i * (mWidth - mPadding * 2) / (float) nDays + mPadding;
+                        float right = (i + 1) * (mWidth - mPadding * 2) / (float) nDays + mPadding;
+                        if (fillMode) {
+                            canvas.drawRect(left, 0, right, mHeight, mPeriodPaint);
+                        } else {
+                            float d = getContext().getResources().getDisplayMetrics().density;
+                            canvas.drawRect(left, 0, right, 4 * d, mPeriodPaint);
+                        }
+                    }
+                } catch (Exception ignored) { }
+            }
+
             int x = (2 * i + 1) * (mWidth - mPadding * 2) / (divisor) + mPadding;
             canvas.drawText(mDayNumbers[i], x, y, mMonthNumPaint);
             if (mHasToday && mToday == i) {
