@@ -99,6 +99,11 @@
         <activity android:name="com.android.calendar.AboutActivity">
         </activity>
 
+        <activity
+            android:name="com.android.calendar.review.ScheduleReviewActivity"
+            android:label="@string/schedule_review_title"
+            android:parentActivityName="com.android.calendar.AllInOneActivity" />
+
         <activity android:name="com.android.calendar.EventInfoActivity"
             android:exported="true"
             android:parentActivityName="com.android.calendar.AllInOneActivity">

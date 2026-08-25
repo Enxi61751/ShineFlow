@@ -53,6 +53,12 @@
         app:actionViewClass="androidx.appcompat.widget.SearchView"
         app:showAsAction="never|collapseActionView" />
     <item
+        android:id="@+id/action_schedule_review"
+        android:alphabeticShortcut="p"
+        android:title="@string/schedule_review_menu"
+        android:orderInCategory="6"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/action_import"
         android:alphabeticShortcut="i"
         android:title="@string/cal_import_menu_title"

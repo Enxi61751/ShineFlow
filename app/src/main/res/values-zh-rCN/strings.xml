@@ -420,4 +420,57 @@
     <string name="chips_action_copy" msgid="6984158516334578792">"复制"</string>
     <string name="chips_action_cancel" msgid="2582257014578396781">"取消"</string>
     <string name="chips_permission_text" msgid="5601284803674008863">"允许推荐联系人"</string>
+
+    <!-- ShineFlow 日程复盘与长期记忆 -->
+    <string name="schedule_review_title">日程复盘</string>
+    <string name="schedule_review_menu">AI 日程复盘</string>
+    <string name="schedule_review_intro">让个性化智能体结合当天日程、你的真实感受和长期记忆进行复盘。勾选代表确认已完成，未勾选只表示尚未确认。</string>
+    <string name="schedule_review_selected_date">复盘日期：%1$s</string>
+    <string name="schedule_review_date_pattern">yyyy年M月d日</string>
+    <string name="schedule_review_events_title">当天日程</string>
+    <string name="schedule_review_events_hint">请勾选你实际完成的日程。</string>
+    <string name="schedule_review_no_events">这一天没有读取到日程，你仍然可以填写自由复盘。</string>
+    <string name="schedule_review_calendar_permission">需要日历读取权限才能加载当天日程；你仍然可以提交自由复盘。</string>
+    <string name="schedule_review_untitled_event">未命名日程</string>
+    <string name="schedule_review_event_all_day">全天 · %1$s</string>
+    <plurals name="schedule_review_event_count"><item quantity="other">已读取 %1$d 个日程，请勾选实际完成项。</item></plurals>
+    <string name="schedule_review_agent_title">个性化智能体</string>
+    <string name="schedule_review_agent_name_hint">智能体名称，例如 Shine</string>
+    <string name="schedule_review_goals_hint">长期目标，每行一项</string>
+    <string name="schedule_review_state_title">今天的状态</string>
+    <string name="schedule_review_mood_hint">情绪，例如平静、疲惫、焦虑</string>
+    <string name="schedule_review_energy">精力：%1$d/5</string>
+    <string name="schedule_review_satisfaction">满意度：%1$d/5</string>
+    <string name="schedule_review_reflection_hint">哪些做得好？哪里卡住了？什么导致延期？请补充日历无法知道的真实情况。</string>
+    <string name="schedule_review_generate">生成个性化复盘</string>
+    <string name="schedule_review_error">复盘失败：%1$s</string>
+    <string name="schedule_review_result_achievements">做得好的地方</string>
+    <string name="schedule_review_result_unfinished">未完成或待确认</string>
+    <string name="schedule_review_result_patterns">发现的规律</string>
+    <string name="schedule_review_result_suggestions">下一步行动</string>
+    <string name="schedule_review_result_tomorrow">明日关注</string>
+    <string name="schedule_review_generated_llm">本次由大模型生成，参考了 %1$d 条相关记忆，并保存了 %2$d 条长期记忆。</string>
+    <string name="schedule_review_generated_fallback">大模型暂不可用，已使用安全的规则复盘并保存本次记录。</string>
+    <string name="schedule_review_memory_title">长期复盘记忆库</string>
+    <string name="schedule_review_memory_intro">只保存长期有价值的偏好、习惯、困难、有效策略、目标和精力规律；你可以随时清空。</string>
+    <string name="schedule_review_memory_refresh">刷新记忆</string>
+    <string name="schedule_review_memory_clear">清空记忆</string>
+    <string name="schedule_review_memory_loading">正在加载记忆…</string>
+    <string name="schedule_review_memory_empty">还没有长期记忆。连续完成几次复盘后，智能体会逐渐更了解你。</string>
+    <string name="schedule_review_memory_error">记忆加载失败：%1$s</string>
+    <string name="schedule_review_memory_clear_title">清空复盘记忆？</string>
+    <string name="schedule_review_memory_clear_message">这会删除智能体积累的个性化记忆，但保留历史复盘记录。</string>
+    <string name="schedule_review_memory_cleared">已清空 %1$d 条记忆。</string>
+    <string name="schedule_review_memory_preference">偏好</string>
+    <string name="schedule_review_memory_habit">习惯</string>
+    <string name="schedule_review_memory_challenge">困难</string>
+    <string name="schedule_review_memory_strategy">有效策略</string>
+    <string name="schedule_review_memory_goal">目标</string>
+    <string name="schedule_review_memory_energy">精力规律</string>
+    <string name="schedule_review_memory_pattern">规律</string>
+    <string name="schedule_review_preferences_category">复盘智能体</string>
+    <string name="schedule_review_preferences_name">智能体名称</string>
+    <string name="schedule_review_preferences_personality">智能体性格</string>
+    <string name="schedule_review_preferences_goals">长期目标</string>
+    <string name="schedule_review_preferences_goals_summary">多个目标可使用逗号或换行分隔</string>
 </resources>

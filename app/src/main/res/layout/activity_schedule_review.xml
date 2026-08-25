@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/schedule_review_intro"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/review_date_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/schedule_review_events_title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/review_events_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/schedule_review_events_hint"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:id="@+id/review_events_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/schedule_review_agent_title"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/review_agent_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/schedule_review_agent_name_hint"
+            android:inputType="textCapSentences"
+            android:maxLength="40"
+            android:singleLine="true" />
+
+        <Spinner
+            android:id="@+id/review_personality_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:entries="@array/review_personality_labels" />
+
+        <EditText
+            android:id="@+id/review_goals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|start"
+            android:hint="@string/schedule_review_goals_hint"
+            android:inputType="textMultiLine"
+            android:maxLines="3"
+            android:minLines="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/schedule_review_state_title"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/review_mood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/schedule_review_mood_hint"
+            android:inputType="textCapSentences"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/review_energy_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <SeekBar
+            android:id="@+id/review_energy_seek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="4"
+            android:progress="2" />
+
+        <TextView
+            android:id="@+id/review_satisfaction_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <SeekBar
+            android:id="@+id/review_satisfaction_seek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="4"
+            android:progress="2" />
+
+        <EditText
+            android:id="@+id/review_reflection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="top|start"
+            android:hint="@string/schedule_review_reflection_hint"
+            android:inputType="textMultiLine|textCapSentences"
+            android:minHeight="120dp"
+            android:minLines="5" />
+
+        <Button
+            android:id="@+id/review_generate_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/schedule_review_generate" />
+
+        <ProgressBar
+            android:id="@+id/review_progress"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/review_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:lineSpacingExtra="4dp"
+            android:textIsSelectable="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/schedule_review_memory_title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/schedule_review_memory_intro"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/review_memory_refresh"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/schedule_review_memory_refresh" />
+
+            <Button
+                android:id="@+id/review_memory_clear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:text="@string/schedule_review_memory_clear" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/review_memory_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="24dp"
+            android:textIsSelectable="true" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

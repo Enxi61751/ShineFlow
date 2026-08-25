@@ -509,4 +509,11 @@
         <item>"Curaçao"</item>
         <item>"South Sudan"</item>
     </string-array>
+
+    <string-array name="review_personality_labels">
+        <item>Warm companion</item><item>Rational coach</item><item>Direct supervisor</item><item>Growth partner</item>
+    </string-array>
+    <string-array name="review_personality_values" translatable="false">
+        <item>温柔、有行动力的成长伙伴</item><item>理性、结构清晰的行动教练</item><item>直接但不羞辱人的督导者</item><item>关注长期规律的成长伙伴</item>
+    </string-array>
 </resources>

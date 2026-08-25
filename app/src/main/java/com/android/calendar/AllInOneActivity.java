@@ -936,6 +936,8 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
             return true;
         } else if (itemId == R.id.action_search) {
             return false;
+        } else if (itemId == R.id.action_schedule_review) {
+            startActivity(new Intent(this, com.android.calendar.review.ScheduleReviewActivity.class));
         } else if (itemId == R.id.action_import) {
             ImportActivity.pickImportFile(this);
         } else if (itemId == R.id.action_view_settings) {

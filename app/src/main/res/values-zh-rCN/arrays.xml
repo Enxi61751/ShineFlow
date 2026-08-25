@@ -145,4 +145,8 @@
     <item msgid="1465164631761814300">"库拉索"</item>
     <item msgid="8972081011408691260">"南苏丹"</item>
   </string-array>
+
+    <string-array name="review_personality_labels">
+        <item>温柔陪伴型</item><item>理性教练型</item><item>直接督导型</item><item>成长伙伴型</item>
+    </string-array>
 </resources>

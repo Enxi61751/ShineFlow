@@ -135,6 +135,29 @@
             app:summary="@string/quick_response_settings_summary" />
     </PreferenceCategory>
     <PreferenceCategory
+        app:key="schedule_review_agent_category"
+        app:title="@string/schedule_review_preferences_category">
+
+        <EditTextPreference
+            app:key="review_agent_name"
+            app:defaultValue="Shine"
+            app:title="@string/schedule_review_preferences_name"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:key="review_agent_personality"
+            app:defaultValue="温柔、有行动力的成长伙伴"
+            app:title="@string/schedule_review_preferences_personality"
+            app:entries="@array/review_personality_labels"
+            app:entryValues="@array/review_personality_values"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="review_agent_goals"
+            app:title="@string/schedule_review_preferences_goals"
+            app:summary="@string/schedule_review_preferences_goals_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory
         app:key="preferences_experimental_category"
         app:title="@string/preferences_experimental_category">
         <Preference
