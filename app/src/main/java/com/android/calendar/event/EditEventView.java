@@ -156,10 +156,6 @@ public class EditEventView implements View.OnClickListener, DialogInterface.OnCa
     static final int TIME_MODE_ALL_DAY = 2;
     int mTimeMode = TIME_MODE_PERIOD;
     int mSpecialType = ExtendedProperty.EVENT_TYPE_NONE;
-    // ShineFlow tags
-    com.google.android.material.button.MaterialButton mTagsAdd;
-    com.google.android.material.chip.ChipGroup mTagsContainer;
-    final java.util.List<Long> mSelectedTagIds = new java.util.ArrayList<Long>();
     private boolean mUpdatingTimeMode = false;
     Spinner mCalendarsSpinner;
     Button mRruleButton;
@@ -276,11 +272,6 @@ public class EditEventView implements View.OnClickListener, DialogInterface.OnCa
         mTimeModeGroup = view.findViewById(R.id.time_mode_group);
         mSpecialDayGroup = view.findViewById(R.id.special_day_group);
         setupTimeModeControls();
-        mTagsAdd = view.findViewById(R.id.tags_add);
-        mTagsContainer = view.findViewById(R.id.tags_container);
-        if (mTagsAdd != null) {
-            mTagsAdd.setOnClickListener(v -> showTagPicker());
-        }
         mRruleButton = (Button) view.findViewById(R.id.rrule);
         mAvailabilitySpinner = (Spinner) view.findViewById(R.id.availability);
         mAccessLevelSpinner = (Spinner) view.findViewById(R.id.visibility);
@@ -753,9 +744,6 @@ public class EditEventView implements View.OnClickListener, DialogInterface.OnCa
             }
         }
 
-        // ShineFlow: assigned tags.
-        mModel.mTagIds = new java.util.ArrayList<Long>(mSelectedTagIds);
-
         return true;
     }
 
@@ -1095,13 +1083,6 @@ public class EditEventView implements View.OnClickListener, DialogInterface.OnCa
             initialTimeMode = TIME_MODE_PERIOD;
         }
         syncTimeModeUi(initialTimeMode, model.mSpecialType);
-
-        // ShineFlow: restore assigned tags into the editor.
-        mSelectedTagIds.clear();
-        if (model.mTagIds != null) {
-            mSelectedTagIds.addAll(model.mTagIds);
-        }
-        refreshTagChips();
 
         if (model.mTitle != null) {
             mTitleTextView.setTextKeepState(model.mTitle);
@@ -1986,72 +1967,5 @@ public class EditEventView implements View.OnClickListener, DialogInterface.OnCa
                 android.text.format.DateUtils.HOUR_IN_MILLIS,
                 description
         );
-    }
-
-    private void showTagPicker() {
-        final com.android.calendar.tags.TagRepository repo =
-                com.android.calendar.tags.TagRepository.get(mActivity);
-        final java.util.List<com.android.calendar.tags.Tag> all = repo.getAll();
-        if (all.isEmpty()) {
-            openTagManagement();
-            return;
-        }
-        final String[] names = new String[all.size()];
-        final boolean[] checked = new boolean[all.size()];
-        for (int i = 0; i < all.size(); i++) {
-            names[i] = all.get(i).name;
-            checked[i] = mSelectedTagIds.contains(all.get(i).id);
-        }
-        new androidx.appcompat.app.AlertDialog.Builder(mActivity)
-                .setTitle(R.string.tags_select_title)
-                .setMultiChoiceItems(names, checked,
-                        (dialog, which, isChecked) -> checked[which] = isChecked)
-                .setPositiveButton(android.R.string.ok, (dialog, which) -> {
-                    mSelectedTagIds.clear();
-                    for (int i = 0; i < all.size(); i++) {
-                        if (checked[i]) {
-                            mSelectedTagIds.add(all.get(i).id);
-                        }
-                    }
-                    refreshTagChips();
-                })
-                .setNegativeButton(android.R.string.cancel, null)
-                .setNeutralButton(R.string.tags_manage, (dialog, which) -> openTagManagement())
-                .show();
-    }
-
-    private void openTagManagement() {
-        mActivity.startActivity(new android.content.Intent(mActivity,
-                com.android.calendar.tags.TagManagementActivity.class));
-    }
-
-    private void refreshTagChips() {
-        if (mTagsContainer == null) {
-            return;
-        }
-        mTagsContainer.removeAllViews();
-        com.android.calendar.tags.TagRepository repo =
-                com.android.calendar.tags.TagRepository.get(mActivity);
-        for (Long id : mSelectedTagIds) {
-            com.android.calendar.tags.Tag tag = repo.getById(id);
-            if (tag == null) {
-                continue;
-            }
-            com.google.android.material.chip.Chip chip =
-                    new com.google.android.material.chip.Chip(mActivity);
-            chip.setText(tag.name);
-            chip.setChipBackgroundColor(android.content.res.ColorStateList.valueOf(tag.color));
-            chip.setTextColor(contrastColor(tag.color));
-            chip.setEnsureMinTouchTargetSize(false);
-            chip.setClickable(false);
-            mTagsContainer.addView(chip);
-        }
-    }
-
-    public static int contrastColor(int color) {
-        double luminance = (0.299 * android.graphics.Color.red(color)
-                + 0.587 * android.graphics.Color.green(color)
-                + 0.114 * android.graphics.Color.blue(color)) / 255.0;
-        return luminance > 0.6 ? android.graphics.Color.BLACK : android.graphics.Color.WHITE;
     }
 }

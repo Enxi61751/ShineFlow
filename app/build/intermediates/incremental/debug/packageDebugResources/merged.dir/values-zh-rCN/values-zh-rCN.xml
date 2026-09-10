@@ -26,14 +26,6 @@
     <item msgid="1536401639805370405">"此活动和将来的活动"</item>
     <item msgid="7833229563617435430">"所有活动"</item>
   </string-array>
-    <string-array name="period_reminder_days_labels">
-    <item>当天</item>
-    <item>提前 1 天</item>
-    <item>提前 2 天</item>
-    <item>提前 3 天</item>
-    <item>提前 5 天</item>
-    <item>提前 7 天</item>
-  </string-array>
     <string-array name="preferences_skip_reminders_labels">
     <item msgid="2285927842308686988">"仅在您不参加的情况下"</item>
     <item msgid="6367412240524984286">"在您不参加或未回复的情况下"</item>
@@ -258,22 +250,6 @@
     <string name="countdown_days_passed">已过 %1$d 天</string>
     <string name="countdown_days_remaining">还有 %1$d 天</string>
     <string name="countdown_today">就是今天</string>
-    <string name="course_import_apply">导入课程</string>
-    <string name="course_import_draft_hint">每行一门课：课程名 | 课程号 | 教师 | 教室 | 周一 | 1-2 | 1-16 | 单周/双周/全部 | 停课日期</string>
-    <string name="course_import_error">课程表导入失败：%1$s</string>
-    <string name="course_import_file_failed">无法读取所选课程表文件。</string>
-    <string name="course_import_first_monday">学期第一周周一（yyyy-MM-dd）</string>
-    <string name="course_import_menu_title">导入课程表图片</string>
-    <string name="course_import_no_courses">未找到有效课程草稿。</string>
-    <string name="course_import_ocr_failed">图片识别失败，仍可手动编辑课程草稿。</string>
-    <string name="course_import_period_gap">节次间隔（分钟）</string>
-    <string name="course_import_period_length">每节时长（分钟）</string>
-    <string name="course_import_pick_file">选择 ICS/CSV/XLSX 文件</string>
-    <string name="course_import_pick_image">选择课程表图片</string>
-    <string name="course_import_recognize">识别图片</string>
-    <string name="course_import_start_time">第一节开始时间（HH:mm）</string>
-    <string name="course_import_success">已将 %1$d 条课程事件导入“课程表”。</string>
-    <string name="course_import_title">导入课程表</string>
     <string msgid="1080859798521717414" name="create_event_dialog_save">"保存"</string>
     <string msgid="7516249252554059980" name="creating_event">"活动已创建。"</string>
     <string msgid="5758688413124191931" name="creating_event_with_guest">"即将发送邀请。"</string>
@@ -339,10 +315,7 @@
     <string msgid="3772533493214331230" name="loading">正在加载…</string>
     <string msgid="8795383535586556038" name="map_label">"地图"</string>
     <string name="maximum_number_of_lines">事件最大行数</string>
-    <string name="menu_filter_tags">按标签筛选</string>
     <string name="menu_info">信息</string>
-    <string name="menu_manage_tags">标签</string>
-    <string name="menu_period">生理周期</string>
     <string msgid="9120238479503233925" name="menu_preferences">"设置"</string>
     <string msgid="4421657265864209041" name="modify_all">"更改所有重复的活动"</string>
     <string msgid="3017428541066390380" name="modify_all_following">"更改此活动和所有将来的活动"</string>
@@ -363,75 +336,6 @@
     <string name="one_and_a_half_hours">1.5 小时</string>
     <string name="one_hour">1 小时</string>
     <string msgid="3485026339977302148" name="palestine_display_name">"巴勒斯坦"</string>
-    <string name="period_add_temp">添加体温</string>
-    <string name="period_avg_cycle">平均周期：%1$d 天</string>
-    <string name="period_avg_length">平均经期：%1$d 天</string>
-    <string name="period_bbt_title">基础体温 (BBT)</string>
-    <string name="period_color_fertile_title">易孕期颜色</string>
-    <string name="period_color_ovulation_title">排卵日颜色</string>
-    <string name="period_color_period_title">经期颜色</string>
-    <string name="period_color_predicted_title">预测经期颜色</string>
-    <string name="period_custom_date">自定义日期</string>
-    <string name="period_cycle_day">周期第 %1$d 天</string>
-    <string name="period_cycle_tracking">生理周期追踪</string>
-    <string name="period_delete">删除</string>
-    <string name="period_edit_record">编辑记录</string>
-    <string name="period_enable_summary">在菜单中显示生理周期，并在日历上标记周期日</string>
-    <string name="period_enable_title">启用生理周期</string>
-    <string name="period_end_date">结束日期（可选）</string>
-    <string name="period_end_period">结束经期</string>
-    <string name="period_expected_range">预计范围：%1$s – %2$s</string>
-    <string name="period_fertile">易孕期</string>
-    <string name="period_fill_mode_summary">用经期颜色填充整个日期格子，而非仅顶部色条</string>
-    <string name="period_fill_mode_title">整格填充模式</string>
-    <string name="period_flow">经量</string>
-    <string name="period_flow_heavy">多</string>
-    <string name="period_flow_light">少</string>
-    <string name="period_flow_medium">中</string>
-    <string name="period_flow_none">—</string>
-    <string name="period_history">历史记录</string>
-    <string name="period_in_period">经期第 %1$d 天</string>
-    <string name="period_log_end_today">记录经期结束（今天）</string>
-    <string name="period_log_start_today">记录经期开始（今天）</string>
-    <string name="period_log_temperature">记录体温</string>
-    <string name="period_mark_start">标记经期开始…</string>
-    <string name="period_mood">心情</string>
-    <string name="period_mood_anxious">焦虑</string>
-    <string name="period_mood_calm">平静</string>
-    <string name="period_mood_happy">开心</string>
-    <string name="period_mood_irritable">易怒</string>
-    <string name="period_mood_sad">低落</string>
-    <string name="period_next_in">距下次经期还有 %1$d 天</string>
-    <string name="period_next_overdue">经期已推迟 %1$d 天</string>
-    <string name="period_next_today">预计今天来经</string>
-    <string name="period_no_data">还没有记录，先记录一次经期开始吧。</string>
-    <string name="period_no_temperatures">暂无体温记录</string>
-    <string name="period_notes">备注</string>
-    <string name="period_ongoing">进行中</string>
-    <string name="period_ovulation">排卵日</string>
-    <string name="period_quick_actions">快捷操作</string>
-    <string name="period_reminder_channel">生理周期提醒</string>
-    <string name="period_reminder_days_summary">在预测经期前多少天提醒</string>
-    <string name="period_reminder_days_title">经期提前提醒</string>
-    <string name="period_reminder_soon">预计 %1$d 天后来经</string>
-    <string name="period_reminder_title">经期提醒</string>
-    <string name="period_reminder_today">预计今天来经</string>
-    <string name="period_save">保存</string>
-    <string name="period_start_date">开始日期</string>
-    <string name="period_start_period">开始经期</string>
-    <string name="period_symptom_acne">长痘</string>
-    <string name="period_symptom_backache">腰酸</string>
-    <string name="period_symptom_bloating">腹胀</string>
-    <string name="period_symptom_cramps">痛经</string>
-    <string name="period_symptom_fatigue">疲劳</string>
-    <string name="period_symptom_headache">头痛</string>
-    <string name="period_symptoms">症状</string>
-    <string name="period_temperature_date">日期</string>
-    <string name="period_temperature_hint">体温 (°C)</string>
-    <string name="period_temperature_notes_hint">备注（可选）</string>
-    <string name="period_time_evening">晚上</string>
-    <string name="period_time_morning">早晨</string>
-    <string name="period_title">生理周期</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_off">总是使用默认的暂停提醒时长</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_on">每次进行暂停操作时均询问暂停时长</string>
     <string name="preferences_alerts_custom_snooze_delay_title">询问暂停提醒时长</string>
@@ -602,27 +506,6 @@
     <string name="special_day_birthday">生日</string>
     <string name="special_day_countdown">倒计时</string>
     <string name="special_day_none">普通</string>
-    <string name="tag_default_date">约会</string>
-    <string name="tag_default_important">重要</string>
-    <string name="tag_default_life">生活</string>
-    <string name="tag_default_study">学习</string>
-    <string name="tag_default_work">工作</string>
-    <string name="tag_uncategorized">未分类</string>
-    <string name="tags_add">新建标签</string>
-    <string name="tags_delete">删除</string>
-    <string name="tags_delete_confirm">删除该标签？它将从所有事件中移除。</string>
-    <string name="tags_drag_handle">长按拖拽排序</string>
-    <string name="tags_edit">编辑标签</string>
-    <string name="tags_empty">还没有标签，点击 + 新建。</string>
-    <string name="tags_filter_all">全部</string>
-    <string name="tags_filter_detail_mode">单独显示</string>
-    <string name="tags_filter_empty">未找到所选标签的日程</string>
-    <string name="tags_filter_title">按标签筛选</string>
-    <string name="tags_label">标签</string>
-    <string name="tags_manage">管理标签</string>
-    <string name="tags_manage_title">标签管理</string>
-    <string name="tags_name_hint">标签名称</string>
-    <string name="tags_select_title">选择标签</string>
     <string msgid="4067877800670753110" name="template_announce_item_index">"第 <ns1:g id="ITEM_INDEX">%1$s</ns1:g> 个活动，共 <ns1:g id="ITEM_COUNT">%2$s</ns1:g> 个。"</string>
     <string name="thirty_minutes">30 分钟</string>
     <string name="three_days">3天</string>

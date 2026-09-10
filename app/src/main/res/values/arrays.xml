@@ -45,38 +45,6 @@
         <item>bubblegum</item>
     </string-array>
 
-    <string-array name="period_reminder_days_labels">
-        <item>On the day</item>
-        <item>1 day before</item>
-        <item>2 days before</item>
-        <item>3 days before</item>
-        <item>5 days before</item>
-        <item>7 days before</item>
-    </string-array>
-    <string-array name="period_reminder_days_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>5</item>
-        <item>7</item>
-    </string-array>
-
-    <string-array name="agent_personality_entries">
-        <item>@string/agent_personality_gentle</item>
-        <item>@string/agent_personality_lively</item>
-        <item>@string/agent_personality_cool</item>
-        <item>@string/agent_personality_tsundere</item>
-        <item>@string/agent_personality_custom</item>
-    </string-array>
-    <string-array name="agent_personality_values" translatable="false">
-        <item>gentle</item>
-        <item>lively</item>
-        <item>cool</item>
-        <item>tsundere</item>
-        <item>custom</item>
-    </string-array>
-
     <!-- Choices for the "Reminder method" spinner.
          These must be kept in sync with the reminder_methods_values array.
          [CHAR LIMIT=10]
@@ -540,5 +508,12 @@
         <item>"Caribbean Netherlands"</item>
         <item>"Curaçao"</item>
         <item>"South Sudan"</item>
+    </string-array>
+
+    <string-array name="review_personality_labels">
+        <item>Warm companion</item><item>Rational coach</item><item>Direct supervisor</item><item>Growth partner</item>
+    </string-array>
+    <string-array name="review_personality_values" translatable="false">
+        <item>温柔、有行动力的成长伙伴</item><item>理性、结构清晰的行动教练</item><item>直接但不羞辱人的督导者</item><item>关注长期规律的成长伙伴</item>
     </string-array>
 </resources>

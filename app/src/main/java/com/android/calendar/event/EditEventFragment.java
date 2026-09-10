@@ -821,23 +821,6 @@ public class EditEventFragment extends Fragment implements EventHandler, OnColor
         MultipartBody.Builder builder = new MultipartBody.Builder().setType(MultipartBody.FORM);
         builder.addFormDataPart("text", text == null ? "" : text);
 
-        // Keep the companion setting local by default, and include it only in
-        // an explicit AI request. Backends that do not support these optional
-        // fields can safely ignore them.
-        android.content.SharedPreferences agentPrefs = getActivity().getSharedPreferences(
-                "com.android.calendar_preferences", Context.MODE_PRIVATE);
-        String personality = agentPrefs.getString("preferences_agent_personality", "gentle");
-        if (personality == null) {
-            personality = "gentle";
-        }
-        builder.addFormDataPart("personality", personality);
-        String customPersonality = agentPrefs.getString(
-                "preferences_agent_custom_personality", "");
-        if ("custom".equals(personality)
-                && customPersonality != null && !customPersonality.trim().isEmpty()) {
-            builder.addFormDataPart("custom_personality", customPersonality.trim());
-        }
-
         if (imageFile != null && imageFile.exists()) {
             builder.addFormDataPart(
                     "image",
@@ -1833,11 +1816,6 @@ public class EditEventFragment extends Fragment implements EventHandler, OnColor
                             case ExtendedProperty.EVENT_TYPE_NAME:
                                 mModel.mSpecialType = ExtendedProperty.typeFromValue(value);
                                 mOriginalModel.mSpecialType = mModel.mSpecialType;
-                                break;
-                            case ExtendedProperty.EVENT_TAGS_NAME:
-                                mModel.mTagIds = ExtendedProperty.decodeTagIds(value);
-                                mOriginalModel.mTagIds =
-                                        ExtendedProperty.decodeTagIds(value);
                                 break;
                         }
                     }

@@ -19,7 +19,6 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.android.calendar.event.AttendeesView;
 import com.google.android.material.appbar.AppBarLayout;
-import com.google.android.material.chip.ChipGroup;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -108,9 +107,6 @@ public final class EventInfoBinding implements ViewBinding {
   public final TextView specialDayInfo;
 
   @NonNull
-  public final ChipGroup tagsContainer;
-
-  @NonNull
   public final ExpandableTextviewBinding url;
 
   private EventInfoBinding(@NonNull FrameLayout rootView, @NonNull AppBarLayout bar,
@@ -126,8 +122,7 @@ public final class EventInfoBinding implements ViewBinding {
       @NonNull LinearLayout responseContainer, @NonNull TextView responseLabel,
       @NonNull RadioButton responseMaybe, @NonNull RadioButton responseNo,
       @NonNull RadioGroup responseValue, @NonNull RadioButton responseYes,
-      @NonNull TextView specialDayInfo, @NonNull ChipGroup tagsContainer,
-      @NonNull ExpandableTextviewBinding url) {
+      @NonNull TextView specialDayInfo, @NonNull ExpandableTextviewBinding url) {
     this.rootView = rootView;
     this.bar = bar;
     this.calendarContainer = calendarContainer;
@@ -155,7 +150,6 @@ public final class EventInfoBinding implements ViewBinding {
     this.responseValue = responseValue;
     this.responseYes = responseYes;
     this.specialDayInfo = specialDayInfo;
-    this.tagsContainer = tagsContainer;
     this.url = url;
   }
 
@@ -343,12 +337,6 @@ public final class EventInfoBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tags_container;
-      ChipGroup tagsContainer = ViewBindings.findChildViewById(rootView, id);
-      if (tagsContainer == null) {
-        break missingId;
-      }
-
       id = R.id.url;
       View url = ViewBindings.findChildViewById(rootView, id);
       if (url == null) {
@@ -362,7 +350,7 @@ public final class EventInfoBinding implements ViewBinding {
           launchCustomAppButton, launchCustomAppContainer, longAttendeeList, organizer,
           organizerContainer, organizerLabel, reminderAdd, reminderItemsContainer,
           responseContainer, responseLabel, responseMaybe, responseNo, responseValue, responseYes,
-          specialDayInfo, tagsContainer, binding_url);
+          specialDayInfo, binding_url);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

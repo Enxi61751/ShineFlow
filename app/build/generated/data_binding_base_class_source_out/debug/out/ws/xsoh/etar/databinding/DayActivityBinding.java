@@ -5,8 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
-import android.widget.ImageButton;
-import android.widget.TextView;
 import android.widget.ViewSwitcher;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -24,18 +22,9 @@ public final class DayActivityBinding implements ViewBinding {
   @NonNull
   public final ViewSwitcher switcher;
 
-  @NonNull
-  public final ImageButton transitStationButton;
-
-  @NonNull
-  public final TextView transitStationCount;
-
-  private DayActivityBinding(@NonNull FrameLayout rootView, @NonNull ViewSwitcher switcher,
-      @NonNull ImageButton transitStationButton, @NonNull TextView transitStationCount) {
+  private DayActivityBinding(@NonNull FrameLayout rootView, @NonNull ViewSwitcher switcher) {
     this.rootView = rootView;
     this.switcher = switcher;
-    this.transitStationButton = transitStationButton;
-    this.transitStationCount = transitStationCount;
   }
 
   @Override
@@ -71,20 +60,7 @@ public final class DayActivityBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.transit_station_button;
-      ImageButton transitStationButton = ViewBindings.findChildViewById(rootView, id);
-      if (transitStationButton == null) {
-        break missingId;
-      }
-
-      id = R.id.transit_station_count;
-      TextView transitStationCount = ViewBindings.findChildViewById(rootView, id);
-      if (transitStationCount == null) {
-        break missingId;
-      }
-
-      return new DayActivityBinding((FrameLayout) rootView, switcher, transitStationButton,
-          transitStationCount);
+      return new DayActivityBinding((FrameLayout) rootView, switcher);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

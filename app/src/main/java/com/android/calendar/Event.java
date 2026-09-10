@@ -326,10 +326,6 @@ public class Event implements Cloneable {
             if (e.startDay > endDay || e.endDay < startDay) {
                 continue;
             }
-            if (com.android.calendar.tags.TagFilter.get().isActive()
-                    && !com.android.calendar.tags.TagFilter.get().matches(e.id)) {
-                continue;
-            }
             events.add(e);
         }
     }
