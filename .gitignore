@@ -6,3 +6,20 @@ __pycache__/
 *.pyc
 .idea/
 .vscode/
+# Gradle cache
+.gradle/
+**/.gradle/
+
+# Build outputs
+build/
+**/build/
+
+# Local machine configuration
+local.properties
+
+# Android native build outputs
+.cxx/
+.externalNativeBuild/
+
+# Android Studio generated files
+captures/
