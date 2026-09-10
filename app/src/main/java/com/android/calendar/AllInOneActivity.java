@@ -30,6 +30,7 @@ import android.app.Activity;
 import android.content.AsyncQueryHandler;
 import android.content.BroadcastReceiver;
 import android.content.ContentResolver;
+import android.content.ClipData;
 import android.content.ContentUris;
 import android.content.Context;
 import android.content.Intent;
@@ -40,6 +41,7 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.database.ContentObserver;
 import android.graphics.drawable.LayerDrawable;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -56,9 +58,14 @@ import android.text.format.DateUtils;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.Gravity;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
+import android.widget.ImageButton;
+import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.RelativeLayout.LayoutParams;
 import android.widget.TextView;
@@ -207,6 +214,7 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
     private AllInOneMaterialBinding binding;
     private DrawerLayout mDrawerLayout;
     private Toolbar mToolbar;
+    private ImageButton mTransitStationButton;
     private NavigationView mNavigationView;
     private CalendarToolbarHandler mCalendarToolbarHandler;
     // Action bar
@@ -521,12 +529,60 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
         mActionBar.setHomeButtonEnabled(true);
     }
 
+    private void addTransitStationButton() {
+        if (mTransitStationButton != null) return;
+        mTransitStationButton = new ImageButton(this);
+        mTransitStationButton.setImageResource(R.drawable.ic_transit_station);
+        mTransitStationButton.setColorFilter(android.graphics.Color.BLACK);
+        mTransitStationButton.setContentDescription(getString(R.string.transit_station));
+        mTransitStationButton.setBackgroundResource(android.R.color.transparent);
+        int size = (int) (48 * getResources().getDisplayMetrics().density);
+        Toolbar.LayoutParams params = new Toolbar.LayoutParams(size, size, Gravity.END);
+        params.rightMargin = (int) (88 * getResources().getDisplayMetrics().density);
+        mToolbar.addView(mTransitStationButton, params);
+        mTransitStationButton.setOnClickListener(v -> showTransitStation());
+    }
+
+    private void showTransitStation() {
+        LinearLayout content = new LinearLayout(this);
+        content.setOrientation(LinearLayout.VERTICAL);
+        int padding = (int) (16 * getResources().getDisplayMetrics().density);
+        content.setPadding(padding, padding, padding, padding);
+        TextView title = new TextView(this);
+        title.setText(R.string.transit_station);
+        title.setTextSize(18);
+        content.addView(title);
+        for (TransitSchedule schedule : new TransitStationRepository(this).getAll()) {
+            TextView item = new TextView(this);
+            item.setPadding(0, padding, 0, padding);
+            item.setText(schedule.title + "\n" + getString(R.string.transit_time_pending));
+            item.setOnLongClickListener(view -> {
+                view.startDragAndDrop(ClipData.newPlainText("transit_schedule", schedule.id),
+                        new View.DragShadowBuilder(view), null, 0);
+                return true;
+            });
+            content.addView(item);
+        }
+        if (content.getChildCount() == 1) {
+            TextView empty = new TextView(this);
+            empty.setText(R.string.transit_station_empty);
+            content.addView(empty);
+        }
+        PopupWindow popup = new PopupWindow(content,
+                (int) (300 * getResources().getDisplayMetrics().density),
+                android.view.ViewGroup.LayoutParams.WRAP_CONTENT, true);
+        popup.setBackgroundDrawable(new ColorDrawable(android.graphics.Color.WHITE));
+        popup.setOutsideTouchable(true);
+        popup.showAsDropDown(mToolbar, mToolbar.getWidth() - popup.getWidth(), 0);
+    }
+
     public void openDrawer() {
         mDrawerLayout.openDrawer(GravityCompat.START);
     }
 
     public void setupNavDrawer() {
         mNavigationView.setNavigationItemSelectedListener(this);
+        updatePeriodMenuVisibility();
         showActionBar();
     }
 
@@ -632,6 +688,10 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
             mControlsMenu.setTitle(mHideControls ? mShowString : mHideString);
         }
         mPaused = false;
+
+        // ShineFlow: cycle tracking may have been toggled in Settings.
+        updatePeriodMenuVisibility();
+        com.android.calendar.cycle.PeriodReminderReceiver.schedule(this);
 
         if (mViewEventId != -1 && mIntentEventStartMillis != -1 && mIntentEventEndMillis != -1) {
             long currentMillis = System.currentTimeMillis();
@@ -936,10 +996,11 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
             return true;
         } else if (itemId == R.id.action_search) {
             return false;
-        } else if (itemId == R.id.action_schedule_review) {
-            startActivity(new Intent(this, com.android.calendar.review.ScheduleReviewActivity.class));
         } else if (itemId == R.id.action_import) {
             ImportActivity.pickImportFile(this);
+        } else if (itemId == R.id.action_import_timetable) {
+            startActivity(new Intent(this, CourseImportActivity.class));
+            return true;
         } else if (itemId == R.id.action_view_settings) {
             Intent intent = new Intent(this, SettingsActivity.class);
             intent.putExtra(SettingsActivityKt.EXTRA_SHOW_FRAGMENT, ViewDetailsPreferences.class.getName());
@@ -972,6 +1033,12 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
             if (mCurrentView != ViewType.AGENDA) {
                 mController.sendEvent(this, EventType.GO_TO, null, null, -1, ViewType.AGENDA);
             }
+        } else if (itemId == R.id.menu_manage_tags) {
+            startActivity(new Intent(this, com.android.calendar.tags.TagManagementActivity.class));
+        } else if (itemId == R.id.menu_filter_tags) {
+            showTagFilterDialog();
+        } else if (itemId == R.id.menu_period) {
+            startActivity(new Intent(this, com.android.calendar.cycle.PeriodActivity.class));
         } else if (itemId == R.id.action_settings) {
             mController.sendEvent(this, EventType.LAUNCH_SETTINGS, null, null, 0, 0);
         } else if (itemId == R.id.action_about) {
@@ -980,6 +1047,124 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
         }
         mDrawerLayout.closeDrawers();
         return true;
+    }
+
+    private void showTagFilterDialog() {
+        final com.android.calendar.tags.TagRepository repo =
+                com.android.calendar.tags.TagRepository.get(this);
+        final java.util.List<com.android.calendar.tags.Tag> all = repo.getAllWithUncategorized(this);
+        if (all.isEmpty()) {
+            startActivity(new Intent(this, com.android.calendar.tags.TagManagementActivity.class));
+            return;
+        }
+        final java.util.Set<Long> selected = com.android.calendar.tags.TagFilter.get().getSelected();
+        final boolean[] checked = new boolean[all.size()];
+        final androidx.appcompat.widget.AppCompatCheckBox[] boxes =
+                new androidx.appcompat.widget.AppCompatCheckBox[all.size()];
+
+        int density = (int) getResources().getDisplayMetrics().density;
+        LinearLayout checkboxContainer = new LinearLayout(this);
+        checkboxContainer.setOrientation(LinearLayout.VERTICAL);
+        for (int i = 0; i < all.size(); i++) {
+            boxes[i] = new androidx.appcompat.widget.AppCompatCheckBox(this);
+            boxes[i].setText(all.get(i).name);
+            checked[i] = selected.contains(all.get(i).id);
+            boxes[i].setChecked(checked[i]);
+            final int idx = i;
+            boxes[i].setOnCheckedChangeListener((btn, isChecked) -> checked[idx] = isChecked);
+            checkboxContainer.addView(boxes[i]);
+        }
+
+        // Switch row
+        View divider = new View(this);
+        divider.setBackgroundColor(0xFFE0E0E0);
+        LinearLayout.LayoutParams dividerLp = new LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT, 1);
+        dividerLp.topMargin = 8 * density;
+        dividerLp.bottomMargin = 8 * density;
+        divider.setLayoutParams(dividerLp);
+        checkboxContainer.addView(divider);
+
+        LinearLayout switchRow = new LinearLayout(this);
+        switchRow.setOrientation(LinearLayout.HORIZONTAL);
+        switchRow.setGravity(Gravity.CENTER_VERTICAL);
+        switchRow.setPadding(0, 4 * density, 0, 4 * density);
+        final androidx.appcompat.widget.SwitchCompat modeSwitch =
+                new androidx.appcompat.widget.SwitchCompat(this);
+        modeSwitch.setText(R.string.tags_filter_detail_mode);
+        modeSwitch.setChecked(
+                com.android.calendar.settings.GeneralPreferences.Companion
+                        .getSharedPreferences(this)
+                        .getBoolean("pref_tag_filter_detail_view", false));
+        switchRow.addView(modeSwitch);
+        checkboxContainer.addView(switchRow);
+
+        ScrollView scrollView = new ScrollView(this);
+        scrollView.addView(checkboxContainer);
+
+        new androidx.appcompat.app.AlertDialog.Builder(this)
+                .setTitle(R.string.tags_filter_title)
+                .setView(scrollView)
+                .setPositiveButton(android.R.string.ok, (dialog, which) -> {
+                    // Remember last-used switch state
+                    com.android.calendar.settings.GeneralPreferences.Companion
+                            .getSharedPreferences(this)
+                            .edit()
+                            .putBoolean("pref_tag_filter_detail_view",
+                                    modeSwitch.isChecked())
+                            .apply();
+
+                    java.util.List<Long> ids = new java.util.ArrayList<>();
+                    for (int i = 0; i < all.size(); i++) {
+                        if (checked[i]) {
+                            ids.add(all.get(i).id);
+                        }
+                    }
+                    if (ids.isEmpty()) {
+                        // No selection: clear filter
+                        com.android.calendar.tags.TagFilter.get().setSelected(null);
+                        eventsChanged();
+                        return;
+                    }
+                    if (modeSwitch.isChecked()) {
+                        // Detail view mode: open separate list
+                        long[] idsArr = new long[ids.size()];
+                        for (int i = 0; i < ids.size(); i++) idsArr[i] = ids.get(i);
+                        Intent intent = new Intent(this,
+                                com.android.calendar.tags.TagFilteredEventsActivity.class);
+                        intent.putExtra("tag_ids", idsArr);
+                        startActivity(intent);
+                    } else {
+                        // Main view mode: filter in calendar
+                        com.android.calendar.tags.TagFilter.get().setSelected(ids);
+                        new Thread(() -> {
+                            com.android.calendar.tags.TagFilter.get().refresh(this);
+                            runOnUiThread(this::eventsChanged);
+                        }).start();
+                    }
+                })
+                .setNeutralButton(R.string.tags_filter_all, (dialog, which) -> {
+                    com.android.calendar.tags.TagFilter.get().setSelected(null);
+                    eventsChanged();
+                })
+                .setNegativeButton(android.R.string.cancel, null)
+                .show();
+    }
+
+    private boolean isTagFilterDetailMode() {
+        return com.android.calendar.settings.GeneralPreferences.Companion
+                .getSharedPreferences(this)
+                .getBoolean("pref_tag_filter_detail_view", false);
+    }
+
+    private void updatePeriodMenuVisibility() {
+        if (mNavigationView == null) {
+            return;
+        }
+        MenuItem periodItem = mNavigationView.getMenu().findItem(R.id.menu_period);
+        if (periodItem != null) {
+            periodItem.setVisible(com.android.calendar.cycle.PeriodRepository.isEnabled(this));
+        }
     }
 
     /**

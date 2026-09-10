@@ -19,10 +19,6 @@ class Settings(BaseSettings):
     REMOTE_LLM_MODEL: str = ""
     REMOTE_LLM_TIMEOUT_SECONDS: float = 120.0
 
-    REVIEW_MEMORY_DB_PATH: str = "./data/review_memory.db"
-    REVIEW_MEMORY_RETRIEVAL_LIMIT: int = 8
-    REVIEW_LLM_MAX_TOKENS: int = 2200
-
     model_config = SettingsConfigDict(
         env_file=".env",
         env_file_encoding="utf-8",

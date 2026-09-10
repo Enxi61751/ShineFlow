@@ -8,15 +8,9 @@ from app.schemas.chat import (
     AttachmentInfo,
     ChatRequest,
     ChatResponse,
-    EmotionSchedulePlanRequest,
-    EmotionSchedulePlanResponse,
     ScheduleCompletionResponse,
 )
-from app.services.emotion_llm_service import emotion_llm_service
 from app.services.llm_service import llm_service
-from app.services.schedule_llm_service import schedule_llm_service
-from app.tool_calling_agent.agent import ToolCallingScheduleAgent
-from app.tool_calling_agent.models import ToolCallingAgentRequest, ToolCallingAgentResponse
 from app.utils.attachment_handler import collect_attachments, parse_history_payload
 from app.utils.prompt_builder import build_prompt
 from app.utils.schedule_prompt_builder import (
@@ -25,7 +19,6 @@ from app.utils.schedule_prompt_builder import (
 )
 
 router = APIRouter(prefix="/api", tags=["chat"])
-tool_calling_schedule_agent = ToolCallingScheduleAgent()
 
 
 @router.post("/chat", response_model=ChatResponse)
@@ -35,6 +28,8 @@ async def chat(request: ChatRequest) -> ChatResponse:
             system_prompt=request.system_prompt,
             history=request.history or [],
             user_message=request.message,
+            personality=request.personality,
+            custom_personality=request.custom_personality,
         )
 
         reply = await llm_service.chat(prompt)
@@ -53,6 +48,8 @@ async def chat(request: ChatRequest) -> ChatResponse:
 async def chat_upload(
     message: str = Form(""),
     system_prompt: Optional[str] = Form(None),
+    personality: str = Form("gentle"),
+    custom_personality: Optional[str] = Form(None),
     history: Optional[str] = Form(None),
     files: Optional[List[UploadFile]] = File(None),
     images: Optional[List[UploadFile]] = File(None),
@@ -72,6 +69,8 @@ async def chat_upload(
             history=history_items,
             user_message=user_message,
             attachments=attachments,
+            personality=personality,
+            custom_personality=custom_personality,
         )
 
         reply = await llm_service.chat(prompt)
@@ -90,41 +89,14 @@ async def chat_upload(
         raise HTTPException(status_code=500, detail=f"Model call failed: {exc}") from exc
 
 
-@router.post("/emotion/schedule-plan", response_model=EmotionSchedulePlanResponse)
-async def emotion_schedule_plan(request: EmotionSchedulePlanRequest) -> EmotionSchedulePlanResponse:
-    try:
-        emotion_payload = await emotion_llm_service.analyze(
-            message=request.message,
-            history=[],
-            timezone=request.timezone,
-        )
-        result = await schedule_llm_service.create_plan(
-            message=request.message,
-            tasks=request.tasks,
-            emotion=emotion_payload,
-            timezone=request.timezone,
-            start_time=request.start_time,
-            end_time=request.end_time,
-        )
-        return EmotionSchedulePlanResponse.model_validate(result)
-    except Exception as exc:
-        raise HTTPException(status_code=500, detail=f"Emotion schedule planning failed: {exc}") from exc
-
-
-@router.post("/agent/tool-chat", response_model=ToolCallingAgentResponse)
-async def tool_calling_agent_chat(request: ToolCallingAgentRequest) -> ToolCallingAgentResponse:
-    try:
-        return await tool_calling_schedule_agent.run(request)
-    except Exception as exc:
-        raise HTTPException(status_code=500, detail=f"Tool-calling agent failed: {exc}") from exc
-
-
 @router.post("/schedule/complete", response_model=ScheduleCompletionResponse)
 async def schedule_complete(
     text: str = Form(""),
     timezone: str = Form("Asia/Shanghai"),
     now_iso: Optional[str] = Form(None),
     duration_minutes: int = Form(60),
+    personality: str = Form("gentle"),
+    custom_personality: Optional[str] = Form(None),
     image: Optional[UploadFile] = File(None),
     audio: Optional[UploadFile] = File(None),
     file: Optional[UploadFile] = File(None),
@@ -173,6 +145,8 @@ async def schedule_complete(
             timezone=timezone,
             duration_minutes=max(duration_minutes, 1),
             now_iso=now_iso,
+            personality=personality,
+            custom_personality=custom_personality,
         )
 
         raw_reply = await llm_service.chat(

@@ -99,10 +99,20 @@
         <activity android:name="com.android.calendar.AboutActivity">
         </activity>
 
-        <activity
-            android:name="com.android.calendar.review.ScheduleReviewActivity"
-            android:label="@string/schedule_review_title"
-            android:parentActivityName="com.android.calendar.AllInOneActivity" />
+        <activity android:name="com.android.calendar.tags.TagManagementActivity"
+            android:parentActivityName="com.android.calendar.AllInOneActivity"
+            android:label="@string/tags_manage_title" />
+
+        <activity android:name="com.android.calendar.tags.TagFilteredEventsActivity"
+            android:parentActivityName="com.android.calendar.AllInOneActivity"
+            android:label="@string/tags_filter_title" />
+
+        <activity android:name="com.android.calendar.cycle.PeriodActivity"
+            android:parentActivityName="com.android.calendar.AllInOneActivity"
+            android:label="@string/period_title" />
+
+        <receiver android:name="com.android.calendar.cycle.PeriodReminderReceiver"
+            android:exported="false" />
 
         <activity android:name="com.android.calendar.EventInfoActivity"
             android:exported="true"
@@ -207,6 +217,11 @@
                 <data android:mimeType="application/ics" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.android.calendar.CourseImportActivity"
+            android:label="@string/course_import_title"
+            android:parentActivityName="com.android.calendar.AllInOneActivity" />
 
         <provider
             android:name="androidx.core.content.FileProvider"

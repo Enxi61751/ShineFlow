@@ -6,8 +6,3 @@ __pycache__/
 .env
 models/
 *.gguf
-
-data/
-*.db
-*.db-shm
-*.db-wal

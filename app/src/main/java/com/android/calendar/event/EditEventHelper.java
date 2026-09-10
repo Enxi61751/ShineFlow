@@ -545,6 +545,32 @@ public class EditEventHelper {
             }
         }
 
+        // ShineFlow: persist assigned tag ids as an extended property.
+        {
+            Uri extendedPropUri = ExtendedProperty.contentUri(model.mCalendarAccountName, model.mCalendarAccountType);
+            if (!newEvent) {
+                // Remove previously stored tags first.
+                ops.add(ContentProviderOperation.newDelete(extendedPropUri)
+                        .withSelection(EXTENDED_WHERE_EVENT_NAME,
+                                new String[] { Long.toString(model.mId), ExtendedProperty.EVENT_TAGS_NAME })
+                        .build());
+            }
+            String tagsValue = ExtendedProperty.encodeTagIds(model.mTagIds);
+            if (tagsValue != null) {
+                values.clear();
+                values.put(ExtendedProperties.NAME, ExtendedProperty.EVENT_TAGS_NAME);
+                values.put(ExtendedProperties.VALUE, tagsValue);
+                if (newEvent) {
+                    b = ContentProviderOperation.newInsert(extendedPropUri).withValues(values);
+                    b.withValueBackReference(ExtendedProperties.EVENT_ID, eventIdIndex);
+                } else {
+                    values.put(ExtendedProperties.EVENT_ID, model.mId);
+                    b = ContentProviderOperation.newInsert(extendedPropUri).withValues(values);
+                }
+                ops.add(b.build());
+            }
+        }
+
         boolean hasAttendeeData = model.mHasAttendeeData;
 
         if (hasAttendeeData && model.mOwnerAttendeeId == -1) {

@@ -3,6 +3,7 @@ import re
 from typing import Any, Iterable, List, Optional
 
 from app.schemas.chat import AttachmentInfo, ScheduleCompletionData, ScheduleCompletionItem
+from app.utils.prompt_builder import build_personality_instruction
 
 
 JSON_BLOCK_RE = re.compile(r"```(?:json)?\s*(\{.*?\})\s*```", re.DOTALL | re.IGNORECASE)
@@ -14,6 +15,8 @@ def build_schedule_completion_prompt(
     timezone: str,
     duration_minutes: int,
     now_iso: Optional[str] = None,
+    personality: Optional[str] = "gentle",
+    custom_personality: Optional[str] = None,
 ) -> str:
     attachment_lines = _build_attachment_lines(attachments)
     prompt_parts = [
@@ -24,6 +27,9 @@ def build_schedule_completion_prompt(
         "If only a start time is given, set end_time using the default duration.",
         "If a field is unknown, use null or an empty string and add it to missing_fields.",
         "Do not invent OCR, ASR, or visual details.",
+        # The schema must remain machine-readable, but the companion style can
+        # influence a follow-up question when information is missing.
+        f"Companion personality for any follow-up question: {build_personality_instruction(personality, custom_personality)}",
         "Use this compact schema exactly:",
         json.dumps(
             {
