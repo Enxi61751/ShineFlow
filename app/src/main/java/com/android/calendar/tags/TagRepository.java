@@ -22,6 +22,7 @@ public class TagRepository {
     private static final String KEY_TAGS = "tags";
     private static final String KEY_NEXT_ID = "next_id";
     private static final String KEY_SEEDED = "seeded";
+    private static final String KEY_UNCATEGORIZED_POS = "uncategorized_pos";
 
     private static TagRepository sInstance;
 
@@ -128,5 +129,78 @@ public class TagRepository {
             }
         }
         persist();
+    }
+
+    /**
+     * Reorders all tags to match the given list of IDs. Tags not in the list
+     * remain in their current relative order at the end.
+     */
+    public synchronized void saveOrder(List<Long> tagIdsInOrder) {
+        List<Tag> reordered = new ArrayList<>();
+        for (Long id : tagIdsInOrder) {
+            for (Tag t : mTags) {
+                if (t.id == id) {
+                    reordered.add(t);
+                    break;
+                }
+            }
+        }
+        // Append any tags not in the order list
+        for (Tag t : mTags) {
+            if (!tagIdsInOrder.contains(t.id)) {
+                reordered.add(t);
+            }
+        }
+        mTags.clear();
+        mTags.addAll(reordered);
+        persist();
+    }
+
+    /**
+     * Moves the tag at {@code fromIndex} to {@code toIndex} in the list,
+     * shifting other elements as needed.
+     */
+    public synchronized void reorder(int fromIndex, int toIndex) {
+        if (fromIndex < 0 || fromIndex >= mTags.size()
+                || toIndex < 0 || toIndex >= mTags.size()
+                || fromIndex == toIndex) {
+            return;
+        }
+        Tag moved = mTags.remove(fromIndex);
+        mTags.add(toIndex, moved);
+        persist();
+    }
+
+    /**
+     * Returns the stored display position of the "Uncategorized" pseudo-tag
+     * in the tag management list. Defaults to the end (tag count).
+     */
+    public int getUncategorizedPosition() {
+        return mPrefs.getInt(KEY_UNCATEGORIZED_POS, mTags.size());
+    }
+
+    /**
+     * Persists the display position of the "Uncategorized" pseudo-tag.
+     */
+    public void setUncategorizedPosition(int pos) {
+        mPrefs.edit().putInt(KEY_UNCATEGORIZED_POS, pos).apply();
+    }
+
+    /**
+     * Builds a display list that includes both real tags and the "Uncategorized"
+     * pseudo-entry at its stored position. Returns a list of Tag objects where
+     * the uncategorized entry has id == TagFilter.TAG_ID_UNCATEGORIZED.
+     */
+    public synchronized List<Tag> getAllWithUncategorized(Context context) {
+        List<Tag> result = new ArrayList<>(mTags);
+        int pos = getUncategorizedPosition();
+        // Clamp to valid range
+        if (pos < 0) pos = 0;
+        if (pos > result.size()) pos = result.size();
+        Tag uncategorized = new Tag(TagFilter.TAG_ID_UNCATEGORIZED,
+                context.getString(ws.xsoh.etar.R.string.tag_uncategorized),
+                0xFF757575);
+        result.add(pos, uncategorized);
+        return result;
     }
 }

@@ -1,31 +1,32 @@
 package com.android.calendar.tags;
 
-import android.graphics.Color;
-import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
-import android.view.Gravity;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.LinearLayout;
-import android.widget.ScrollView;
-import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.ItemTouchHelper;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.calendar.theme.DynamicThemeKt;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import ws.xsoh.etar.R;
 
 /**
- * Lets the user create, edit and delete event tags (name + colour).
+ * Lets the user create, reorder, edit and delete event tags (name + colour),
+ * plus manage the position of the "Uncategorized" pseudo-tag.
  */
-public class TagManagementActivity extends AppCompatActivity {
+public class TagManagementActivity extends AppCompatActivity implements TagAdapter.Callbacks {
 
     private static final int[] PALETTE = {
             0xFFFF5A5F, 0xFFF5820A, 0xFFFFC300, 0xFF0FBFA5,
@@ -34,35 +35,67 @@ public class TagManagementActivity extends AppCompatActivity {
     };
 
     private TagRepository mRepo;
-    private LinearLayout mListContainer;
+    private RecyclerView mRecycler;
+    private TagAdapter mAdapter;
+    private ItemTouchHelper mItemTouchHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         DynamicThemeKt.applyTheme(this);
+        setContentView(R.layout.tag_management);
+
         mRepo = TagRepository.get(this);
 
-        int pad = (int) (16 * getResources().getDisplayMetrics().density);
-
-        ScrollView scroll = new ScrollView(this);
-        mListContainer = new LinearLayout(this);
-        mListContainer.setOrientation(LinearLayout.VERTICAL);
-        mListContainer.setPadding(pad, pad, pad, pad);
-        scroll.addView(mListContainer);
-        setContentView(scroll);
-
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         if (getSupportActionBar() != null) {
             getSupportActionBar().setTitle(R.string.tags_manage_title);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
-        rebuild();
-    }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        menu.add(0, 1, 0, R.string.tags_add)
-                .setShowAsActionFlags(MenuItem.SHOW_AS_ACTION_ALWAYS);
-        return true;
+        mRecycler = findViewById(R.id.tag_recycler);
+        mRecycler.setLayoutManager(new LinearLayoutManager(this));
+
+        mAdapter = new TagAdapter(this);
+        mRecycler.setAdapter(mAdapter);
+
+        ItemTouchHelper.Callback callback = new ItemTouchHelper.SimpleCallback(
+                ItemTouchHelper.UP | ItemTouchHelper.DOWN, 0) {
+            @Override
+            public boolean onMove(@NonNull RecyclerView recyclerView,
+                                  @NonNull RecyclerView.ViewHolder viewHolder,
+                                  @NonNull RecyclerView.ViewHolder target) {
+                int from = viewHolder.getBindingAdapterPosition();
+                int to = target.getBindingAdapterPosition();
+                mAdapter.onItemMove(from, to);
+                return true;
+            }
+
+            @Override
+            public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
+                // No swipe to delete
+            }
+
+            @Override
+            public boolean isLongPressDragEnabled() {
+                return false; // drag via handle only
+            }
+
+            @Override
+            public void clearView(@NonNull RecyclerView recyclerView,
+                                  @NonNull RecyclerView.ViewHolder viewHolder) {
+                super.clearView(recyclerView, viewHolder);
+                persistCurrentOrder();
+            }
+        };
+        mItemTouchHelper = new ItemTouchHelper(callback);
+        mItemTouchHelper.attachToRecyclerView(mRecycler);
+
+        FloatingActionButton fab = findViewById(R.id.fab_add_tag);
+        fab.setOnClickListener(v -> showEditDialog(null));
+
+        rebuild();
     }
 
     @Override
@@ -71,58 +104,44 @@ public class TagManagementActivity extends AppCompatActivity {
             finish();
             return true;
         }
-        if (item.getItemId() == 1) {
-            showEditDialog(null);
-            return true;
-        }
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void onDragStarted(TagAdapter.ViewHolder holder) {
+        mItemTouchHelper.startDrag(holder);
+    }
+
+    @Override
+    public void onTagClicked(Tag tag) {
+        showEditDialog(tag);
+    }
+
+    @Override
+    public void onTagDeleteClicked(Tag tag) {
+        confirmDelete(tag);
+    }
+
     private void rebuild() {
-        mListContainer.removeAllViews();
-        List<Tag> tags = mRepo.getAll();
-        if (tags.isEmpty()) {
-            TextView empty = new TextView(this);
-            empty.setText(R.string.tags_empty);
-            empty.setPadding(0, 32, 0, 0);
-            mListContainer.addView(empty);
-            return;
+        List<Tag> items = mRepo.getAllWithUncategorized(this);
+        mAdapter.setItems(items);
+    }
+
+    private void persistCurrentOrder() {
+        List<Tag> items = mAdapter.getItems();
+        List<Long> tagIds = new ArrayList<>();
+        int uncategorizedPos = items.size(); // default: end
+
+        for (int i = 0; i < items.size(); i++) {
+            Tag t = items.get(i);
+            if (t.id == TagFilter.TAG_ID_UNCATEGORIZED) {
+                uncategorizedPos = i;
+            } else {
+                tagIds.add(t.id);
+            }
         }
-        int density = (int) getResources().getDisplayMetrics().density;
-        for (final Tag tag : tags) {
-            LinearLayout row = new LinearLayout(this);
-            row.setOrientation(LinearLayout.HORIZONTAL);
-            row.setGravity(Gravity.CENTER_VERTICAL);
-            row.setPadding(0, 12 * density, 0, 12 * density);
-            row.setClickable(true);
-            row.setOnClickListener(v -> showEditDialog(tag));
-
-            View dot = new View(this);
-            GradientDrawable circle = new GradientDrawable();
-            circle.setShape(GradientDrawable.OVAL);
-            circle.setColor(tag.color);
-            dot.setBackground(circle);
-            LinearLayout.LayoutParams dotLp =
-                    new LinearLayout.LayoutParams(20 * density, 20 * density);
-            dotLp.rightMargin = 16 * density;
-            row.addView(dot, dotLp);
-
-            TextView name = new TextView(this);
-            name.setText(tag.name);
-            name.setTextSize(16);
-            LinearLayout.LayoutParams nameLp = new LinearLayout.LayoutParams(
-                    0, ViewGroup.LayoutParams.WRAP_CONTENT, 1f);
-            row.addView(name, nameLp);
-
-            TextView delete = new TextView(this);
-            delete.setText(R.string.tags_delete);
-            delete.setTextColor(0xFFD32F2F);
-            delete.setPadding(16 * density, 0, 0, 0);
-            delete.setOnClickListener(v -> confirmDelete(tag));
-            row.addView(delete);
-
-            mListContainer.addView(row);
-        }
+        mRepo.saveOrder(tagIds);
+        mRepo.setUncategorizedPosition(uncategorizedPos);
     }
 
     private void confirmDelete(final Tag tag) {
@@ -198,12 +217,18 @@ public class TagManagementActivity extends AppCompatActivity {
     }
 
     private void updateSwatch(View sw, int color, boolean selected, int density) {
-        GradientDrawable d = new GradientDrawable();
-        d.setShape(GradientDrawable.OVAL);
+        android.graphics.drawable.GradientDrawable d = new android.graphics.drawable.GradientDrawable();
+        d.setShape(android.graphics.drawable.GradientDrawable.OVAL);
         d.setColor(color);
         if (selected) {
-            d.setStroke(3 * density, Color.DKGRAY);
+            d.setStroke(3 * density, android.graphics.Color.DKGRAY);
         }
         sw.setBackground(d);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        rebuild();
     }
 }

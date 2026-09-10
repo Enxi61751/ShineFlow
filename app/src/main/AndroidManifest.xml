@@ -103,6 +103,10 @@
             android:parentActivityName="com.android.calendar.AllInOneActivity"
             android:label="@string/tags_manage_title" />
 
+        <activity android:name="com.android.calendar.tags.TagFilteredEventsActivity"
+            android:parentActivityName="com.android.calendar.AllInOneActivity"
+            android:label="@string/tags_filter_title" />
+
         <activity android:name="com.android.calendar.cycle.PeriodActivity"
             android:parentActivityName="com.android.calendar.AllInOneActivity"
             android:label="@string/period_title" />

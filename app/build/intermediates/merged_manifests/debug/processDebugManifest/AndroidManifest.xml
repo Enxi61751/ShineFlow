@@ -88,7 +88,6 @@
         android:requestLegacyExternalStorage="true"
         android:requiredAccountType="*"
         android:taskAffinity="ws.xsoh.etar.task"
-        android:testOnly="true"
         android:theme="@style/Theme.Etar"
         android:usesCleartextTraffic="true" >
         <activity
@@ -129,6 +128,10 @@
         <activity
             android:name="com.android.calendar.tags.TagManagementActivity"
             android:label="@string/tags_manage_title"
+            android:parentActivityName="com.android.calendar.AllInOneActivity" />
+        <activity
+            android:name="com.android.calendar.tags.TagFilteredEventsActivity"
+            android:label="@string/tags_filter_title"
             android:parentActivityName="com.android.calendar.AllInOneActivity" />
         <activity
             android:name="com.android.calendar.cycle.PeriodActivity"

@@ -40,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/course_import_start_time"
-            android:inputType="textTime" />
+            android:inputType="time" />
 
         <LinearLayout
             android:layout_width="match_parent"

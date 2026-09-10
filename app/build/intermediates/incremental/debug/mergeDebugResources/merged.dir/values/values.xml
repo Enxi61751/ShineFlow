@@ -3703,15 +3703,27 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="period_add_temp">Add temperature</string>
     <string name="period_avg_cycle">Average cycle: %1$d days</string>
     <string name="period_avg_length">Average period: %1$d days</string>
+    <string name="period_bbt_title">Basal Body Temperature</string>
+    <string name="period_color_fertile_title">Fertile window color</string>
+    <string name="period_color_ovulation_title">Ovulation color</string>
+    <string name="period_color_period_title">Period color</string>
+    <string name="period_color_predicted_title">Predicted period color</string>
+    <string name="period_custom_date">Custom date</string>
     <string name="period_cycle_day">Cycle day %1$d</string>
+    <string name="period_cycle_tracking">Cycle tracking</string>
     <string name="period_delete">Delete</string>
     <string name="period_edit_record">Edit record</string>
     <string name="period_enable_summary">Show period tracking in the menu and mark cycle days on the calendar</string>
     <string name="period_enable_title">Enable cycle tracking</string>
     <string name="period_end_date">End date (optional)</string>
+    <string name="period_end_period">End period</string>
+    <string name="period_expected_range">Expected: %1$s – %2$s</string>
     <string name="period_fertile">Fertile window</string>
+    <string name="period_fill_mode_summary">Fill entire date cell with period color instead of a top indicator bar</string>
+    <string name="period_fill_mode_title">Full cell fill mode</string>
     <string name="period_flow">Flow</string>
     <string name="period_flow_heavy">Heavy</string>
     <string name="period_flow_light">Light</string>
@@ -3721,6 +3733,7 @@
     <string name="period_in_period">Period day %1$d</string>
     <string name="period_log_end_today">Log period end (today)</string>
     <string name="period_log_start_today">Log period start (today)</string>
+    <string name="period_log_temperature">Log Temperature</string>
     <string name="period_mark_start">Mark period start…</string>
     <string name="period_mood">Mood</string>
     <string name="period_mood_anxious">Anxious</string>
@@ -3732,9 +3745,11 @@
     <string name="period_next_overdue">Period is %1$d days late</string>
     <string name="period_next_today">Period expected today</string>
     <string name="period_no_data">No records yet. Log your period start to begin.</string>
+    <string name="period_no_temperatures">No temperatures recorded yet</string>
     <string name="period_notes">Notes</string>
     <string name="period_ongoing">ongoing</string>
     <string name="period_ovulation">Ovulation day</string>
+    <string name="period_quick_actions">Quick Actions</string>
     <string name="period_reminder_channel">Cycle reminders</string>
     <string name="period_reminder_days_summary">Notify this many days before the predicted period</string>
     <string name="period_reminder_days_title">Remind before period</string>
@@ -3743,6 +3758,7 @@
     <string name="period_reminder_today">Your period is expected today</string>
     <string name="period_save">Save</string>
     <string name="period_start_date">Start date</string>
+    <string name="period_start_period">Start period</string>
     <string name="period_symptom_acne">Acne</string>
     <string name="period_symptom_backache">Backache</string>
     <string name="period_symptom_bloating">Bloating</string>
@@ -3750,6 +3766,11 @@
     <string name="period_symptom_fatigue">Fatigue</string>
     <string name="period_symptom_headache">Headache</string>
     <string name="period_symptoms">Symptoms</string>
+    <string name="period_temperature_date">Date</string>
+    <string name="period_temperature_hint">Temperature (°C)</string>
+    <string name="period_temperature_notes_hint">Notes (optional)</string>
+    <string name="period_time_evening">Evening</string>
+    <string name="period_time_morning">Morning</string>
     <string name="period_title">Cycle</string>
     <string name="pref_theme_default" translatable="false">light</string>
     <string name="preference_copied">
@@ -3950,12 +3971,16 @@
     <string name="tag_default_life">Life</string>
     <string name="tag_default_study">Study</string>
     <string name="tag_default_work">Work</string>
+    <string name="tag_uncategorized">Uncategorized</string>
     <string name="tags_add">Add tag</string>
     <string name="tags_delete">Delete</string>
     <string name="tags_delete_confirm">Delete this tag? It will be removed from all events.</string>
+    <string name="tags_drag_handle">Drag to reorder</string>
     <string name="tags_edit">Edit tag</string>
     <string name="tags_empty">No tags yet. Tap + to add one.</string>
     <string name="tags_filter_all">All</string>
+    <string name="tags_filter_detail_mode">Show in separate list</string>
+    <string name="tags_filter_empty">No events found for selected tags</string>
     <string name="tags_filter_title">Filter by tag</string>
     <string name="tags_label">Tags</string>
     <string name="tags_manage">Manage tags</string>

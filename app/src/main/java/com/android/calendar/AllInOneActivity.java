@@ -60,8 +60,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Gravity;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.ImageButton;
 import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
@@ -1050,31 +1052,96 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
     private void showTagFilterDialog() {
         final com.android.calendar.tags.TagRepository repo =
                 com.android.calendar.tags.TagRepository.get(this);
-        final java.util.List<com.android.calendar.tags.Tag> all = repo.getAll();
+        final java.util.List<com.android.calendar.tags.Tag> all = repo.getAllWithUncategorized(this);
         if (all.isEmpty()) {
             startActivity(new Intent(this, com.android.calendar.tags.TagManagementActivity.class));
             return;
         }
         final java.util.Set<Long> selected = com.android.calendar.tags.TagFilter.get().getSelected();
-        final String[] names = new String[all.size()];
         final boolean[] checked = new boolean[all.size()];
+        final androidx.appcompat.widget.AppCompatCheckBox[] boxes =
+                new androidx.appcompat.widget.AppCompatCheckBox[all.size()];
+
+        int density = (int) getResources().getDisplayMetrics().density;
+        LinearLayout checkboxContainer = new LinearLayout(this);
+        checkboxContainer.setOrientation(LinearLayout.VERTICAL);
         for (int i = 0; i < all.size(); i++) {
-            names[i] = all.get(i).name;
+            boxes[i] = new androidx.appcompat.widget.AppCompatCheckBox(this);
+            boxes[i].setText(all.get(i).name);
             checked[i] = selected.contains(all.get(i).id);
+            boxes[i].setChecked(checked[i]);
+            final int idx = i;
+            boxes[i].setOnCheckedChangeListener((btn, isChecked) -> checked[idx] = isChecked);
+            checkboxContainer.addView(boxes[i]);
         }
+
+        // Switch row
+        View divider = new View(this);
+        divider.setBackgroundColor(0xFFE0E0E0);
+        LinearLayout.LayoutParams dividerLp = new LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT, 1);
+        dividerLp.topMargin = 8 * density;
+        dividerLp.bottomMargin = 8 * density;
+        divider.setLayoutParams(dividerLp);
+        checkboxContainer.addView(divider);
+
+        LinearLayout switchRow = new LinearLayout(this);
+        switchRow.setOrientation(LinearLayout.HORIZONTAL);
+        switchRow.setGravity(Gravity.CENTER_VERTICAL);
+        switchRow.setPadding(0, 4 * density, 0, 4 * density);
+        final androidx.appcompat.widget.SwitchCompat modeSwitch =
+                new androidx.appcompat.widget.SwitchCompat(this);
+        modeSwitch.setText(R.string.tags_filter_detail_mode);
+        modeSwitch.setChecked(
+                com.android.calendar.settings.GeneralPreferences.Companion
+                        .getSharedPreferences(this)
+                        .getBoolean("pref_tag_filter_detail_view", false));
+        switchRow.addView(modeSwitch);
+        checkboxContainer.addView(switchRow);
+
+        ScrollView scrollView = new ScrollView(this);
+        scrollView.addView(checkboxContainer);
+
         new androidx.appcompat.app.AlertDialog.Builder(this)
                 .setTitle(R.string.tags_filter_title)
-                .setMultiChoiceItems(names, checked,
-                        (dialog, which, isChecked) -> checked[which] = isChecked)
+                .setView(scrollView)
                 .setPositiveButton(android.R.string.ok, (dialog, which) -> {
+                    // Remember last-used switch state
+                    com.android.calendar.settings.GeneralPreferences.Companion
+                            .getSharedPreferences(this)
+                            .edit()
+                            .putBoolean("pref_tag_filter_detail_view",
+                                    modeSwitch.isChecked())
+                            .apply();
+
                     java.util.List<Long> ids = new java.util.ArrayList<>();
                     for (int i = 0; i < all.size(); i++) {
                         if (checked[i]) {
                             ids.add(all.get(i).id);
                         }
                     }
-                    com.android.calendar.tags.TagFilter.get().setSelected(ids);
-                    eventsChanged();
+                    if (ids.isEmpty()) {
+                        // No selection: clear filter
+                        com.android.calendar.tags.TagFilter.get().setSelected(null);
+                        eventsChanged();
+                        return;
+                    }
+                    if (modeSwitch.isChecked()) {
+                        // Detail view mode: open separate list
+                        long[] idsArr = new long[ids.size()];
+                        for (int i = 0; i < ids.size(); i++) idsArr[i] = ids.get(i);
+                        Intent intent = new Intent(this,
+                                com.android.calendar.tags.TagFilteredEventsActivity.class);
+                        intent.putExtra("tag_ids", idsArr);
+                        startActivity(intent);
+                    } else {
+                        // Main view mode: filter in calendar
+                        com.android.calendar.tags.TagFilter.get().setSelected(ids);
+                        new Thread(() -> {
+                            com.android.calendar.tags.TagFilter.get().refresh(this);
+                            runOnUiThread(this::eventsChanged);
+                        }).start();
+                    }
                 })
                 .setNeutralButton(R.string.tags_filter_all, (dialog, which) -> {
                     com.android.calendar.tags.TagFilter.get().setSelected(null);
@@ -1082,6 +1149,12 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
                 })
                 .setNegativeButton(android.R.string.cancel, null)
                 .show();
+    }
+
+    private boolean isTagFilterDetailMode() {
+        return com.android.calendar.settings.GeneralPreferences.Companion
+                .getSharedPreferences(this)
+                .getBoolean("pref_tag_filter_detail_view", false);
     }
 
     private void updatePeriodMenuVisibility() {
