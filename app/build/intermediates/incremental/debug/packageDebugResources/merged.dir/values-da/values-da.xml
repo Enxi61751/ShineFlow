@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="availability">
+    <item msgid="454869065893453189">"Optaget"</item>
+    <item msgid="6228387173725732140">"Ledig"</item>
+    <item msgid="2064426942462573474">"Foreløbig"</item>
+  </string-array>
+    <string-array name="backup_country_names">
+    <item msgid="9141777876082196578">"Sint Maarten"</item>
+    <item msgid="5330962017221568054">"Hollandsk Caribien"</item>
+    <item msgid="1465164631761814300">"Curaçao"</item>
+    <item msgid="8972081011408691260">"Sydsudan"</item>
+  </string-array>
+    <string-array name="buttons_list">
+    <item msgid="5917946202321434335">"Dag"</item>
+    <item msgid="6248480754959562740">"Uge"</item>
+    <item msgid="4298472806133153766">"Måned"</item>
+    <item msgid="5033084974413793845">"Dagsorden"</item>
+  </string-array>
+    <string-array name="change_response_labels">
+    <item msgid="3466644709343519437">"Kun denne begivenhed"</item>
+    <item msgid="140670561403965380">"Alle begivenheder i serien"</item>
+  </string-array>
+    <string-array name="delete_repeating_labels">
+    <item msgid="4208432367651646938">"Kun denne begivenhed"</item>
+    <item msgid="1536401639805370405">"Denne og fremtidige begivenheder"</item>
+    <item msgid="7833229563617435430">"Alle begivenheder"</item>
+  </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+    <item msgid="2285927842308686988">"Kun hvis afvist"</item>
+    <item msgid="6367412240524984286">"Hvis afvist eller der ikke reageres"</item>
+  </string-array>
+    <string-array name="preferences_week_start_day_labels">
+    <item msgid="986150274035512339">"Landestandard"</item>
+    <item msgid="134027225275475280">"lørdag"</item>
+    <item msgid="95029346069903091">"søndag"</item>
+    <item msgid="5840983116375063739">"mandag"</item>
+  </string-array>
+    <string-array name="quick_response_defaults">
+        <item msgid="1524421198348168403">"Er kun et par minutter forsinket."</item>
+        <item msgid="6215158751728689832">"Er der om ca. 10 minutter."</item>
+        <item msgid="4485794001743679338">"Gå bare i gang uden mig."</item>
+        <item msgid="8036557974294987511">"Jeg kan desværre ikke nå det. Vi bliver nødt til at lave en ny aftale."</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+    <item msgid="3388478383574917007">"GENTAG DAGLIGT"</item>
+    <item msgid="6300824484048337842">"GENTAG UGENTLIGT"</item>
+    <item msgid="189361731610816256">"GENTAG MÅNEDLIGT"</item>
+    <item msgid="8714177874112569158">"GENTAG ÅRLIGT"</item>
+  </string-array>
+    <string-array name="reminder_methods_labels">
+    <item msgid="5172236776878811487">"Meddelelse"</item>
+    <item msgid="1751151680520784746">"E-mail"</item>
+    <item msgid="2658001219380695677">"Sms"</item>
+    <item msgid="7926918288165444873">"Påmindelse"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_fri">
+    <item msgid="6534500380525126157">"hver første fredag i måneden"</item>
+    <item msgid="1935608297230506940">"hver anden fredag"</item>
+    <item msgid="4061877662049317599">"hver tredje fredag"</item>
+    <item msgid="6856646749131820614">"hver fjerde fredag"</item>
+    <item msgid="6533513913914859794">"hver sidste fredag i måneden"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_mon">
+    <item msgid="7539974918997689048">"hver første mandag i måneden"</item>
+    <item msgid="4484275849072423978">"hver anden mandag"</item>
+    <item msgid="8956169860824371383">"hver tredje mandag"</item>
+    <item msgid="6924403357659569326">"hver fjerde mandag"</item>
+    <item msgid="1379608815263472161">"hver sidste mandag i måneden"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sat">
+    <item msgid="3556369572649948699">"hver første lørdag i måneden"</item>
+    <item msgid="9130198690512925355">"hver anden lørdag"</item>
+    <item msgid="4525736070844032405">"hver tredje lørdag"</item>
+    <item msgid="422053689531707709">"hver fjerde lørdag"</item>
+    <item msgid="5499975799312474425">"hver sidste lørdag i måneden"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sun">
+    <item msgid="143841313172233420">"hver første søndag i måneden"</item>
+    <item msgid="2557379346106451363">"hver anden søndag"</item>
+    <item msgid="7622144489915654132">"hver tredje søndag"</item>
+    <item msgid="527152448137686021">"hver fjerde søndag"</item>
+    <item msgid="5057483608824759350">"hver sidste søndag i måneden"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_thurs">
+    <item msgid="920673677566009313">"hver første torsdag i måneden"</item>
+    <item msgid="4857419136007543270">"hver anden torsdag"</item>
+    <item msgid="222044587450564839">"hver tredje torsdag"</item>
+    <item msgid="6197927556533030945">"hver fjerde torsdag"</item>
+    <item msgid="1023326923033436905">"hver sidste torsdag i måneden"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_tues">
+    <item msgid="8690802834039790777">"hver første tirsdag i måneden"</item>
+    <item msgid="9063613547307760928">"hver anden tirsdag"</item>
+    <item msgid="6688603328729208168">"hver tredje tirsdag"</item>
+    <item msgid="6695206006961533357">"hver fjerde tirsdag"</item>
+    <item msgid="8619069174889809914">"hver sidste tirsdag i måneden"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_wed">
+    <item msgid="3233850232075584386">"hver første onsdag i måneden"</item>
+    <item msgid="5059722045367799217">"hver anden onsdag"</item>
+    <item msgid="7986246648229272275">"hver tredje onsdag"</item>
+    <item msgid="9068566169348980801">"hver fjerde onsdag"</item>
+    <item msgid="7976866743069062134">"hver sidste onsdag i måneden"</item>
+  </string-array>
+    <string-array name="response_labels1">
+    <item msgid="5605392595848194997">"Intet svar"</item>
+    <item msgid="3724434080904437698">"Ja"</item>
+    <item msgid="8854145743148992583">"Måske"</item>
+    <item msgid="6174292185978948873">"Nej"</item>
+  </string-array>
+    <string-array name="timezone_rename_labels">
+    <item msgid="4609638052107641231">"Australsk centraltid – NT"</item>
+    <item msgid="4345275500159159867">"Australsk centraltid – SA"</item>
+    <item msgid="6771274300523132094">"Australsk tid (øst) – QLD"</item>
+    <item msgid="4685547681424666687">"Australsk tid (øst) – NSW"</item>
+    <item msgid="5259393186526893961">"Mountain-normaltid – Dawson Creek"</item>
+    <item msgid="5984634754870859705">"Normaltid (central) – Saskatchewan"</item>
+    <item msgid="5340374311583423836">"Normaltid (øst) – Atikokan"</item>
+    <item msgid="8922086438245451625">"Atlantic-normaltid – Quebec"</item>
+    <item msgid="8353677384517034413">"Hawaii-Aleutian – Hawaii"</item>
+    <item msgid="6426791761018806420">"Hawaii-Aleutian – Alaska"</item>
+    <item msgid="7076353182411415610">"Pacific-normaltid – Metlakatla"</item>
+    <item msgid="373990592918179890">"Mountain-normaltid –- Arizona"</item>
+    <item msgid="353899326999279114">"Pacific – Baja California"</item>
+    <item msgid="6432134534714673873">"Mountain – Chihuahua"</item>
+    <item msgid="7629345735485663968">"Centraltid – Tamaulipas"</item>
+    <item msgid="3874729044260979505">"Mountain – Sonora"</item>
+    <item msgid="1106209575683600471">"Østafrikansk tid"</item>
+    <item msgid="6538017087072480128">"Atlantic-normaltid"</item>
+    <item msgid="6758957851822881177">"Atlantic-normaltid"</item>
+    <item msgid="2477556470536619081">"Østeuropæisk tid"</item>
+    <item msgid="7328461310893621937">"Kaliningrad-tid"</item>
+    <item msgid="4212642599758736931">"Amazona – Rondônia"</item>
+    <item msgid="2370319280810537375">"Brasilia – Pará"</item>
+  </string-array>
+    <plurals name="N_remaining_events">
+        <item quantity="one">+1 begivenhed</item>
+        <item quantity="other">+<ns1:g id="count">%d</ns1:g> begivenheder</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item msgid="5988137255732166573" quantity="one">"1 dag"</item>
+        <item msgid="1709378992389618261" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> dage"</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="one">1 begivenhed</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> begivenheder</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">1 time</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> timer</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">1 minut</item>
+        <item quantity="other"><ns1:g id="COUNT">%d</ns1:g> minutter</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item msgid="4871052965772159239" quantity="one">"1 minut"</item>
+        <item msgid="5644461630927544936" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> minutter"</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 uge</item>
+        <item quantity="other">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"count\"> uger</item>
+    </plurals>
+    <plurals name="daily">
+        <item msgid="5169052946627480942" quantity="one">"Dagligt"</item>
+        <item msgid="5455230727715859264" quantity="other">"Hver <ns1:g id="NUMBER">%d</ns1:g>. dag"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item msgid="3727754565990691816" quantity="one">", én gang"</item>
+        <item msgid="4855496837834652446" quantity="other">", <ns1:g id="NUMBER">%d</ns1:g> gange"</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="one">+1</item>
+        <item quantity="other">+<ns1:g id="number">%d</ns1:g></item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item msgid="1400782968090516215" quantity="one">"For <ns1:g id="EVENT_COUNT">%d</ns1:g> begivenhed"</item>
+        <item msgid="8779598489398048259" quantity="other">"For <ns1:g id="EVENT_COUNT">%d</ns1:g> begivenheder"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Hver <ns1:g id="count">%d</ns1:g> dag</item>
+        <item quantity="other">Hver <ns1:g id="count">%d</ns1:g> dage</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Hver <ns1:g id="count">%d</ns1:g> måned</item>
+        <item quantity="other">Hver <ns1:g id="count">%d</ns1:g> måneder</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Hver <ns1:g id="count">%d</ns1:g> uge</item>
+        <item quantity="other">Hver <ns1:g id="count">%d</ns1:g> uger</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Hver <ns1:g id="count">%d</ns1:g> år</item>
+        <item quantity="other">Hver <ns1:g id="count">%d</ns1:g> år</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one">Uge <ns1:g id="COUNT">%d</ns1:g></item>
+        <item quantity="other"/>
+    </plurals>
+    <plurals name="weekly">
+        <item msgid="5463021019301453273" quantity="one">"Ugentligt om <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item msgid="2857390143157377867" quantity="other">"Hver <ns1:g id="NUMBER">%1$d</ns1:g>. uge om <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"Der er ingen tilgængelige forslag"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"Forslag til kontakter åbnet"</string>
+    <string msgid="5654014177472600916" name="accessibility_add_attendee">"Tilføj deltager"</string>
+    <string msgid="2267950744060950152" name="accessibility_add_reminder">"Tilføj påmindelse"</string>
+    <string msgid="4146955438811915282" name="accessibility_all_day">"Heldagsbegivenhed"</string>
+    <string msgid="5624250196618643922" name="accessibility_pick_end_date">"Slutdato"</string>
+    <string msgid="7120310166355224941" name="accessibility_pick_end_time">"Sluttidspunkt"</string>
+    <string msgid="1834311617874828931" name="accessibility_pick_recurrence">"Gentag begivenhed"</string>
+    <string msgid="3926641487042699037" name="accessibility_pick_start_date">"Startdato"</string>
+    <string msgid="4913428100936555149" name="accessibility_pick_start_time">"Starttidspunkt"</string>
+    <string msgid="7155465783500323811" name="accessibility_pick_time_zone">"Tidszone"</string>
+    <string msgid="8669288484484022771" name="accessibility_reminder_privacy">"Fortrolighed"</string>
+    <string msgid="6669129015980006570" name="accessibility_reminder_showmeas">"Vis mig som"</string>
+    <string msgid="3594100545814579575" name="accessibility_reminder_time">"Tidspunkt for påmindelse"</string>
+    <string msgid="5339120699701437227" name="accessibility_reminder_type">"Påmindelsestype"</string>
+    <string msgid="7082751172654698863" name="accessibility_remove_attendee">"Fjern deltager"</string>
+    <string msgid="5261609343259665139" name="accessibility_remove_reminder">"Fjern påmindelse"</string>
+    <string msgid="5899029840837836711" name="acessibility_recurrence_choose_end_date_description">"skift slutdato"</string>
+    <string msgid="3010149843148810768" name="acessibility_selected_marker_description">"Valgt begivenhed"</string>
+    <string msgid="7172664623795021857" name="action_label">"Tilbage"</string>
+    <string name="after_start_of_event">after start of event</string>
+    <string msgid="5965841338467422191" name="agenda_today">"I dag, <ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="3893625470780723605" name="agenda_tomorrow">"I morgen, <ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="5566084759423843245" name="agenda_view">"Agenda"</string>
+    <string msgid="4170964206728599693" name="agenda_yesterday">"I går, <ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="7869592820853066853" name="alert_title">"Meddelelser fra Kalender"</string>
+    <string name="app_copyright">© 2015-<ns1:g>%1$s</ns1:g> Etar Projektet. Portions © 2005-<ns1:g>%1$s</ns1:g> The Android Open Source Project.</string>
+    <string msgid="5452708708398908131" name="app_label">"Kalender"</string>
+    <string name="authors">Forfattere</string>
+    <string name="cal_export_event_sdcard_title">Eksportere til SD kort</string>
+    <string name="cal_export_succ_msg">Begivenhed eksportéret: %1$s</string>
+    <string name="cal_import_error_msg">Importering til kalender mislykkedes</string>
+    <string name="cal_import_menu_title">Importere begivenhed</string>
+    <string name="cal_nothing_to_import">Intet at importere</string>
+    <string name="cal_pick_ics">Vælg fil til import</string>
+    <string name="cal_share_intent_title">Send begivenhed til:</string>
+    <string msgid="3595509200561433667" name="calendar_color_picker_dialog_title">"Kalenderfarve"</string>
+    <string name="calendar_permission_not_granted">Denne funktion kan ikke fungere. Etar kræver kalender læse- og skrivetilladelse for at fungere korrekt</string>
+    <string msgid="6172731193680500025" name="calendar_refresh">"Opdater"</string>
+    <string msgid="7430468363525563483" name="calendar_square_color_picker_description">"Farvevælger"</string>
+    <string msgid="2960328220008869083" name="call_label">"Ring op"</string>
+    <string msgid="7704714776070974984" name="change_response_title">"Skift svar"</string>
+    <string name="changelog">Ændringslog</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"Annuller"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"Kopiér"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"Tillad forslag til kontakter"</string>
+    <string msgid="2192923501857428854" name="choose_event_color_label">"Vælg begivenhedsfarve"</string>
+    <string msgid="437691290566699292" name="copy_db">"Send database"</string>
+    <string msgid="1084563757174121331" name="copy_email">"Kopiér mailadressen"</string>
+    <string msgid="8860802152973030914" name="copy_number">"Kopiér telefonnummeret"</string>
+    <string msgid="1080859798521717414" name="create_event_dialog_save">"Gem"</string>
+    <string msgid="7516249252554059980" name="creating_event">"Begivenheden er oprettet."</string>
+    <string msgid="5758688413124191931" name="creating_event_with_guest">"Invitationer vil blive sendt."</string>
+    <string msgid="4137468716966004993" name="custom" product="default">"Tilpasset (kan ikke tilpasses på telefon)"</string>
+    <string msgid="1642972650061946484" name="date_time_fmt"><ns1:g id="date">%1$s</ns1:g>, <ns1:g id="time_interval">%2$s</ns1:g></string>
+    <string msgid="4467754504843584437" name="day_view">"Dag"</string>
+    <string msgid="2131483437911536229" name="day_view_new_event_hint">"+ Ny begivenhed"</string>
+    <string name="default_start_last">Tidligere brugt visning</string>
+    <string name="default_start_title">Standard visning</string>
+    <string msgid="874742811918030739" name="delete_label">"Slet"</string>
+    <string msgid="5609046778422180206" name="delete_recurring_event_title">"Vil du slette <ns1:g id="EVENTTITLE">%s</ns1:g>?"</string>
+    <string msgid="518402946676919384" name="delete_this_event_title">"Vil du slette denne begivenhed?"</string>
+    <string msgid="1232037509095606687" name="directory_searching_fmt">"Søger efter <ns1:g id="DOMAIN">%s</ns1:g>…"</string>
+    <string msgid="2394623883289782541" name="discard_label">"Annuller"</string>
+    <string msgid="1834400025868091301" name="dismiss_all_label">"Annuller alle"</string>
+    <string name="display_location">Vis placering</string>
+    <string name="display_options">Vis indstillinger</string>
+    <string name="display_time">Vis tidspunkt</string>
+    <string msgid="1877681921029738999" name="does_not_repeat">"Én gang"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"Fjern <ns1:g id="CONTACT">%s</ns1:g> fra modtagere"</string>
+    <string msgid="6200181113992136073" name="edit_event_all_day_label">"Hele dagen"</string>
+    <string msgid="4556498359505856900" name="edit_event_calendar_label">"Kalender"</string>
+    <string msgid="7413222956349977161" name="edit_event_label">"Detaljer"</string>
+    <string msgid="8934331258435656534" name="edit_label">"Rediger"</string>
+    <string msgid="8772030932155305903" name="email_guests_label">"Send e-mail til gæster"</string>
+    <string msgid="7178059542798074813" name="email_organizer_label">"Send e-mail til arrangøren"</string>
+    <string msgid="4808253965057791781" name="email_picker_label">"Send e-mail til"</string>
+    <string msgid="9018699257414338634" name="empty_event">"Tom begivenhed ikke oprettet."</string>
+    <string msgid="7654221304929538201" name="endByDate">", indtil den <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string msgid="4631938661655159511" name="event_color_picker_dialog_title">"Begivenhedsfarve"</string>
+    <string msgid="3447218820785647967" name="event_color_set_to_default">"Indstil som standardkalenderfarve"</string>
+    <string msgid="6941040556709110617" name="event_create">"Ny begivenhed"</string>
+    <string msgid="2386667193277770442" name="event_delete">"Slet begivenhed"</string>
+    <string msgid="4006961928830064662" name="event_edit">"Rediger begivenhed"</string>
+    <string msgid="9138683335394832629" name="event_info_organizer">"Organisator:"</string>
+    <string msgid="8913097552956388972" name="event_info_reminders_label">"Påmindelser"</string>
+    <string msgid="56024222340421620" name="event_info_title">"Vis begivenhed"</string>
+    <string msgid="9160326363769403865" name="event_info_title_invite">"Mødeinvitation"</string>
+    <string msgid="8356864185947582727" name="event_not_found">"Begivenheden blev ikke fundet."</string>
+    <string msgid="7621353079385122317" name="event_view">"Vis begivenhed"</string>
+    <string msgid="5896574838353902978" name="every_weekday">"Hverdage (man.-fre.)"</string>
+    <string name="fifteen_minutes">15 minutter</string>
+    <string name="five_days">5 dage</string>
+    <string name="foreground_notification_channel_name">Alarm synkronisering</string>
+    <string name="foreground_notification_title">Planlægger nye påmindelser…</string>
+    <string name="four_days">4 dage</string>
+    <string msgid="5209110911088302855" name="gadget_no_events">"Ingen kommende kalenderbegivenheder"</string>
+    <string name="goto_date">Gå til…</string>
+    <string msgid="9162136434410891230" name="goto_today">"I dag"</string>
+    <string msgid="830320505938520882" name="hide_controls">"Skjul knapper"</string>
+    <string msgid="1650488163176888480" name="hint_attendees">"Gæster"</string>
+    <string msgid="1910143586169033232" name="hint_description">"Beskrivelse"</string>
+    <string msgid="804776560897143016" name="hint_time_zone_search">"Angiv landenavn"</string>
+    <string msgid="709155115005044531" name="hint_what">"Begivenhedens navn"</string>
+    <string msgid="4972598001033801974" name="hint_where">"Placering"</string>
+    <string name="license">Licens</string>
+    <string msgid="3772533493214331230" name="loading">Indlæser…</string>
+    <string msgid="8795383535586556038" name="map_label">"Kort"</string>
+    <string name="maximum_number_of_lines">Maksimum antal linjer i begivenhed</string>
+    <string msgid="9120238479503233925" name="menu_preferences">"Indstillinger"</string>
+    <string msgid="4421657265864209041" name="modify_all">"Rediger alle begivenheder i rækken"</string>
+    <string msgid="3017428541066390380" name="modify_all_following">Ændre denne og alle fremtidige begivenheder</string>
+    <string msgid="5982876409997142690" name="modify_event">"Rediger kun denne begivenhed"</string>
+    <string msgid="7287101431749285412" name="month_view">"Måned"</string>
+    <string msgid="4587116285383048586" name="monthly">"Månedligt"</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g>"</string>
+    <string msgid="7553105224561147916" name="new_event_dialog_label">"Ny begivenhed"</string>
+    <string msgid="6154657379574669371" name="new_event_dialog_option">"Ny begivenhed"</string>
+    <string name="no_map">Intet kort program installeret</string>
+    <string name="no_reminder_label">Ingen</string>
+    <string msgid="5475293015394772651" name="no_results_found">"Der blev ikke fundet nogen resultater"</string>
+    <string msgid="7019488867045436129" name="no_syncable_calendars">"Der er ingen kalendere"</string>
+    <string msgid="302177118061368042" name="no_title_label">"(Ingen titel)"</string>
+    <string name="offline_account_name">Offlinekalender</string>
+    <string name="one_and_a_half_hours">1,5 timer</string>
+    <string name="one_hour">1 time</string>
+    <string msgid="3485026339977302148" name="palestine_display_name">"Palæstina"</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Brug altid standard-udsættelsen</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Spørg efter udsættelse ved hver påmindelse</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Spørg efter udsættelse ved påmindelse</string>
+    <string msgid="6643468203670475296" name="preferences_alerts_popup_title">"Pop op-underretning"</string>
+    <string msgid="1849706055052358346" name="preferences_alerts_ringtone_title">"Lyd"</string>
+    <string msgid="6636088008103904020" name="preferences_alerts_title">"Underretninger"</string>
+    <string msgid="8731372580674292759" name="preferences_alerts_vibrateWhen_title">"Vibration"</string>
+    <string name="preferences_black_theme">Sort</string>
+    <string msgid="8242471883413502068" name="preferences_build_version">"Version"</string>
+    <string name="preferences_calendar_account">%1$s konto</string>
+    <string name="preferences_calendar_account_local">Offline kalender</string>
+    <string name="preferences_calendar_color">Farve</string>
+    <string name="preferences_calendar_color_warning_button">Jeg forstår</string>
+    <string name="preferences_calendar_color_warning_title">Advarsel</string>
+    <string name="preferences_calendar_configure_account">Indstille kalender i %1$s</string>
+    <string name="preferences_calendar_delete">Slette kalender</string>
+    <string name="preferences_calendar_delete_cancel">Annuller</string>
+    <string name="preferences_calendar_delete_delete">Slet kalender</string>
+    <string name="preferences_calendar_delete_message">Vil du virkelig slette denne kalender\?</string>
+    <string name="preferences_calendar_display_name">Ændre navn</string>
+    <string name="preferences_calendar_info_category">Kalendar information</string>
+    <string name="preferences_calendar_no_display_name">Unavngivet kalender</string>
+    <string name="preferences_calendar_number_of_events">%1$d begivenheder</string>
+    <string name="preferences_calendar_synchronize">Synkronisere kalender</string>
+    <string name="preferences_calendar_visible">Vis begivenheder</string>
+    <string msgid="7864674093455778158" name="preferences_clear_search_history_summary">"Fjern alle foretagne søgninger"</string>
+    <string msgid="6619916370215282982" name="preferences_clear_search_history_title">"Ryd søgehistorik"</string>
+    <string name="preferences_color">Primær farve</string>
+    <string name="preferences_color_pick">Primær farve</string>
+    <string name="preferences_dark_theme">Mørk</string>
+    <string name="preferences_days_per_week_dialog">Dage pr. uge</string>
+    <string name="preferences_days_per_week_title">Dage pr. uge</string>
+    <string name="preferences_default_event_duration_title">Standard begivenhed varighed</string>
+    <string msgid="2903884416749959435" name="preferences_default_reminder_default">"10"</string>
+    <string msgid="2490348857239323412" name="preferences_default_reminder_dialog">"Standard påmindelsestid"</string>
+    <string msgid="5188861433342733905" name="preferences_default_reminder_title">"Standard påmindelsestid"</string>
+    <string name="preferences_default_snooze_delay_dialog">Standard-udsættelse</string>
+    <string name="preferences_default_snooze_delay_title">Tid for standard-udsættelse</string>
+    <string msgid="8111213192001230350" name="preferences_experimental_category">"Eksperimenterende"</string>
+    <string msgid="2069075513760573117" name="preferences_general_title">"Indstillinger for kalendervisning"</string>
+    <string msgid="1849295943669890034" name="preferences_hide_declined_title">"Skjul afviste begivenheder"</string>
+    <string msgid="6680000444088818578" name="preferences_home_tz_title">"Egen tidszone"</string>
+    <string name="preferences_issues">Rapporter problemer</string>
+    <string name="preferences_light_theme">Lys</string>
+    <string name="preferences_list_add_offline">Tilføj offlinekalender</string>
+    <string name="preferences_list_add_offline_button">Tilføj kalender</string>
+    <string name="preferences_list_add_offline_cancel">Annuller</string>
+    <string name="preferences_list_add_offline_error_empty">Indtast kalendernavn!</string>
+    <string name="preferences_list_add_offline_name">Navn</string>
+    <string name="preferences_list_add_offline_title">Tilføj offlinekalender</string>
+    <string name="preferences_list_calendar_summary_invisible">Begivenheder vises ikke</string>
+    <string name="preferences_list_calendar_summary_sync_off">Ikke synkroniseret</string>
+    <string name="preferences_list_general">Generel opsætning</string>
+    <string name="preferences_menu_about">Om Etar</string>
+    <string name="preferences_month_view_landscape">Måneds visning udseende (liggende)</string>
+    <string name="preferences_month_view_portrait">Måneds visning udseende (stående)</string>
+    <string msgid="5199606534191180129" name="preferences_reminder_title">"Underretninger og påmindelser"</string>
+    <string msgid="1873289128793828352" name="preferences_reminders_responded_dialog">"Spring påmindelser over"</string>
+    <string msgid="1196570678238475838" name="preferences_reminders_responded_label">"Spring påmindelser over"</string>
+    <string msgid="5280734329664503461" name="preferences_show_week_num_title">"Vis ugenummer"</string>
+    <string name="preferences_system_theme">Systemstandard</string>
+    <string name="preferences_theme">Tema</string>
+    <string msgid="8045855493262131773" name="preferences_title">"Indstillinger"</string>
+    <string msgid="4835375381297413746" name="preferences_use_home_tz_descrip">"Viser kalenderbegivenheder i din tidszone, når du rejser"</string>
+    <string msgid="5597546849968598210" name="preferences_use_home_tz_title">"Brug egen tidszone"</string>
+    <string msgid="5181634128884089113" name="preferences_week_start_day_dialog">"Ugen starter"</string>
+    <string msgid="4619489296444901622" name="preferences_week_start_day_title">"Ugen starter"</string>
+    <string msgid="6169724148441175862" name="presence_label">"Vis mig som"</string>
+    <string msgid="9215031965259597335" name="privacy_label">"Fortrolighed"</string>
+    <string msgid="8792374208224108798" name="quick_response_custom_msg">"Skriv dit eget…"</string>
+    <string msgid="2681309456412199207" name="quick_response_dialog_title">"Vælg hurtigt svar"</string>
+    <string msgid="5544066405231853245" name="quick_response_email_failed">"E-mailprogrammet kunne ikke findes"</string>
+    <string msgid="6776151690686068278" name="quick_response_settings">"Hurtige svar"</string>
+    <string msgid="6260055523174081930" name="quick_response_settings_edit_title">"Hurtigt svar"</string>
+    <string msgid="7878304729027355604" name="quick_response_settings_summary">"Rediger standardsvar, der kan sendes til gæster"</string>
+    <string msgid="6898950241634912991" name="recurrence_end_continously">"For altid"</string>
+    <string msgid="1233883668293087977" name="recurrence_end_count_label">"Et antal gange"</string>
+    <string msgid="3693751578164711701" name="recurrence_end_date">"Indtil <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string msgid="4142791438636994952" name="recurrence_end_date_label">"Frem til en bestemt dato"</string>
+    <string msgid="4400107556121003459" name="recurrence_month_pattern_by_day">"samme dag hver måned"</string>
+    <string msgid="7292389181815525676" name="reminders_label">"Tilføj påmindelse"</string>
+    <string msgid="7791500973627841695" name="response_maybe">"Måske"</string>
+    <string msgid="561911691884148136" name="response_no">"Nej"</string>
+    <string msgid="2027484304899988350" name="response_yes">"Ja"</string>
+    <string name="rsvp_accepted">Svarede ja.</string>
+    <string name="rsvp_declined">Svarede nej.</string>
+    <string name="rsvp_tentative">Svarede måske.</string>
+    <string msgid="2133599104834432589" name="save_label">"Gem"</string>
+    <string msgid="7694181017411177226" name="saving_event">"Begivenheden er gemt."</string>
+    <string msgid="9184584438475689577" name="saving_event_with_guest">"Opdateringer vil blive sendt."</string>
+    <string msgid="550656004486017426" name="search">"Søg"</string>
+    <string msgid="1536707558435227567" name="search_history_cleared">"Søgeoversigten er ryddet."</string>
+    <string msgid="8898015280250716254" name="search_title">"Søg i mine kalendere"</string>
+    <string msgid="1603860069305867810" name="searchview_description_clear">"Ryd forespørgslen"</string>
+    <string msgid="8890542984949996251" name="select_synced_calendars_button">"Kalendere til synkronisering"</string>
+    <string name="seven_days">7 dage</string>
+    <string name="share_label">Del</string>
+    <string msgid="715520586028062621" name="show_controls">"Vis knapper"</string>
+    <string msgid="5782512782605466016" name="show_day_view">"Vis dag"</string>
+    <string msgid="2604638815440163080" name="show_newer_events">"Tryk for at få vist begivenheder efter <ns1:g id="NEWEST_SEARCH_RANGE">%1$s</ns1:g>"</string>
+    <string msgid="5140647493681439926" name="show_older_events">"Tryk for at få vist begivenheder før <ns1:g id="OLDEST_SEARCH_RANGE">%1$s</ns1:g>"</string>
+    <string name="show_time_no">Hvis ikke tidspunkt</string>
+    <string name="show_time_start">Kun start tidspunkt</string>
+    <string name="show_time_start_end">Start og slut tidspunkt</string>
+    <string name="show_time_start_end_below">Start og slut tidspunkt under begivenheden</string>
+    <string name="six_days">6 dage</string>
+    <string name="snooze_delay_dialog_title">Sæt udsættelse</string>
+    <string msgid="1515893621063224666" name="snooze_label">"Udskyd"</string>
+    <string name="source_code">Kilde</string>
+    <string msgid="4067877800670753110" name="template_announce_item_index">"Begivenhed <ns1:g id="ITEM_INDEX">%1$s</ns1:g> ud af <ns1:g id="ITEM_COUNT">%2$s</ns1:g>."</string>
+    <string name="thirty_minutes">30 minutter</string>
+    <string name="three_days">3 dage</string>
+    <string msgid="8577375020252453006" name="today">"I dag"</string>
+    <string msgid="1981279213130049736" name="today_at_time_fmt">"I dag kl. <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string msgid="614434811813859237" name="tomorrow">"I morgen"</string>
+    <string msgid="1330779112841767432" name="tomorrow_at_time_fmt">"I morgen kl. <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string name="two_days">2 dage</string>
+    <string name="two_hours">2 timer</string>
+    <string name="user_rejected_calendar_write_permission">Etar kræver kalender læse- og skrivetilladelse for at fungere korrekt. Prøv igen.</string>
+    <string msgid="6126231656338241140" name="view_event_calendar_label">"Kalender:"</string>
+    <string msgid="2753151795647402277" name="view_event_organizer_label">"Organisator:"</string>
+    <string msgid="8382281658458798329" name="view_event_response_label">"Deltager?"</string>
+    <string name="view_settings">Vis indstillinger</string>
+    <string name="visibility_confidential">Fortrolig</string>
+    <string name="visibility_default">Standard</string>
+    <string name="visibility_private">Privat</string>
+    <string name="visibility_public">Offentlig</string>
+    <string msgid="6775043022159508060" name="week_view">"Uge"</string>
+    <string msgid="894636567327261599" name="when_label">"Hvornår"</string>
+    <string msgid="3652692085322162449" name="yearly_plain">"Årligt"</string>
+    <string name="zero_minutes">0 minutter</string>
+</resources>

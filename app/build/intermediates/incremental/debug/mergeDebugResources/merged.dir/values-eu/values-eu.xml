@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <string-array name="backup_country_names">
+    <item msgid="9141777876082196578">"Sint Maarten"</item>
+    <item msgid="5330962017221568054">"Karibeko Herbehereak"</item>
+    <item msgid="1465164631761814300">"Curaçao"</item>
+    <item msgid="8972081011408691260">"Hego Sudan"</item>
+  </string-array>
+    <string-array name="timezone_rename_labels">
+    <item msgid="4609638052107641231">"Australia erdialdekoa - NT"</item>
+    <item msgid="4345275500159159867">"Australia erdialdekoa - SA"</item>
+    <item msgid="6771274300523132094">"Australia ekialdekoa - QLD"</item>
+    <item msgid="4685547681424666687">"Australia ekialdekoa - NSW"</item>
+    <item msgid="5259393186526893961">"Mendialdeko estandarra - Dawson Creek"</item>
+    <item msgid="5984634754870859705">"Erdialdeko estandarra - Saskatchewan"</item>
+    <item msgid="5340374311583423836">"Ekialdeko estandarra - Atikokan"</item>
+    <item msgid="8922086438245451625">"Atlantikoko estandarra - Quebec"</item>
+    <item msgid="8353677384517034413">"Hawaii-Aleutiarrak - Hawaii"</item>
+    <item msgid="6426791761018806420">"Hawaii-Aleutiarrak - Alaska"</item>
+    <item msgid="7076353182411415610">"Pazifikoko estandarra - Metlakatla"</item>
+    <item msgid="373990592918179890">"Mendialdeko estandarra - Arizona"</item>
+    <item msgid="353899326999279114">"Pazifikokoa - Hego Kalifornia"</item>
+    <item msgid="6432134534714673873">"Mendialdekoa - Chihuahua"</item>
+    <item msgid="7629345735485663968">"Erdialdekoa - Tamaulipas"</item>
+    <item msgid="3874729044260979505">"Mendialdekoa - Sonora"</item>
+    <item msgid="1106209575683600471">"Afrika ekialdeko ordua"</item>
+    <item msgid="6538017087072480128">"Atlantikoko ordu estandarra"</item>
+    <item msgid="6758957851822881177">"Atlantikoko ordu estandarra"</item>
+    <item msgid="2477556470536619081">"Europa ekialdeko ordua"</item>
+    <item msgid="7328461310893621937">"Kaliningradeko ordua"</item>
+    <item msgid="4212642599758736931">"Amazonia - Rondônia"</item>
+    <item msgid="2370319280810537375">"Brasilia - Pará"</item>
+  </string-array>
+    <plurals name="N_remaining_events">
+        <item quantity="one">+ gertaera 1</item>
+        <item quantity="other">+<ns1:g id="count">%d</ns1:g> gertaera</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one">Egun 1</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> egun</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="one">Gertaera 1</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> gertaera</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">Ordu 1</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> ordu</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">Min 1</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> min</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="one">Minutu 1</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> minutu</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">Aste 1</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> aste</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">Egunero</item>
+        <item quantity="other"><ns1:g id="number">%d</ns1:g> egunero</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; aldi baterako</item>
+        <item quantity="other">; <ns1:g id="number">%d</ns1:g> aldietarako</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="one">+1</item>
+        <item quantity="other">+<ns1:g id="number">%d</ns1:g></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d jakinarazpen berri</item>
+    <item quantity="other">%d jakinarazpen berri</item>
+  </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one"><ns1:g id="event_count">%d</ns1:g> gertaerarentzat</item>
+        <item quantity="other"><ns1:g id="event_count">%d</ns1:g> gertaerentzat</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Egunero</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> egunetik behin</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Hilabetero</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> hilabeterik behin</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Astero</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> asterik behik</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Urtero</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> urterik behin</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one"><ns1:g id="count">%d</ns1:g>. astea</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g>. astea</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Astero <ns1:g id="days_of_week">%2$s</ns1:g>(e)tan</item>
+        <item quantity="other"><ns1:g id="number">%1$d</ns1:g> astero <ns1:g id="days_of_week">%2$s</ns1:g>(e)tan</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Joan orri nagusira"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Joan gora"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Aukera gehiago"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Eginda"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ikusi guztiak"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Aukeratu aplikazio bat"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESAKTIBATU"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AKTIBATU"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ktrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"ezabatu"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"sartu"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funtzioa +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Maius +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"zuriunea"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menua +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Bilatu…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Garbitu kontsulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Bilaketa-kontsulta"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Bilatu"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Bidali kontsulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Ahozko bilaketa"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Partekatu honekin"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Partekatu <ns1:g id="APPLICATION_NAME">%s</ns1:g> aplikazioarekin"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Tolestu"</string>
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"Ez dago iradokizunik erabilgarri"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"Kontaktuen iradokizunak ireki dira"</string>
+    <string name="accessibility_add_attendee">Gehitu parte-hartzailea</string>
+    <string name="accessibility_add_reminder">Gehitu abisua</string>
+    <string name="accessibility_all_day">Egun osoko gertaera</string>
+    <string name="accessibility_pick_end_date">Bukaera data</string>
+    <string name="accessibility_pick_end_time">Bukaera data</string>
+    <string name="accessibility_pick_recurrence">Errepikatu gertaera</string>
+    <string name="accessibility_pick_start_date">Hasiera data</string>
+    <string name="accessibility_pick_start_time">Hasiera data</string>
+    <string name="accessibility_pick_time_zone">Ordu-zona</string>
+    <string name="accessibility_reminder_privacy">Pribatutasuna</string>
+    <string name="accessibility_reminder_showmeas">Erakutsi honela</string>
+    <string name="accessibility_reminder_time">Errepikapen ordua</string>
+    <string name="accessibility_reminder_type">Errepikapen mota</string>
+    <string name="accessibility_remove_attendee">Ezabatu parte-hartzailea</string>
+    <string name="accessibility_remove_reminder">Ezabatu abisua</string>
+    <string name="acessibility_recurrence_choose_end_date_description">aldatu bukera data</string>
+    <string name="acessibility_selected_marker_description">Aukeratutako gertaera</string>
+    <string msgid="7172664623795021857" name="action_label">"Itzuli"</string>
+    <string name="after_start_of_event">gertaera hasi ostean</string>
+    <string name="agenda_today">Gaur, <ns1:g id="date">%1$s</ns1:g></string>
+    <string name="agenda_tomorrow">Bihar, <ns1:g id="date">%1$s</ns1:g></string>
+    <string name="agenda_view">Ordutegia</string>
+    <string name="agenda_yesterday">Atzo, <ns1:g id="date">%1$s</ns1:g></string>
+    <string name="alert_title">Egutegi jakinarazpenak</string>
+    <string name="app_copyright">© 2015-<ns1:g>%1$s</ns1:g> The Etar Project. Portions © 2005-<ns1:g>%1$s</ns1:g> The Android Open Source Project.</string>
+    <string name="app_label">Egutegia</string>
+    <string name="authors">Egileak</string>
+    <string name="bottomsheet_action_collapse">Tolestu pantailaren behealdean ainguratutako orria</string>
+    <string name="bottomsheet_action_expand">Zabaldu pantailaren behealdean ainguratutako orria</string>
+    <string name="bottomsheet_action_expand_halfway">Zabaldu erdiraino</string>
+    <string name="bottomsheet_drag_handle_content_description">Arrastatzeko kontrol-puntua</string>
+    <string name="cal_export_event_sdcard_title">Esportatu SD txartelara</string>
+    <string name="cal_export_succ_msg">Gertaera behar bezala esportatu da: %1$s</string>
+    <string name="cal_import_error_date_msg">Ezin da ulertu emandako data: %s</string>
+    <string name="cal_import_error_msg">Errorea egutegia inportatzean</string>
+    <string name="cal_import_error_time_zone_msg">Ezin da emandako denbora-zona ulertu: %s</string>
+    <string name="cal_import_menu_title">Inportatu gertaera</string>
+    <string name="cal_nothing_to_import">Ezer ez inportatzeko</string>
+    <string name="cal_pick_ics">Aukeratu inportatzeko fitxategia</string>
+    <string name="cal_share_intent_title">Bidali gertaera honi:</string>
+    <string name="calendar_color_picker_dialog_title">Egutegiaren Kolorea</string>
+    <string name="calendar_permission_not_granted">Eskatutako baimenak ukatu egin dira. Gaitu itzazu ezarpenak aplikaziotik gertaerak editatzeko</string>
+    <string name="calendar_refresh">Eguneratu</string>
+    <string name="calendar_square_color_picker_description">Kolore-hautatzailea</string>
+    <string name="call_label">Deitu</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Erantzun"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Bideoa"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Baztertu"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Amaitu deia"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Sarrerako deia"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Deia abian da"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Sarrerako dei bat bistaratzen"</string>
+    <string name="change_response_title">Aldatu erantzuna</string>
+    <string name="changelog">Aldaketa egunkaria</string>
+    <string name="character_counter_content_description">%1$d/%2$d karaktere idatzi dira</string>
+    <string name="character_counter_overflowed_content_description">Karaktere-muga gainditu da: %1$d/%2$d</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"Utzi"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"Kopiatu"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"Eman kontaktuak iradokitzeko baimena"</string>
+    <string name="choose_event_color_label">Aukeratu gertaeraren kolorea</string>
+    <string name="clear_text_end_icon_content_description">Garbitu testua</string>
+    <string msgid="6083905920877235314" name="copy">"Kopiatu"</string>
+    <string name="copy_db">Bidali datu-basea</string>
+    <string msgid="1084563757174121331" name="copy_email">"Kopiatu helbide elektronikoa"</string>
+    <string msgid="8860802152973030914" name="copy_number">"Kopiatu telefono-zenbakia"</string>
+    <string name="create_event_dialog_save">Gorde</string>
+    <string name="creating_event">Gertaera sortua.</string>
+    <string name="creating_event_with_guest">Gonbidapenak bidaliko dira.</string>
+    <string name="custom" product="default">Pertsonalizatua (ezin da pertsonalizatu telefonoan)</string>
+    <string name="date_time_fmt"><ns1:g id="date">%1$s</ns1:g>, <ns1:g id="time_interval">%2$s</ns1:g></string>
+    <string name="day_view">Eguna</string>
+    <string name="day_view_new_event_hint">+ Gertaera berria</string>
+    <string name="default_start_last">Aurretik erabilitako ikuspegia</string>
+    <string name="default_start_title">Ikuspegi lehenetsia</string>
+    <string name="delete_label">Ezabatu</string>
+    <string name="delete_recurring_event_title">Ezabatu <ns1:g id="eventtitle">%s</ns1:g>\?</string>
+    <string name="delete_this_event_title">Ezabatu gertaera hau\?</string>
+    <string name="directory_searching_fmt">Bilatzen <ns1:g id="domain">%s</ns1:g>…</string>
+    <string name="discard_label">Utzi</string>
+    <string name="dismiss_all_label">Baztertu guztiak</string>
+    <string name="display_location">Erakutsi Kokapena</string>
+    <string name="display_options">Ikuspegi Xehetasunak</string>
+    <string name="display_time">Erakutsi Ordua</string>
+    <string name="does_not_repeat">Aldi baterako gertaera</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"Kendu <ns1:g id="CONTACT">%s</ns1:g> hartzaileetatik"</string>
+    <string name="edit_event_all_day_label">Egun osoa</string>
+    <string name="edit_event_calendar_label">Egutegia</string>
+    <string name="edit_event_label">Xehetasunak</string>
+    <string name="edit_label">Editatu</string>
+    <string name="email_guests_label">Gonbidatuen helbide elektronikoak</string>
+    <string name="email_organizer_label">Antolatzailearen helbide elektronikoa</string>
+    <string name="email_picker_label">Bidali mezua honekin</string>
+    <string name="empty_event">Gertaera hutsa ez da sortu.</string>
+    <string name="endByDate">; <ns1:g id="date">%s</ns1:g> arte</string>
+    <string name="error_a11y_label">Errorea: ez du balio</string>
+    <string name="error_generating_ics">Arazoak gertatu dira gertaera partekatzerakoan</string>
+    <string name="error_icon_content_description">Errorea</string>
+    <string name="event_color_picker_dialog_title">Gertaeraren kolorea</string>
+    <string name="event_color_set_to_default">Ezarri kolore lehenetsia</string>
+    <string name="event_create">Gertaera berria</string>
+    <string name="event_delete">Ezabatu gertaera</string>
+    <string name="event_edit">Editatu gertaera</string>
+    <string name="event_info_organizer">Antolatzailea:</string>
+    <string name="event_info_reminders_label">Oharrak</string>
+    <string name="event_info_title">Ikusi gertaera</string>
+    <string name="event_info_title_invite">Bilera gonbidapenak</string>
+    <string name="event_not_found">Ez da gertaera aurkitu.</string>
+    <string name="event_view">Ikusi gertaera</string>
+    <string name="every_weekday">Lanegun guztietan (Al-Ol)</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Hobespen aurreratuak"</string>
+    <string name="exposed_dropdown_menu_content_description">Erakutsi goitibeherako menua</string>
+    <string name="fifteen_minutes">15 minutu</string>
+    <string name="five_days">5 egun</string>
+    <string name="foreground_notification_channel_description">Barne sinkronizaziorako beharrezkoak diren jakinarazpenak. Kanal hau segurtasunez ezkutatu dezakezu.</string>
+    <string name="foreground_notification_channel_name">Atzeko planoko zereginak</string>
+    <string name="foreground_notification_title">Gogorarazle berriak planifikatzen…</string>
+    <string name="four_days">4 egun</string>
+    <string name="gadget_no_events">Ez dago hurrengo egutegiko gertaerarik</string>
+    <string name="goto_date">Joan…</string>
+    <string name="goto_today">Gaur</string>
+    <string name="hide_controls">Ezkutatu kontrolak</string>
+    <string name="hint_attendees">Gonbidatu</string>
+    <string name="hint_description">Deskribapena</string>
+    <string msgid="804776560897143016" name="hint_time_zone_search">"Idatzi herrialdearen izena"</string>
+    <string name="hint_what">Gertaera izena</string>
+    <string name="hint_where">Kokapena</string>
+    <string name="icon_content_description">Leihoko ikonoa</string>
+    <string name="item_view_role_description">Fitxa</string>
+    <string name="license">Lizentzia</string>
+    <string name="loading">Kargatzen…</string>
+    <string name="m3_loading_indicator_content_description">Kargatzen</string>
+    <string name="map_label">Mapa</string>
+    <string name="material_clock_toggle_content_description">Hautatu AM edo PM</string>
+    <string name="material_hour_24h_suffix">%1$s ordu</string>
+    <string name="material_hour_selection">Hautatu ordua</string>
+    <string name="material_hour_suffix">%1$s(r)ak dira</string>
+    <string name="material_minute_selection">Hautatu minutuak</string>
+    <string name="material_minute_suffix">%1$s minutu</string>
+    <string name="material_slider_range_end">Barrutiaren amaiera</string>
+    <string name="material_slider_range_start">Barrutiaren hasiera</string>
+    <string name="material_slider_value">Balioa</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Aldatu erloju modura ordua zehazteko.</string>
+    <string name="material_timepicker_hour">Ordua</string>
+    <string name="material_timepicker_minute">Minutua</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Hautatu ordua</string>
+    <string name="material_timepicker_text_input_mode_description">Ordua idazteko, aldatu testua idazteko metodora.</string>
+    <string name="maximum_number_of_lines">Gertaeraren gehieneko lerro kopurua</string>
+    <string name="menu_info">Informazioa</string>
+    <string name="menu_preferences">Ezarpenak</string>
+    <string name="modify_all">Aldatu gertaera guztiak serie honetan</string>
+    <string name="modify_all_following">Aldatu gertaera hau eta etorkizunekoak</string>
+    <string name="modify_event">Aldatu bakarrik gertaera hau</string>
+    <string name="month_view">Hilabetea</string>
+    <string name="monthly">Hilabetero</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g>"</string>
+    <string name="mtrl_badge_numberless_content_description">Jakinarazpen berria</string>
+    <string name="mtrl_checkbox_state_description_checked">Markatuta</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Erdi-markatuta</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Markatu gabe</string>
+    <string name="mtrl_chip_close_icon_content_description">Kendu %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d jakinarazpen berri baino gehiago</string>
+    <string name="mtrl_picker_a11y_next_month">Aldatu hurrengo hilabetera</string>
+    <string name="mtrl_picker_a11y_prev_month">Aldatu aurreko hilabetera</string>
+    <string name="mtrl_picker_announce_current_range_selection">Hasiera-dataren hautapena: %1$s – Amaiera-dataren hautapena: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">Oraingo hautapena: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">bat ere ez</string>
+    <string name="mtrl_picker_cancel">Utzi</string>
+    <string name="mtrl_picker_confirm">Ados</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Hautatu data</string>
+    <string name="mtrl_picker_date_header_unselected">Hautatutako data</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Amaiera-data: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formatuak ez du balio.</string>
+    <string name="mtrl_picker_invalid_format_example">Adibidea: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Erabili: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Tarteak ez du balio.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Joan aurtengo ikuspegira %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Joan %1$d. urtera</string>
+    <string name="mtrl_picker_out_of_range">Onartutako barrutitik kanpo: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Hasiera-data – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Amaiera-data</string>
+    <string name="mtrl_picker_range_header_selected">%1$s-%2$s</string>
+    <string name="mtrl_picker_range_header_title">Hautatu barrutia</string>
+    <string name="mtrl_picker_range_header_unselected">Hasiera-data – Amaiera-data</string>
+    <string name="mtrl_picker_save">Gorde</string>
+    <string name="mtrl_picker_start_date_description">Hasiera-data: %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">Data</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Amaiera-data</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Hasiera-data</string>
+    <string name="mtrl_picker_text_input_day_abbr">e</string>
+    <string name="mtrl_picker_text_input_month_abbr">h</string>
+    <string name="mtrl_picker_text_input_year_abbr">u</string>
+    <string name="mtrl_picker_today_description">Gaur %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Aldatu egutegiaren idazketa-metodora</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Aldatu Calendar-en ikuspegira</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Aldatu testua idazteko modura</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Aldatu urtearen ikuspegira</string>
+    <string name="mtrl_picker_toggled_to_day_selection">Aldatu da egutegiaren ikuspegira</string>
+    <string name="mtrl_picker_toggled_to_year_selection">Aldatu da urtearen ikuspegira</string>
+    <string name="mtrl_timepicker_cancel">Utzi</string>
+    <string name="mtrl_timepicker_confirm">Ados</string>
+    <string name="new_event_dialog_label">Gertaera berria</string>
+    <string name="new_event_dialog_option">Gertaera berria</string>
+    <string name="no_map">Ez dago mapa aplikaziorik instalatuta</string>
+    <string name="no_reminder_label">Bat ere ez</string>
+    <string msgid="5475293015394772651" name="no_results_found">"Ez da emaitzarik aurkitu"</string>
+    <string name="no_syncable_calendars">Egutegirik ez</string>
+    <string name="no_title_label">(Izenbururik ez)</string>
+    <string msgid="6573031135582639649" name="not_set">"Ez da ezarri"</string>
+    <string name="offline_account_name">Lineaz kanpoko egutegia</string>
+    <string name="one_and_a_half_hours">1.5 ordu</string>
+    <string name="one_hour">Ordu 1</string>
+    <string msgid="3485026339977302148" name="palestine_display_name">"Palestina"</string>
+    <string name="password_toggle_content_description">Erakutsi pasahitza</string>
+    <string msgid="6685851473431805375" name="preference_copied">"Arbelean kopiatu da \"<ns1:g id="SUMMARY">%1$s</ns1:g>\"."</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Erabili beti errepikapen atzerapen lehenetsia</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Galdetu utzi gerokorako atzerapen oroitzapena, jakinarazpenentan</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Galdetu utzi gerokorako atzerapen oroitzapena</string>
+    <string name="preferences_alerts_popup_title">Pop-up jakinarazpena</string>
+    <string name="preferences_alerts_ringtone_title">Soinua</string>
+    <string name="preferences_alerts_title">Jakinarazpenak</string>
+    <string name="preferences_alerts_vibrateWhen_title">Dar-dar</string>
+    <string name="preferences_black_theme">Beltza</string>
+    <string name="preferences_build_version">Konpilazio bertsioa</string>
+    <string name="preferences_calendar_account">%1$s kontua</string>
+    <string name="preferences_calendar_account_local">Lineaz kanpoko egutegia</string>
+    <string name="preferences_calendar_color">Kolorea</string>
+    <string name="preferences_calendar_color_warning_button">Ulertzen dut</string>
+    <string name="preferences_calendar_color_warning_message">Kolorea aldaketa egutegia berriro sinkronizatzean desegin daiteke.
+\n
+\nDAVx⁵-en \'Kudeatu egutegiaren koloreak\' desgaitu daiteke hau ekiditeko.</string>
+    <string name="preferences_calendar_color_warning_title">Abisua</string>
+    <string name="preferences_calendar_configure_account">Konfiguratu %1$s egutegia</string>
+    <string name="preferences_calendar_delete">Ezabatu egutegia</string>
+    <string name="preferences_calendar_delete_cancel">Utzi</string>
+    <string name="preferences_calendar_delete_delete">Ezabatu egutegia</string>
+    <string name="preferences_calendar_delete_message">Ziur egutegi hau ezabatu nahi duzula\?</string>
+    <string name="preferences_calendar_display_name">Aldatu izena</string>
+    <string name="preferences_calendar_info_category">Egutegiaren informazioa</string>
+    <string name="preferences_calendar_no_display_name">Izen gabeko egutegia</string>
+    <string name="preferences_calendar_number_of_events">%1$d gertaera</string>
+    <string name="preferences_calendar_synchronize">Sinkronizatu egutegi hau</string>
+    <string name="preferences_calendar_visible">Erakutsi gertaerak</string>
+    <string name="preferences_clear_search_history_summary">Ezabatu egindako bilaketa guztiak</string>
+    <string name="preferences_clear_search_history_title">Garbitu bilaketa historia</string>
+    <string name="preferences_color">Kolore nagusia</string>
+    <string name="preferences_color_pick">Kolore Nagusia</string>
+    <string name="preferences_dark_theme">Iluna</string>
+    <string name="preferences_days_per_week_dialog">Egunak aste bakoitzeko</string>
+    <string name="preferences_days_per_week_title">Egunak aste bakoitzeko</string>
+    <string name="preferences_default_event_duration_title">Gertaera iraupen lehenetsia</string>
+    <string name="preferences_default_reminder_default">10</string>
+    <string name="preferences_default_reminder_dialog">Abisu denbora lehenetsia</string>
+    <string name="preferences_default_reminder_title">Abisu denbora lehenetsia</string>
+    <string name="preferences_default_snooze_delay_dialog">Errepikapen atzerapen lehenetsia</string>
+    <string name="preferences_default_snooze_delay_title">Errepikapen atzerapen denbora lehenetsia</string>
+    <string name="preferences_experimental_category">Esperimentala</string>
+    <string name="preferences_general_title">Egutegi ikuspegiaren ezarpenak</string>
+    <string name="preferences_hide_declined_title">Ezkutatu baztertutako gertaerak</string>
+    <string name="preferences_home_tz_title">Tokiko ordu-zona</string>
+    <string name="preferences_issues">Arazoen berri eman</string>
+    <string name="preferences_light_theme">Argia</string>
+    <string name="preferences_list_add_offline">Gehitu lineaz kanpoko egutegia</string>
+    <string name="preferences_list_add_offline_button">Gehitu egutegia</string>
+    <string name="preferences_list_add_offline_cancel">Utzi</string>
+    <string name="preferences_list_add_offline_error_empty">Idatzi egutegiaren izena!</string>
+    <string name="preferences_list_add_offline_message">Lineaz kanpoko egutegiak EZ dira hodeiko zerbitzu batekin sinkronizatzen eta zure telefonoan soilik eskuragarri daude.</string>
+    <string name="preferences_list_add_offline_name">Izena</string>
+    <string name="preferences_list_add_offline_title">Gehitu lineaz kanpoko egutegia</string>
+    <string name="preferences_list_add_remote">Gehitu CalDAV egutegia</string>
+    <string name="preferences_list_add_remote_etesync">Gehitu EteSync egutegia</string>
+    <string name="preferences_list_calendar_summary_invisible">Gertaerak ez dira bistaratzen</string>
+    <string name="preferences_list_calendar_summary_sync_off">Ez sinkronizatuta</string>
+    <string name="preferences_list_general">Ezarpen orokorrak</string>
+    <string name="preferences_menu_about">Etar-i buruz</string>
+    <string name="preferences_month_view_landscape">Hilabete ikuspegi diseinua (Horizontala)</string>
+    <string name="preferences_month_view_portrait">Hilabete ikuspegi diseinua (Bertikala)</string>
+    <string name="preferences_pure_black_night_mode">Gau beltzeko modua</string>
+    <string name="preferences_real_event_colors">Erabili gertaera kolore errealak</string>
+    <string name="preferences_reminder_title">Jakinarazpenak eta abisuak</string>
+    <string name="preferences_reminders_responded_dialog">Saltatu Abisuak</string>
+    <string name="preferences_reminders_responded_label">Saltatu Abisuak</string>
+    <string name="preferences_show_week_num_title">Erakutsi aste zenbakia</string>
+    <string name="preferences_system_theme">Sistemaren lehenetsia</string>
+    <string name="preferences_theme">Gaia</string>
+    <string name="preferences_title">Ezarpenak</string>
+    <string name="preferences_use_home_tz_descrip">Bidaiatzen zaudela zure etxeko ordu-zonan egutegiak eta gertaerak erakusten ditu</string>
+    <string name="preferences_use_home_tz_title">Erabili tokiko ordu-zona</string>
+    <string name="preferences_week_start_day_dialog">Astea hasten da</string>
+    <string name="preferences_week_start_day_title">Astea hasten da</string>
+    <string name="presence_label">Erakutsi horrela</string>
+    <string name="privacy_label">Pribatutasuna</string>
+    <string name="quick_response_custom_msg">Idatzi zurea…</string>
+    <string name="quick_response_dialog_title">Aukera erantzun azkarra</string>
+    <string name="quick_response_email_failed">Errorea e-posta programa bilatzean</string>
+    <string name="quick_response_settings">Erantzun azkarrak</string>
+    <string name="quick_response_settings_edit_title">Erantzun azkarra</string>
+    <string name="quick_response_settings_summary">Editatu erantzun lehenetsiak gonbidatuei mezua bidaltzerakoan</string>
+    <string name="recurrence_end_continously">Beti</string>
+    <string name="recurrence_end_count_label">Zenbait gertaerentzako</string>
+    <string name="recurrence_end_date"><ns1:g id="date">%s</ns1:g> arte</string>
+    <string name="recurrence_end_date_label">Data arte</string>
+    <string name="recurrence_month_pattern_by_day">egun berean hilabetero</string>
+    <string name="reminders_label">Gehitu jakinarazpena</string>
+    <string name="response_maybe">Agian</string>
+    <string name="response_no">Ez</string>
+    <string name="response_yes">Bai</string>
+    <string name="rsvp_accepted">Bai erantzunda.</string>
+    <string name="rsvp_declined">Ez erantzunda.</string>
+    <string name="rsvp_tentative">Agian erantzunda.</string>
+    <string name="save_label">Gorde</string>
+    <string name="saving_event">Gertaera gordeta.</string>
+    <string name="saving_event_with_guest">Eguneraketak bidaliko dira.</string>
+    <string name="search">Bilatu</string>
+    <string name="search_history_cleared">Bilaketa hsitoria garbituta.</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Bilatu"</string>
+    <string name="search_title">Bilatu nire egutegiak</string>
+    <string name="searchview_clear_text_content_description">Garbitu testua</string>
+    <string msgid="1603860069305867810" name="searchview_description_clear">"Garbitu kontsulta"</string>
+    <string name="searchview_navigation_content_description">Atzera</string>
+    <string name="select_synced_calendars_button">Sinkronizatzeko egutegiak</string>
+    <string name="seven_days">7 egun</string>
+    <string name="share_label">Partekatu</string>
+    <string name="show_controls">Erakutsi kontrolak</string>
+    <string name="show_day_view">Erakutsi eguna</string>
+    <string name="show_newer_events">Ukitu gertaerak ikusteko <ns1:g id="newest_search_range">%1$s</ns1:g> baino geroago</string>
+    <string name="show_older_events">Ukitu <ns1:g id="oldest_search_range">%1$s</ns1:g> baino lehenagoko gertaerak ikusteko</string>
+    <string name="show_time_no">Ez</string>
+    <string name="show_time_start">Bakarrik hasiera ordua</string>
+    <string name="show_time_start_end">Hasiera eta bukaera ordua</string>
+    <string name="show_time_start_end_below">Hasiera eta bukaera denbora gertaera azpian</string>
+    <string name="side_sheet_accessibility_pane_title">Alboko orria</string>
+    <string name="six_days">6 egun</string>
+    <string name="snooze_delay_dialog_title">Ezarri errepikapen atzerapena</string>
+    <string name="snooze_label">Utzi gerorako</string>
+    <string name="source_code">Iturria</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="template_announce_item_index">Gertaera <ns1:g id="item_index">%1$s</ns1:g>
+        <ns1:g id="item_count">%2$s</ns1:g>(e)tik.</string>
+    <string name="thirty_minutes">30 minutu</string>
+    <string name="three_days">3 egun</string>
+    <string name="today">Gaur</string>
+    <string name="today_at_time_fmt">Gaur <ns1:g id="time_interval">%s</ns1:g>(e)tan</string>
+    <string name="tomorrow">Bihar</string>
+    <string name="tomorrow_at_time_fmt">Bihar <ns1:g id="time_interval">%s</ns1:g>(e)tan</string>
+    <string name="two_days">2 egun</string>
+    <string name="two_hours">2 ordu</string>
+    <string name="user_rejected_calendar_write_permission">Etar-ek egutegiaren irakurketa eta idazketa baimenak behar ditu ondo funtzionatzeko. Saiatu berri mesedez.</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"DESAKTIBATUTA"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"AKTIBATUTA"</string>
+    <string name="view_event_calendar_label">Egutegia:</string>
+    <string name="view_event_organizer_label">Antolatzailea:</string>
+    <string name="view_event_response_label">Joango zara\?</string>
+    <string name="view_settings">Ikusi ezarpenak</string>
+    <string name="visibility_confidential">Isilpekoa</string>
+    <string name="visibility_default">Lehenetsia</string>
+    <string name="visibility_private">Pribatua</string>
+    <string name="visibility_public">Publikoa</string>
+    <string name="week_view">Astea</string>
+    <string name="when_label">Noiz</string>
+    <string name="yearly_plain">Urtero</string>
+    <string name="zero_minutes">0 minutu</string>
+</resources>

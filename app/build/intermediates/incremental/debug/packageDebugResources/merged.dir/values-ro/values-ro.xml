@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="availability">
+    <item msgid="454869065893453189">"Ocupat"</item>
+    <item msgid="6228387173725732140">"Disponibil"</item>
+    <item msgid="2064426942462573474">"Tentativă"</item>
+  </string-array>
+    <string-array name="backup_country_names">
+    <item msgid="9141777876082196578">"Sint-Maarten"</item>
+    <item msgid="5330962017221568054">"Insulele Caraibe Olandeze"</item>
+    <item msgid="1465164631761814300">"Curaçao"</item>
+    <item msgid="8972081011408691260">"Sudanul de Sud"</item>
+  </string-array>
+    <string-array name="buttons_list">
+    <item msgid="5917946202321434335">"Zi"</item>
+    <item msgid="6248480754959562740">"Săptămână"</item>
+    <item msgid="4298472806133153766">"Lună"</item>
+    <item msgid="5033084974413793845">"Agendă"</item>
+  </string-array>
+    <string-array name="change_response_labels">
+    <item msgid="3466644709343519437">"Doar acest eveniment"</item>
+    <item msgid="140670561403965380">"Toate evenimentele din serie"</item>
+  </string-array>
+    <string-array name="delete_repeating_labels">
+    <item msgid="4208432367651646938">"Doar acest eveniment"</item>
+    <item msgid="1536401639805370405">"Acest eveniment şi cele viitoare"</item>
+    <item msgid="7833229563617435430">"Toate evenimentele"</item>
+  </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+    <item msgid="2285927842308686988">"Numai dacă sunt respinse"</item>
+    <item msgid="6367412240524984286">"Dacă sunt respinse sau fără răspuns"</item>
+  </string-array>
+    <string-array name="preferences_week_start_day_labels">
+    <item msgid="986150274035512339">"Codul local prestabilit"</item>
+    <item msgid="134027225275475280">"Sâmbătă"</item>
+    <item msgid="95029346069903091">"Duminică"</item>
+    <item msgid="5840983116375063739">"Luni"</item>
+  </string-array>
+    <string-array name="quick_response_defaults">
+        <item msgid="1524421198348168403">"Întârzii numai câteva minute."</item>
+        <item msgid="6215158751728689832">"Ajung în aproximativ 10 minute."</item>
+        <item msgid="4485794001743679338">"Începeţi fără mine."</item>
+        <item msgid="8036557974294987511">"Îmi pare rău, nu pot să ajung. Va trebui să ne vedem altădată."</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+    <item msgid="3388478383574917007">"REPETAȚI ZILNIC"</item>
+    <item msgid="6300824484048337842">"REPETAȚI SĂPTĂMÂNAL"</item>
+    <item msgid="189361731610816256">"REPETAȚI LUNAR"</item>
+    <item msgid="8714177874112569158">"REPETAȚI ANUAL"</item>
+  </string-array>
+    <string-array name="reminder_methods_labels">
+    <item msgid="5172236776878811487">"Notificare"</item>
+    <item msgid="1751151680520784746">"E-mail"</item>
+    <item msgid="2658001219380695677">"SMS"</item>
+    <item msgid="7926918288165444873">"Alarmă"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_fri">
+    <item msgid="6534500380525126157">"în prima vineri din lună"</item>
+    <item msgid="1935608297230506940">"în a doua vineri din lună"</item>
+    <item msgid="4061877662049317599">"în a treia vineri din lună"</item>
+    <item msgid="6856646749131820614">"în a patra vineri din lună"</item>
+    <item msgid="6533513913914859794">"în ultima vineri din lună"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_mon">
+    <item msgid="7539974918997689048">"în prima luni din lună"</item>
+    <item msgid="4484275849072423978">"în a doua luni din lună"</item>
+    <item msgid="8956169860824371383">"în a treia luni din lună"</item>
+    <item msgid="6924403357659569326">"în a patra luni din lună"</item>
+    <item msgid="1379608815263472161">"în ultima luni din lună"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sat">
+    <item msgid="3556369572649948699">"în prima sâmbătă din lună"</item>
+    <item msgid="9130198690512925355">"în a doua sâmbătă din lună"</item>
+    <item msgid="4525736070844032405">"în a treia sâmbătă din lună"</item>
+    <item msgid="422053689531707709">"în a patra sâmbătă din lună"</item>
+    <item msgid="5499975799312474425">"în ultima sâmbătă din lună"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sun">
+    <item msgid="143841313172233420">"în prima duminică din lună"</item>
+    <item msgid="2557379346106451363">"în a doua duminică din lună"</item>
+    <item msgid="7622144489915654132">"în a treia duminică din lună"</item>
+    <item msgid="527152448137686021">"în a patra duminică din lună"</item>
+    <item msgid="5057483608824759350">"în ultima duminică din lună"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_thurs">
+    <item msgid="920673677566009313">"în prima joi din lună"</item>
+    <item msgid="4857419136007543270">"în a doua joi din lună"</item>
+    <item msgid="222044587450564839">"în a treia joi din lună"</item>
+    <item msgid="6197927556533030945">"în a patra joi din lună"</item>
+    <item msgid="1023326923033436905">"în ultima joi din lună"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_tues">
+    <item msgid="8690802834039790777">"în prima marți din lună"</item>
+    <item msgid="9063613547307760928">"în a doua marți din lună"</item>
+    <item msgid="6688603328729208168">"în a treia marți din lună"</item>
+    <item msgid="6695206006961533357">"în a patra marți din lună"</item>
+    <item msgid="8619069174889809914">"în ultima marți din lună"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_wed">
+    <item msgid="3233850232075584386">"în prima miercuri din lună"</item>
+    <item msgid="5059722045367799217">"în a doua miercuri din lună"</item>
+    <item msgid="7986246648229272275">"în a treia miercuri din lună"</item>
+    <item msgid="9068566169348980801">"în a patra miercuri din lună"</item>
+    <item msgid="7976866743069062134">"în ultima miercuri din lună"</item>
+  </string-array>
+    <string-array name="response_labels1">
+    <item msgid="5605392595848194997">"Niciun răspuns"</item>
+    <item msgid="3724434080904437698">"Da"</item>
+    <item msgid="8854145743148992583">"Poate"</item>
+    <item msgid="6174292185978948873">"Nu"</item>
+  </string-array>
+    <string-array name="timezone_rename_labels">
+    <item msgid="4609638052107641231">"Ora Australiei Centrale – NT"</item>
+    <item msgid="4345275500159159867">"Ora Australiei Centrale – SA"</item>
+    <item msgid="6771274300523132094">"Ora Australiei de Est – QLD"</item>
+    <item msgid="4685547681424666687">"Ora Australiei de Est – NSW"</item>
+    <item msgid="5259393186526893961">"Oră Zonă muntoasă – Dawson Creek"</item>
+    <item msgid="5984634754870859705">"Ora stand. centr. – Saskatchewan"</item>
+    <item msgid="5340374311583423836">"Ora standard de est – Atikokan"</item>
+    <item msgid="8922086438245451625">"Ora standard Atlantic – Quebec"</item>
+    <item msgid="8353677384517034413">"Ora Hawaii-Aleutine – Hawaii"</item>
+    <item msgid="6426791761018806420">"Ora Hawaii-Aleutine – Alaska"</item>
+    <item msgid="7076353182411415610">"Ora stand. Pacific – Metlakatla"</item>
+    <item msgid="373990592918179890">"Ora standard Zona muntoasă – AZ"</item>
+    <item msgid="353899326999279114">"Ora Pacific – Baja California"</item>
+    <item msgid="6432134534714673873">"Ora Zonei muntoase – Chihuahua"</item>
+    <item msgid="7629345735485663968">"Ora centrală – Tamaulipas"</item>
+    <item msgid="3874729044260979505">"Ora Zonei muntoase – Sonora"</item>
+    <item msgid="1106209575683600471">"Ora Africii de Est"</item>
+    <item msgid="6538017087072480128">"Ora standard a Atlanticului"</item>
+    <item msgid="6758957851822881177">"Ora standard a Atlanticului"</item>
+    <item msgid="2477556470536619081">"Ora Europei de Est"</item>
+    <item msgid="7328461310893621937">"Ora Kaliningradului"</item>
+    <item msgid="4212642599758736931">"Amazon – Rondônia"</item>
+    <item msgid="2370319280810537375">"Brasilia – Pará"</item>
+  </string-array>
+    <plurals name="N_remaining_events">
+        <item quantity="one">+1 eveniment</item>
+        <item quantity="few">+<ns1:g id="count">%d</ns1:g> evenimente</item>
+        <item quantity="other">+<ns1:g id="count">%d</ns1:g> de evenimente</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one">1 zi</item>
+        <item quantity="few"><ns1:g id="count">%d</ns1:g> zile</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> de zile</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="one">1 eveniment</item>
+        <item quantity="few"><ns1:g id="count">%d</ns1:g> evenimente</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> de evenimete</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">1 oră</item>
+        <item quantity="few"><ns1:g id="count">%d</ns1:g> ore</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> de ore</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">1 min</item>
+        <item quantity="few"><ns1:g id="count">%d</ns1:g> min</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> de min</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="one">1 minut</item>
+        <item quantity="few"><ns1:g id="COUNT">%d</ns1:g> minute</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> de minute</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">O săptămână</item>
+        <item quantity="few"><ns1:g id="count">%d</ns1:g> săptămâni</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> de săptămâni</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">Zilnic</item>
+        <item quantity="few">O dată la <ns1:g id="number">%d</ns1:g> zile</item>
+        <item quantity="other">O dată la <ns1:g id="number">%d</ns1:g> zile</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; o dată</item>
+        <item quantity="few">; de <ns1:g id="number">%d</ns1:g> ori</item>
+        <item quantity="other">; de <ns1:g id="number">%d</ns1:g> de ori</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="one">+1</item>
+        <item quantity="few">+<ns1:g id="number">%d</ns1:g></item>
+        <item quantity="other">+<ns1:g id="number">%d</ns1:g></item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Pentru <ns1:g id="event_count">%d</ns1:g> eveniment</item>
+        <item quantity="few">Pentru <ns1:g id="event_count">%d</ns1:g> evenimente</item>
+        <item quantity="other">Pentru <ns1:g id="event_count">%d</ns1:g> de evenimente</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">O dată pe <ns1:g id="count">%d</ns1:g> zi</item>
+        <item quantity="few">O dată la <ns1:g id="count">%d</ns1:g> zile</item>
+        <item quantity="other">O dată la <ns1:g id="count">%d</ns1:g> de zile</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">O dată pe<ns1:g id="count">%d</ns1:g> lună</item>
+        <item quantity="few">O dată la <ns1:g id="count">%d</ns1:g> luni</item>
+        <item quantity="other">O dată la <ns1:g id="count">%d</ns1:g> de luni</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">O dată pe <ns1:g id="count">%d</ns1:g> săptămână</item>
+        <item quantity="few">O dată la <ns1:g id="count">%d</ns1:g> săptămâni</item>
+        <item quantity="other">O dată la <ns1:g id="count">%d</ns1:g> de săptămâni</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">O dată pe <ns1:g id="count">%d</ns1:g> an</item>
+        <item quantity="few">O dată la <ns1:g id="count">%d</ns1:g> ani</item>
+        <item quantity="other">O dată la <ns1:g id="count">%d</ns1:g> de ani</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one">Săptămâna <ns1:g id="COUNT">%d</ns1:g></item>
+        <item quantity="few">De săptămâni <ns1:g id="COUNT">%d</ns1:g></item>
+        <item quantity="other">Săptămâni <ns1:g id="COUNT">%d</ns1:g></item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Săptămânal pe <ns1:g id="days_of_week">%2$s</ns1:g></item>
+        <item quantity="few">La fiecare <ns1:g id="number">%1$d</ns1:g> săptămâni <ns1:g id="days_of_week">%2$s</ns1:g></item>
+        <item quantity="other">La fiecare <ns1:g id="number">%1$d</ns1:g> săptămâni <ns1:g id="days_of_week">%2$s</ns1:g></item>
+    </plurals>
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"Nicio sugestie disponibilă"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"Sugestii de persoane de contact disponibile"</string>
+    <string msgid="5654014177472600916" name="accessibility_add_attendee">"Adăugaţi participant"</string>
+    <string msgid="2267950744060950152" name="accessibility_add_reminder">"Adăugaţi memento"</string>
+    <string msgid="4146955438811915282" name="accessibility_all_day">"Eveniment cotidian"</string>
+    <string msgid="5624250196618643922" name="accessibility_pick_end_date">"Dată de încheiere"</string>
+    <string msgid="7120310166355224941" name="accessibility_pick_end_time">"Oră de încheiere"</string>
+    <string msgid="1834311617874828931" name="accessibility_pick_recurrence">"Evenimentul se repetă"</string>
+    <string msgid="3926641487042699037" name="accessibility_pick_start_date">"Dată de începere"</string>
+    <string msgid="4913428100936555149" name="accessibility_pick_start_time">"Oră de începere"</string>
+    <string msgid="7155465783500323811" name="accessibility_pick_time_zone">"Fus orar"</string>
+    <string msgid="8669288484484022771" name="accessibility_reminder_privacy">"Confidenţialitate"</string>
+    <string msgid="6669129015980006570" name="accessibility_reminder_showmeas">"Doresc să fiu afişat(ă) ca"</string>
+    <string msgid="3594100545814579575" name="accessibility_reminder_time">"Timp pentru memento"</string>
+    <string msgid="5339120699701437227" name="accessibility_reminder_type">"Tip de memento"</string>
+    <string msgid="7082751172654698863" name="accessibility_remove_attendee">"Eliminaţi participantul"</string>
+    <string msgid="5261609343259665139" name="accessibility_remove_reminder">"Eliminaţi mementoul"</string>
+    <string msgid="5899029840837836711" name="acessibility_recurrence_choose_end_date_description">"schimbați data de încheiere"</string>
+    <string msgid="3010149843148810768" name="acessibility_selected_marker_description">"Eveniment selectat"</string>
+    <string msgid="7172664623795021857" name="action_label">"Enter"</string>
+    <string name="add_calendar">Adăugați un calendar</string>
+    <string name="after_start_of_event">după începerea evenimentului</string>
+    <string msgid="5965841338467422191" name="agenda_today">Azi, <ns1:g id="DATE">%1$s</ns1:g></string>
+    <string msgid="3893625470780723605" name="agenda_tomorrow">Mâine, <ns1:g id="date">%1$s</ns1:g></string>
+    <string msgid="5566084759423843245" name="agenda_view">"Agendă"</string>
+    <string msgid="4170964206728599693" name="agenda_yesterday">Ieri, <ns1:g id="DATE">%1$s</ns1:g></string>
+    <string msgid="7869592820853066853" name="alert_title">"Notificările calendarului"</string>
+    <string name="app_copyright">© 2015-<ns1:g>%1$s</ns1:g> Proiectul Etar. Porțiuni © 2005-<ns1:g>%1$s</ns1:g> Proiectul Open Source Android.</string>
+    <string msgid="5452708708398908131" name="app_label">"Calendar"</string>
+    <string name="authors">Autori</string>
+    <string name="cal_export_event_sdcard_title">Exportă pe cardul SD</string>
+    <string name="cal_export_succ_msg">Evenimentul a fost exportat cu succes: %1$s</string>
+    <string name="cal_import_error_date_msg">Data introdusă nu este corectă: %s</string>
+    <string name="cal_import_error_msg">Importarea în calendar a eșuat</string>
+    <string name="cal_import_error_time_zone_msg">Fusul orar nu este corect: %s</string>
+    <string name="cal_import_menu_title">Importă eveniment</string>
+    <string name="cal_nothing_to_import">Nimic de importat</string>
+    <string name="cal_pick_ics">Alege fișierul de importat</string>
+    <string name="cal_share_intent_title">Trimite evenimentul către:</string>
+    <string msgid="3595509200561433667" name="calendar_color_picker_dialog_title">"Culoare calendar"</string>
+    <string name="calendar_permission_not_granted">Permisiunile necesare au fost respinse, puteți schimba acest lucru în aplicația Setări pentru a edita evenimente</string>
+    <string msgid="6172731193680500025" name="calendar_refresh">"Actualizaţi"</string>
+    <string msgid="7430468363525563483" name="calendar_square_color_picker_description">"Selector de culoare"</string>
+    <string name="calendars">Calendare</string>
+    <string msgid="2960328220008869083" name="call_label">"Apelați"</string>
+    <string msgid="7704714776070974984" name="change_response_title">"Modificaţi răspunsul"</string>
+    <string name="changelog">Jurnal de modificări</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"Anulează"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"Copiază"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"Permite sugestii de persoane de contact"</string>
+    <string msgid="2192923501857428854" name="choose_event_color_label">"Alegeți o culoare pentru eveniment"</string>
+    <string msgid="437691290566699292" name="copy_db">"Trimiteţi baza de date"</string>
+    <string msgid="1084563757174121331" name="copy_email">"Copiază adresa de e-mail"</string>
+    <string msgid="8860802152973030914" name="copy_number">"Copiază numărul de telefon"</string>
+    <string msgid="1080859798521717414" name="create_event_dialog_save">"Salvați"</string>
+    <string msgid="7516249252554059980" name="creating_event">"Eveniment creat."</string>
+    <string msgid="5758688413124191931" name="creating_event_with_guest">"Invitaţiile vor fi trimise."</string>
+    <string msgid="4137468716966004993" name="custom" product="default">"Personalizat (nu se poate personaliza pe telefon)"</string>
+    <string msgid="1642972650061946484" name="date_time_fmt"><ns1:g id="date">%1$s</ns1:g>, <ns1:g id="time_interval">%2$s</ns1:g></string>
+    <string msgid="4467754504843584437" name="day_view">"Zi"</string>
+    <string msgid="2131483437911536229" name="day_view_new_event_hint">"+ Eveniment nou"</string>
+    <string name="default_start_last">Vizualizarea precedentă</string>
+    <string name="default_start_title">Aspect implicit</string>
+    <string msgid="874742811918030739" name="delete_label">"Ștergeţi"</string>
+    <string msgid="5609046778422180206" name="delete_recurring_event_title">"Ștergeţi <ns1:g id="EVENTTITLE">%s</ns1:g>?"</string>
+    <string msgid="518402946676919384" name="delete_this_event_title">"Ștergeţi acest eveniment?"</string>
+    <string msgid="1232037509095606687" name="directory_searching_fmt">Se caută <ns1:g id="domain">%s</ns1:g>…</string>
+    <string msgid="2394623883289782541" name="discard_label">"Anulaţi"</string>
+    <string msgid="1834400025868091301" name="dismiss_all_label">"Renunţaţi la toate"</string>
+    <string name="display_location">Locația afișată</string>
+    <string name="display_options">Opţiuni ecran</string>
+    <string name="display_time">Timpul afișat</string>
+    <string msgid="1877681921029738999" name="does_not_repeat">"Eveniment unic"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"Elimină <ns1:g id="CONTACT">%s</ns1:g> din destinatari"</string>
+    <string name="duplicate_label">Duplicat</string>
+    <string msgid="6200181113992136073" name="edit_event_all_day_label">"Toată ziua"</string>
+    <string msgid="4556498359505856900" name="edit_event_calendar_label">"Calendar"</string>
+    <string msgid="7413222956349977161" name="edit_event_label">"Detalii"</string>
+    <string msgid="8934331258435656534" name="edit_label">"Editaţi"</string>
+    <string msgid="8772030932155305903" name="email_guests_label">"Trimiteţi e-mailuri invitaţilor"</string>
+    <string msgid="7178059542798074813" name="email_organizer_label">"Trimiteţi e-mail organizatorului"</string>
+    <string msgid="4808253965057791781" name="email_picker_label">"E-mail cu"</string>
+    <string msgid="9018699257414338634" name="empty_event">"Evenimentul gol nu s-a creat."</string>
+    <string msgid="7654221304929538201" name="endByDate">"; până la <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="error_generating_ics">Problemele apărute în timpul partajării evenimentului</string>
+    <string msgid="4631938661655159511" name="event_color_picker_dialog_title">"Culoare eveniment"</string>
+    <string msgid="3447218820785647967" name="event_color_set_to_default">"Setați culoarea prestabilită pentru calendar"</string>
+    <string msgid="6941040556709110617" name="event_create">"Eveniment nou"</string>
+    <string msgid="2386667193277770442" name="event_delete">"Ștergeţi evenimentul"</string>
+    <string msgid="4006961928830064662" name="event_edit">"Modificaţi evenimentul"</string>
+    <string msgid="9138683335394832629" name="event_info_organizer">"Organizator:"</string>
+    <string msgid="8913097552956388972" name="event_info_reminders_label">"Mementouri"</string>
+    <string msgid="56024222340421620" name="event_info_title">"Vizualizaţi evenimentul"</string>
+    <string msgid="9160326363769403865" name="event_info_title_invite">"Invitaţie de întâlnire"</string>
+    <string msgid="8356864185947582727" name="event_not_found">"Evenimentul nu a fost găsit."</string>
+    <string msgid="7621353079385122317" name="event_view">"Vizualizaţi evenimentul"</string>
+    <string msgid="5896574838353902978" name="every_weekday">"În fiecare zi lucrătoare (Luni – Vineri)"</string>
+    <string name="fifteen_minutes">15 minute</string>
+    <string name="five_days">5 zile</string>
+    <string name="foreground_notification_channel_description">Notificările sunt necesare pentru sincronizarea internă. Poţi să ascunzi acest canal în siguranţă.</string>
+    <string name="foreground_notification_channel_name">Sarcini de fundal</string>
+    <string name="foreground_notification_title">Se programează remindere noi…</string>
+    <string name="four_days">4 zile</string>
+    <string msgid="5209110911088302855" name="gadget_no_events">"Niciun eveniment viitor în calendar"</string>
+    <string name="goto_date">Sari la …</string>
+    <string msgid="9162136434410891230" name="goto_today">"Azi"</string>
+    <string msgid="830320505938520882" name="hide_controls">"Ascundeţi comenzile"</string>
+    <string msgid="1650488163176888480" name="hint_attendees">"Invitaţi"</string>
+    <string msgid="1910143586169033232" name="hint_description">"Descriere"</string>
+    <string msgid="804776560897143016" name="hint_time_zone_search">"Introdu numele țării"</string>
+    <string name="hint_url">URL</string>
+    <string msgid="709155115005044531" name="hint_what">"Numele evenimentului"</string>
+    <string msgid="4972598001033801974" name="hint_where">"Locaţie"</string>
+    <string name="license">Licență</string>
+    <string msgid="3772533493214331230" name="loading">Se încarcă…</string>
+    <string msgid="8795383535586556038" name="map_label">"Vedeți harta"</string>
+    <string name="maximum_number_of_lines">Numărul maxim de propoziții intr-un eveniment</string>
+    <string name="menu_info">Informații</string>
+    <string msgid="9120238479503233925" name="menu_preferences">"Setări"</string>
+    <string msgid="4421657265864209041" name="modify_all">"Modificaţi toate evenimentele din serie"</string>
+    <string msgid="3017428541066390380" name="modify_all_following">Modificaţi acest eveniment şi pe toate cele viitoare</string>
+    <string msgid="5982876409997142690" name="modify_event">"Modificaţi doar acest eveniment"</string>
+    <string msgid="7287101431749285412" name="month_view">"Lună"</string>
+    <string msgid="4587116285383048586" name="monthly">"Lunar"</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g>"</string>
+    <string msgid="7553105224561147916" name="new_event_dialog_label">"Eveniment nou"</string>
+    <string msgid="6154657379574669371" name="new_event_dialog_option">"Eveniment nou"</string>
+    <string name="no_calendars_found">Înainte de a putea adăuga un eveniment, trebuie să adăugați cel puțin un calendar pe dispozitivul dumneavoastră</string>
+    <string name="no_map">Nu există o aplicaţie de hărţi instalată</string>
+    <string name="no_reminder_label">Niciunul</string>
+    <string msgid="5475293015394772651" name="no_results_found">"Niciun rezultat"</string>
+    <string name="no_snooze_label">Niciuna</string>
+    <string msgid="7019488867045436129" name="no_syncable_calendars">"Niciun calendar"</string>
+    <string msgid="302177118061368042" name="no_title_label">"(Fără titlu)"</string>
+    <string name="offline_account_name">Calendar offline</string>
+    <string name="one_and_a_half_hours">1.5 ore</string>
+    <string name="one_hour">1 oră</string>
+    <string msgid="3485026339977302148" name="palestine_display_name">"Palestina"</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Folosește mereu valoarea prestabilită pentru timpul de intârziere</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Solicitați întârzierea de amânare ori de câte ori amânați mementourile</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Întreabă pentru întârziere alarmă</string>
+    <string msgid="6643468203670475296" name="preferences_alerts_popup_title">"Notificare pop-up"</string>
+    <string msgid="1849706055052358346" name="preferences_alerts_ringtone_title">"Sunet"</string>
+    <string msgid="6636088008103904020" name="preferences_alerts_title">"Notificări"</string>
+    <string msgid="8731372580674292759" name="preferences_alerts_vibrateWhen_title">"Vibrare"</string>
+    <string name="preferences_black_theme">Negru</string>
+    <string msgid="8242471883413502068" name="preferences_build_version">"Versiunea"</string>
+    <string name="preferences_calendar_account">contul %1$s</string>
+    <string name="preferences_calendar_account_local">Calendar offline</string>
+    <string name="preferences_calendar_color">Culoare</string>
+    <string name="preferences_calendar_color_warning_button">Am înţeles</string>
+    <string name="preferences_calendar_color_warning_message">Când calendarul se va sincroniza iar este posibil ca culorile să nu rămână memorate.
+\n
+\nÎn aplicaţia DAVx⁵ setarea \"Gestionare culori calendar\" trebuie să fie dezactivată pentru a preveni acest lucru.</string>
+    <string name="preferences_calendar_color_warning_title">Atenţie</string>
+    <string name="preferences_calendar_configure_account">Configurează calendarul în %1$s</string>
+    <string name="preferences_calendar_delete">Şterge calendarul</string>
+    <string name="preferences_calendar_delete_cancel">Anulare</string>
+    <string name="preferences_calendar_delete_delete">Şterge calendarul</string>
+    <string name="preferences_calendar_delete_message">Eşti sigur că doreşti să ştergi acest calendar \?</string>
+    <string name="preferences_calendar_display_name">Schimbă numele</string>
+    <string name="preferences_calendar_info_category">Informaţii despre calendar</string>
+    <string name="preferences_calendar_no_display_name">Calendar fără nume</string>
+    <string name="preferences_calendar_number_of_events">%1$d evenimente</string>
+    <string name="preferences_calendar_synchronize">Sincronizează acest calendar</string>
+    <string name="preferences_calendar_visible">Afişează evenimente</string>
+    <string msgid="7864674093455778158" name="preferences_clear_search_history_summary">"Eliminaţi toate căutările efectuate"</string>
+    <string msgid="6619916370215282982" name="preferences_clear_search_history_title">"Ștergeţi istoricul căutărilor"</string>
+    <string name="preferences_color">Culoare principală</string>
+    <string name="preferences_color_pick">Culoare principală</string>
+    <string name="preferences_dark_theme">Întunecat</string>
+    <string name="preferences_days_per_week_dialog">Zile pe săptămână</string>
+    <string name="preferences_days_per_week_title">Zile pe săptămână</string>
+    <string name="preferences_default_event_duration_title">Durata prestabilită a unui eveniment</string>
+    <string msgid="2903884416749959435" name="preferences_default_reminder_default">"10"</string>
+    <string msgid="2490348857239323412" name="preferences_default_reminder_dialog">"Timp predefinit pentru memento"</string>
+    <string msgid="5188861433342733905" name="preferences_default_reminder_title">"Timp predefinit pentru memento"</string>
+    <string name="preferences_default_snooze_delay_dialog">Timpul prestabilit de snooze</string>
+    <string name="preferences_default_snooze_delay_title">Timpul prestabilit de întârziere</string>
+    <string name="preferences_do_not_check_battery_optimization">Nu verificați optimizarea bateriei</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Utilizați pe propriul risc! Notificările nu vor mai funcționa, widget-urile nu se vor mai actualiza și serviciile din fundal se vor bloca. Dar nu veți mai fi întrebat din nou dacă doriți să activați serviciul de fundal.</string>
+    <string msgid="8111213192001230350" name="preferences_experimental_category">"Experimentale"</string>
+    <string msgid="2069075513760573117" name="preferences_general_title">"Setarea afişării calendarului"</string>
+    <string msgid="1849295943669890034" name="preferences_hide_declined_title">"Ascundeţi evenimentele refuzate"</string>
+    <string msgid="6680000444088818578" name="preferences_home_tz_title">"Fus orar de acasă"</string>
+    <string name="preferences_issues">Raportează o problemă</string>
+    <string name="preferences_light_theme">Deschis</string>
+    <string name="preferences_list_add_offline">Adaugă un calendar offline</string>
+    <string name="preferences_list_add_offline_button">Adaugă calendar</string>
+    <string name="preferences_list_add_offline_cancel">Anulare</string>
+    <string name="preferences_list_add_offline_error_empty">Introdu un nume pentru calendar!</string>
+    <string name="preferences_list_add_offline_message">Calendarele offline NU sunt sincronizate şi sunt disponibile pe telefonul dumnoeavostră.</string>
+    <string name="preferences_list_add_offline_name">Nume</string>
+    <string name="preferences_list_add_offline_title">Adaugă un calendar offline</string>
+    <string name="preferences_list_add_remote">Adaugă un calendar CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Adugă un calendar EteSync</string>
+    <string name="preferences_list_calendar_summary_invisible">Evenimentele nu sunt afişate</string>
+    <string name="preferences_list_calendar_summary_sync_off">Nu este sincronizat</string>
+    <string name="preferences_list_general">Setări generale</string>
+    <string name="preferences_manage_notifications">Gestionați notificările</string>
+    <string name="preferences_menu_about">Despre Etar</string>
+    <string name="preferences_month_view_landscape">Vizualizează luna întreagă (landscape)</string>
+    <string name="preferences_month_view_portrait">Vizualizează luna întreagă (portret)</string>
+    <string name="preferences_pure_black_night_mode">Mod de noapte cu negru pur</string>
+    <string name="preferences_real_event_colors">Utilizați culorile reale ale evenimentului</string>
+    <string msgid="5199606534191180129" name="preferences_reminder_title">"Notificări și mementouri"</string>
+    <string msgid="1873289128793828352" name="preferences_reminders_responded_dialog">"Ignorați mementourile"</string>
+    <string msgid="1196570678238475838" name="preferences_reminders_responded_label">"Ignorați mementourile"</string>
+    <string msgid="5280734329664503461" name="preferences_show_week_num_title">"Afişaţi numărul săptămânii"</string>
+    <string name="preferences_system_theme">Setările implicite ale sistemului</string>
+    <string name="preferences_theme">Temă</string>
+    <string msgid="8045855493262131773" name="preferences_title">"Setări"</string>
+    <string msgid="4835375381297413746" name="preferences_use_home_tz_descrip">În călătorii, calendarul se afișează în fusul orar de acasă</string>
+    <string msgid="5597546849968598210" name="preferences_use_home_tz_title">"Fusul orar acasă"</string>
+    <string msgid="5181634128884089113" name="preferences_week_start_day_dialog">"Săptămâna începe"</string>
+    <string msgid="4619489296444901622" name="preferences_week_start_day_title">"Săptămâna începe"</string>
+    <string msgid="6169724148441175862" name="presence_label">"Doresc să fiu afişat(ă) ca"</string>
+    <string msgid="9215031965259597335" name="privacy_label">"Confidenţialitate"</string>
+    <string msgid="8792374208224108798" name="quick_response_custom_msg">"Scrieți propriul răspuns…"</string>
+    <string msgid="2681309456412199207" name="quick_response_dialog_title">"Alegeţi un răspuns rapid"</string>
+    <string msgid="5544066405231853245" name="quick_response_email_failed">"Nu s-a putut găsi un program de e-mail"</string>
+    <string msgid="6776151690686068278" name="quick_response_settings">"Răspunsuri rapide"</string>
+    <string msgid="6260055523174081930" name="quick_response_settings_edit_title">"Răspuns rapid"</string>
+    <string msgid="7878304729027355604" name="quick_response_settings_summary">"Editaţi răspuns prestab. e-mailuri invitaţi"</string>
+    <string msgid="6898950241634912991" name="recurrence_end_continously">"Întotdeauna"</string>
+    <string msgid="1233883668293087977" name="recurrence_end_count_label">"De mai multe ori"</string>
+    <string msgid="3693751578164711701" name="recurrence_end_date">"Până la <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string msgid="4142791438636994952" name="recurrence_end_date_label">"Până la o anumită dată"</string>
+    <string msgid="4400107556121003459" name="recurrence_month_pattern_by_day">"în aceeași zi lunar"</string>
+    <string msgid="7292389181815525676" name="reminders_label">"Adăugaţi memento"</string>
+    <string msgid="7791500973627841695" name="response_maybe">"Posibil"</string>
+    <string msgid="561911691884148136" name="response_no">"Nu"</string>
+    <string msgid="2027484304899988350" name="response_yes">"Da"</string>
+    <string name="rsvp_accepted">Răspunse cu da.</string>
+    <string name="rsvp_declined">Răspunse cu nu.</string>
+    <string name="rsvp_tentative">Răspunse cu poate.</string>
+    <string msgid="2133599104834432589" name="save_label">"Terminat"</string>
+    <string msgid="7694181017411177226" name="saving_event">"Eveniment salvat."</string>
+    <string msgid="9184584438475689577" name="saving_event_with_guest">"Actualizările vor fi trimise."</string>
+    <string msgid="550656004486017426" name="search">"Căutaţi"</string>
+    <string msgid="1536707558435227567" name="search_history_cleared">"Istoricul căutărilor a fost şters."</string>
+    <string msgid="8898015280250716254" name="search_title">Căutaţi în calendarele dvs</string>
+    <string msgid="1603860069305867810" name="searchview_description_clear">"Șterge interogarea"</string>
+    <string msgid="8890542984949996251" name="select_synced_calendars_button">"Calendare de sincronizat"</string>
+    <string name="seven_days">7 zile</string>
+    <string name="share_label">Partajare</string>
+    <string msgid="715520586028062621" name="show_controls">"Afişaţi comenzile"</string>
+    <string msgid="5782512782605466016" name="show_day_view">"Afişaţi ziua"</string>
+    <string msgid="2604638815440163080" name="show_newer_events">"Atingeţi pentru a vedea evenimente după <ns1:g id="NEWEST_SEARCH_RANGE">%1$s</ns1:g>"</string>
+    <string msgid="5140647493681439926" name="show_older_events">"Atingeţi pentru a vedea evenimente dinainte de <ns1:g id="OLDEST_SEARCH_RANGE">%1$s</ns1:g>"</string>
+    <string name="show_time_no">Nu arăta timpul</string>
+    <string name="show_time_start">Pornește doar timpul</string>
+    <string name="show_time_start_end">Timpul de pornire și final</string>
+    <string name="show_time_start_end_below">Timpul de pornire si final sub eveniment</string>
+    <string name="six_days">6 zile</string>
+    <string name="snooze_delay_dialog_title">Setează întârzierea mementourilor</string>
+    <string msgid="1515893621063224666" name="snooze_label">"Amânaţi"</string>
+    <string name="source_code">Sursă</string>
+    <string msgid="4067877800670753110" name="template_announce_item_index">"Evenimentul <ns1:g id="ITEM_INDEX">%1$s</ns1:g> din <ns1:g id="ITEM_COUNT">%2$s</ns1:g>."</string>
+    <string name="thirty_minutes">30 de minute</string>
+    <string name="three_days">3 zile</string>
+    <string msgid="8577375020252453006" name="today">"Azi"</string>
+    <string msgid="1981279213130049736" name="today_at_time_fmt">"Astăzi la <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string msgid="614434811813859237" name="tomorrow">"Mâine"</string>
+    <string msgid="1330779112841767432" name="tomorrow_at_time_fmt">"Mâine la <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string name="two_days">2 zile</string>
+    <string name="two_hours">2 ore</string>
+    <string name="user_rejected_calendar_write_permission">Etar necesită permisiunile de citire și scriere a calendarului pentru a funcționa corect. Vă rugăm să încercați din nou.</string>
+    <string msgid="6126231656338241140" name="view_event_calendar_label">"Calendar:"</string>
+    <string msgid="2753151795647402277" name="view_event_organizer_label">"Organizator:"</string>
+    <string msgid="8382281658458798329" name="view_event_response_label">"Participaţi?"</string>
+    <string name="view_settings">Vezi setări</string>
+    <string name="visibility_confidential">Secret</string>
+    <string name="visibility_default">Prestabilit</string>
+    <string name="visibility_private">Privat</string>
+    <string name="visibility_public">Public</string>
+    <string msgid="6775043022159508060" name="week_view">"Săptămână"</string>
+    <string msgid="894636567327261599" name="when_label">"Când"</string>
+    <string msgid="3652692085322162449" name="yearly_plain">"Anual"</string>
+    <string name="zero_minutes">0 minute</string>
+</resources>

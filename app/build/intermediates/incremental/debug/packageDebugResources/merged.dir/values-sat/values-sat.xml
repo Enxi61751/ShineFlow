@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">ᱠᱮᱞᱮᱱᱰᱚᱨ</string>
+    <string name="date_time_fmt"><ns1:g id="date">%1$s</ns1:g>, <ns1:g id="time_interval">%2$s</ns1:g></string>
+    <string name="no_reminder_label">ᱵᱟᱹᱱᱩᱜᱼᱟ</string>
+    <string name="no_title_label">(ᱪᱮᱫ ᱧᱩᱛᱩᱢ ᱵᱟᱹᱱᱩᱜ ᱠᱟᱫᱟ)</string>
+    <string name="today">ᱛᱮᱦᱮᱧ</string>
+    <string name="today_at_time_fmt">ᱛᱮᱦᱮᱧ <ns1:g id="time_interval">%s</ns1:g> ᱨᱮ</string>
+    <string name="tomorrow">ᱜᱟᱯᱟ</string>
+    <string name="tomorrow_at_time_fmt">ᱜᱟᱯᱟ <ns1:g id="time_interval">%s</ns1:g> ᱨᱮ</string>
+    <string name="when_label">ᱛᱤᱥᱚᱜ</string>
+</resources>

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <string-array name="availability">
+    <item msgid="454869065893453189">"ไม่ว่าง"</item>
+    <item msgid="6228387173725732140">"ว่าง"</item>
+    <item msgid="2064426942462573474">"ยังไม่แน่นอน"</item>
+  </string-array>
+    <string-array name="backup_country_names">
+    <item msgid="9141777876082196578">"ซินต์ มาร์เติน"</item>
+    <item msgid="5330962017221568054">"เนเธอร์แลนด์ แคริบเบียน"</item>
+    <item msgid="1465164631761814300">"คูราเซา"</item>
+    <item msgid="8972081011408691260">"ซูดานใต้"</item>
+  </string-array>
+    <string-array name="buttons_list">
+    <item msgid="5917946202321434335">"วัน"</item>
+    <item msgid="6248480754959562740">"สัปดาห์"</item>
+    <item msgid="4298472806133153766">"เดือน"</item>
+    <item msgid="5033084974413793845">"กำหนดการ"</item>
+  </string-array>
+    <string-array name="change_response_labels">
+    <item msgid="3466644709343519437">"เฉพาะกิจกรรมนี้"</item>
+    <item msgid="140670561403965380">"กิจกรรมทั้งหมดในชุด"</item>
+  </string-array>
+    <string-array name="delete_repeating_labels">
+    <item msgid="4208432367651646938">"เฉพาะกิจกรรมนี้"</item>
+    <item msgid="1536401639805370405">"กิจกรรมนี้และในอนาคต"</item>
+    <item msgid="7833229563617435430">"กิจกรรมทั้งหมด"</item>
+  </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+    <item msgid="2285927842308686988">"หากถูกปฏิเสธเท่านั้น"</item>
+    <item msgid="6367412240524984286">"หากถูกปฏิเสธหรือไม่ตอบกลับ"</item>
+  </string-array>
+    <string-array name="preferences_week_start_day_labels">
+    <item msgid="986150274035512339">"ตามท้องถิ่น"</item>
+    <item msgid="134027225275475280">"วันเสาร์"</item>
+    <item msgid="95029346069903091">"วันอาทิตย์"</item>
+    <item msgid="5840983116375063739">"วันจันทร์"</item>
+  </string-array>
+    <string-array name="quick_response_defaults">
+        <item msgid="1524421198348168403">"ไปช้าสักสองสามนาที"</item>
+        <item msgid="6215158751728689832">"ไปถึงในอีกประมาณ 10 นาที"</item>
+        <item msgid="4485794001743679338">"เริ่มไปเลย ไม่ต้องรอ"</item>
+        <item msgid="8036557974294987511">"ขอโทษ ฉันไปไม่ได้ เราต้องกำหนดเวลากันใหม่"</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+    <item msgid="3388478383574917007">"ซ้ำทุกวัน"</item>
+    <item msgid="6300824484048337842">"ซ้ำทุกสัปดาห์"</item>
+    <item msgid="189361731610816256">"ซ้ำทุกเดือน"</item>
+    <item msgid="8714177874112569158">"ซ้ำทุกปี"</item>
+  </string-array>
+    <string-array name="reminder_methods_labels">
+    <item msgid="5172236776878811487">"แจ้งเตือน"</item>
+    <item msgid="1751151680520784746">"อีเมล"</item>
+    <item msgid="2658001219380695677">"SMS"</item>
+    <item msgid="7926918288165444873">"เตือน"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_fri">
+    <item msgid="6534500380525126157">"ในทุกวันศุกร์แรก"</item>
+    <item msgid="1935608297230506940">"ในทุกวันศุกร์ที่สอง"</item>
+    <item msgid="4061877662049317599">"ในทุกวันศุกร์ที่สาม"</item>
+    <item msgid="6856646749131820614">"ในทุกวันศุกร์ที่สี่"</item>
+    <item msgid="6533513913914859794">"ในทุกวันศุกร์สุดท้าย"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_mon">
+    <item msgid="7539974918997689048">"ในทุกวันจันทร์แรก"</item>
+    <item msgid="4484275849072423978">"ในทุกวันจันทร์ที่สอง"</item>
+    <item msgid="8956169860824371383">"ในทุกวันจันทร์ที่สาม"</item>
+    <item msgid="6924403357659569326">"ในทุกวันจันทร์ที่สี่"</item>
+    <item msgid="1379608815263472161">"ในทุกวันจันทร์สุดท้าย"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sat">
+    <item msgid="3556369572649948699">"ในทุกวันเสาร์แรก"</item>
+    <item msgid="9130198690512925355">"ในทุกวันเสาร์ที่สอง"</item>
+    <item msgid="4525736070844032405">"ในทุกวันเสาร์ที่สาม"</item>
+    <item msgid="422053689531707709">"ในทุกวันเสาร์ที่สี่"</item>
+    <item msgid="5499975799312474425">"ในทุกวันเสาร์สุดท้าย"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sun">
+    <item msgid="143841313172233420">"ในทุกวันอาทิตย์แรก"</item>
+    <item msgid="2557379346106451363">"ในทุกวันอาทิตย์ที่สอง"</item>
+    <item msgid="7622144489915654132">"ในทุกวันอาทิตย์ที่สาม"</item>
+    <item msgid="527152448137686021">"ในทุกวันอาทิตย์ที่สี่"</item>
+    <item msgid="5057483608824759350">"ในทุกวันอาทิตย์สุดท้าย"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_thurs">
+    <item msgid="920673677566009313">"ในทุกวันพฤหัสบดีแรก"</item>
+    <item msgid="4857419136007543270">"ในทุกวันพฤหัสบดีที่สอง"</item>
+    <item msgid="222044587450564839">"ในทุกวันพฤหัสบดีที่สาม"</item>
+    <item msgid="6197927556533030945">"ในทุกพฤหัสบดีที่สี่"</item>
+    <item msgid="1023326923033436905">"ในทุกวันพฤหัสบดีสุดท้าย"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_tues">
+    <item msgid="8690802834039790777">"ในทุกวันอังคารแรก"</item>
+    <item msgid="9063613547307760928">"ในทุกวันอังคารที่สอง"</item>
+    <item msgid="6688603328729208168">"ในทุกวันอังคารที่สาม"</item>
+    <item msgid="6695206006961533357">"ในทุกวันอังคารที่สี่"</item>
+    <item msgid="8619069174889809914">"ในทุกวันอังคารสุดท้าย"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_wed">
+    <item msgid="3233850232075584386">"ในทุกวันพุธแรก"</item>
+    <item msgid="5059722045367799217">"เมื่อทุกวันพุธที่สอง"</item>
+    <item msgid="7986246648229272275">"ในทุกวันพุธที่สาม"</item>
+    <item msgid="9068566169348980801">"ในทุกวันพุธที่สี่"</item>
+    <item msgid="7976866743069062134">"ในทุกวันพุธสุดท้าย"</item>
+  </string-array>
+    <string-array name="response_labels1">
+    <item msgid="5605392595848194997">"ไม่มีการตอบกลับ"</item>
+    <item msgid="3724434080904437698">"ใช่"</item>
+    <item msgid="8854145743148992583">"ไม่แน่"</item>
+    <item msgid="6174292185978948873">"ไม่"</item>
+  </string-array>
+    <string-array name="timezone_rename_labels">
+    <item msgid="4609638052107641231">"เขตเวลาออสเตรเลียกลาง - นอร์ทเทิร์นเทอริทอรี"</item>
+    <item msgid="4345275500159159867">"เขตเวลาออสเตรเลียกลาง - เซาท์ออสเตรเลีย"</item>
+    <item msgid="6771274300523132094">"เขตเวลาออสเตรเลียตะวันออก - ควีนส์แลนด์"</item>
+    <item msgid="4685547681424666687">"เขตเวลาออสเตรเลียตะวันออก - นิวเซาท์เวลส์"</item>
+    <item msgid="5259393186526893961">"เขตเวลาบนภูเขา - ดอว์สันครีก"</item>
+    <item msgid="5984634754870859705">"มาตรฐานเวลากลาง - ซัสแคตเชวัน"</item>
+    <item msgid="5340374311583423836">"มาตรฐานเวลาตะวันออก - อะติโคคัง"</item>
+    <item msgid="8922086438245451625">"มาตรฐานแอตแลนติก - ควิเบก"</item>
+    <item msgid="8353677384517034413">"ฮาวาย-หมู่เกาะอะลิวเชียน - ฮาวาย"</item>
+    <item msgid="6426791761018806420">"ฮาวาย-หมู่เกาะอะลิวเชียน - อลาสก้า"</item>
+    <item msgid="7076353182411415610">"มาตรฐานเวลาแปซิฟิก - เมทลากาตละ"</item>
+    <item msgid="373990592918179890">"เขตเวลามาตรฐานบนภูเขา - อริโซน่า"</item>
+    <item msgid="353899326999279114">"เขตเวลาแปซิฟิก - บาจาแคลิฟอร์เนีย"</item>
+    <item msgid="6432134534714673873">"เขตเวลาบนภูเขา - ชิวาวา"</item>
+    <item msgid="7629345735485663968">"เขตเวลากลาง - ตาเมาลีปัส"</item>
+    <item msgid="3874729044260979505">"เขตเวลาบนภูเขา - โซโนรา"</item>
+    <item msgid="1106209575683600471">"เวลาแอฟริกาตะวันออก"</item>
+    <item msgid="6538017087072480128">"เวลามาตรฐานแอตแลนติก"</item>
+    <item msgid="6758957851822881177">"เวลามาตรฐานแอตแลนติก"</item>
+    <item msgid="2477556470536619081">"เวลายุโรปตะวันออก"</item>
+    <item msgid="7328461310893621937">"เวลาคาลินินกราด"</item>
+    <item msgid="4212642599758736931">"อเมซอน - Rondônia"</item>
+    <item msgid="2370319280810537375">"บราซิเลีย - Pará"</item>
+  </string-array>
+    <plurals name="N_remaining_events">
+        <item msgid="431585781647034528" quantity="one">"+1 กิจกรรม"</item>
+        <item msgid="3609243840882275136" quantity="other">"+<ns1:g id="COUNT">%d</ns1:g> กิจกรรม"</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item msgid="5988137255732166573" quantity="one">"1 วัน"</item>
+        <item msgid="1709378992389618261" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> วัน"</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item msgid="5230907142214104485" quantity="one">"1 กิจกรรม"</item>
+        <item msgid="6093072093209431078" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> กิจกรรม"</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item msgid="4793697728599296830" quantity="one">"1 ชั่วโมง"</item>
+        <item msgid="4477841052001760620" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> ชั่วโมง"</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item msgid="9191090668359663663" quantity="one">"1 นาที"</item>
+        <item msgid="9175648445939148974" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> นาที"</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item msgid="4871052965772159239" quantity="one">"1 นาที"</item>
+        <item msgid="5644461630927544936" quantity="other">"<ns1:g id="COUNT">%d</ns1:g> นาที"</item>
+    </plurals>
+    <plurals name="daily">
+        <item msgid="5169052946627480942" quantity="one">"รายวัน"</item>
+        <item msgid="5455230727715859264" quantity="other">"ทุก <ns1:g id="NUMBER">%d</ns1:g> วัน"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item msgid="3727754565990691816" quantity="one">"รวมหนึ่งครั้ง"</item>
+        <item msgid="4855496837834652446" quantity="other">"รวม <ns1:g id="NUMBER">%d</ns1:g> ครั้ง"</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item msgid="8971334808414201327" quantity="one">"+1"</item>
+        <item msgid="1997405398178470838" quantity="other">"+<ns1:g id="NUMBER">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+    <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+  </plurals>
+    <plurals name="recurrence_end_count">
+        <item msgid="1400782968090516215" quantity="one">"สำหรับกิจกรรม <ns1:g id="EVENT_COUNT">%d</ns1:g> รายการ"</item>
+        <item msgid="8779598489398048259" quantity="other">"สำหรับกิจกรรม <ns1:g id="EVENT_COUNT">%d</ns1:g> รายการ"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item msgid="1205422710088692631" quantity="one">"ทุก <ns1:g id="COUNT">%d</ns1:g> วัน"</item>
+        <item msgid="707566499994398250" quantity="other">"ทุก <ns1:g id="COUNT">%d</ns1:g> วัน"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item msgid="4768178401603139718" quantity="one">"ทุก <ns1:g id="COUNT">%d</ns1:g> เดือน"</item>
+        <item msgid="5419723710346646523" quantity="other">"ทุก <ns1:g id="COUNT">%d</ns1:g> เดือน"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item msgid="4948681635464488351" quantity="one">"ทุก <ns1:g id="COUNT">%d</ns1:g> สัปดาห์"</item>
+        <item msgid="7094801039989237061" quantity="other">"ทุก <ns1:g id="COUNT">%d</ns1:g> สัปดาห์"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item msgid="5819562634008179102" quantity="one">"ทุก <ns1:g id="COUNT">%d</ns1:g> ปี"</item>
+        <item msgid="5678653649746562060" quantity="other">"ทุก <ns1:g id="COUNT">%d</ns1:g> ปี"</item>
+    </plurals>
+    <plurals name="weekN">
+        <item msgid="8085184869561028365" quantity="other">"สัปดาห์ที่ <ns1:g id="COUNT">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item msgid="5463021019301453273" quantity="one">"ทุก <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> ของแต่ละสัปดาห์"</item>
+        <item msgid="2857390143157377867" quantity="other">"ทุก <ns1:g id="NUMBER">%1$d</ns1:g> สัปดาห์ใน <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"นำทางไปหน้าแรก"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"กลับ"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ตัวเลือกอื่น"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"เสร็จ"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"ดูทั้งหมด"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"เลือกแอป"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ปิด"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"เปิด"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"ลบ"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"เมนู+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"ค้นหา…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"ล้างคำค้นหา"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"คำค้นหา"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"ค้นหา"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"ส่งคำค้นหา"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"ค้นหาด้วยเสียง"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"แชร์กับ"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"แชร์ทาง <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ยุบ"</string>
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"ไม่มีคำแนะนำ"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"คำแนะนำเกี่ยวกับข้อมูลติดต่อที่เปิดอยู่"</string>
+    <string msgid="5654014177472600916" name="accessibility_add_attendee">"เพิ่มผู้เข้าร่วม"</string>
+    <string msgid="2267950744060950152" name="accessibility_add_reminder">"เพิ่มการแจ้งเตือน"</string>
+    <string msgid="4146955438811915282" name="accessibility_all_day">"กิจกรรมตลอดวัน"</string>
+    <string msgid="5624250196618643922" name="accessibility_pick_end_date">"วันที่สิ้นสุด"</string>
+    <string msgid="7120310166355224941" name="accessibility_pick_end_time">"เวลาสิ้นสุด"</string>
+    <string msgid="1834311617874828931" name="accessibility_pick_recurrence">"กิจกรรมที่เกิดซ้ำ"</string>
+    <string msgid="3926641487042699037" name="accessibility_pick_start_date">"วันที่เริ่มต้น"</string>
+    <string msgid="4913428100936555149" name="accessibility_pick_start_time">"เวลาเริ่มต้น"</string>
+    <string msgid="7155465783500323811" name="accessibility_pick_time_zone">"โซนเวลา"</string>
+    <string msgid="8669288484484022771" name="accessibility_reminder_privacy">"ข้อมูลส่วนบุคคล"</string>
+    <string msgid="6669129015980006570" name="accessibility_reminder_showmeas">"แสดงสถานะว่าฉัน"</string>
+    <string msgid="3594100545814579575" name="accessibility_reminder_time">"เวลาการแจ้งเตือน"</string>
+    <string msgid="5339120699701437227" name="accessibility_reminder_type">"ประเภทการแจ้งเตือน"</string>
+    <string msgid="7082751172654698863" name="accessibility_remove_attendee">"นำผู้เข้าร่วมออก"</string>
+    <string msgid="5261609343259665139" name="accessibility_remove_reminder">"นำการแจ้งเตือนออก"</string>
+    <string msgid="5899029840837836711" name="acessibility_recurrence_choose_end_date_description">"เปลี่ยนวันที่สิ้นสุด"</string>
+    <string msgid="3010149843148810768" name="acessibility_selected_marker_description">"กิจกรรมที่เลือก"</string>
+    <string msgid="7172664623795021857" name="action_label">"เสร็จสิ้น"</string>
+    <string name="after_start_of_event">after start of event</string>
+    <string msgid="5965841338467422191" name="agenda_today">"วันนี้ <ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="3893625470780723605" name="agenda_tomorrow">"วันพรุ่งนี้ <ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="5566084759423843245" name="agenda_view">"กำหนดการ"</string>
+    <string msgid="4170964206728599693" name="agenda_yesterday">"เมื่อวานนี้ <ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="7869592820853066853" name="alert_title">"การแจ้งเตือนของปฏิทิน"</string>
+    <string msgid="5452708708398908131" name="app_label">"ปฏิทิน"</string>
+    <string name="bottomsheet_action_collapse">ยุบ Bottom Sheet</string>
+    <string name="bottomsheet_action_expand">ขยาย Bottom Sheet</string>
+    <string name="bottomsheet_action_expand_halfway">ขยายรายการครึ่งหนึ่ง</string>
+    <string name="bottomsheet_drag_handle_content_description">แฮนเดิลการลาก</string>
+    <string msgid="3595509200561433667" name="calendar_color_picker_dialog_title">"สีปฏิทิน"</string>
+    <string msgid="6172731193680500025" name="calendar_refresh">"รีเฟรช"</string>
+    <string msgid="7430468363525563483" name="calendar_square_color_picker_description">"ตัวเลือกสี"</string>
+    <string msgid="2960328220008869083" name="call_label">"โทร"</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"รับสาย"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"วิดีโอ"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"ปฏิเสธ"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"วางสาย"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"สายเรียกเข้า"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"สายที่สนทนาอยู่"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"กำลังสกรีนสายเรียกเข้า"</string>
+    <string msgid="7704714776070974984" name="change_response_title">"เปลี่ยนการตอบกลับ"</string>
+    <string name="character_counter_content_description">ป้อนอักขระแล้ว %1$d จาก %2$d ตัว</string>
+    <string name="character_counter_overflowed_content_description">เกินจำนวนอักขระสูงสุด %1$d จาก %2$d</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"ยกเลิก"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"คัดลอก"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"อนุญาตให้แนะนำรายชื่อติดต่อ"</string>
+    <string msgid="2192923501857428854" name="choose_event_color_label">"เลือกสีของกิจกรรม"</string>
+    <string name="clear_text_end_icon_content_description">ล้างข้อความ</string>
+    <string msgid="6083905920877235314" name="copy">"คัดลอก"</string>
+    <string msgid="437691290566699292" name="copy_db">"ส่งฐานข้อมูล"</string>
+    <string msgid="1084563757174121331" name="copy_email">"คัดลอกอีเมล"</string>
+    <string msgid="8860802152973030914" name="copy_number">"คัดลอกหมายเลขโทรศัพท์"</string>
+    <string msgid="1080859798521717414" name="create_event_dialog_save">"บันทึก"</string>
+    <string msgid="7516249252554059980" name="creating_event">"สร้างกิจกรรมแล้ว"</string>
+    <string msgid="5758688413124191931" name="creating_event_with_guest">"จะมีการส่งข้อความเชิญ"</string>
+    <string msgid="4137468716966004993" name="custom" product="default">"กำหนดเอง (ไม่สามารถกำหนดค่าบนโทรศัพท์)"</string>
+    <string msgid="1642972650061946484" name="date_time_fmt">
+        <ns1:g id="date">%1$s</ns1:g>, <ns1:g id="time_interval">%2$s</ns1:g>
+    </string>
+    <string msgid="4467754504843584437" name="day_view">"วัน"</string>
+    <string msgid="2131483437911536229" name="day_view_new_event_hint">"+ กิจกรรมใหม่"</string>
+    <string msgid="874742811918030739" name="delete_label">"ลบ"</string>
+    <string msgid="5609046778422180206" name="delete_recurring_event_title">"ลบ <ns1:g id="EVENTTITLE">%s</ns1:g> หรือไม่"</string>
+    <string msgid="518402946676919384" name="delete_this_event_title">"ลบกิจกรรมนี้"</string>
+    <string msgid="1232037509095606687" name="directory_searching_fmt">"กำลังค้นหา <ns1:g id="DOMAIN">%s</ns1:g>…"</string>
+    <string msgid="2394623883289782541" name="discard_label">"ยกเลิก"</string>
+    <string msgid="1834400025868091301" name="dismiss_all_label">"ปิดทั้งหมด"</string>
+    <string msgid="1877681921029738999" name="does_not_repeat">"กิจกรรมที่เกิดขึ้นครั้งเดียว"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"นำ <ns1:g id="CONTACT">%s</ns1:g> ออกจากผู้รับ"</string>
+    <string msgid="6200181113992136073" name="edit_event_all_day_label">"ตลอดทั้งวัน"</string>
+    <string msgid="4556498359505856900" name="edit_event_calendar_label">"ปฏิทิน"</string>
+    <string msgid="7413222956349977161" name="edit_event_label">"รายละเอียด"</string>
+    <string msgid="8934331258435656534" name="edit_label">"แก้ไข"</string>
+    <string msgid="8772030932155305903" name="email_guests_label">"ส่งอีเมลถึงผู้เข้าร่วม"</string>
+    <string msgid="7178059542798074813" name="email_organizer_label">"ส่งอีเมลถึงผู้จัด"</string>
+    <string msgid="4808253965057791781" name="email_picker_label">"ส่งอีเมลด้วย"</string>
+    <string msgid="9018699257414338634" name="empty_event">"ไม่ได้สร้างกิจกรรมเปล่า"</string>
+    <string msgid="7654221304929538201" name="endByDate">"จนถึง <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="error_a11y_label">ข้อผิดพลาด: ไม่ถูกต้อง</string>
+    <string name="error_icon_content_description">ข้อผิดพลาด</string>
+    <string msgid="4631938661655159511" name="event_color_picker_dialog_title">"สีของกิจกรรม"</string>
+    <string msgid="3447218820785647967" name="event_color_set_to_default">"ตั้งเป็นสีเริ่มต้นของปฏิทิน"</string>
+    <string msgid="6941040556709110617" name="event_create">"กิจกรรมใหม่"</string>
+    <string msgid="2386667193277770442" name="event_delete">"ลบกิจกรรม"</string>
+    <string msgid="4006961928830064662" name="event_edit">"แก้ไขกิจกรรม"</string>
+    <string msgid="9138683335394832629" name="event_info_organizer">"ผู้จัด:"</string>
+    <string msgid="8913097552956388972" name="event_info_reminders_label">"การแจ้งเตือน"</string>
+    <string msgid="56024222340421620" name="event_info_title">"ดูกิจกรรม"</string>
+    <string msgid="9160326363769403865" name="event_info_title_invite">"คำเชิญเข้าประชุม"</string>
+    <string msgid="8356864185947582727" name="event_not_found">"ไม่พบกิจกรรม"</string>
+    <string msgid="7621353079385122317" name="event_view">"ดูกิจกรรม"</string>
+    <string msgid="5896574838353902978" name="every_weekday">"ทุกวันทำการ (จันทร์-ศุกร์)"</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"ขั้นสูง"</string>
+    <string name="exposed_dropdown_menu_content_description">แสดงเมนูแบบเลื่อนลง</string>
+    <string msgid="5209110911088302855" name="gadget_no_events">"ไม่มีกิจกรรมในปฏิทินที่กำลังมาถึง"</string>
+    <string msgid="9162136434410891230" name="goto_today">"วันนี้"</string>
+    <string msgid="830320505938520882" name="hide_controls">"ซ่อนปุ่มควบคุม"</string>
+    <string msgid="1650488163176888480" name="hint_attendees">"แขก"</string>
+    <string msgid="1910143586169033232" name="hint_description">"คำอธิบาย"</string>
+    <string msgid="804776560897143016" name="hint_time_zone_search">"พิมพ์ชื่อประเทศ"</string>
+    <string msgid="709155115005044531" name="hint_what">"ชื่อกิจกรรม"</string>
+    <string msgid="4972598001033801974" name="hint_where">"สถานที่ตั้ง"</string>
+    <string name="icon_content_description">ไอคอนกล่องโต้ตอบ</string>
+    <string name="item_view_role_description">แท็บ</string>
+    <string msgid="3772533493214331230" name="loading">"กำลังโหลด…"</string>
+    <string name="m3_loading_indicator_content_description">กำลังโหลด</string>
+    <string msgid="8795383535586556038" name="map_label">"แผนที่"</string>
+    <string name="material_clock_toggle_content_description">เลือก AM หรือ PM</string>
+    <string name="material_hour_24h_suffix">%1$s ชั่วโมง</string>
+    <string name="material_hour_selection">เลือกชั่วโมง</string>
+    <string name="material_hour_suffix">%1$s นาฬิกา</string>
+    <string name="material_minute_selection">เลือกนาที</string>
+    <string name="material_minute_suffix">%1$s นาที</string>
+    <string name="material_slider_range_end">จุดสิ้นสุดของช่วง</string>
+    <string name="material_slider_range_start">จุดเริ่มต้นของช่วง</string>
+    <string name="material_slider_value">ค่า</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">สลับไปโหมดนาฬิกาเพื่อป้อนเวลา</string>
+    <string name="material_timepicker_hour">ชั่วโมง</string>
+    <string name="material_timepicker_minute">นาที</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">เลือกเวลา</string>
+    <string name="material_timepicker_text_input_mode_description">สลับไปโหมดป้อนข้อความเพื่อป้อนเวลา</string>
+    <string msgid="9120238479503233925" name="menu_preferences">"การตั้งค่า"</string>
+    <string msgid="4421657265864209041" name="modify_all">"เปลี่ยนกิจกรรมทั้งหมดในชุด"</string>
+    <string msgid="3017428541066390380" name="modify_all_following">"เปลี่ยนกิจกรรมนี้และในอนาคตทั้งหมด"</string>
+    <string msgid="5982876409997142690" name="modify_event">"เปลี่ยนเฉพาะกิจกรรมนี้"</string>
+    <string msgid="7287101431749285412" name="month_view">"เดือน"</string>
+    <string msgid="4587116285383048586" name="monthly">"รายเดือน"</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g>"</string>
+    <string name="mtrl_badge_numberless_content_description">การแจ้งเตือนใหม่</string>
+    <string name="mtrl_checkbox_state_description_checked">เลือกไว้</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">เลือกบางส่วน</string>
+    <string name="mtrl_checkbox_state_description_unchecked">ไม่ได้เลือก</string>
+    <string name="mtrl_chip_close_icon_content_description">นำ %1$s ออก</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">การแจ้งเตือนใหม่มากกว่า %1$d รายการ</string>
+    <string name="mtrl_picker_a11y_next_month">เปลี่ยนไปที่เดือนถัดไป</string>
+    <string name="mtrl_picker_a11y_prev_month">เปลี่ยนไปที่เดือนก่อนหน้า</string>
+    <string name="mtrl_picker_announce_current_range_selection">การเลือกวันที่เริ่มต้น: %1$s – การเลือกวันที่สิ้นสุด: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">การเลือกในปัจจุบัน: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">ไม่มี</string>
+    <string name="mtrl_picker_cancel">ยกเลิก</string>
+    <string name="mtrl_picker_confirm">ตกลง</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">เลือกวันที่</string>
+    <string name="mtrl_picker_date_header_unselected">วันที่ที่เลือก</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">วันที่สิ้นสุด %1$s</string>
+    <string name="mtrl_picker_invalid_format">รูปแบบไม่ถูกต้อง</string>
+    <string name="mtrl_picker_invalid_format_example">ตัวอย่าง: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">ใช้: %1$s</string>
+    <string name="mtrl_picker_invalid_range">ช่วงไม่ถูกต้อง</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">ไปยังปีปัจจุบัน %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">ไปที่ปี %1$d</string>
+    <string name="mtrl_picker_out_of_range">วันที่ไม่อยู่ในช่วงที่อนุญาต: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">วันที่เริ่มต้น – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – วันที่สิ้นสุด</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">เลือกช่วง</string>
+    <string name="mtrl_picker_range_header_unselected">วันที่เริ่มต้น – วันที่สิ้นสุด</string>
+    <string name="mtrl_picker_save">บันทึก</string>
+    <string name="mtrl_picker_start_date_description">วันที่เริ่มต้น %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">วันที่</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">วันที่สิ้นสุด</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">วันที่เริ่มต้น</string>
+    <string name="mtrl_picker_text_input_day_abbr">ว</string>
+    <string name="mtrl_picker_text_input_month_abbr">ด</string>
+    <string name="mtrl_picker_text_input_year_abbr">ป</string>
+    <string name="mtrl_picker_today_description">วันนี้ %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">สลับไปใช้โหมดป้อนข้อมูลปฏิทิน</string>
+    <string name="mtrl_picker_toggle_to_day_selection">เปลี่ยนเป็นมุมมองปฏิทิน</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">สลับไปใช้โหมดป้อนข้อมูลข้อความ</string>
+    <string name="mtrl_picker_toggle_to_year_selection">เปลี่ยนเป็นมุมมองปี</string>
+    <string name="mtrl_picker_toggled_to_day_selection">เปลี่ยนเป็นมุมมองปฏิทินแล้ว</string>
+    <string name="mtrl_picker_toggled_to_year_selection">เปลี่ยนเป็นมุมมองปีแล้ว</string>
+    <string name="mtrl_timepicker_cancel">ยกเลิก</string>
+    <string name="mtrl_timepicker_confirm">ตกลง</string>
+    <string msgid="7553105224561147916" name="new_event_dialog_label">"กิจกรรมใหม่"</string>
+    <string msgid="6154657379574669371" name="new_event_dialog_option">"กิจกรรมใหม่"</string>
+    <string name="no_reminder_label">ไม่มี</string>
+    <string msgid="5475293015394772651" name="no_results_found">"ไม่พบผลการค้นหา"</string>
+    <string msgid="7019488867045436129" name="no_syncable_calendars">"ไม่มีปฏิทิน"</string>
+    <string msgid="302177118061368042" name="no_title_label">"(ไม่มีชื่อ)"</string>
+    <string msgid="6573031135582639649" name="not_set">"ไม่ได้ตั้งค่า"</string>
+    <string msgid="3485026339977302148" name="palestine_display_name">"ปาเลสไตน์"</string>
+    <string name="password_toggle_content_description">แสดงรหัสผ่าน</string>
+    <string msgid="6685851473431805375" name="preference_copied">"คัดลอก \"<ns1:g id="SUMMARY">%1$s</ns1:g>\" ไปยังคลิปบอร์ดแล้ว"</string>
+    <string msgid="6643468203670475296" name="preferences_alerts_popup_title">"ป๊อปอัปแจ้งเตือน"</string>
+    <string msgid="1849706055052358346" name="preferences_alerts_ringtone_title">"เสียง"</string>
+    <string msgid="6636088008103904020" name="preferences_alerts_title">"การแจ้งเตือน"</string>
+    <string msgid="8731372580674292759" name="preferences_alerts_vibrateWhen_title">"สั่น"</string>
+    <string msgid="8242471883413502068" name="preferences_build_version">"รุ่น"</string>
+    <string msgid="7864674093455778158" name="preferences_clear_search_history_summary">"นำการค้นหาทั้งหมดที่คุณได้ดำเนินการแล้วออก"</string>
+    <string msgid="6619916370215282982" name="preferences_clear_search_history_title">"ล้างประวัติการค้นหา"</string>
+    <string msgid="2903884416749959435" name="preferences_default_reminder_default">"10"</string>
+    <string msgid="2490348857239323412" name="preferences_default_reminder_dialog">"เวลาการเตือนความจำเริ่มต้น"</string>
+    <string msgid="5188861433342733905" name="preferences_default_reminder_title">"เวลาการเตือนความจำเริ่มต้น"</string>
+    <string msgid="8111213192001230350" name="preferences_experimental_category">"ทดลอง"</string>
+    <string msgid="2069075513760573117" name="preferences_general_title">"การตั้งค่ามุมมองปฏิทิน"</string>
+    <string msgid="1849295943669890034" name="preferences_hide_declined_title">"ซ่อนกิจกรรมที่ปฏิเสธ"</string>
+    <string msgid="6680000444088818578" name="preferences_home_tz_title">"เขตเวลาท้องถิ่น"</string>
+    <string msgid="5199606534191180129" name="preferences_reminder_title">"การแจ้งเตือน"</string>
+    <string msgid="1873289128793828352" name="preferences_reminders_responded_dialog">"ข้ามการแจ้งเตือน"</string>
+    <string msgid="1196570678238475838" name="preferences_reminders_responded_label">"ข้ามการแจ้งเตือน"</string>
+    <string msgid="5280734329664503461" name="preferences_show_week_num_title">"แสดงหมายเลขสัปดาห์"</string>
+    <string msgid="8045855493262131773" name="preferences_title">"การตั้งค่า"</string>
+    <string msgid="4835375381297413746" name="preferences_use_home_tz_descrip">"แสดงปฏิทินและเวลากิจกรรมตามเขตเวลาท้องถิ่นของคุณขณะเดินทาง"</string>
+    <string msgid="5597546849968598210" name="preferences_use_home_tz_title">"ใช้เขตเวลาท้องถิ่น"</string>
+    <string msgid="5181634128884089113" name="preferences_week_start_day_dialog">"สัปดาห์เริ่มต้นวันที่"</string>
+    <string msgid="4619489296444901622" name="preferences_week_start_day_title">"สัปดาห์เริ่มต้นวันที่"</string>
+    <string msgid="6169724148441175862" name="presence_label">"แสดงสถานะว่าฉัน"</string>
+    <string msgid="9215031965259597335" name="privacy_label">"ข้อมูลส่วนบุคคล"</string>
+    <string msgid="8792374208224108798" name="quick_response_custom_msg">"เขียนคำตอบของคุณเอง…"</string>
+    <string msgid="2681309456412199207" name="quick_response_dialog_title">"เลือกคำตอบด่วน"</string>
+    <string msgid="5544066405231853245" name="quick_response_email_failed">"การค้นหาโปรแกรมอีเมลล้มเหลว"</string>
+    <string msgid="6776151690686068278" name="quick_response_settings">"คำตอบด่วน"</string>
+    <string msgid="6260055523174081930" name="quick_response_settings_edit_title">"คำตอบด่วน"</string>
+    <string msgid="7878304729027355604" name="quick_response_settings_summary">"แก้ไขคำตอบเริ่มต้น"</string>
+    <string msgid="6898950241634912991" name="recurrence_end_continously">"ตลอดไป"</string>
+    <string msgid="1233883668293087977" name="recurrence_end_count_label">"กำหนดจำนวนกิจกรรม"</string>
+    <string msgid="3693751578164711701" name="recurrence_end_date">"จนถึงวันที่ <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string msgid="4142791438636994952" name="recurrence_end_date_label">"จนถึงวันที่"</string>
+    <string msgid="4400107556121003459" name="recurrence_month_pattern_by_day">"ในวันเดียวกันในแต่ละเดือน"</string>
+    <string msgid="7292389181815525676" name="reminders_label">"เพิ่มการแจ้งเตือน"</string>
+    <string msgid="7791500973627841695" name="response_maybe">"ไม่แน่นอน"</string>
+    <string msgid="561911691884148136" name="response_no">"ไม่"</string>
+    <string msgid="2027484304899988350" name="response_yes">"ใช่"</string>
+    <string msgid="2133599104834432589" name="save_label">"เสร็จสิ้น"</string>
+    <string msgid="7694181017411177226" name="saving_event">"บันทึกกิจกรรมแล้ว"</string>
+    <string msgid="9184584438475689577" name="saving_event_with_guest">"จะมีการส่งการอัปเดต"</string>
+    <string msgid="550656004486017426" name="search">"ค้นหา"</string>
+    <string msgid="1536707558435227567" name="search_history_cleared">"ล้างประวัติการค้นหาแล้ว"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"ค้นหา"</string>
+    <string msgid="8898015280250716254" name="search_title">"ค้นหาปฏิทินของฉัน"</string>
+    <string name="searchview_clear_text_content_description">ล้างข้อความ</string>
+    <string msgid="1603860069305867810" name="searchview_description_clear">"ล้างข้อความค้นหา"</string>
+    <string name="searchview_navigation_content_description">กลับ</string>
+    <string msgid="8890542984949996251" name="select_synced_calendars_button">"ปฏิทินที่จะซิงค์"</string>
+    <string msgid="715520586028062621" name="show_controls">"แสดงปุ่มควบคุม"</string>
+    <string msgid="5782512782605466016" name="show_day_view">"แสดงวัน"</string>
+    <string msgid="2604638815440163080" name="show_newer_events">"แตะเพื่อดูกิจกรรมหลังจาก <ns1:g id="NEWEST_SEARCH_RANGE">%1$s</ns1:g>"</string>
+    <string msgid="5140647493681439926" name="show_older_events">"แตะเพื่อดูกิจกรรมก่อนหน้า <ns1:g id="OLDEST_SEARCH_RANGE">%1$s</ns1:g>"</string>
+    <string name="side_sheet_accessibility_pane_title">ชีตด้านข้าง</string>
+    <string msgid="1515893621063224666" name="snooze_label">"ปิดเสียงเตือนชั่วคราว"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g> <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="4067877800670753110" name="template_announce_item_index">"กิจกรรม <ns1:g id="ITEM_INDEX">%1$s</ns1:g> จาก <ns1:g id="ITEM_COUNT">%2$s</ns1:g>"</string>
+    <string msgid="8577375020252453006" name="today">"วันนี้"</string>
+    <string msgid="1981279213130049736" name="today_at_time_fmt">"วันนี้เวลา <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string msgid="614434811813859237" name="tomorrow">"วันพรุ่งนี้"</string>
+    <string msgid="1330779112841767432" name="tomorrow_at_time_fmt">"พรุ่งนี้เวลา <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"ปิด"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"เปิด"</string>
+    <string msgid="6126231656338241140" name="view_event_calendar_label">"ปฏิทิน:"</string>
+    <string msgid="2753151795647402277" name="view_event_organizer_label">"ผู้จัด:"</string>
+    <string msgid="8382281658458798329" name="view_event_response_label">"ต้องการเข้าร่วมหรือไม่"</string>
+    <string name="visibility_default">เริ่มต้น</string>
+    <string name="visibility_private">ส่วนบุคคล</string>
+    <string name="visibility_public">สาธารณะ</string>
+    <string msgid="6775043022159508060" name="week_view">"สัปดาห์"</string>
+    <string msgid="894636567327261599" name="when_label">"เมื่อใด"</string>
+    <string msgid="3652692085322162449" name="yearly_plain">"รายปี"</string>
+</resources>

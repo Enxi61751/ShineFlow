@@ -255,6 +255,10 @@
                 <data android:mimeType="application/ics" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.android.calendar.CourseImportActivity"
+            android:label="@string/course_import_title"
+            android:parentActivityName="com.android.calendar.AllInOneActivity" />
 
         <provider
             android:name="androidx.core.content.FileProvider"

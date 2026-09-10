@@ -1,29 +1,29 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:217:9-225:20
+INJECTED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:222:9-230:20
 	android:grantUriPermissions
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:221:13-47
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:226:13-47
 	android:authorities
 		INJECTED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:219:13-60
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:224:13-60
 	android:exported
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:220:13-37
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:225:13-37
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:218:13-62
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:223:13-62
 provider#com.android.calendar.CalendarRecentSuggestionsProvider
-INJECTED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:227:9-229:88
+INJECTED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:232:9-234:88
 	android:authorities
 		INJECTED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:229:13-85
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:234:13-85
 	android:exported
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:228:13-37
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:233:13-37
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:227:19-88
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:232:19-88
 manifest
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:20:1-330:12
-INJECTED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:20:1-330:12
-INJECTED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:20:1-330:12
-INJECTED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:20:1-330:12
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:20:1-335:12
+INJECTED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:20:1-335:12
+INJECTED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:20:1-335:12
+INJECTED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:20:1-335:12
 MERGED from [androidx.databinding:viewbinding:8.5.2] C:\Users\86137\.gradle\caches\transforms-4\fa7b30e3be65f6cd2414670288bc06e1\transformed\viewbinding-8.5.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.preference:preference-ktx:1.2.1] C:\Users\86137\.gradle\caches\transforms-4\3a96b00dce80a137a26e8846b4b92b4a\transformed\preference-ktx-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\86137\.gradle\caches\transforms-4\038073adba12f0c30b65fd5055dc38de\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
@@ -201,8 +201,8 @@ ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:
 intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
 ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:53:9-57:18
 application
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:60:5-329:19
-INJECTED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:60:5-329:19
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:60:5-334:19
+INJECTED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:60:5-334:19
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\86137\.gradle\caches\transforms-4\038073adba12f0c30b65fd5055dc38de\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\86137\.gradle\caches\transforms-4\038073adba12f0c30b65fd5055dc38de\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\86137\.gradle\caches\transforms-4\7e411725419a7f1313a200440f5351ba\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -425,168 +425,176 @@ ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:
 		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:202:19-69
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:application/ics+data:mimeType:text/calendar+data:mimeType:text/x-vcalendar+data:scheme:content+data:scheme:file
 ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:206:13-214:29
-activity#com.android.calendar.alerts.AlertActivity
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:232:9-236:64
-	android:excludeFromRecents
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:234:13-46
-	android:launchMode
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:235:13-48
-	android:theme
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:236:13-61
-	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:233:13-69
-activity#com.android.calendar.alerts.QuickResponseActivity
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:238:9-243:64
+activity#com.android.calendar.CourseImportActivity
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:217:9-220:82
+	android:parentActivityName
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:220:13-79
 	android:label
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:241:13-64
-	android:excludeFromRecents
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:240:13-46
-	android:launchMode
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:242:13-48
-	android:theme
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:243:13-61
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:219:13-56
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:239:13-77
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:218:13-69
+activity#com.android.calendar.alerts.AlertActivity
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:237:9-241:64
+	android:excludeFromRecents
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:239:13-46
+	android:launchMode
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:240:13-48
+	android:theme
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:241:13-61
+	android:name
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:238:13-69
+activity#com.android.calendar.alerts.QuickResponseActivity
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:243:9-248:64
+	android:label
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:246:13-64
+	android:excludeFromRecents
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:245:13-46
+	android:launchMode
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:247:13-48
+	android:theme
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:248:13-61
+	android:name
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:244:13-77
 activity#com.android.calendar.alerts.SnoozeDelayActivity
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:245:9-249:64
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:250:9-254:64
 	android:excludeFromRecents
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:247:13-46
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:252:13-46
 	android:launchMode
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:248:13-48
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:253:13-48
 	android:theme
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:249:13-61
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:254:13-61
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:246:13-75
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:251:13-75
 receiver#com.android.calendar.alerts.AlertReceiver
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:251:9-266:20
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:256:9-271:20
 	android:exported
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:252:13-36
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:257:13-36
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:251:19-75
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:256:19-75
 intent-filter#action:name:android.intent.action.EVENT_REMINDER+action:name:android.intent.action.TIME_SET+data:scheme:content
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:253:13-257:29
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:258:13-262:29
 action#android.intent.action.EVENT_REMINDER
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:254:17-79
-	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:254:25-76
-action#android.intent.action.TIME_SET
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:255:17-73
-	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:255:25-70
-intent-filter#action:name:android.intent.action.LOCALE_CHANGED
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:258:13-260:29
-action#android.intent.action.LOCALE_CHANGED
 ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:259:17-79
 	android:name
 		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:259:25-76
+action#android.intent.action.TIME_SET
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:260:17-73
+	android:name
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:260:25-70
+intent-filter#action:name:android.intent.action.LOCALE_CHANGED
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:263:13-265:29
+action#android.intent.action.LOCALE_CHANGED
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:264:17-79
+	android:name
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:264:25-76
 intent-filter#action:name:android.intent.action.PROVIDER_CHANGED+data:host:com.android.calendar+data:scheme:content
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:261:13-265:29
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:266:13-270:29
 action#android.intent.action.PROVIDER_CHANGED
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:262:17-80
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:267:17-80
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:262:25-78
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:267:25-78
 receiver#com.android.calendar.UpgradeReceiver
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:268:9-277:20
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:273:9-282:20
 	android:exported
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:269:13-36
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:274:13-36
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:268:19-70
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:273:19-70
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.DEFAULT
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:270:13-273:29
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:275:13-278:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:271:17-79
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:276:17-79
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:271:25-76
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:276:25-76
 intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:274:13-276:29
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:279:13-281:29
 action#android.intent.action.MY_PACKAGE_REPLACED
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:275:17-84
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:280:17-84
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:275:25-81
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:280:25-81
 service#com.android.calendar.alerts.AlertService
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:279:9-281:62
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:284:9-286:62
 	android:exported
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:280:13-37
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:285:13-37
 	android:foregroundServiceType
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:281:13-59
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:286:13-59
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:279:18-73
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:284:18-73
 service#com.android.calendar.alerts.DismissAlarmsService
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:283:9-84
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:288:9-84
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:283:18-81
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:288:18-81
 service#com.android.calendar.alerts.SnoozeAlarmsService
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:285:9-83
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:290:9-83
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:285:18-80
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:290:18-80
 receiver#com.android.calendar.widget.CalendarAppWidgetProvider
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:288:9-295:20
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:293:9-300:20
 	android:exported
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:289:13-36
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:294:13-36
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:288:19-87
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:293:19-87
 intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:com.android.calendar.APPWIDGET_UPDATE
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:290:13-293:29
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:295:13-298:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:291:17-84
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:296:17-84
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:291:25-81
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:296:25-81
 action#com.android.calendar.APPWIDGET_UPDATE
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:292:17-80
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:297:17-80
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:292:25-77
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:297:25-77
 meta-data#android.appwidget.provider
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:294:13-107
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:299:13-107
 	android:resource
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:294:66-104
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:299:66-104
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:294:24-65
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:299:24-65
 receiver#com.android.calendar.widget.CalendarAppWidgetService$CalendarFactory
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:297:9-316:20
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:302:9-321:20
 	android:exported
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:298:13-36
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:303:13-36
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:297:19-102
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:302:19-102
 intent-filter#action:name:android.intent.action.DATE_CHANGED+action:name:android.intent.action.LOCALE_CHANGED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:299:13-304:29
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:304:13-309:29
 action#android.intent.action.TIMEZONE_CHANGED
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:300:17-80
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:305:17-80
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:300:25-78
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:305:25-78
 action#android.intent.action.DATE_CHANGED
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:301:17-76
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:306:17-76
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:301:25-74
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:306:25-74
 intent-filter#action:name:com.android.calendar.APPWIDGET_SCHEDULED_UPDATE+data:host:com.android.calendar+data:mimeType:vnd.android.data/update+data:scheme:content
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:310:13-315:29
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:315:13-320:29
 action#com.android.calendar.APPWIDGET_SCHEDULED_UPDATE
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:311:17-89
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:316:17-89
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:311:25-87
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:316:25-87
 service#com.android.calendar.widget.CalendarAppWidgetService
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:318:9-321:19
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:323:9-326:19
 	android:exported
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:319:13-37
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:324:13-37
 	android:permission
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:320:13-69
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:325:13-69
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:318:18-85
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:323:18-85
 service#com.android.calendar.AsyncQueryServiceHelper
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:323:9-80
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:328:9-80
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:323:18-77
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:328:18-77
 activity#com.android.calendar.ui.MlDebugActivity
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:324:9-326:40
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:329:9-331:40
 	android:exported
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:326:13-37
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:331:13-37
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:325:13-67
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:330:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:222:13-224:57
+ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:227:13-229:57
 	android:resource
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:224:17-55
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:229:17-55
 	android:name
-		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:223:17-67
+		ADDED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:228:17-67
 uses-sdk
 INJECTED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml

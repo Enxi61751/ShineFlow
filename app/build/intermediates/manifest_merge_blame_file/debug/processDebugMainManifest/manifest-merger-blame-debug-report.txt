@@ -142,7 +142,7 @@
 77-->[androidx.core:core:1.13.1] C:\Users\86137\.gradle\caches\transforms-4\30cf0bd4f0d2fb592315ffff5daa984a\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 78
 79    <application
-79-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:60:5-329:19
+79-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:60:5-334:19
 80        android:name="com.android.calendar.CalendarApplication"
 80-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:60:18-73
 81        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -486,317 +486,325 @@
 255-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:84:23-52
 256            </intent-filter>
 257        </activity>
-258
-259        <provider
-260            android:name="androidx.core.content.FileProvider"
-260-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:218:13-62
-261            android:authorities="com.shineflow.app.debug.provider"
-261-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:219:13-60
-262            android:exported="false"
-262-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:220:13-37
-263            android:grantUriPermissions="true" >
-263-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:221:13-47
-264            <meta-data
-264-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:222:13-224:57
-265                android:name="android.support.FILE_PROVIDER_PATHS"
-265-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:223:17-67
-266                android:resource="@xml/provider_paths" />
-266-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:224:17-55
-267        </provider>
-268        <provider
-269            android:name="com.android.calendar.CalendarRecentSuggestionsProvider"
-269-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:227:19-88
-270            android:authorities="com.shineflow.app.debug.CalendarRecentSuggestionsProvider"
-270-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:229:13-85
-271            android:exported="false" />
-271-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:228:13-37
-272
-273        <!-- Declarations for alerts/reminders -->
-274        <activity
-274-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:232:9-236:64
-275            android:name="com.android.calendar.alerts.AlertActivity"
-275-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:233:13-69
-276            android:excludeFromRecents="true"
-276-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:234:13-46
-277            android:launchMode="singleInstance"
-277-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:235:13-48
-278            android:theme="@android:style/Theme.Holo.Dialog" />
-278-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:236:13-61
-279        <activity
-279-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:238:9-243:64
-280            android:name="com.android.calendar.alerts.QuickResponseActivity"
-280-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:239:13-77
-281            android:excludeFromRecents="true"
-281-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:240:13-46
-282            android:label="@string/quick_response_dialog_title"
-282-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:241:13-64
-283            android:launchMode="singleInstance"
-283-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:242:13-48
-284            android:theme="@android:style/Theme.Holo.Dialog" />
-284-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:243:13-61
-285        <activity
-285-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:245:9-249:64
-286            android:name="com.android.calendar.alerts.SnoozeDelayActivity"
-286-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:246:13-75
-287            android:excludeFromRecents="true"
-287-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:247:13-46
-288            android:launchMode="singleInstance"
-288-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:248:13-48
-289            android:theme="@android:style/Theme.Holo.Dialog" />
-289-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:249:13-61
-290
-291        <receiver
-291-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:251:9-266:20
-292            android:name="com.android.calendar.alerts.AlertReceiver"
-292-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:251:19-75
-293            android:exported="true" >
-293-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:252:13-36
-294            <intent-filter>
-294-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:253:13-257:29
-295                <action android:name="android.intent.action.EVENT_REMINDER" />
-295-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:254:17-79
-295-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:254:25-76
-296                <action android:name="android.intent.action.TIME_SET" />
-296-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:255:17-73
-296-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:255:25-70
-297
-298                <data android:scheme="content" />
-298-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:13-43
-298-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:19-40
-299            </intent-filter>
-300            <intent-filter>
-300-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:258:13-260:29
-301                <action android:name="android.intent.action.LOCALE_CHANGED" />
-301-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:259:17-79
-301-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:259:25-76
-302            </intent-filter>
-303            <intent-filter>
-303-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:261:13-265:29
-304                <action android:name="android.intent.action.PROVIDER_CHANGED" />
-304-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:262:17-80
-304-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:262:25-78
-305
-306                <data android:scheme="content" />
-306-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:13-43
-306-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:19-40
-307                <data android:host="com.android.calendar" />
-307-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:13-43
-307-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:85:23-58
-308            </intent-filter>
-309        </receiver>
-310        <receiver
-310-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:268:9-277:20
-311            android:name="com.android.calendar.UpgradeReceiver"
-311-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:268:19-70
-312            android:exported="true" >
-312-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:269:13-36
-313            <intent-filter>
-313-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:270:13-273:29
-314                <action android:name="android.intent.action.BOOT_COMPLETED" />
-314-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:271:17-79
-314-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:271:25-76
-315
-316                <category android:name="android.intent.category.DEFAULT" />
-316-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:77:17-76
-316-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:77:27-73
-317            </intent-filter>
-318            <intent-filter>
-318-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:274:13-276:29
-319                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-319-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:275:17-84
-319-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:275:25-81
-320            </intent-filter>
-321        </receiver>
-322
-323        <service
-323-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:279:9-281:62
-324            android:name="com.android.calendar.alerts.AlertService"
-324-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:279:18-73
-325            android:exported="false"
-325-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:280:13-37
-326            android:foregroundServiceType="systemExempted" />
-326-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:281:13-59
-327        <service android:name="com.android.calendar.alerts.DismissAlarmsService" />
-327-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:283:9-84
-327-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:283:18-81
-328        <service android:name="com.android.calendar.alerts.SnoozeAlarmsService" />
-328-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:285:9-83
-328-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:285:18-80
-329
-330        <!-- Declarations for the widget -->
-331        <receiver
-331-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:288:9-295:20
-332            android:name="com.android.calendar.widget.CalendarAppWidgetProvider"
-332-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:288:19-87
-333            android:exported="true" >
-333-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:289:13-36
-334            <intent-filter>
-334-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:290:13-293:29
-335                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-335-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:291:17-84
-335-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:291:25-81
-336                <action android:name="com.android.calendar.APPWIDGET_UPDATE" />
-336-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:292:17-80
-336-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:292:25-77
-337            </intent-filter>
-338
-339            <meta-data
-339-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:294:13-107
-340                android:name="android.appwidget.provider"
-340-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:294:24-65
-341                android:resource="@xml/appwidget_info" />
-341-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:294:66-104
-342        </receiver>
-343        <receiver
-343-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:297:9-316:20
-344            android:name="com.android.calendar.widget.CalendarAppWidgetService$CalendarFactory"
-344-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:297:19-102
-345            android:exported="true" >
-345-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:298:13-36
-346            <intent-filter>
-346-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:299:13-304:29
-347                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-347-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:300:17-80
-347-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:300:25-78
-348                <action android:name="android.intent.action.DATE_CHANGED" />
-348-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:301:17-76
-348-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:301:25-74
-349                <action android:name="android.intent.action.TIME_SET" />
-349-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:255:17-73
-349-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:255:25-70
-350                <action android:name="android.intent.action.LOCALE_CHANGED" />
-350-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:259:17-79
-350-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:259:25-76
-351            </intent-filter>
-352            <intent-filter>
-352-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:261:13-265:29
-353                <action android:name="android.intent.action.PROVIDER_CHANGED" />
-353-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:262:17-80
-353-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:262:25-78
-354
-355                <data android:scheme="content" />
-355-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:13-43
-355-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:19-40
-356                <data android:host="com.android.calendar" />
-356-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:13-43
-356-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:85:23-58
-357            </intent-filter>
-358            <intent-filter>
-358-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:310:13-315:29
-359                <action android:name="com.android.calendar.APPWIDGET_SCHEDULED_UPDATE" />
-359-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:311:17-89
-359-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:311:25-87
-360
-361                <data android:scheme="content" />
-361-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:13-43
-361-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:19-40
-362                <data android:host="com.android.calendar" />
-362-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:13-43
-362-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:85:23-58
-363                <data android:mimeType="vnd.android.data/update" />
-363-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:13-43
-363-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:84:23-52
-364            </intent-filter>
-365        </receiver>
-366
-367        <service
-367-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:318:9-321:19
-368            android:name="com.android.calendar.widget.CalendarAppWidgetService"
-368-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:318:18-85
-369            android:exported="false"
-369-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:319:13-37
-370            android:permission="android.permission.BIND_REMOTEVIEWS" >
-370-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:320:13-69
-371        </service>
-372        <service android:name="com.android.calendar.AsyncQueryServiceHelper" />
-372-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:323:9-80
-372-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:323:18-77
-373
-374        <activity
-374-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:324:9-326:40
-375            android:name="com.android.calendar.ui.MlDebugActivity"
-375-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:325:13-67
-376            android:exported="false" />
-376-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:326:13-37
+258        <activity
+258-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:217:9-220:82
+259            android:name="com.android.calendar.CourseImportActivity"
+259-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:218:13-69
+260            android:label="@string/course_import_title"
+260-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:219:13-56
+261            android:parentActivityName="com.android.calendar.AllInOneActivity" />
+261-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:220:13-79
+262
+263        <provider
+264            android:name="androidx.core.content.FileProvider"
+264-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:223:13-62
+265            android:authorities="com.shineflow.app.debug.provider"
+265-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:224:13-60
+266            android:exported="false"
+266-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:225:13-37
+267            android:grantUriPermissions="true" >
+267-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:226:13-47
+268            <meta-data
+268-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:227:13-229:57
+269                android:name="android.support.FILE_PROVIDER_PATHS"
+269-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:228:17-67
+270                android:resource="@xml/provider_paths" />
+270-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:229:17-55
+271        </provider>
+272        <provider
+273            android:name="com.android.calendar.CalendarRecentSuggestionsProvider"
+273-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:232:19-88
+274            android:authorities="com.shineflow.app.debug.CalendarRecentSuggestionsProvider"
+274-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:234:13-85
+275            android:exported="false" />
+275-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:233:13-37
+276
+277        <!-- Declarations for alerts/reminders -->
+278        <activity
+278-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:237:9-241:64
+279            android:name="com.android.calendar.alerts.AlertActivity"
+279-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:238:13-69
+280            android:excludeFromRecents="true"
+280-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:239:13-46
+281            android:launchMode="singleInstance"
+281-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:240:13-48
+282            android:theme="@android:style/Theme.Holo.Dialog" />
+282-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:241:13-61
+283        <activity
+283-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:243:9-248:64
+284            android:name="com.android.calendar.alerts.QuickResponseActivity"
+284-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:244:13-77
+285            android:excludeFromRecents="true"
+285-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:245:13-46
+286            android:label="@string/quick_response_dialog_title"
+286-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:246:13-64
+287            android:launchMode="singleInstance"
+287-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:247:13-48
+288            android:theme="@android:style/Theme.Holo.Dialog" />
+288-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:248:13-61
+289        <activity
+289-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:250:9-254:64
+290            android:name="com.android.calendar.alerts.SnoozeDelayActivity"
+290-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:251:13-75
+291            android:excludeFromRecents="true"
+291-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:252:13-46
+292            android:launchMode="singleInstance"
+292-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:253:13-48
+293            android:theme="@android:style/Theme.Holo.Dialog" />
+293-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:254:13-61
+294
+295        <receiver
+295-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:256:9-271:20
+296            android:name="com.android.calendar.alerts.AlertReceiver"
+296-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:256:19-75
+297            android:exported="true" >
+297-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:257:13-36
+298            <intent-filter>
+298-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:258:13-262:29
+299                <action android:name="android.intent.action.EVENT_REMINDER" />
+299-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:259:17-79
+299-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:259:25-76
+300                <action android:name="android.intent.action.TIME_SET" />
+300-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:260:17-73
+300-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:260:25-70
+301
+302                <data android:scheme="content" />
+302-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:13-43
+302-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:19-40
+303            </intent-filter>
+304            <intent-filter>
+304-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:263:13-265:29
+305                <action android:name="android.intent.action.LOCALE_CHANGED" />
+305-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:264:17-79
+305-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:264:25-76
+306            </intent-filter>
+307            <intent-filter>
+307-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:266:13-270:29
+308                <action android:name="android.intent.action.PROVIDER_CHANGED" />
+308-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:267:17-80
+308-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:267:25-78
+309
+310                <data android:scheme="content" />
+310-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:13-43
+310-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:19-40
+311                <data android:host="com.android.calendar" />
+311-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:13-43
+311-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:85:23-58
+312            </intent-filter>
+313        </receiver>
+314        <receiver
+314-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:273:9-282:20
+315            android:name="com.android.calendar.UpgradeReceiver"
+315-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:273:19-70
+316            android:exported="true" >
+316-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:274:13-36
+317            <intent-filter>
+317-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:275:13-278:29
+318                <action android:name="android.intent.action.BOOT_COMPLETED" />
+318-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:276:17-79
+318-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:276:25-76
+319
+320                <category android:name="android.intent.category.DEFAULT" />
+320-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:77:17-76
+320-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:77:27-73
+321            </intent-filter>
+322            <intent-filter>
+322-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:279:13-281:29
+323                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+323-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:280:17-84
+323-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:280:25-81
+324            </intent-filter>
+325        </receiver>
+326
+327        <service
+327-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:284:9-286:62
+328            android:name="com.android.calendar.alerts.AlertService"
+328-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:284:18-73
+329            android:exported="false"
+329-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:285:13-37
+330            android:foregroundServiceType="systemExempted" />
+330-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:286:13-59
+331        <service android:name="com.android.calendar.alerts.DismissAlarmsService" />
+331-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:288:9-84
+331-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:288:18-81
+332        <service android:name="com.android.calendar.alerts.SnoozeAlarmsService" />
+332-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:290:9-83
+332-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:290:18-80
+333
+334        <!-- Declarations for the widget -->
+335        <receiver
+335-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:293:9-300:20
+336            android:name="com.android.calendar.widget.CalendarAppWidgetProvider"
+336-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:293:19-87
+337            android:exported="true" >
+337-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:294:13-36
+338            <intent-filter>
+338-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:295:13-298:29
+339                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+339-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:296:17-84
+339-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:296:25-81
+340                <action android:name="com.android.calendar.APPWIDGET_UPDATE" />
+340-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:297:17-80
+340-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:297:25-77
+341            </intent-filter>
+342
+343            <meta-data
+343-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:299:13-107
+344                android:name="android.appwidget.provider"
+344-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:299:24-65
+345                android:resource="@xml/appwidget_info" />
+345-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:299:66-104
+346        </receiver>
+347        <receiver
+347-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:302:9-321:20
+348            android:name="com.android.calendar.widget.CalendarAppWidgetService$CalendarFactory"
+348-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:302:19-102
+349            android:exported="true" >
+349-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:303:13-36
+350            <intent-filter>
+350-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:304:13-309:29
+351                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+351-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:305:17-80
+351-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:305:25-78
+352                <action android:name="android.intent.action.DATE_CHANGED" />
+352-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:306:17-76
+352-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:306:25-74
+353                <action android:name="android.intent.action.TIME_SET" />
+353-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:260:17-73
+353-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:260:25-70
+354                <action android:name="android.intent.action.LOCALE_CHANGED" />
+354-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:264:17-79
+354-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:264:25-76
+355            </intent-filter>
+356            <intent-filter>
+356-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:266:13-270:29
+357                <action android:name="android.intent.action.PROVIDER_CHANGED" />
+357-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:267:17-80
+357-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:267:25-78
+358
+359                <data android:scheme="content" />
+359-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:13-43
+359-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:19-40
+360                <data android:host="com.android.calendar" />
+360-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:13-43
+360-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:85:23-58
+361            </intent-filter>
+362            <intent-filter>
+362-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:315:13-320:29
+363                <action android:name="com.android.calendar.APPWIDGET_SCHEDULED_UPDATE" />
+363-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:316:17-89
+363-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:316:25-87
+364
+365                <data android:scheme="content" />
+365-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:13-43
+365-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:19-40
+366                <data android:host="com.android.calendar" />
+366-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:13-43
+366-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:85:23-58
+367                <data android:mimeType="vnd.android.data/update" />
+367-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:50:13-43
+367-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:84:23-52
+368            </intent-filter>
+369        </receiver>
+370
+371        <service
+371-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:323:9-326:19
+372            android:name="com.android.calendar.widget.CalendarAppWidgetService"
+372-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:323:18-85
+373            android:exported="false"
+373-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:324:13-37
+374            android:permission="android.permission.BIND_REMOTEVIEWS" >
+374-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:325:13-69
+375        </service>
+376        <service android:name="com.android.calendar.AsyncQueryServiceHelper" />
+376-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:328:9-80
+376-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:328:18-77
 377
-378        <provider
-378-->[androidx.emoji2:emoji2:1.3.0] C:\Users\86137\.gradle\caches\transforms-4\aa3087217393cca5897a1baefaa4f773\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-379            android:name="androidx.startup.InitializationProvider"
-379-->[androidx.emoji2:emoji2:1.3.0] C:\Users\86137\.gradle\caches\transforms-4\aa3087217393cca5897a1baefaa4f773\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-380            android:authorities="com.shineflow.app.debug.androidx-startup"
-380-->[androidx.emoji2:emoji2:1.3.0] C:\Users\86137\.gradle\caches\transforms-4\aa3087217393cca5897a1baefaa4f773\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-381            android:exported="false" >
-381-->[androidx.emoji2:emoji2:1.3.0] C:\Users\86137\.gradle\caches\transforms-4\aa3087217393cca5897a1baefaa4f773\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-382            <meta-data
-382-->[androidx.emoji2:emoji2:1.3.0] C:\Users\86137\.gradle\caches\transforms-4\aa3087217393cca5897a1baefaa4f773\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-383                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-383-->[androidx.emoji2:emoji2:1.3.0] C:\Users\86137\.gradle\caches\transforms-4\aa3087217393cca5897a1baefaa4f773\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-384                android:value="androidx.startup" />
-384-->[androidx.emoji2:emoji2:1.3.0] C:\Users\86137\.gradle\caches\transforms-4\aa3087217393cca5897a1baefaa4f773\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-385            <meta-data
-385-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\86137\.gradle\caches\transforms-4\65f9ebdd4df613cec4424ac4c6b6bc83\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:29:13-31:52
-386                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-386-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\86137\.gradle\caches\transforms-4\65f9ebdd4df613cec4424ac4c6b6bc83\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:30:17-78
-387                android:value="androidx.startup" />
-387-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\86137\.gradle\caches\transforms-4\65f9ebdd4df613cec4424ac4c6b6bc83\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:31:17-49
-388            <meta-data
-388-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
-389                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-389-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
-390                android:value="androidx.startup" />
-390-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
-391        </provider>
-392
-393        <uses-library
-393-->[androidx.window:window:1.0.0] C:\Users\86137\.gradle\caches\transforms-4\d14765384fbbc6b2dc785de2a62e482f\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-394            android:name="androidx.window.extensions"
-394-->[androidx.window:window:1.0.0] C:\Users\86137\.gradle\caches\transforms-4\d14765384fbbc6b2dc785de2a62e482f\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-395            android:required="false" />
-395-->[androidx.window:window:1.0.0] C:\Users\86137\.gradle\caches\transforms-4\d14765384fbbc6b2dc785de2a62e482f\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-396        <uses-library
-396-->[androidx.window:window:1.0.0] C:\Users\86137\.gradle\caches\transforms-4\d14765384fbbc6b2dc785de2a62e482f\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-397            android:name="androidx.window.sidecar"
-397-->[androidx.window:window:1.0.0] C:\Users\86137\.gradle\caches\transforms-4\d14765384fbbc6b2dc785de2a62e482f\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-398            android:required="false" />
-398-->[androidx.window:window:1.0.0] C:\Users\86137\.gradle\caches\transforms-4\d14765384fbbc6b2dc785de2a62e482f\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-399
-400        <receiver
-400-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
-401            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-401-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
-402            android:directBootAware="false"
-402-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
-403            android:enabled="true"
-403-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
-404            android:exported="true"
-404-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
-405            android:permission="android.permission.DUMP" >
-405-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
-406            <intent-filter>
-406-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
-407                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-407-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
-407-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
-408            </intent-filter>
-409            <intent-filter>
-409-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
-410                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-410-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
-410-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
-411            </intent-filter>
-412            <intent-filter>
-412-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
-413                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-413-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
-413-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
-414            </intent-filter>
-415            <intent-filter>
-415-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
-416                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-416-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
-416-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
-417            </intent-filter>
-418        </receiver>
-419    </application>
-420
-421</manifest>
+378        <activity
+378-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:329:9-331:40
+379            android:name="com.android.calendar.ui.MlDebugActivity"
+379-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:330:13-67
+380            android:exported="false" />
+380-->D:\IdeaProjects\ShineFlow\ShineFlow\app\src\main\AndroidManifest.xml:331:13-37
+381
+382        <provider
+382-->[androidx.emoji2:emoji2:1.3.0] C:\Users\86137\.gradle\caches\transforms-4\aa3087217393cca5897a1baefaa4f773\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+383            android:name="androidx.startup.InitializationProvider"
+383-->[androidx.emoji2:emoji2:1.3.0] C:\Users\86137\.gradle\caches\transforms-4\aa3087217393cca5897a1baefaa4f773\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+384            android:authorities="com.shineflow.app.debug.androidx-startup"
+384-->[androidx.emoji2:emoji2:1.3.0] C:\Users\86137\.gradle\caches\transforms-4\aa3087217393cca5897a1baefaa4f773\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+385            android:exported="false" >
+385-->[androidx.emoji2:emoji2:1.3.0] C:\Users\86137\.gradle\caches\transforms-4\aa3087217393cca5897a1baefaa4f773\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+386            <meta-data
+386-->[androidx.emoji2:emoji2:1.3.0] C:\Users\86137\.gradle\caches\transforms-4\aa3087217393cca5897a1baefaa4f773\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+387                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+387-->[androidx.emoji2:emoji2:1.3.0] C:\Users\86137\.gradle\caches\transforms-4\aa3087217393cca5897a1baefaa4f773\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+388                android:value="androidx.startup" />
+388-->[androidx.emoji2:emoji2:1.3.0] C:\Users\86137\.gradle\caches\transforms-4\aa3087217393cca5897a1baefaa4f773\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+389            <meta-data
+389-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\86137\.gradle\caches\transforms-4\65f9ebdd4df613cec4424ac4c6b6bc83\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:29:13-31:52
+390                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+390-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\86137\.gradle\caches\transforms-4\65f9ebdd4df613cec4424ac4c6b6bc83\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:30:17-78
+391                android:value="androidx.startup" />
+391-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\86137\.gradle\caches\transforms-4\65f9ebdd4df613cec4424ac4c6b6bc83\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:31:17-49
+392            <meta-data
+392-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+393                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+393-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+394                android:value="androidx.startup" />
+394-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+395        </provider>
+396
+397        <uses-library
+397-->[androidx.window:window:1.0.0] C:\Users\86137\.gradle\caches\transforms-4\d14765384fbbc6b2dc785de2a62e482f\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+398            android:name="androidx.window.extensions"
+398-->[androidx.window:window:1.0.0] C:\Users\86137\.gradle\caches\transforms-4\d14765384fbbc6b2dc785de2a62e482f\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+399            android:required="false" />
+399-->[androidx.window:window:1.0.0] C:\Users\86137\.gradle\caches\transforms-4\d14765384fbbc6b2dc785de2a62e482f\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+400        <uses-library
+400-->[androidx.window:window:1.0.0] C:\Users\86137\.gradle\caches\transforms-4\d14765384fbbc6b2dc785de2a62e482f\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+401            android:name="androidx.window.sidecar"
+401-->[androidx.window:window:1.0.0] C:\Users\86137\.gradle\caches\transforms-4\d14765384fbbc6b2dc785de2a62e482f\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+402            android:required="false" />
+402-->[androidx.window:window:1.0.0] C:\Users\86137\.gradle\caches\transforms-4\d14765384fbbc6b2dc785de2a62e482f\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+403
+404        <receiver
+404-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+405            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+405-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+406            android:directBootAware="false"
+406-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+407            android:enabled="true"
+407-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+408            android:exported="true"
+408-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+409            android:permission="android.permission.DUMP" >
+409-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+410            <intent-filter>
+410-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+411                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+411-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+411-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+412            </intent-filter>
+413            <intent-filter>
+413-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+414                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+414-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+414-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+415            </intent-filter>
+416            <intent-filter>
+416-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+417                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+417-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+417-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+418            </intent-filter>
+419            <intent-filter>
+419-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+420                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+420-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+420-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\86137\.gradle\caches\transforms-4\bd3c5c08416bc8231c5ba93f54fc11bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+421            </intent-filter>
+422        </receiver>
+423    </application>
+424
+425</manifest>

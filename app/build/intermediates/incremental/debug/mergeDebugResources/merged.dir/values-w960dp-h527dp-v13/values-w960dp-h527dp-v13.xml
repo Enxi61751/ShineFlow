@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="agenda_show_event_info_full_screen">false</bool>
+    <bool name="multiple_pane_config">true</bool>
+    <bool name="show_agenda_with_month">false</bool>
+    <bool name="show_calendar_controls">true</bool>
+    <bool name="show_details_in_month">true</bool>
+    <bool name="show_event_details_with_agenda">true</bool>
+    <bool name="show_event_info_full_screen">false</bool>
+    <bool name="show_time_in_month">true</bool>
+    <bool name="tablet_config">true</bool>
+    <dimen name="all_day_bottom_margin">10dip</dimen>
+    <dimen name="allday_text_size">14sp</dimen>
+    <dimen name="date_header_text_size">18sp</dimen>
+    <dimen name="day_header_bottom_margin">6dip</dimen>
+    <dimen name="day_label_text_size">14sp</dimen>
+    <dimen name="day_view_event_text_size">14sp</dimen>
+    <dimen name="edit_reminder_min_size">48dip</dimen>
+    <dimen name="event_info_dialog_height">470dip</dimen>
+    <dimen name="event_info_dialog_width">550dip</dimen>
+    <dimen name="event_text_horizontal_margin">6dp</dimen>
+    <dimen name="event_text_vertical_margin">4dp</dimen>
+    <dimen name="hours_left_margin">4dip</dimen>
+    <dimen name="hours_right_margin">4dip</dimen>
+    <dimen name="hours_text_size">16sp</dimen>
+    <dimen name="min_hours_width">32dip</dimen>
+    <dimen name="new_event_hint_text_size">14sp</dimen>
+    <dimen name="one_day_header_height">0dip</dimen>
+    <dimen name="week_view_event_text_size">12sp</dimen>
+    <dimen name="widget_day_num_size">42sp</dimen>
+    <dimen name="widget_day_num_top_padding">-8dip</dimen>
+    <integer name="color_chip_all_day_height">64</integer>
+    <integer name="color_chip_height">32</integer>
+    <integer name="month_day_number_margin">8</integer>
+    <integer name="text_size_event_title">12</integer>
+    <integer name="text_size_month_number">24</integer>
+</resources>

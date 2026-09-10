@@ -173,4 +173,21 @@
             app:summary="@string/preferences_do_not_check_battery_optimization_summary" />
     </PreferenceCategory>
 
+    <PreferenceCategory
+        app:key="preferences_agent_category"
+        app:title="@string/agent_personality_title">
+        <ListPreference
+            app:key="preferences_agent_personality"
+            app:defaultValue="gentle"
+            app:title="@string/agent_personality_title"
+            app:summary="@string/agent_personality_summary"
+            app:entries="@array/agent_personality_entries"
+            app:entryValues="@array/agent_personality_values" />
+        <EditTextPreference
+            app:key="preferences_agent_custom_personality"
+            app:title="@string/agent_personality_custom_title"
+            app:summary="@string/agent_personality_custom_summary"
+            app:useSimpleSummaryProvider="true"
+            app:dialogMessage="@string/agent_personality_custom_hint" />
+    </PreferenceCategory>
 </PreferenceScreen>

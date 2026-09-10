@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="Ndays">
+        <item quantity="one">1 күн</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> күн</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="one">1 оқиға</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> оқиға</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">1 сағат</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> сағат</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">1 мин</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> мин</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="one">1 минут</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> минут</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 апта</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> апта</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">Күн сайын</item>
+        <item quantity="other">Әр <ns1:g id="number">%d</ns1:g> күн сайын</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d жаңа хабарландыру</item>
+    <item quantity="other">%d жаңа хабарландыру</item>
+  </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Әр <ns1:g id="count">%d</ns1:g> күн сайын</item>
+        <item quantity="other">Әр <ns1:g id="count">%d</ns1:g> күн сайын</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Әр <ns1:g id="count">%d</ns1:g> ай сайын</item>
+        <item quantity="other">Әр <ns1:g id="count">%d</ns1:g> ай сайын</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Әр <ns1:g id="count">%d</ns1:g> апта сайын</item>
+        <item quantity="other">Әр <ns1:g id="count">%d</ns1:g> апта сайын</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Әр <ns1:g id="count">%d</ns1:g> жыл сайын</item>
+        <item quantity="other">Әр <ns1:g id="count">%d</ns1:g> жыл сайын</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one">1-апта</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g>-апта</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Негізгі бетке өту"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Жоғары қарай өту"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Басқа опциялар"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Дайын"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Барлығын көру"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Қолданбаны таңдау"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ӨШІРУ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ҚОСУ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"бос орын"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Іздеу…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Сұрауды өшіру"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Іздеу сұрауы"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Іздеу"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Сұрауды жіберу"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Дауыспен іздеу"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Бөлісу"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> қолданбасымен бөлісу"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Жию"</string>
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"Қол жетімді ұсыныстар жоқ"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"Контакт ұсыныстары ашық"</string>
+    <string name="accessibility_pick_end_date">Аяқталу күні</string>
+    <string name="accessibility_pick_end_time">Аяқталу уақыты</string>
+    <string name="accessibility_pick_recurrence">Оқиғаны қайталау</string>
+    <string name="accessibility_pick_start_date">Басталу күні</string>
+    <string name="accessibility_pick_start_time">Басталу уақыты</string>
+    <string name="accessibility_pick_time_zone">Уақыт белдеуі</string>
+    <string name="accessibility_reminder_privacy">Құпиялылық</string>
+    <string name="acessibility_recurrence_choose_end_date_description">аяқталу күнін өзгерту</string>
+    <string name="acessibility_selected_marker_description">Таңдалған оқиға</string>
+    <string msgid="7172664623795021857" name="action_label">"Қайтару"</string>
+    <string name="add_calendar">Күнтізбе қосу</string>
+    <string name="after_start_of_event">after start of event</string>
+    <string name="agenda_today">Бүгін, <ns1:g id="date">%1$s</ns1:g></string>
+    <string name="agenda_tomorrow">Ертең, <ns1:g id="date">%1$s</ns1:g></string>
+    <string name="agenda_view">Күн тәртібі</string>
+    <string name="agenda_yesterday">Кеше, <ns1:g id="date">%1$s</ns1:g></string>
+    <string name="alert_title">Күнтізбе мәлімдемелері</string>
+    <string name="app_copyright">© 2015-<ns1:g>%1$s</ns1:g> Etar жобасы. Ішінара © 2005-<ns1:g>%1$s</ns1:g> The Android Open Source Project.</string>
+    <string name="app_label">Күнтізбе</string>
+    <string name="authors">Авторлар</string>
+    <string name="bottomsheet_action_collapse">Төменгі парақшаны жию</string>
+    <string name="bottomsheet_action_expand">Төменгі парақшаны жаю</string>
+    <string name="bottomsheet_action_expand_halfway">Жартылай кеңейту</string>
+    <string name="bottomsheet_drag_handle_content_description">Сүйрейтін тетік</string>
+    <string name="cal_import_menu_title">Оқиғаны импорттау</string>
+    <string name="cal_pick_ics">Импорттау үшін файлды таңдау</string>
+    <string name="calendar_color_picker_dialog_title">Күнтізбенің түсі</string>
+    <string name="calendar_refresh">Жаңарту</string>
+    <string name="call_label">Қоңырау шалу</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Жауап"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Бейне"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Қабылдамау"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Тұтқаны қою"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Кіріс қоңырау"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Қоңырау"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Келген қоңырауды сүзу"</string>
+    <string name="changelog">Өзгерістер</string>
+    <string name="character_counter_content_description">%1$d/%2$d таңба енгізілді</string>
+    <string name="character_counter_overflowed_content_description">Таңба саны шегінен асты: %1$d/%2$d</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"Бас тарту"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"Көшіру"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"Контактілерді ұсынуға рұқсат ету"</string>
+    <string name="choose_event_color_label">Оқиға түсін таңдау</string>
+    <string name="clear_text_end_icon_content_description">Мәтінді өшіру</string>
+    <string msgid="6083905920877235314" name="copy">"Көшіру"</string>
+    <string name="copy_db">Дерекқорды жіберу</string>
+    <string msgid="1084563757174121331" name="copy_email">"Эл.поштаның көшірмесін жасау"</string>
+    <string msgid="8860802152973030914" name="copy_number">"Телефон нөмірінің көшірмесін жасау"</string>
+    <string name="create_event_dialog_save">Сақтау</string>
+    <string name="creating_event">Оқиға жасалды.</string>
+    <string name="creating_event_with_guest">Шақырулар жіберіледі.</string>
+    <string name="date_time_fmt"><ns1:g id="date">%1$s</ns1:g>, <ns1:g id="time_interval">%2$s</ns1:g></string>
+    <string name="day_view">Күн</string>
+    <string name="delete_label">Жою</string>
+    <string name="discard_label">Болдырмау</string>
+    <string name="dismiss_all_label">Бәрін жасыру</string>
+    <string name="display_location">Орынды көрсету</string>
+    <string name="display_time">Уақытты көрсету</string>
+    <string name="does_not_repeat">Бір реттік оқиға</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"<ns1:g id="CONTACT">%s</ns1:g> алушылардан жою"</string>
+    <string name="duplicate_label">Көшірмесін жасау</string>
+    <string name="edit_event_all_day_label">Күні бойы</string>
+    <string name="edit_event_calendar_label">Күнтізбе</string>
+    <string name="edit_event_label">Мәліметтер</string>
+    <string name="edit_label">Өңдеу</string>
+    <string name="empty_event">Бос оқиға жасауға болмайды.</string>
+    <string name="endByDate">; <ns1:g id="date">%s</ns1:g> дейін</string>
+    <string name="error_a11y_label">Қате: жарамсыз</string>
+    <string name="error_icon_content_description">Қате</string>
+    <string name="event_color_picker_dialog_title">Оқиғаның түсі</string>
+    <string name="event_create">Жаңа оқиға</string>
+    <string name="event_delete">Оқиғаны жою</string>
+    <string name="event_edit">Оқиғаны өңдеу</string>
+    <string name="event_info_organizer">Ұйымдастырушы:</string>
+    <string name="event_info_title">Оқиғаны көру</string>
+    <string name="event_not_found">Оқиға табылмады.</string>
+    <string name="event_view">Оқиғаны қарау</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Қосымша"</string>
+    <string name="exposed_dropdown_menu_content_description">Ашылмалы мәзірді көрсету</string>
+    <string name="fifteen_minutes">15 минут</string>
+    <string name="five_days">5 күн</string>
+    <string name="foreground_notification_channel_name">Фондағы тапсырмалар</string>
+    <string name="four_days">4 күн</string>
+    <string name="goto_date">Көшу…</string>
+    <string name="goto_today">Бүгін</string>
+    <string name="hide_controls">Бүйірлік тақтаны жасыру</string>
+    <string name="hint_attendees">Қонақтар</string>
+    <string name="hint_description">Сипаттама</string>
+    <string msgid="804776560897143016" name="hint_time_zone_search">"Ел атауын теріңіз"</string>
+    <string name="hint_url">URL</string>
+    <string name="hint_what">Оқиға атауы</string>
+    <string name="hint_where">Орын</string>
+    <string name="icon_content_description">Диалог белгішесі</string>
+    <string name="item_view_role_description">Қойынды</string>
+    <string name="license">Лицензия</string>
+    <string name="loading">Жүктелуде…</string>
+    <string name="m3_loading_indicator_content_description">Жүктеліп жатыр</string>
+    <string name="map_label">Карта</string>
+    <string name="material_clock_toggle_content_description">\"AM\" немесе \"PM\" форматын таңдау</string>
+    <string name="material_hour_24h_suffix">Сағат: %1$s</string>
+    <string name="material_hour_selection">Сағатты таңдау</string>
+    <string name="material_hour_suffix">Сағат: %1$s</string>
+    <string name="material_minute_selection">Минут таңдау</string>
+    <string name="material_minute_suffix">%1$s минут</string>
+    <string name="material_slider_range_end">Аралықтың соңы</string>
+    <string name="material_slider_range_start">Аралықтың басы</string>
+    <string name="material_slider_value">Мәні</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Уақытты енгізу үшін сағат режиміне өтіңіз.</string>
+    <string name="material_timepicker_hour">Сағат</string>
+    <string name="material_timepicker_minute">Mинут</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Уақытты таңдау</string>
+    <string name="material_timepicker_text_input_mode_description">Уақытты енгізу үшін мәтін енгізу режиміне өтіңіз.</string>
+    <string name="maximum_number_of_lines">Оқиғадағы жолдардың ең көп саны</string>
+    <string name="menu_info">Ақпарат</string>
+    <string name="menu_preferences">Баптаулар</string>
+    <string name="modify_event">Осы оқиғаны ғана өзгерту</string>
+    <string name="month_view">Ай</string>
+    <string name="monthly">Ай сайын</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g>"</string>
+    <string name="mtrl_badge_numberless_content_description">Жаңа хабарландыру</string>
+    <string name="mtrl_checkbox_state_description_checked">Құсбелгі қойылды.</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Құсбелгі жартылай қойылды.</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Құсбелгі қойылмады.</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s контентін өшіру</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d санынан көп жаңа хабарландыру</string>
+    <string name="mtrl_picker_a11y_next_month">Келесі айға өту</string>
+    <string name="mtrl_picker_a11y_prev_month">Алдыңғы айға өту</string>
+    <string name="mtrl_picker_announce_current_range_selection">Таңдалған басталу уақыты: %1$s – Таңдалған аяқталу уақыты: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">Ағымдағы таңдау: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">ешқандай</string>
+    <string name="mtrl_picker_cancel">Бас тарту</string>
+    <string name="mtrl_picker_confirm">Жарайды</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Күнді таңдау</string>
+    <string name="mtrl_picker_date_header_unselected">Таңдалған күн</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Аяқталу күні: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Формат жарамсыз.</string>
+    <string name="mtrl_picker_invalid_format_example">Мысал: %1$s.</string>
+    <string name="mtrl_picker_invalid_format_use">Жарамды формат: %1$s.</string>
+    <string name="mtrl_picker_invalid_range">Ауқым жарамсыз.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Қазіргі жылға өту %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$d жылына жылжу</string>
+    <string name="mtrl_picker_out_of_range">Ауқымнан тыc: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Басталу күні – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Аяқталу күні</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Аралықты таңдау</string>
+    <string name="mtrl_picker_range_header_unselected">Басталу күні – Аяқталу күні</string>
+    <string name="mtrl_picker_save">Сақтау</string>
+    <string name="mtrl_picker_start_date_description">Басталу күні: %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">Күні</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Аяқталу күні</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Басталу күні</string>
+    <string name="mtrl_picker_text_input_day_abbr">к</string>
+    <string name="mtrl_picker_text_input_month_abbr">а</string>
+    <string name="mtrl_picker_text_input_year_abbr">ж</string>
+    <string name="mtrl_picker_today_description">Бүгін %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Күнтізбенің енгізу режиміне ауысу</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Күнтізбе көрінісіне ауысу</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Мәтін енгізу режиміне ауысу</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Жыл көрінісіне ауысу</string>
+    <string name="mtrl_picker_toggled_to_day_selection">Calendar режиміне ауыстыңыз.</string>
+    <string name="mtrl_picker_toggled_to_year_selection">Жыл таңдау режиміне ауыстыңыз.</string>
+    <string name="mtrl_timepicker_cancel">Бас тарту</string>
+    <string name="mtrl_timepicker_confirm">Жарайды</string>
+    <string name="new_event_dialog_label">Жаңа оқиға</string>
+    <string name="new_event_dialog_option">Жаңа оқиға</string>
+    <string msgid="5475293015394772651" name="no_results_found">"Ешбір нәтиже табылмады"</string>
+    <string name="no_syncable_calendars">Күнтізбе жоқ</string>
+    <string name="no_title_label">(Тақырыпсыз)</string>
+    <string msgid="6573031135582639649" name="not_set">"Орнатылмаған"</string>
+    <string name="one_and_a_half_hours">1.5 сағат</string>
+    <string name="one_hour">1 сағат</string>
+    <string msgid="3485026339977302148" name="palestine_display_name">"Палестина"</string>
+    <string name="password_toggle_content_description">Құпия сөзді көрсету</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" қорытындысы буферге көшірілді"</string>
+    <string name="preferences_alerts_ringtone_title">Дыбыс</string>
+    <string name="preferences_alerts_title">Хабарландырулар</string>
+    <string name="preferences_alerts_vibrateWhen_title">Діріл</string>
+    <string name="preferences_black_theme">Қара</string>
+    <string name="preferences_calendar_color">Түс</string>
+    <string name="preferences_calendar_delete">Күнтізбені жою</string>
+    <string name="preferences_calendar_delete_cancel">Болдырмау</string>
+    <string name="preferences_calendar_delete_delete">Күнтізбені жою</string>
+    <string name="preferences_calendar_delete_message">Бұл күнтізбені шынымен жойғыңыз келе ме\?</string>
+    <string name="preferences_clear_search_history_title">Іздеу тарихын өшіру</string>
+    <string name="preferences_color">Негізгі түс</string>
+    <string name="preferences_color_pick">Негізгі түс</string>
+    <string name="preferences_dark_theme">Қараңғы</string>
+    <string name="preferences_days_per_week_dialog">Аптадағы күндер саны</string>
+    <string name="preferences_days_per_week_title">Аптадағы күндер саны</string>
+    <string name="preferences_default_event_duration_title">Оқиғаның әдепкі ұзақтығы</string>
+    <string name="preferences_default_reminder_default">10</string>
+    <string name="preferences_general_title">Күнтізбе көрінісін баптау</string>
+    <string name="preferences_home_tz_title">Үй уақыт белдеуім</string>
+    <string name="preferences_issues">Мәселе туралы хабарлау</string>
+    <string name="preferences_light_theme">Ақшыл</string>
+    <string name="preferences_list_add_offline_cancel">Болдырмау</string>
+    <string name="preferences_list_add_remote">CalDAV күнтізбесін қосу</string>
+    <string name="preferences_list_add_remote_etesync">EteSync күнтізбесін қосу</string>
+    <string name="preferences_menu_about">Etar туралы</string>
+    <string name="preferences_show_week_num_title">Апта нөмірін көрсету</string>
+    <string name="preferences_system_theme">Жүйедегідей</string>
+    <string name="preferences_theme">Кейіп</string>
+    <string name="preferences_title">Баптаулар</string>
+    <string name="preferences_use_home_tz_title">Үй уақыт белдеуі</string>
+    <string name="preferences_week_start_day_dialog">Апта басталатын күн</string>
+    <string name="preferences_week_start_day_title">Апта басталатын күн</string>
+    <string name="privacy_label">Құпиялылық</string>
+    <string name="quick_response_dialog_title">Жылдам жауап таңдаңыз</string>
+    <string name="quick_response_settings">Жылдам жауаптар</string>
+    <string name="quick_response_settings_edit_title">Жылдам жауап</string>
+    <string name="recurrence_end_continously">Шексіз</string>
+    <string name="recurrence_end_date"><ns1:g id="date">%s</ns1:g> дейін</string>
+    <string name="recurrence_end_date_label">Белгілі бір күнге дейін</string>
+    <string name="response_maybe">Мүмкін</string>
+    <string name="response_no">Жоқ</string>
+    <string name="response_yes">Иә</string>
+    <string name="rsvp_accepted">«Иә» деп жауап берді.</string>
+    <string name="rsvp_declined">«Жоқ» деп жауап берді.</string>
+    <string name="rsvp_tentative">«Мүмкін» деп жауап берді.</string>
+    <string name="save_label">Дайын</string>
+    <string name="saving_event">Оқиға сақталды.</string>
+    <string name="saving_event_with_guest">Жаңартулар жіберіледі.</string>
+    <string name="search">Іздеу</string>
+    <string name="search_history_cleared">Іздеу тарихы жойылды.</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Іздеу"</string>
+    <string name="search_title">Күнтізбелерімнен іздеу</string>
+    <string name="searchview_clear_text_content_description">Мәтінді өшіру</string>
+    <string msgid="1603860069305867810" name="searchview_description_clear">"Сұрауды өшіру"</string>
+    <string name="searchview_navigation_content_description">Артқа</string>
+    <string name="seven_days">7 күн</string>
+    <string name="share_label">Бөлісу</string>
+    <string name="show_controls">Бүйірлік тақтаны көрсету</string>
+    <string name="show_day_view">Күнді көрсету</string>
+    <string name="show_time_no">Уақытты көрсетпеу</string>
+    <string name="side_sheet_accessibility_pane_title">Бүйірлік парақ</string>
+    <string name="six_days">6 күн</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="template_announce_item_index">Оқиға: <ns1:g id="item_index">%1$s</ns1:g> / <ns1:g id="item_count">%2$s</ns1:g>.</string>
+    <string name="thirty_minutes">30 минут</string>
+    <string name="three_days">3 күн</string>
+    <string name="today">Бүгін</string>
+    <string name="today_at_time_fmt">Бүгін сағат <ns1:g id="time_interval">%s</ns1:g></string>
+    <string name="tomorrow">Ертең</string>
+    <string name="tomorrow_at_time_fmt">Ертең сағат <ns1:g id="time_interval">%s</ns1:g></string>
+    <string name="two_days">2 күн</string>
+    <string name="two_hours">2 сағат</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"ӨШІРУЛІ"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"ҚОСУЛЫ"</string>
+    <string name="view_event_calendar_label">Күнтізбе:</string>
+    <string name="view_event_organizer_label">Ұйымдастырушы:</string>
+    <string name="view_event_response_label">Шақыруды қабылдайсыз ба\?</string>
+    <string name="view_settings">Баптауларға өту</string>
+    <string name="week_view">Апта</string>
+    <string name="when_label">Қашан</string>
+    <string name="yearly_plain">Жыл сайын</string>
+    <string name="zero_minutes">0 минут</string>
+</resources>

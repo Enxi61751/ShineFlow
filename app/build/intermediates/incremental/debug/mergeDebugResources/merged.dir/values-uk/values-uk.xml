@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <string-array name="availability">
+    <item msgid="454869065893453189">"Зайнятий"</item>
+    <item msgid="6228387173725732140">"На місці"</item>
+    <item msgid="2064426942462573474">"Під питанням"</item>
+  </string-array>
+    <string-array name="backup_country_names">
+    <item msgid="9141777876082196578">"Сінт-Маартен"</item>
+    <item msgid="5330962017221568054">"Нідерландські Карибські острови"</item>
+    <item msgid="1465164631761814300">"Кюрасао"</item>
+    <item msgid="8972081011408691260">"Південний Судан"</item>
+  </string-array>
+    <string-array name="buttons_list">
+    <item msgid="5917946202321434335">"День"</item>
+    <item msgid="6248480754959562740">"Тиждень"</item>
+    <item msgid="4298472806133153766">"Місяць"</item>
+    <item msgid="5033084974413793845">"Порядок денний"</item>
+  </string-array>
+    <string-array name="change_response_labels">
+    <item msgid="3466644709343519437">"Лише ця подія"</item>
+    <item msgid="140670561403965380">"Усі події в серіях"</item>
+  </string-array>
+    <string-array name="delete_repeating_labels">
+    <item msgid="4208432367651646938">"Лише ця подія"</item>
+    <item msgid="1536401639805370405">"Ця та майбутні події"</item>
+    <item msgid="7833229563617435430">"Усі події"</item>
+  </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+    <item msgid="2285927842308686988">"Лише якщо відхилено"</item>
+    <item msgid="6367412240524984286">"Якщо відхилено або без відповіді"</item>
+  </string-array>
+    <string-array name="preferences_week_start_day_labels">
+    <item msgid="986150274035512339">"Код мови за умовч."</item>
+    <item msgid="134027225275475280">"Субота"</item>
+    <item msgid="95029346069903091">"Неділя"</item>
+    <item msgid="5840983116375063739">"Понеділок"</item>
+  </string-array>
+    <string-array name="quick_response_defaults">
+        <item msgid="1524421198348168403">"Запізнююся на декілька хвилин."</item>
+        <item msgid="6215158751728689832">"Буду через 10 хвилин."</item>
+        <item msgid="4485794001743679338">"Починайте без мене."</item>
+        <item msgid="8036557974294987511">"Вибачте, я не зможу. Доведеться перенести зустріч."</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+    <item msgid="3388478383574917007">"ПОВТОРЮВАТИ ЩОДНЯ"</item>
+    <item msgid="6300824484048337842">"ПОВТОРЮВАТИ ЩОТИЖНЯ"</item>
+    <item msgid="189361731610816256">"ПОВТОРЮВАТИ ЩОМІСЯЦЯ"</item>
+    <item msgid="8714177874112569158">"ПОВТОРЮВАТИ ЩОРОКУ"</item>
+  </string-array>
+    <string-array name="reminder_methods_labels">
+    <item msgid="5172236776878811487">"Сповіщення"</item>
+    <item msgid="1751151680520784746">"Електронна пошта"</item>
+    <item msgid="2658001219380695677">"SMS"</item>
+    <item msgid="7926918288165444873">"Сигнал"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_fri">
+    <item msgid="6534500380525126157">"кожної першої п’ятниці"</item>
+    <item msgid="1935608297230506940">"кожної другої п’ятниці"</item>
+    <item msgid="4061877662049317599">"кожної третьої п’ятниці"</item>
+    <item msgid="6856646749131820614">"кожної четвертої п’ятниці"</item>
+    <item msgid="6533513913914859794">"кожної останньої п’ятниці"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_mon">
+    <item msgid="7539974918997689048">"кожного першого понеділка"</item>
+    <item msgid="4484275849072423978">"кожного другого понеділка"</item>
+    <item msgid="8956169860824371383">"кожного третього понеділка"</item>
+    <item msgid="6924403357659569326">"кожного четвертого понеділка"</item>
+    <item msgid="1379608815263472161">"кожного останнього понеділка"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sat">
+    <item msgid="3556369572649948699">"кожної першої суботи"</item>
+    <item msgid="9130198690512925355">"кожної другої суботи"</item>
+    <item msgid="4525736070844032405">"кожної третьої суботи"</item>
+    <item msgid="422053689531707709">"кожної четвертої суботи"</item>
+    <item msgid="5499975799312474425">"кожної останньої суботи"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_sun">
+    <item msgid="143841313172233420">"кожної першої неділі"</item>
+    <item msgid="2557379346106451363">"кожної другої неділі"</item>
+    <item msgid="7622144489915654132">"кожної третьої неділі"</item>
+    <item msgid="527152448137686021">"кожної четвертої неділі"</item>
+    <item msgid="5057483608824759350">"кожної останньої неділі"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_thurs">
+    <item msgid="920673677566009313">"кожного першого четверга"</item>
+    <item msgid="4857419136007543270">"кожного другого четверга"</item>
+    <item msgid="222044587450564839">"кожного третього четверга"</item>
+    <item msgid="6197927556533030945">"кожного четвертого четверга"</item>
+    <item msgid="1023326923033436905">"кожного останнього четверга"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_tues">
+    <item msgid="8690802834039790777">"кожного першого вівторка"</item>
+    <item msgid="9063613547307760928">"кожного другого вівторка"</item>
+    <item msgid="6688603328729208168">"кожного третього вівторка"</item>
+    <item msgid="6695206006961533357">"кожного четвертого вівторка"</item>
+    <item msgid="8619069174889809914">"кожного останнього вівторка"</item>
+  </string-array>
+    <string-array name="repeat_by_nth_wed">
+    <item msgid="3233850232075584386">"кожної першої середи"</item>
+    <item msgid="5059722045367799217">"кожної другої середи"</item>
+    <item msgid="7986246648229272275">"кожної третьої середи"</item>
+    <item msgid="9068566169348980801">"кожної четвертої середи"</item>
+    <item msgid="7976866743069062134">"кожної останньої середи"</item>
+  </string-array>
+    <string-array name="response_labels1">
+    <item msgid="5605392595848194997">"Відповіді немає"</item>
+    <item msgid="3724434080904437698">"Так"</item>
+    <item msgid="8854145743148992583">"Можливо"</item>
+    <item msgid="6174292185978948873">"Ні"</item>
+  </string-array>
+    <string-array name="timezone_rename_labels">
+    <item msgid="4609638052107641231">"Австралія, центральний – Пн.Тер."</item>
+    <item msgid="4345275500159159867">"Австралія, центральний – Пд.Авс."</item>
+    <item msgid="6771274300523132094">"Австралія, східний – Квінсленд"</item>
+    <item msgid="4685547681424666687">"Австралія, східний – Н.Пд.Уельс"</item>
+    <item msgid="5259393186526893961">"Гірський стандартн. – Досон-Крік"</item>
+    <item msgid="5984634754870859705">"Центр. стандартний – Саскачеван"</item>
+    <item msgid="5340374311583423836">"Східний стандартний – Атікокан"</item>
+    <item msgid="8922086438245451625">"Атлантичний стандартний – Квебек"</item>
+    <item msgid="8353677384517034413">"Час: Гаваї/Алеут. о-ви – Гаваї"</item>
+    <item msgid="6426791761018806420">"Час: Гаваї/Алеут. о-ви – Аляска"</item>
+    <item msgid="7076353182411415610">"Тихоокеан.стандарт. – Метлакатла"</item>
+    <item msgid="373990592918179890">"Гірський стандартний – Аризона"</item>
+    <item msgid="353899326999279114">"Тихоокеанський – Баха-Каліфорнія"</item>
+    <item msgid="6432134534714673873">"Гірський – Чиуауа"</item>
+    <item msgid="7629345735485663968">"Центральний – Тамауліпас"</item>
+    <item msgid="3874729044260979505">"Гірський – Сонора"</item>
+    <item msgid="1106209575683600471">"Східноафриканський час"</item>
+    <item msgid="6538017087072480128">"Атлантичний стандартний час"</item>
+    <item msgid="6758957851822881177">"Атлантичний стандартний час"</item>
+    <item msgid="2477556470536619081">"Східноєвропейський час"</item>
+    <item msgid="7328461310893621937">"Час: Калінінград"</item>
+    <item msgid="4212642599758736931">"Час: Амазонка – Рондонія"</item>
+    <item msgid="2370319280810537375">"Час: Бразилія – Пара"</item>
+  </string-array>
+    <plurals name="N_remaining_events">
+        <item quantity="one">+1 подія</item>
+        <item quantity="few">+<ns1:g id="count">%d</ns1:g> події</item>
+        <item quantity="many">+<ns1:g id="count">%d</ns1:g> подій</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one">1 день</item>
+        <item quantity="few"><ns1:g id="count">%d</ns1:g> дні</item>
+        <item quantity="many"><ns1:g id="count">%d</ns1:g> днів</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="one">1 подія</item>
+        <item quantity="few"><ns1:g id="count">%d</ns1:g> події</item>
+        <item quantity="many"><ns1:g id="count">%d</ns1:g> подій</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">1 година</item>
+        <item quantity="few"><ns1:g id="count">%d</ns1:g> години</item>
+        <item quantity="many"><ns1:g id="count">%d</ns1:g> годин</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> годин</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">1 хв</item>
+        <item quantity="few"><ns1:g id="count">%d</ns1:g> хв</item>
+        <item quantity="many"><ns1:g id="count">%d</ns1:g> хв</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> хв</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="one">1 хвилина</item>
+        <item quantity="few"><ns1:g id="count">%d</ns1:g> хвилини</item>
+        <item quantity="many"><ns1:g id="count">%d</ns1:g> хвилин</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> хвилин</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 тиждень</item>
+        <item quantity="few"><ns1:g id="count">%d</ns1:g> тижні</item>
+        <item quantity="many"><ns1:g id="count">%d</ns1:g> тижнів</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> тижнів</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">Щодня</item>
+        <item quantity="few">Що <ns1:g id="number">%d</ns1:g> дні</item>
+        <item quantity="many">Що <ns1:g id="number">%d</ns1:g> днів</item>
+        <item quantity="other">Що <ns1:g id="number">%d</ns1:g> днів</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; один раз</item>
+        <item quantity="few">; <ns1:g id="number">%d</ns1:g> рази</item>
+        <item quantity="many">; <ns1:g id="number">%d</ns1:g> разів</item>
+        <item quantity="other">; <ns1:g id="number">%d</ns1:g> разів</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="one">+1</item>
+        <item quantity="few">+<ns1:g id="number">%d</ns1:g></item>
+        <item quantity="many">+<ns1:g id="number">%d</ns1:g></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d нове сповіщення</item>
+    <item quantity="few">%d нові сповіщення</item>
+    <item quantity="many">%d нових сповіщень</item>
+    <item quantity="other">%d нового сповіщення</item>
+  </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Для <ns1:g id="EVENT_COUNT">%d</ns1:g> події</item>
+        <item quantity="few">Для <ns1:g id="EVENT_COUNT">%d</ns1:g> подій</item>
+        <item quantity="many">Для <ns1:g id="EVENT_COUNT">%d</ns1:g> подій</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Кожен <ns1:g id="count">%d</ns1:g> день</item>
+        <item quantity="few">Кожні <ns1:g id="count">%d</ns1:g> дні</item>
+        <item quantity="many">Кожні <ns1:g id="count">%d</ns1:g> дні</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Кожен <ns1:g id="COUNT">%d</ns1:g> місяць</item>
+        <item quantity="few">Кожні <ns1:g id="COUNT">%d</ns1:g> місяці</item>
+        <item quantity="many">Кожні <ns1:g id="COUNT">%d</ns1:g> місяців</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Кожен <ns1:g id="COUNT">%d</ns1:g> тиждень</item>
+        <item quantity="few">Кожні <ns1:g id="COUNT">%d</ns1:g> тижні</item>
+        <item quantity="many">Кожні <ns1:g id="COUNT">%d</ns1:g> тижнів</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Кожен <ns1:g id="COUNT">%d</ns1:g> рік</item>
+        <item quantity="few">Кожні <ns1:g id="COUNT">%d</ns1:g> роки</item>
+        <item quantity="many">Кожні <ns1:g id="COUNT">%d</ns1:g> років</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one">Тиждень <ns1:g id="count">%d</ns1:g></item>
+        <item quantity="few">Тиждень <ns1:g id="count">%d</ns1:g></item>
+        <item quantity="many">Тиждень <ns1:g id="count">%d</ns1:g></item>
+        <item quantity="other">Тиждень <ns1:g id="count">%d</ns1:g></item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Щотижня у <ns1:g id="days_of_week">%2$s</ns1:g></item>
+        <item quantity="few">Кожні <ns1:g id="number">%1$d</ns1:g> тижні у <ns1:g id="days_of_week">%2$s</ns1:g></item>
+        <item quantity="many">Кожні <ns1:g id="number">%1$d</ns1:g> тижнів у <ns1:g id="days_of_week">%2$s</ns1:g></item>
+        <item quantity="other">Кожні <ns1:g id="number">%1$d</ns1:g> тижнів у <ns1:g id="days_of_week">%2$s</ns1:g></item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Перейти на головну"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Перейти вгору"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Більше опцій"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Показати всі"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Вибрати програму"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ВИМКНЕНО"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"УВІМКНЕНО"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"пробіл"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Введіть пошуковий запит…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Очистити запит"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Пошуковий запит"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Пошук"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Наіслати запит"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Голосовий пошук"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Поділитися:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Поділитися через додаток <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Згорнути"</string>
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"Немає доступних пропозицій"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"Пропозиції контактів увімкнено"</string>
+    <string msgid="5654014177472600916" name="accessibility_add_attendee">"Додати учасника"</string>
+    <string msgid="2267950744060950152" name="accessibility_add_reminder">"Додати нагадування"</string>
+    <string msgid="4146955438811915282" name="accessibility_all_day">"Подія на цілий день"</string>
+    <string msgid="5624250196618643922" name="accessibility_pick_end_date">"Дата завершення"</string>
+    <string msgid="7120310166355224941" name="accessibility_pick_end_time">"Час завершення"</string>
+    <string msgid="1834311617874828931" name="accessibility_pick_recurrence">"Повторення події"</string>
+    <string msgid="3926641487042699037" name="accessibility_pick_start_date">"Дата початку"</string>
+    <string msgid="4913428100936555149" name="accessibility_pick_start_time">"Час початку"</string>
+    <string msgid="7155465783500323811" name="accessibility_pick_time_zone">"Часовий пояс"</string>
+    <string msgid="8669288484484022771" name="accessibility_reminder_privacy">Приватність</string>
+    <string msgid="6669129015980006570" name="accessibility_reminder_showmeas">Мій стан</string>
+    <string msgid="3594100545814579575" name="accessibility_reminder_time">"Час нагадування"</string>
+    <string msgid="5339120699701437227" name="accessibility_reminder_type">"Тип нагадування"</string>
+    <string msgid="7082751172654698863" name="accessibility_remove_attendee">"Видалити учасника"</string>
+    <string msgid="5261609343259665139" name="accessibility_remove_reminder">"Видалити нагадування"</string>
+    <string msgid="5899029840837836711" name="acessibility_recurrence_choose_end_date_description">"змінити дату завершення"</string>
+    <string msgid="3010149843148810768" name="acessibility_selected_marker_description">"Вибрана подія"</string>
+    <string msgid="7172664623795021857" name="action_label">"Назад"</string>
+    <string name="add_calendar">Додати календар</string>
+    <string name="after_start_of_event">після початку події</string>
+    <string msgid="5965841338467422191" name="agenda_today">Сьогодні, <ns1:g id="date">%1$s</ns1:g></string>
+    <string msgid="3893625470780723605" name="agenda_tomorrow">Завтра, <ns1:g id="date">%1$s</ns1:g></string>
+    <string msgid="5566084759423843245" name="agenda_view">Порядок денний</string>
+    <string msgid="4170964206728599693" name="agenda_yesterday">Вчора, <ns1:g id="date">%1$s</ns1:g></string>
+    <string msgid="7869592820853066853" name="alert_title">"Сповіщення календаря"</string>
+    <string name="app_copyright">© 2015-<ns1:g>%1$s</ns1:g> Проєкт Etar. Частково © 2005-<ns1:g>%1$s</ns1:g> The Android Open Source Project.</string>
+    <string msgid="5452708708398908131" name="app_label">"Календар"</string>
+    <string name="authors">Автори</string>
+    <string name="bottomsheet_action_collapse">Згорнути нижній екран</string>
+    <string name="bottomsheet_action_expand">Розгорнути нижній екран</string>
+    <string name="bottomsheet_action_expand_halfway">Розгорнути нижню половину</string>
+    <string name="bottomsheet_drag_handle_content_description">Маркер переміщення</string>
+    <string name="cal_export_event_sdcard_title">Експортувати на SD-карту</string>
+    <string name="cal_export_succ_msg">Подія успішно експортована: %1$s</string>
+    <string name="cal_import_error_date_msg">Не вдалося розпізнати надану дату: %s</string>
+    <string name="cal_import_error_msg">Не вдалося імпортувати до календаря</string>
+    <string name="cal_import_error_time_zone_msg">Не вдалося розпізнати часову зону: %s</string>
+    <string name="cal_import_menu_title">Імпортувати подію</string>
+    <string name="cal_nothing_to_import">Нічого імпортувати</string>
+    <string name="cal_pick_ics">Оберіть файл для імпорту</string>
+    <string name="cal_share_intent_title">Надіслати подію до:</string>
+    <string msgid="3595509200561433667" name="calendar_color_picker_dialog_title">"Колір календаря"</string>
+    <string name="calendar_permission_not_granted">Відмовлено в необхідних дозволах, увімкніть їх у Налаштуваннях для редагування подій</string>
+    <string msgid="6172731193680500025" name="calendar_refresh">"Оновити"</string>
+    <string msgid="7430468363525563483" name="calendar_square_color_picker_description">"Вибір кольору"</string>
+    <string name="calendars">Календарі</string>
+    <string msgid="2960328220008869083" name="call_label">"Виклик"</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Відповісти"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Відео"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Відхилити"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Завершити"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Вхідний виклик"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Активний виклик"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Вхідний виклик (Фільтр)"</string>
+    <string name="cancel">Скасувати</string>
+    <string msgid="7704714776070974984" name="change_response_title">"Змінити відповідь"</string>
+    <string name="changelog">Перелік змін</string>
+    <string name="character_counter_content_description">Введено символів: %1$d з %2$d</string>
+    <string name="character_counter_overflowed_content_description">Перевищено ліміт символів: %1$d з %2$d</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"Скасувати"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"Копіювати"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"Увімкнути пропозиції контактів"</string>
+    <string msgid="2192923501857428854" name="choose_event_color_label">"Виберіть колір події"</string>
+    <string name="clear_text_end_icon_content_description">Видалити текст</string>
+    <string msgid="6083905920877235314" name="copy">"Скопіювати"</string>
+    <string msgid="437691290566699292" name="copy_db">"Надіслати базу даних"</string>
+    <string msgid="1084563757174121331" name="copy_email">"Копіювати електронну адресу"</string>
+    <string msgid="8860802152973030914" name="copy_number">"Копіювати номер телефону"</string>
+    <string msgid="1080859798521717414" name="create_event_dialog_save">"Зберегти"</string>
+    <string msgid="7516249252554059980" name="creating_event">"Подію створено."</string>
+    <string msgid="5758688413124191931" name="creating_event_with_guest">"Запрошення буде надіслано."</string>
+    <string msgid="4137468716966004993" name="custom" product="default">"Спеціальне (неможливо налаштувати в телефоні)"</string>
+    <string msgid="1642972650061946484" name="date_time_fmt"><ns1:g id="date">%1$s</ns1:g>, <ns1:g id="time_interval">%2$s</ns1:g></string>
+    <string msgid="4467754504843584437" name="day_view">"День"</string>
+    <string msgid="2131483437911536229" name="day_view_new_event_hint">"+ Нова подія"</string>
+    <string name="default_start_last">Вигляд, що використовувався раніше</string>
+    <string name="default_start_title">Типовий вигляд</string>
+    <string msgid="874742811918030739" name="delete_label">"Видалити"</string>
+    <string msgid="5609046778422180206" name="delete_recurring_event_title">"Видалити <ns1:g id="EVENTTITLE">%s</ns1:g>?"</string>
+    <string msgid="518402946676919384" name="delete_this_event_title">"Видалити цю подію?"</string>
+    <string msgid="1232037509095606687" name="directory_searching_fmt">"Пошук <ns1:g id="DOMAIN">%s</ns1:g>…"</string>
+    <string name="discard">Відкинути</string>
+    <string name="discard_event_changes">Хочете відкинути зміни?</string>
+    <string msgid="2394623883289782541" name="discard_label">"Скасувати"</string>
+    <string msgid="1834400025868091301" name="dismiss_all_label">"Припинити всі"</string>
+    <string name="display_location">Показувати місце</string>
+    <string name="display_options">Подробиці</string>
+    <string name="display_time">Показувати час</string>
+    <string msgid="1877681921029738999" name="does_not_repeat">"Одноразова подія"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"Видалити отримувача: <ns1:g id="CONTACT">%s</ns1:g>"</string>
+    <string name="duplicate_label">Дублікат</string>
+    <string msgid="6200181113992136073" name="edit_event_all_day_label">"Увесь день"</string>
+    <string msgid="4556498359505856900" name="edit_event_calendar_label">"Календар"</string>
+    <string msgid="7413222956349977161" name="edit_event_label">"Деталі"</string>
+    <string msgid="8934331258435656534" name="edit_label">"Редагувати"</string>
+    <string msgid="8772030932155305903" name="email_guests_label">"Надіслати гостям електронною поштою"</string>
+    <string msgid="7178059542798074813" name="email_organizer_label">"Написати організатору"</string>
+    <string msgid="4808253965057791781" name="email_picker_label">"Надіслати електронний лист"</string>
+    <string msgid="9018699257414338634" name="empty_event">"Порожню подію не створено."</string>
+    <string msgid="7654221304929538201" name="endByDate">"; до <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="error_a11y_label">Помилка: недійсне значення</string>
+    <string name="error_generating_ics">Під час надстлання події виникли проблеми</string>
+    <string name="error_icon_content_description">Помилка</string>
+    <string msgid="4631938661655159511" name="event_color_picker_dialog_title">"Колір події"</string>
+    <string msgid="3447218820785647967" name="event_color_set_to_default">Установити типовим кольором календаря</string>
+    <string msgid="6941040556709110617" name="event_create">"Нова подія"</string>
+    <string msgid="2386667193277770442" name="event_delete">"Видалити подію"</string>
+    <string msgid="4006961928830064662" name="event_edit">Змінити подію</string>
+    <string msgid="9138683335394832629" name="event_info_organizer">"Організатор:"</string>
+    <string msgid="8913097552956388972" name="event_info_reminders_label">"Нагадування"</string>
+    <string msgid="56024222340421620" name="event_info_title">Переглянути подію</string>
+    <string msgid="9160326363769403865" name="event_info_title_invite">"Запрошення на зустріч"</string>
+    <string msgid="8356864185947582727" name="event_not_found">"Подію не знайдено."</string>
+    <string msgid="7621353079385122317" name="event_view">Переглянути подію</string>
+    <string msgid="5896574838353902978" name="every_weekday">У будні (пн.-пт.)</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Додатково"</string>
+    <string name="exposed_dropdown_menu_content_description">Показати спадне меню</string>
+    <string name="fifteen_minutes">15 хвилин</string>
+    <string name="five_days">5 днів</string>
+    <string name="foreground_notification_channel_description">Сповіщення, необхідні для внутрішньої синхронізації. Ви можете безпечно сховати цей канал.</string>
+    <string name="foreground_notification_channel_name">Фонові завдання</string>
+    <string name="foreground_notification_title">Планування нових нагадувань…</string>
+    <string name="four_days">4 дні</string>
+    <string msgid="5209110911088302855" name="gadget_no_events">"Немає майбутніх подій календаря"</string>
+    <string name="goto_date">Перейти до…</string>
+    <string msgid="9162136434410891230" name="goto_today">"Сьогодні"</string>
+    <string msgid="830320505938520882" name="hide_controls">Сховати елементи керування</string>
+    <string msgid="1650488163176888480" name="hint_attendees">"Гості"</string>
+    <string msgid="1910143586169033232" name="hint_description">"Опис"</string>
+    <string msgid="804776560897143016" name="hint_time_zone_search">"Введіть назву країни"</string>
+    <string name="hint_url">URL-адреса</string>
+    <string msgid="709155115005044531" name="hint_what">"Назва події"</string>
+    <string msgid="4972598001033801974" name="hint_where">"Місце проведення"</string>
+    <string name="icon_content_description">Значок вікна</string>
+    <string name="item_view_role_description">Вкладка</string>
+    <string name="license">Ліцензія</string>
+    <string msgid="3772533493214331230" name="loading">Завантаження…</string>
+    <string name="m3_loading_indicator_content_description">Завантаження</string>
+    <string msgid="8795383535586556038" name="map_label">"Карта"</string>
+    <string name="material_clock_toggle_content_description">Виберіть ДП чи ПП</string>
+    <string name="material_hour_24h_suffix">%1$s год</string>
+    <string name="material_hour_selection">Вибрати годину</string>
+    <string name="material_hour_suffix">%1$s год</string>
+    <string name="material_minute_selection">Виберіть хвилини</string>
+    <string name="material_minute_suffix">%1$s хв</string>
+    <string name="material_slider_range_end">Кінець діапазону</string>
+    <string name="material_slider_range_start">Початок діапазону</string>
+    <string name="material_slider_value">Значення</string>
+    <string name="material_timepicker_am">дп</string>
+    <string name="material_timepicker_clock_mode_description">Перейти в режим годинника, щоб ввести час.</string>
+    <string name="material_timepicker_hour">Година</string>
+    <string name="material_timepicker_minute">Хвилина</string>
+    <string name="material_timepicker_pm">пп</string>
+    <string name="material_timepicker_select_time">Виберіть час</string>
+    <string name="material_timepicker_text_input_mode_description">Перейти в текстовий режим, щоб ввести час.</string>
+    <string name="maximum_number_of_lines">Максимальна кількість рядків у події</string>
+    <string name="menu_info">Інформація</string>
+    <string msgid="9120238479503233925" name="menu_preferences">"Налаштування"</string>
+    <string msgid="4421657265864209041" name="modify_all">"Змінити всі події в серіях"</string>
+    <string msgid="3017428541066390380" name="modify_all_following">"Змінити цю й усі майбутні події"</string>
+    <string msgid="5982876409997142690" name="modify_event">"Змінити лише цю подію"</string>
+    <string msgid="7287101431749285412" name="month_view">"Місяць"</string>
+    <string msgid="4587116285383048586" name="monthly">"Щомісяця"</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g>"</string>
+    <string name="mtrl_badge_numberless_content_description">Нове сповіщення</string>
+    <string name="mtrl_checkbox_state_description_checked">Вибрано</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Частково вибрано</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Не вибрано</string>
+    <string name="mtrl_chip_close_icon_content_description">Видалити %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Нових сповіщень більше ніж %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Перейти до наступного місяця</string>
+    <string name="mtrl_picker_a11y_prev_month">Перейти до попереднього місяця</string>
+    <string name="mtrl_picker_announce_current_range_selection">Вибрана дата початку – %1$s. Вибрана дата завершення – %2$s.</string>
+    <string name="mtrl_picker_announce_current_selection">Поточний вибір: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">немає</string>
+    <string name="mtrl_picker_cancel">Скасувати</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Виберіть дату</string>
+    <string name="mtrl_picker_date_header_unselected">Вибрана дата</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Дата завершення: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Недійсний формат.</string>
+    <string name="mtrl_picker_invalid_format_example">Приклад: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Потрібний формат: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Недійсний діапазон.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Перейти до поточного року: %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Перейти до %1$d року</string>
+    <string name="mtrl_picker_out_of_range">За межами діапазону: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Дата початку – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Дата завершення</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Виберіть діапазон дат</string>
+    <string name="mtrl_picker_range_header_unselected">Дата початку – Дата завершення</string>
+    <string name="mtrl_picker_save">Зберегти</string>
+    <string name="mtrl_picker_start_date_description">Дата початку: %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">Дата</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Дата завершення</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Дата початку</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">р</string>
+    <string name="mtrl_picker_today_description">Сьогодні: %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Перейти в режим введення в календарі</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Перейти до режиму перегляду календаря</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим введення тексту</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Перейти до режиму перегляду року</string>
+    <string name="mtrl_picker_toggled_to_day_selection">Ви перейшли в режим перегляду календаря</string>
+    <string name="mtrl_picker_toggled_to_year_selection">Ви перейшли в режим перегляду року</string>
+    <string name="mtrl_timepicker_cancel">Скасувати</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string msgid="7553105224561147916" name="new_event_dialog_label">"Нова подія"</string>
+    <string msgid="6154657379574669371" name="new_event_dialog_option">"Нова подія"</string>
+    <string name="no_calendars_found">Перш ніж додати подію, створіть на своєму пристрої принаймні один календар</string>
+    <string name="no_map">Застосунки з карами не встановлені</string>
+    <string name="no_reminder_label">Немає</string>
+    <string msgid="5475293015394772651" name="no_results_found">"Нічого не знайдено"</string>
+    <string name="no_snooze_label">Немає</string>
+    <string msgid="7019488867045436129" name="no_syncable_calendars">Немає календарів</string>
+    <string msgid="302177118061368042" name="no_title_label">"(Без назви)"</string>
+    <string msgid="6573031135582639649" name="not_set">"Не налаштовано"</string>
+    <string name="offline_account_name">Автономний календар</string>
+    <string name="one_and_a_half_hours">1,5 години</string>
+    <string name="one_hour">1 година</string>
+    <string msgid="3485026339977302148" name="palestine_display_name">"Палестина"</string>
+    <string name="password_toggle_content_description">Показувати пароль</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\": скопійовано в буфер обміну."</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Завжди використовувати типовий інтервал повторного нагадування</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Запитувати про інтервал повторного нагадування при кожному відкладанні</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Запитувати про інтервал повторного нагадування</string>
+    <string msgid="6643468203670475296" name="preferences_alerts_popup_title">Спливне сповіщення</string>
+    <string msgid="1849706055052358346" name="preferences_alerts_ringtone_title">"Звук"</string>
+    <string msgid="6636088008103904020" name="preferences_alerts_title">"Сповіщення"</string>
+    <string msgid="8731372580674292759" name="preferences_alerts_vibrateWhen_title">"Вібросигнал"</string>
+    <string name="preferences_black_theme">Чорна</string>
+    <string msgid="8242471883413502068" name="preferences_build_version">"Версія складання"</string>
+    <string name="preferences_calendar_account">Обліковий запис %1$s</string>
+    <string name="preferences_calendar_account_local">Автономний календар</string>
+    <string name="preferences_calendar_color">Колір</string>
+    <string name="preferences_calendar_color_warning_button">Я розумію</string>
+    <string name="preferences_calendar_color_warning_message">Зміну кольору може бути скасовано за повторної синхронізації календаря.
+\n
+\nТаку поведінку можна вимкнути в застосунку DAVx⁵: «Керування кольорами».</string>
+    <string name="preferences_calendar_color_warning_title">Увага</string>
+    <string name="preferences_calendar_configure_account">Налаштування календаря в %1$s</string>
+    <string name="preferences_calendar_delete">Видалити календар</string>
+    <string name="preferences_calendar_delete_cancel">Скасувати</string>
+    <string name="preferences_calendar_delete_delete">Видалити календар</string>
+    <string name="preferences_calendar_delete_message">Ви дійсно бажаєте видалити календар\?</string>
+    <string name="preferences_calendar_display_name">Змінити імʼя</string>
+    <string name="preferences_calendar_info_category">Про календар</string>
+    <string name="preferences_calendar_no_display_name">Неназваний календар</string>
+    <string name="preferences_calendar_number_of_events">%1$d подій</string>
+    <string name="preferences_calendar_synchronize">Синхронізувати цей календар</string>
+    <string name="preferences_calendar_visible">Показ сповіщень</string>
+    <string msgid="7864674093455778158" name="preferences_clear_search_history_summary">"Видалити всі здійснені вами пошуки"</string>
+    <string msgid="6619916370215282982" name="preferences_clear_search_history_title">"Очистити історію пошуку"</string>
+    <string name="preferences_color">Основний колір</string>
+    <string name="preferences_color_pick">Основний колір</string>
+    <string name="preferences_dark_theme">Темна</string>
+    <string name="preferences_days_per_week_dialog">Днів на тиждень</string>
+    <string name="preferences_days_per_week_title">Днів на тиждень</string>
+    <string name="preferences_default_event_duration_title">Типова тривалість події</string>
+    <string msgid="2903884416749959435" name="preferences_default_reminder_default">"10"</string>
+    <string msgid="2490348857239323412" name="preferences_default_reminder_dialog">Типовий час нагадування</string>
+    <string msgid="5188861433342733905" name="preferences_default_reminder_title">Типовий час нагадування</string>
+    <string name="preferences_default_snooze_delay_dialog">Типовий інтервал до повторного нагадування</string>
+    <string name="preferences_default_snooze_delay_title">Типовий інтервал часу до повторного нагадування</string>
+    <string name="preferences_do_not_check_battery_optimization">Не перевіряти оптимізацію акумулятора</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Використовуйте на свій страх і ризик! Сповіщення більше не працюватимуть, віджет більше не оновлюватиметься, а фонові служби не працюватимуть. Але ви надалі не отримуватимете запити на ввімкнення фонових служб.</string>
+    <string msgid="8111213192001230350" name="preferences_experimental_category">"Експериментальна функція"</string>
+    <string msgid="2069075513760573117" name="preferences_general_title">Налаштування перегляду календаря</string>
+    <string msgid="1849295943669890034" name="preferences_hide_declined_title">"Сховати відхилені події"</string>
+    <string msgid="6680000444088818578" name="preferences_home_tz_title">Домашній часовий пояс</string>
+    <string name="preferences_issues">Повідомити про проблеми</string>
+    <string name="preferences_light_theme">Світла</string>
+    <string name="preferences_list_add_offline">Додати автономний календар</string>
+    <string name="preferences_list_add_offline_button">Додати календар</string>
+    <string name="preferences_list_add_offline_cancel">Скасувати</string>
+    <string name="preferences_list_add_offline_error_empty">Введіть назву календаря!</string>
+    <string name="preferences_list_add_offline_message">Автономні календарі НЕ синхронізуються із хмарними службами та доступні лише на вашому пристрої.</string>
+    <string name="preferences_list_add_offline_name">Назва</string>
+    <string name="preferences_list_add_offline_title">Додати автономний календар</string>
+    <string name="preferences_list_add_remote">Додати календар CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Додати календар EteSync</string>
+    <string name="preferences_list_calendar_summary_invisible">Події не показуються</string>
+    <string name="preferences_list_calendar_summary_sync_off">Не синхронізовано</string>
+    <string name="preferences_list_general">Загальні налаштування</string>
+    <string name="preferences_manage_notifications">Керувати сповіщеннями</string>
+    <string name="preferences_menu_about">Про Etar</string>
+    <string name="preferences_month_view_landscape">Макет помісячного відображення (ландшафтний режим)</string>
+    <string name="preferences_month_view_portrait">Макет помісячного відображення (портретний режим)</string>
+    <string name="preferences_pure_black_night_mode">Чистий чорний нічний режим</string>
+    <string name="preferences_real_event_colors">Використовувати реальні кольори подій</string>
+    <string msgid="5199606534191180129" name="preferences_reminder_title">"Сповіщення й нагадування"</string>
+    <string msgid="1873289128793828352" name="preferences_reminders_responded_dialog">"Пропускати нагадування"</string>
+    <string msgid="1196570678238475838" name="preferences_reminders_responded_label">"Пропускати нагадування"</string>
+    <string msgid="5280734329664503461" name="preferences_show_week_num_title">"Показувати номер тижня"</string>
+    <string name="preferences_system_theme">Системна</string>
+    <string name="preferences_theme">Тема</string>
+    <string msgid="8045855493262131773" name="preferences_title">"Налаштування"</string>
+    <string msgid="4835375381297413746" name="preferences_use_home_tz_descrip">Показувати календарі й час події у домашньому часовому поясі під час подорожі</string>
+    <string msgid="5597546849968598210" name="preferences_use_home_tz_title">Використовувати домашній часовий пояс</string>
+    <string msgid="5181634128884089113" name="preferences_week_start_day_dialog">Початок тижня</string>
+    <string msgid="4619489296444901622" name="preferences_week_start_day_title">Початок тижня</string>
+    <string msgid="6169724148441175862" name="presence_label">Мій стан</string>
+    <string msgid="9215031965259597335" name="privacy_label">Приватність</string>
+    <string msgid="8792374208224108798" name="quick_response_custom_msg">"Напишіть власну відповідь…"</string>
+    <string msgid="2681309456412199207" name="quick_response_dialog_title">"Вибрати швидку відповідь"</string>
+    <string msgid="5544066405231853245" name="quick_response_email_failed">"Не вдалося знайти поштову програму"</string>
+    <string msgid="6776151690686068278" name="quick_response_settings">"Швидкі відповіді"</string>
+    <string msgid="6260055523174081930" name="quick_response_settings_edit_title">"Швидка відповідь"</string>
+    <string msgid="7878304729027355604" name="quick_response_settings_summary">Змінити типові відповіді сповіщень учасників е-поштою</string>
+    <string msgid="6898950241634912991" name="recurrence_end_continously">"Постійно"</string>
+    <string msgid="1233883668293087977" name="recurrence_end_count_label">"Для ряду подій"</string>
+    <string msgid="3693751578164711701" name="recurrence_end_date">"До <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string msgid="4142791438636994952" name="recurrence_end_date_label">"До певної дати"</string>
+    <string msgid="4400107556121003459" name="recurrence_month_pattern_by_day">"певного дня щомісяця"</string>
+    <string msgid="7292389181815525676" name="reminders_label">"Додати нагадування"</string>
+    <string msgid="7791500973627841695" name="response_maybe">"Можливо"</string>
+    <string msgid="561911691884148136" name="response_no">"Ні"</string>
+    <string msgid="2027484304899988350" name="response_yes">"Так"</string>
+    <string name="rsvp_accepted">Надано відповідь: так.</string>
+    <string name="rsvp_declined">Надано відповідь: ні.</string>
+    <string name="rsvp_tentative">Надано відповідь: можливо.</string>
+    <string msgid="2133599104834432589" name="save_label">"Готово"</string>
+    <string msgid="7694181017411177226" name="saving_event">"Подію збережено."</string>
+    <string msgid="9184584438475689577" name="saving_event_with_guest">"Оновлення буде надіслано."</string>
+    <string msgid="550656004486017426" name="search">"Пошук"</string>
+    <string msgid="1536707558435227567" name="search_history_cleared">"Історію пошуку очищено."</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Пошук"</string>
+    <string msgid="8898015280250716254" name="search_title">"Пошук у моїх календарях"</string>
+    <string name="searchview_clear_text_content_description">Видалити текст</string>
+    <string msgid="1603860069305867810" name="searchview_description_clear">"Очистити запит"</string>
+    <string name="searchview_navigation_content_description">Назад</string>
+    <string msgid="8890542984949996251" name="select_synced_calendars_button">"Календарі для синхронізації"</string>
+    <string name="seven_days">7 днів</string>
+    <string name="share_label">Поділитися</string>
+    <string msgid="715520586028062621" name="show_controls">Показати елементи керування</string>
+    <string msgid="5782512782605466016" name="show_day_view">Показати день</string>
+    <string msgid="2604638815440163080" name="show_newer_events">"Торкн., щоб див. події після <ns1:g id="NEWEST_SEARCH_RANGE">%1$s</ns1:g>"</string>
+    <string msgid="5140647493681439926" name="show_older_events">Торкніться, щоб переглянути події до <ns1:g id="OLDEST_SEARCH_RANGE">%1$s</ns1:g></string>
+    <string name="show_time_no">Не показувати час</string>
+    <string name="show_time_start">Лише час початку</string>
+    <string name="show_time_start_end">Час початку і завершення</string>
+    <string name="show_time_start_end_below">Час початку і завершення нижче події</string>
+    <string name="side_sheet_accessibility_pane_title">Бічна панель</string>
+    <string name="six_days">6 днів</string>
+    <string name="snooze_delay_dialog_title">Встановити інтервал повторного нагадування</string>
+    <string msgid="1515893621063224666" name="snooze_label">"Відкласти"</string>
+    <string name="source_code">Джерельний код</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="4067877800670753110" name="template_announce_item_index">"Подія <ns1:g id="ITEM_INDEX">%1$s</ns1:g> з <ns1:g id="ITEM_COUNT">%2$s</ns1:g>."</string>
+    <string name="thirty_minutes">30 хвилин</string>
+    <string name="three_days">3 дні</string>
+    <string msgid="8577375020252453006" name="today">"Сьогодні"</string>
+    <string msgid="1981279213130049736" name="today_at_time_fmt">"Сьогодні о <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string msgid="614434811813859237" name="tomorrow">"Завтра"</string>
+    <string msgid="1330779112841767432" name="tomorrow_at_time_fmt">"Завтра о <ns1:g id="TIME_INTERVAL">%s</ns1:g>"</string>
+    <string name="two_days">2 дні</string>
+    <string name="two_hours">2 години</string>
+    <string name="user_rejected_calendar_write_permission">Для коректної роботи Etar потребує дозволу на читання та запис до календаря. Спробуйте ще раз.</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"ВИМКНЕНО"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"УВІМКНЕНО"</string>
+    <string msgid="6126231656338241140" name="view_event_calendar_label">"Календар:"</string>
+    <string msgid="2753151795647402277" name="view_event_organizer_label">"Організатор:"</string>
+    <string msgid="8382281658458798329" name="view_event_response_label">"Підете?"</string>
+    <string name="view_settings">Налаштування вигляду</string>
+    <string name="visibility_confidential">Конфіденційно</string>
+    <string name="visibility_default">Типово</string>
+    <string name="visibility_private">Приватно</string>
+    <string name="visibility_public">Публічно</string>
+    <string msgid="6775043022159508060" name="week_view">"Тиждень"</string>
+    <string msgid="894636567327261599" name="when_label">"Коли"</string>
+    <string msgid="3652692085322162449" name="yearly_plain">"Щороку"</string>
+    <string name="zero_minutes">0 хвилин</string>
+</resources>
