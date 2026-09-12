@@ -29,6 +29,7 @@ android {
 		applicationId = "com.shineflow.app"
 		testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField("String", "OCR_BASE_URL", "\"https://u836809-92e6-37d8b4ba.bjb2.seetacloud.com:8443/\"")
+        buildConfigField("String", "SHINEFLOW_API_BASE_URL", "\"https://u836809-92e6-37d8b4ba.bjb2.seetacloud.com:8443/\"")
 	}
 
 	buildTypes {
