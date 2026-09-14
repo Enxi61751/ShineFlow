@@ -392,6 +392,9 @@ public class EventInfoFragment extends DialogFragment implements OnCheckedChange
     // ShineFlow: special all-day type + countdown display
     private int mEventType = ExtendedProperty.EVENT_TYPE_NONE;
     private TextView mSpecialDayInfo;
+    // ShineFlow: tags
+    private java.util.List<Long> mEventTagIds = new java.util.ArrayList<Long>();
+    private com.google.android.material.chip.ChipGroup mTagsContainer;
     private AttendeesView mLongAttendees;
     private Button emailAttendeesButton;
     private Menu mMenu = null;
@@ -819,6 +822,7 @@ public class EventInfoFragment extends DialogFragment implements OnCheckedChange
         mDesc =  mView.findViewById(R.id.description);
         mUrl =  mView.findViewById(R.id.url);
         mSpecialDayInfo = mView.findViewById(R.id.special_day_info);
+        mTagsContainer = mView.findViewById(R.id.tags_container);
         mHeadlines = mView.findViewById(R.id.event_info_headline);
         mLongAttendees = (AttendeesView) mView.findViewById(R.id.long_attendee_list);
 
@@ -1653,6 +1657,31 @@ public class EventInfoFragment extends DialogFragment implements OnCheckedChange
             mUrl.setText(mEventUrl);
         }
 
+        // ShineFlow: render assigned tags as colored chips.
+        if (mTagsContainer != null) {
+            mTagsContainer.removeAllViews();
+            com.android.calendar.tags.TagRepository repo =
+                    com.android.calendar.tags.TagRepository.get(mContext);
+            int shown = 0;
+            for (Long id : mEventTagIds) {
+                com.android.calendar.tags.Tag tag = repo.getById(id);
+                if (tag == null) {
+                    continue;
+                }
+                com.google.android.material.chip.Chip chip =
+                        new com.google.android.material.chip.Chip(mContext);
+                chip.setText(tag.name);
+                chip.setChipBackgroundColor(
+                        android.content.res.ColorStateList.valueOf(tag.color));
+                chip.setTextColor(com.android.calendar.event.EditEventView.contrastColor(tag.color));
+                chip.setEnsureMinTouchTargetSize(false);
+                chip.setClickable(false);
+                mTagsContainer.addView(chip);
+                shown++;
+            }
+            mTagsContainer.setVisibility(shown > 0 ? View.VISIBLE : View.GONE);
+        }
+
         // ShineFlow: show the special-day type label and, for countdowns and
         // upcoming birthdays/anniversaries, the number of days remaining.
         if (mSpecialDayInfo != null) {
@@ -2127,6 +2156,9 @@ public class EventInfoFragment extends DialogFragment implements OnCheckedChange
                     break;
                 case ExtendedProperty.EVENT_TYPE_NAME:
                     mEventType = ExtendedProperty.typeFromValue(value);
+                    break;
+                case ExtendedProperty.EVENT_TAGS_NAME:
+                    mEventTagIds = ExtendedProperty.decodeTagIds(value);
                     break;
                 default:
                     Log.i(TAG, "Got an unhandled extended property: " + name);

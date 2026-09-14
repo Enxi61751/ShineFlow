@@ -21,6 +21,20 @@
             android:title="@string/agenda_view" />
 
     </group>
+    <group android:id="@+id/navigation_features" android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_filter_tags"
+            android:icon="@drawable/ic_outline_label"
+            android:title="@string/menu_filter_tags" />
+        <item
+            android:id="@+id/menu_manage_tags"
+            android:icon="@drawable/ic_outline_label"
+            android:title="@string/menu_manage_tags" />
+        <item
+            android:id="@+id/menu_period"
+            android:icon="@drawable/ic_period"
+            android:title="@string/menu_period" />
+    </group>
     <group android:id="@+id/navigation_subheader" android:checkableBehavior="none">
         <item
             android:id="@+id/action_settings"

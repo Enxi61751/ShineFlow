@@ -124,6 +124,8 @@ public class MonthWeekEventsView extends SimpleWeekView {
     protected TextPaint mEventExtrasPaint;
     protected TextPaint mEventDeclinedExtrasPaint;
     protected Paint mWeekNumPaint;
+    // ShineFlow: paint for the cycle-day marker bar.
+    private Paint mPeriodPaint;
     protected Paint mDNAAllDayPaint;
     protected Paint mDNATimePaint;
     protected Paint mEventSquarePaint;
@@ -487,6 +489,11 @@ public class MonthWeekEventsView extends SimpleWeekView {
         return day * mWidth / mNumDays;
     }
 
+    // ShineFlow: cycle-day marker colours from user preferences.
+    private static int periodMarkerColor(Context context, int status) {
+        return com.android.calendar.settings.PeriodColorPreference.Companion.getStatusColor(context, status);
+    }
+
     @Override
     protected void drawDaySeparators(Canvas canvas) {
         final int coordinatesPerLine = 4;
@@ -634,10 +641,54 @@ public class MonthWeekEventsView extends SimpleWeekView {
                 isFocusMonth = mFocusDay[i];
                 mMonthNumPaint.setColor(isFocusMonth ? mMonthNumColor : mMonthNumOtherColor);
             }
+            // ShineFlow: period fill (background) – computed before date text so
+            // the number sits on top.
+            boolean periodEnabled = false;
+            boolean fillMode = false;
+            int periodStatus = com.android.calendar.cycle.PeriodRepository.STATUS_NONE;
+            float periodLeft = 0, periodRight = 0;
+            try {
+                periodEnabled =
+                        com.android.calendar.cycle.PeriodRepository.isEnabled(getContext());
+                // Fill entire cell when the toggle is on; otherwise just a 4dp bar.
+                fillMode = periodEnabled &&
+                        com.android.calendar.Utils.getSharedPreference(getContext(),
+                                "preferences_period_fill_mode", false);
+                if (periodEnabled) {
+                    long epochDay = (long) mFirstJulianDay + (i - offset) - Utils.EPOCH_JULIAN_DAY;
+                    periodStatus = com.android.calendar.cycle.PeriodRepository.get(getContext())
+                            .statusFor(epochDay);
+                    if (periodStatus != com.android.calendar.cycle.PeriodRepository.STATUS_NONE) {
+                        if (mPeriodPaint == null) {
+                            mPeriodPaint = new Paint();
+                            mPeriodPaint.setAntiAlias(true);
+                        }
+                        mPeriodPaint.setColor(periodMarkerColor(getContext(), periodStatus));
+                        periodLeft = computeDayLeftPosition(i - offset);
+                        periodRight = computeDayLeftPosition(i - offset + 1);
+                        if (fillMode) {
+                            // Full-cell fill drawn before date number (background layer)
+                            canvas.drawRect(periodLeft, 0, periodRight, mHeight, mPeriodPaint);
+                        }
+                    }
+                }
+            } catch (Exception ignored) {
+                // prevent period indicator from crashing the month/week view
+            }
+
             x = computeDayLeftPosition(i - offset) - (mSidePaddingMonthNumber);
             canvas.drawText(mDayNumbers[i], x, y, mMonthNumPaint);
             if (isBold) {
                 mMonthNumPaint.setFakeBoldText(isBold = false);
+            }
+
+            // ShineFlow: bar mode – 4dp indicator drawn after date number
+            if (periodEnabled && periodStatus
+                    != com.android.calendar.cycle.PeriodRepository.STATUS_NONE && !fillMode) {
+                try {
+                    float periodDensity = getContext().getResources().getDisplayMetrics().density;
+                    canvas.drawRect(periodLeft, 0, periodRight, 4 * periodDensity, mPeriodPaint);
+                } catch (Exception ignored) { }
             }
 
             if (LunarUtils.showLunar(getContext())) {
@@ -1861,6 +1912,28 @@ public class MonthWeekEventsView extends SimpleWeekView {
     public void clearClickedDay() {
         mClickedDayIndex = -1;
         invalidate();
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent ev) {
+        if (ev.getAction() == MotionEvent.ACTION_DOWN) {
+            int dayIndex = getDayIndexFromLocation(ev.getX());
+            if (dayIndex >= 0 && dayIndex < mNumDays) {
+                int julianDay = mFirstJulianDay + dayIndex;
+                long epochDay = (long) julianDay - com.android.calendar.Utils.EPOCH_JULIAN_DAY;
+                if (com.android.calendar.cycle.PeriodRepository.isEnabled(getContext())) {
+                    int status = com.android.calendar.cycle.PeriodRepository.get(getContext())
+                            .statusFor(epochDay);
+                    if (status != com.android.calendar.cycle.PeriodRepository.STATUS_NONE) {
+                        String name = com.android.calendar.cycle.PeriodRepository
+                                .statusName(status);
+                        android.widget.Toast.makeText(getContext(), name,
+                                android.widget.Toast.LENGTH_SHORT).show();
+                    }
+                }
+            }
+        }
+        return super.onTouchEvent(ev);
     }
 
     class TodayAnimatorListener extends AnimatorListenerAdapter {

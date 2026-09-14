@@ -57,6 +57,40 @@ public class ExtendedProperty {
     }
 
     /**
+     * ShineFlow: extended property holding the comma-separated list of tag ids
+     * assigned to an event.
+     */
+    public static final String EVENT_TAGS_NAME = "vnd.shineflow.tags";
+
+    public static String encodeTagIds(java.util.List<Long> ids) {
+        if (ids == null || ids.isEmpty()) {
+            return null;
+        }
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < ids.size(); i++) {
+            if (i > 0) sb.append(',');
+            sb.append(ids.get(i));
+        }
+        return sb.toString();
+    }
+
+    public static java.util.List<Long> decodeTagIds(String value) {
+        java.util.List<Long> ids = new java.util.ArrayList<>();
+        if (value == null || value.trim().isEmpty()) {
+            return ids;
+        }
+        for (String part : value.split(",")) {
+            String p = part.trim();
+            if (p.isEmpty()) continue;
+            try {
+                ids.add(Long.parseLong(p));
+            } catch (NumberFormatException ignored) {
+            }
+        }
+        return ids;
+    }
+
+    /**
      * Gets the Content URI for Extended Properties after adding the account name and type, and
      * setting the `CalendarContract.CALLER_IS_SYNCADAPTER` parameter to `true`.
      * @param accountName The name of the account owner of the extended property.

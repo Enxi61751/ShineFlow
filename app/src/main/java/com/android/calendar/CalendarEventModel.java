@@ -77,6 +77,8 @@ public class CalendarEventModel implements Serializable {
     // ShineFlow special all-day event type: one of ExtendedProperty.EVENT_TYPE_*
     // (NONE / ANNIVERSARY / BIRTHDAY / COUNTDOWN).
     public int mSpecialType = 0;
+    // ShineFlow: ids of the tags assigned to this event.
+    public java.util.List<Long> mTagIds = new java.util.ArrayList<Long>();
     public String mExDate = null;
     public String mOrganizer = null;
     public String mOrganizerDisplayName = null;
